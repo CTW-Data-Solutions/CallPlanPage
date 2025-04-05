@@ -1,3 +1,9 @@
+---
+layout: default
+title: How To
+permalink: /howto/
+---
+
 # CallPlan User Guide
 
 ## How to Create a User

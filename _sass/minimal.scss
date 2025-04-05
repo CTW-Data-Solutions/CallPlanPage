@@ -1,0 +1,28 @@
+// Placeholder file. If your site uses
+//     @import "{{ site.theme }}";
+// Then using this theme with jekyll-remote-theme will work fine.
+@import "jekyll-theme-minimal";
+
+
+.apple-logo {
+    width: 100px;
+    /* You can adjust the size */
+    height: 100px;
+    border-radius: 20%;
+    /* Rounded corners */
+    background-color: #f0f0f5;
+    /* Light gray background like Apple's logo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for depth */
+}
+
+.apple-logo img {
+    width: 70%;
+    /* Adjust the image size inside the container */
+    height: auto;
+    border-radius: 50%;
+    /* Make the image round */
+}

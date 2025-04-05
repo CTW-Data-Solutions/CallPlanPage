@@ -1,0 +1,12 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ignore all dotfiles and dotfolders
+.*
+# But do not ignore essential git files and this file
+!.gitignore
+!.gitattributes
+!.gitmodules
+!.github/

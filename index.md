@@ -5,8 +5,6 @@ permalink: /
 ---
 # Welcome to CallPlan
 
-[Home](/) | [HowTo](/howto/) | [Privacy Policy](/privacy/) | [Support](/support/)
-
 ## About CallPlan
 
 CallPlan is a smart scheduling and communication tool designed to streamline your workflow.

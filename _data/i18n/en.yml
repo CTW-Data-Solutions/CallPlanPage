@@ -13,12 +13,12 @@ nav:
     href:  /en/premium/
   - label: Support
     href:  /en/support/
-  - label: Privacy
-    href:  /en/privacy/
 
 downloads:
   appstore: App Store
   howto:    How To
   youtube:  YouTube
 
-footer: Maintained by
+footer:        Maintained by
+privacy_label: Privacy
+privacy_href:  /en/privacy/

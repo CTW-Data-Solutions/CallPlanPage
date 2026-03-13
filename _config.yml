@@ -5,9 +5,13 @@ logo: /assets/img/logo.png
 url: "https://callplan.quick-id.com"
 author: "Quick-ID"
 
-# App Store – replace YOUR_APP_STORE_ID with the actual numeric ID from App Store Connect
-app_id: "YOUR_APP_STORE_ID"
-app_store_url: "https://apps.apple.com/app/callplan/idYOUR_APP_STORE_ID"
+# App Store – paste your full App Store URL here once you have it, e.g.:
+# app_store_url: "https://apps.apple.com/app/callplan/id1234567890"
+app_store_url: ""
+
+# App ID for the Smart App Banner (numeric ID from App Store Connect)
+# app_id: "1234567890"
+app_id: ""
 
 # Social / SEO
 twitter:
@@ -15,7 +19,7 @@ twitter:
   card: summary_large_image
 
 # GitHub Pages
-show_downloads: true
+show_downloads: false
 google_analytics:           # paste your GA4 measurement ID here (G-XXXXXXXXXX)
 remote_theme: pages-themes/minimal@v0.2.0
 

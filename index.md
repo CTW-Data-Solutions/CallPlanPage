@@ -3,53 +3,116 @@ layout: default
 title: Home
 permalink: /
 ---
-# Welcome to CallPlan
 
-## About CallPlan
+<div class="hero">
+  <div class="hero-badge">Available on iOS · CarPlay Ready</div>
+  <h1 class="hero-title">Never Miss an Important Call Again</h1>
+  <p class="hero-sub">CallPlan is your hands-free co-pilot for business calls – schedule, take notes, and follow up automatically, whether you're at your desk or behind the wheel.</p>
+  <div class="hero-actions">
+    <a href="https://apps.apple.com" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Im App Store laden
+    </a>
+    <a href="/howto/" class="btn btn-secondary">So funktioniert's</a>
+  </div>
+</div>
 
-CallPlan is a smart scheduling and communication tool designed to streamline your workflow.
+<div class="stats-row">
+  <div class="stat-card">
+    <span class="stat-icon">📞</span>
+    <span class="stat-value">Nie mehr vergessen</span>
+    <span class="stat-label">Automatische Erinnerungen</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🚗</span>
+    <span class="stat-value">CarPlay</span>
+    <span class="stat-label">Hands-Free am Steuer</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🎙️</span>
+    <span class="stat-value">Siri</span>
+    <span class="stat-label">Sprachsteuerung</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🔒</span>
+    <span class="stat-value">Privatsphäre</span>
+    <span class="stat-label">Offline-fähig, keine Cloud</span>
+  </div>
+</div>
 
-With CallPlan, you can easily manage planned calls, track important conversations, and integrate with your favorite productivity tools. Whether you're scheduling a business meeting or keeping up with personal calls, CallPlan ensures everything runs smoothly and efficiently.
+## Was CallPlan für dich tut
+
+CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jedes Gespräch – von der Vorbereitung bis zur automatischen Nachbereitung.
 
 ### Features:
 
-- **Easy call scheduling** – Set up calls in minutes and never miss a scheduled meeting again.
-- **Automated reminders** – Get notifications so you’re always prepared for your next call.
-- **Call categorization** – Categorize calls as business, internal, or private to stay organized.
-- **Cloud synchronization** – Keep your scheduled calls in sync across all your devices.
-- **Integration with productivity tools** – Seamlessly integrate CallPlan with your favorite tools like calendars and task managers.
-- **Add notes to planned calls** – Take notes before or during calls to ensure you capture all key information.
-- **Send notes automatically** – After the call, have the notes automatically sent to yourself, your secretary, or your virtual assistant for follow-up preparation.
-- **Voice recognition** – Use Siri to create calls, set reminders, and add notes hands-free.
-
-## Create Scheduled Calls
-
-With CallPlan, scheduling calls has never been easier. You can create scheduled calls with just a few taps, setting the date, time, and recipient. The app will automatically remind you of the call, ensuring you’re always prepared.
-
-### How it works:
-1. **Create a new call plan** – Enter the details such as the title, description, date, and time.
-2. **Add notes** – Before or during the call, you can easily add notes to the plan.
-3. **Send notes automatically** – After the call, CallPlan automatically sends your notes to you, your secretary, or your virtual assistant. This makes follow-up tasks effortless and keeps your workflow organized.
-
-## CarPlay Integration
-
-CallPlan takes it a step further by supporting **CarPlay** functionality, making it even easier to stay productive on the go. When you're driving, you can manage your scheduled calls, add notes, and send them without having to look at your phone.
-
-### CarPlay Features:
-
-- **Call Management** – Use CarPlay to quickly make and manage calls directly from your car’s interface.
-- **Note-taking** – Add notes during your calls using voice commands. Simply say what you need to remember, and CallPlan will take care of the rest.
-- **Automatic Notes Sending** – Once the call is complete, have the notes sent automatically to your email, secretary, or virtual assistant for follow-up preparation. All of this happens hands-free, letting you focus on the road while CallPlan handles your productivity.
-
-### Benefits of CarPlay:
-- **Hands-Free Experience** – Stay connected and organized without taking your hands off the wheel.
-- **Stay Focused** – Let CallPlan handle the details while you concentrate on driving.
-- **Seamless Integration** – Easily switch between calls, notes, and follow-up tasks through CarPlay’s intuitive interface.
-
-## Privacy and Security
-
-CallPlan prioritizes your privacy. It requests only the necessary permissions to help you schedule calls, manage notes, and send reminders. Your data is never shared or stored by CallPlan. We respect your privacy, and that’s why CallPlan is designed to function completely offline if you prefer. [See Privacy](/privacy/)
+- **Anruf planen** – Termin in Sekunden anlegen, Datum, Zeit und Gesprächspartner festlegen.
+- **Automatische Erinnerungen** – Rechtzeitig benachrichtigt sein, nie mehr unvorbereitet.
+- **Kategorisierung** – Business, intern oder privat – behalte die Übersicht.
+- **Cloud-Synchronisation** – Alle deine Geräte immer auf dem neuesten Stand.
+- **Notizen hinzufügen** – Vor oder während des Gesprächs mitschreiben, was wichtig ist.
+- **Notizen automatisch versenden** – Nach dem Call direkt an dich, deine Assistenz oder dein Team schicken.
+- **Siri-Integration** – Hände frei: Anrufe anlegen, Erinnerungen setzen, Notizen diktieren.
+- **Kalender & Aufgaben** – Nahtlose Integration mit deinen bevorzugten Produktivitäts-Apps.
 
 ---
 
-CallPlan is the all-in-one solution for managing your calls, keeping track of important details, and ensuring follow-ups are handled efficiently. Whether you're at the office, on the go, or behind the wheel, CallPlan ensures you stay on top of your schedule with ease.
+## In 3 Schritten zum perfekten Call
+
+<div class="steps-row">
+  <div class="step-card">
+    <span class="step-number">1</span>
+    <h3>Plan erstellen</h3>
+    <p>Titel, Beschreibung, Datum und Uhrzeit eingeben – fertig. CallPlan erinnert dich automatisch.</p>
+  </div>
+  <div class="step-card">
+    <span class="step-number">2</span>
+    <h3>Notizen machen</h3>
+    <p>Schreib oder diktiere während des Gesprächs – auch per Siri oder CarPlay, komplett freihändig.</p>
+  </div>
+  <div class="step-card">
+    <span class="step-number">3</span>
+    <h3>Automatisch nachbereiten</h3>
+    <p>CallPlan sendet deine Notizen direkt nach dem Call an dich, deine Assistenz oder dein Team.</p>
+  </div>
+</div>
+
+---
+
+## CarPlay – Produktiv bleiben, während du fährst
+
+CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. Dein Auto wird zum mobilen Büro – ohne Ablenkung.
+
+### CarPlay-Features:
+
+- **Anrufe managen** – Alle geplanten Calls direkt am Infotainment-Display im Blick.
+- **Freihändige Notizen** – Diktiere per Sprachbefehl, was du dir merken willst. CallPlan schreibt mit.
+- **Automatischer Versand** – Sobald der Call beendet ist, werden Notizen automatisch verschickt.
+
+<div class="carplay-callout">
+  <div class="carplay-callout-icon">🚗</div>
+  <div>
+    <strong>Hände bleiben am Steuer.</strong><br>
+    CallPlan übernimmt Mitschrift und Nachbereitung – du konzentrierst dich auf die Straße.
+  </div>
+</div>
+
+---
+
+## Datenschutz & Sicherheit
+
+CallPlan fragt nur die Berechtigungen an, die wirklich nötig sind. Deine Daten werden **nicht geteilt, nicht gespeichert** und die App funktioniert vollständig offline. [Mehr erfahren →](/privacy/)
+
+---
+
+<div class="cta-section">
+  <h2>Bereit, jeden Call zu meistern?</h2>
+  <p>Lade CallPlan kostenlos herunter und erlebe, wie einfach professionelle Gesprächsvorbereitung sein kann.</p>
+  <div class="hero-actions">
+    <a href="https://apps.apple.com" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Im App Store laden
+    </a>
+    <a href="/survey/" class="btn btn-secondary">Features wünschen →</a>
+  </div>
+</div>

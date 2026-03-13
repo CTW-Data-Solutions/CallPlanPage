@@ -1,9 +1,111 @@
-<!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+<!-- ============================================================
+     Custom head snippets – SEO, ASO & Social
+     ============================================================ -->
 
-<!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+<!-- Favicon & App Touch Icon -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/logo.png' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="32x32"  href="{{ '/assets/img/logo.png' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="16x16"  href="{{ '/assets/img/logo.png' | absolute_url }}">
 
-<!-- end custom head snippets -->
+<!-- ── Apple Smart App Banner ──────────────────────────────────
+     Shows a native "Open in App Store" bar in Mobile Safari.
+     Replace YOUR_APP_STORE_ID with the numeric ID from App Store Connect.
+     ──────────────────────────────────────────────────────────── -->
+{% if site.app_id and site.app_id != "YOUR_APP_STORE_ID" %}
+<meta name="apple-itunes-app" content="app-id={{ site.app_id }}">
+{% endif %}
+
+<!-- ── Open Graph (Facebook, LinkedIn, iMessage, Slack …) ───── -->
+<meta property="og:type"        content="website">
+<meta property="og:site_name"   content="{{ site.title }}">
+<meta property="og:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url"         content="{{ page.url | absolute_url }}">
+<meta property="og:image"       content="{{ site.logo | absolute_url }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:alt"   content="{{ site.title }} App Icon">
+<meta property="og:locale"      content="de_DE">
+
+<!-- ── Twitter / X Card ─────────────────────────────────────── -->
+<meta name="twitter:card"        content="summary_large_image">
+{% if site.twitter.username %}
+<meta name="twitter:site"        content="@{{ site.twitter.username }}">
+{% endif %}
+<meta name="twitter:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image"       content="{{ site.logo | absolute_url }}">
+<meta name="twitter:image:alt"   content="{{ site.title }} App Icon">
+
+<!-- ── Schema.org – SoftwareApplication (Google Rich Results) ─
+     Enables App-Rating stars and "Available on iOS" badges
+     directly in Google search results.
+     ──────────────────────────────────────────────────────────── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description | strip_html }}",
+  "url": "{{ site.url }}",
+  "applicationCategory": "BusinessApplication",
+  "applicationSubCategory": "ProductivityApplication",
+  "operatingSystem": "iOS 15.0+",
+  "softwareRequirements": "Requires iPhone with iOS 15 or later. CarPlay compatible.",
+  "inLanguage": ["de", "en"],
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "category": "free"
+  },
+  {% if site.app_id and site.app_id != "YOUR_APP_STORE_ID" %}
+  "downloadUrl": "{{ site.app_store_url }}",
+  "installUrl": "{{ site.app_store_url }}",
+  {% endif %}
+  "screenshot": "{{ site.logo | absolute_url }}",
+  "featureList": [
+    "Call scheduling with date and time",
+    "Automated call reminders",
+    "CarPlay integration",
+    "Siri voice commands",
+    "Automatic note sending",
+    "Cloud synchronization",
+    "Offline mode"
+  ],
+  "author": {
+    "@type": "Organization",
+    "name": "Quick-ID",
+    "url": "https://quick-id.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Quick-ID",
+    "url": "https://quick-id.com"
+  }
+}
+</script>
+
+<!-- ── Schema.org – Organization ────────────────────────────── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Quick-ID",
+  "url": "https://quick-id.com",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "support@quick-id.com",
+    "contactType": "customer support"
+  }
+}
+</script>
+
+<!-- Additional SEO meta tags -->
+<meta name="application-name"   content="{{ site.title }}">
+<meta name="theme-color"        content="#1c1c1e">
+<meta name="mobile-web-app-capable"       content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title"   content="{{ site.title }}">

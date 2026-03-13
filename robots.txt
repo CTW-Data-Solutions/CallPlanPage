@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://callplan.quick-id.com/sitemap.xml

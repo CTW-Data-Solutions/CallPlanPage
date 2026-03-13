@@ -1,8 +1,25 @@
 title: CallPlan
+tagline: "Never Miss a Call"
+description: "CallPlan – Smart call scheduler with CarPlay & Siri support. Plan calls, take hands-free notes and send follow-ups automatically. Available on iOS."
 logo: /assets/img/logo.png
-description: [Never Miss a Call]
+url: "https://callplan.quick-id.com"
+author: "Quick-ID"
+
+# App Store – replace YOUR_APP_STORE_ID with the actual numeric ID from App Store Connect
+app_id: "YOUR_APP_STORE_ID"
+app_store_url: "https://apps.apple.com/app/callplan/idYOUR_APP_STORE_ID"
+
+# Social / SEO
+twitter:
+  username: callplan_app   # replace with your actual handle (without @)
+  card: summary_large_image
+
+# GitHub Pages
 show_downloads: true
-google_analytics:
+google_analytics:           # paste your GA4 measurement ID here (G-XXXXXXXXXX)
 remote_theme: pages-themes/minimal@v0.2.0
+
 plugins:
 - jekyll-remote-theme
+- jekyll-sitemap
+- jekyll-seo-tag

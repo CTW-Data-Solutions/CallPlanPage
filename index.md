@@ -57,6 +57,61 @@ CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jedes Ges
 
 ---
 
+## Screenshots
+
+<div class="screenshots-section">
+  <p class="screenshots-hint">
+    <!-- TODO: Ersetze die Platzhalter unten durch echte App-Screenshots.
+         Empfohlene Größe: 1290×2796 px (iPhone 15 Pro Max).
+         Benenne die Dateien z.B. screenshot-1.png … screenshot-5.png
+         und lege sie unter /assets/img/screenshots/ ab. -->
+  </p>
+  <div class="screenshots-gallery">
+    <!-- Screenshot 1 -->
+    <div class="screenshot-frame">
+      <!-- <img src="/assets/img/screenshots/screenshot-1.png" alt="CallPlan – Übersicht geplanter Calls"> -->
+      <div class="screenshot-placeholder">
+        <span>📋</span>
+        <small>Call-Übersicht</small>
+      </div>
+    </div>
+    <!-- Screenshot 2 -->
+    <div class="screenshot-frame">
+      <!-- <img src="/assets/img/screenshots/screenshot-2.png" alt="CallPlan – Call planen"> -->
+      <div class="screenshot-placeholder">
+        <span>📅</span>
+        <small>Call planen</small>
+      </div>
+    </div>
+    <!-- Screenshot 3 -->
+    <div class="screenshot-frame">
+      <!-- <img src="/assets/img/screenshots/screenshot-3.png" alt="CallPlan – Notizen diktieren"> -->
+      <div class="screenshot-placeholder">
+        <span>🎙️</span>
+        <small>Notizen diktieren</small>
+      </div>
+    </div>
+    <!-- Screenshot 4 -->
+    <div class="screenshot-frame">
+      <!-- <img src="/assets/img/screenshots/screenshot-4.png" alt="CallPlan – CarPlay Interface"> -->
+      <div class="screenshot-placeholder">
+        <span>🚗</span>
+        <small>CarPlay</small>
+      </div>
+    </div>
+    <!-- Screenshot 5 -->
+    <div class="screenshot-frame">
+      <!-- <img src="/assets/img/screenshots/screenshot-5.png" alt="CallPlan – Notizen versenden"> -->
+      <div class="screenshot-placeholder">
+        <span>📨</span>
+        <small>Notiz versenden</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+
 ## In 3 Schritten zum perfekten Call
 
 <div class="steps-row">

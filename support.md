@@ -2,34 +2,34 @@
 layout: default
 title: Support
 permalink: /support/
+lang: de
+lang_ref: support
 ---
 
 # Support
 
-## Need Help?
+## Hilfe benötigt?
 
-We're here to assist you! If you're experiencing any issues or need assistance with our services, please feel free to reach out to us. Our support team is available to help with any questions or concerns you may have.
+Wir sind für dich da! Wenn du ein Problem hast oder Fragen zur App hast, melde dich gerne bei uns. Unser Support-Team hilft dir schnell und unkompliziert weiter.
 
-### Contact Us
+### Kontakt
 
-You can get in touch with us directly through the following options:
-
-- **Email Support**:  
-  For quick help, send us an email at [support@quick-id.com](mailto:support@quick-id.com). We'll get back to you as soon as possible.
-
-### Frequently Asked Questions (FAQs)
-
-Here are some common questions that may help you find a solution faster:
-
-- **How do I reset my password?**
-  - Visit the [Password Reset Page](/howto/) and follow the instructions to reset your password.
-
-- **How can I update my account details?**
-  - Log in to your account, go to the **Settings** section, and update your profile information.
-
-- **Is there a user guide?**
-  - Yes, our [User Guide](/howto/) is available for download. It covers everything from setting up your account to advanced features.
+- **E-Mail-Support**
+  Schreib uns an [support@quick-id.com](mailto:support@quick-id.com) – wir melden uns so schnell wie möglich.
 
 ---
 
-Thank you for choosing Quick-ID. We appreciate your feedback and are dedicated to providing excellent service!
+### Häufige Fragen (FAQ)
+
+- **Wie setze ich mein Passwort zurück?**
+  Gehe zur [Anleitung](/howto/) und folge den Schritten zum Zurücksetzen deines Passworts.
+
+- **Wie aktualisiere ich meine Kontodaten?**
+  Melde dich an, gehe zu **Einstellungen** und aktualisiere dort dein Profil.
+
+- **Gibt es eine Benutzeranleitung?**
+  Ja – unsere [Anleitung](/howto/) deckt alles ab, von der Kontoerstellung bis zu erweiterten Funktionen.
+
+---
+
+Vielen Dank, dass du CallPlan nutzt. Dein Feedback ist uns wichtig – wir freuen uns, die App kontinuierlich zu verbessern!

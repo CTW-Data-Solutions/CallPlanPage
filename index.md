@@ -2,6 +2,8 @@
 layout: default
 title: Home
 permalink: /
+lang: de
+lang_ref: home
 ---
 
 <div class="hero">

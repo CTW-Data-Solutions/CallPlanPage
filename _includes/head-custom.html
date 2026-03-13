@@ -103,6 +103,15 @@
 }
 </script>
 
+<!-- ── hreflang alternate links (multilingual SEO) ──────────── -->
+{% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
+{% if pages_map %}
+<link rel="alternate" hreflang="de"        href="{{ site.url }}{{ pages_map.de }}">
+<link rel="alternate" hreflang="en"        href="{{ site.url }}{{ pages_map.en }}">
+<link rel="alternate" hreflang="es"        href="{{ site.url }}{{ pages_map.es }}">
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ pages_map.de }}">
+{% endif %}
+
 <!-- Additional SEO meta tags -->
 <meta name="application-name"   content="{{ site.title }}">
 <meta name="theme-color"        content="#1c1c1e">

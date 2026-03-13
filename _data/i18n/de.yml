@@ -1,0 +1,24 @@
+lang:      de
+lang_name: Deutsch
+flag:      "🇩🇪"
+
+nav:
+  - label: Home
+    href:  /
+  - label: Anleitung
+    href:  /howto/
+  - label: Feature-Umfrage
+    href:  /survey/
+  - label: Premium
+    href:  /premium/
+  - label: Support
+    href:  /support/
+  - label: Datenschutz
+    href:  /privacy/
+
+downloads:
+  appstore: Im App Store
+  howto:    Anleitung
+  youtube:  YouTube
+
+footer: Entwickelt von

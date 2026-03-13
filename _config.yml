@@ -23,3 +23,18 @@ plugins:
 - jekyll-remote-theme
 - jekyll-sitemap
 - jekyll-seo-tag
+
+# Automatically assign lang based on directory
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: de
+  - scope:
+      path: "en"
+    values:
+      lang: en
+  - scope:
+      path: "es"
+    values:
+      lang: es

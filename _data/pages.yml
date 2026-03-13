@@ -1,0 +1,32 @@
+# Maps page references to their URLs per language.
+# Used for the language switcher and hreflang alternate tags.
+
+- ref: home
+  de: /
+  en: /en/
+  es: /es/
+
+- ref: howto
+  de: /howto/
+  en: /en/howto/
+  es: /es/howto/
+
+- ref: survey
+  de: /survey/
+  en: /en/survey/
+  es: /es/survey/
+
+- ref: premium
+  de: /premium/
+  en: /en/premium/
+  es: /es/premium/
+
+- ref: support
+  de: /support/
+  en: /en/support/
+  es: /es/support/
+
+- ref: privacy
+  de: /privacy/
+  en: /en/privacy/
+  es: /es/privacy/

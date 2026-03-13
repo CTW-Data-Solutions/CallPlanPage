@@ -1,0 +1,24 @@
+lang:      es
+lang_name: Español
+flag:      "🇪🇸"
+
+nav:
+  - label: Inicio
+    href:  /es/
+  - label: Guía
+    href:  /es/howto/
+  - label: Encuesta
+    href:  /es/survey/
+  - label: Premium
+    href:  /es/premium/
+  - label: Soporte
+    href:  /es/support/
+  - label: Privacidad
+    href:  /es/privacy/
+
+downloads:
+  appstore: App Store
+  howto:    Guía
+  youtube:  YouTube
+
+footer: Desarrollado por

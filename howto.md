@@ -1,109 +1,102 @@
 ---
 layout: default
-title: How To
+title: Anleitung
 permalink: /howto/
+lang: de
+lang_ref: howto
 ---
 
-# CallPlan User Guide
+# CallPlan – Benutzerhandbuch
 
-## How to Create a User
+## Konto erstellen
 
-1. **Download and Install CallPlan**  
-   Get CallPlan from the App Store or download it from our [website](https://callplan.quick-id.com).
+1. **CallPlan herunterladen und installieren**
+   Lade CallPlan aus dem App Store herunter.
 
-2. **Create a New Account**  
-   - Open CallPlan on your device.
-   - Tap on the "Create Account" button.
-   - Enter your email, name, and choose a secure password.
-   - Verify your email by clicking the verification link sent to your inbox.
+2. **Neues Konto anlegen**
+   - Öffne CallPlan auf deinem Gerät.
+   - Tippe auf „Konto erstellen".
+   - Gib deine E-Mail-Adresse, deinen Namen und ein sicheres Passwort ein.
+   - Bestätige deine E-Mail über den Link in deinem Postfach.
 
-3. **Sign In**  
-   Once your email is verified, sign in using your credentials. You can also log in using your Google or Apple account for a quicker setup.
-
----
-
-## How to Make Your Settings
-
-Once logged in, you can personalize CallPlan's features to match your needs.
-
-### 1. **Open Settings**  
-   - Tap on your profile icon at the top left corner.
-   - Select "Settings" from the dropdown.
-
-### 2. **Notification Preferences**  
-   Choose how and when you’d like to receive reminders and updates:
-   - **Call Reminder**: Set up how much in advance you want to be reminded before a scheduled call (e.g., 10 minutes, 30 minutes).
-   - **Audio Notes Delivery**:  
-     - **Send Notes Automatically**: Choose whether to automatically send audio notes after each call to your email or your virtual secretary. This can be set to **After Call**, **End of Day**, or **Custom Time**.
-     - **Note Recipients**: Add additional recipients such as secretaries or team members to receive notes.
-   - **CarPlay Integration**: Enable or disable CarPlay support for hands-free interaction with CallPlan during driving.
-
-### 3. **Security and Privacy**  
-   - **Two-Factor Authentication**: Activate 2FA to secure your account with an additional layer of security.
-   - **Data Usage**: Toggle options to either store your data locally or use cloud synchronization across devices. We respect your privacy and give you full control over your data.
+3. **Anmelden**
+   Nach der Bestätigung meldest du dich mit deinen Zugangsdaten an. Alternativ ist auch die Anmeldung mit Apple- oder Google-Konto möglich.
 
 ---
 
-## How to Make a Scheduled CallPlan
+## Einstellungen vornehmen
 
-1. **Create a New CallPlan**  
-   - Tap the “Create CallPlan” button in the app.
-   - Enter the following details:
-     - **Title**: Add a title for the call (e.g., “Weekly Check-in”).
-     - **Person**: Select the person you're calling from your contacts list.
-     - **Description**: Add a description of the call’s purpose (e.g., “Discuss project progress”).
-     - **Due Date**: Set the date and time for the call.
-     - **Categories**: Choose from available categories like "Business", "Internal", or "Private".
+### 1. Einstellungen öffnen
+- Tippe oben links auf dein Profilbild.
+- Wähle „Einstellungen" aus dem Menü.
 
-2. **Set Reminders**  
-   Choose whether you’d like a reminder for this call, and how far in advance you want it (e.g., 15 minutes, 1 hour). The default reminder is set to 1 day before due date and 1 hour before due date
+### 2. Benachrichtigungseinstellungen
+- **Anruferinnerung** – Stelle ein, wie früh du vor einem Anruf erinnert werden möchtest (z.B. 10 oder 30 Minuten).
+- **Automatischer Notizversand** – Wähle, ob Notizen nach dem Call automatisch versendet werden: Sofort, am Ende des Tages oder zu einem eigenen Zeitpunkt.
+- **Empfänger** – Füge Empfänger wie deine Assistenz oder Teammitglieder hinzu.
+- **CarPlay** – Aktiviere oder deaktiviere die CarPlay-Unterstützung für freihändige Bedienung.
 
-3. **Save the CallPlan**  
-   After filling out the details, tap "Save" to confirm your new CallPlan. You'll receive a notification when it's time to make the call.
-
----
-
-## How to Make Notes
-
-1. **After a Call**  
-   Once your scheduled call has ended, open the CallPlan app and select the "Notes" section.
-   - You can manually add any text notes.
-   - If voice recognition is enabled, you can record and transcribe your thoughts directly into the notes.
-
-2. **Audio Notes**  
-   - Tap the "Add Audio Note" button.
-   - Speak your note into the microphone. Once finished, tap "Stop Recording".
-   - The app will transcribe your speech into text, which can be edited if needed.
-
-3. **Sending Notes**  
-   You can choose to send your notes immediately after the call ends (based on your settings) to:
-   - Yourself
-   - A specific person (e.g., your secretary or colleague)
-   - Your virtual assistant for follow-up reminders
+### 3. Sicherheit & Datenschutz
+- **Zwei-Faktor-Authentifizierung** – Zusätzlicher Schutz für dein Konto.
+- **Datenspeicherung** – Lokal auf dem Gerät oder mit Cloud-Synchronisation – du entscheidest.
 
 ---
 
-## FAQs
+## Call planen
 
-### Q1: **How do I reset my password?**
-   - If you’ve forgotten your password, tap the "Forgot Password?" link on the login page.
-   - Enter your email address, and we’ll send you instructions to reset your password.
+1. **Neuen CallPlan erstellen**
+   - Tippe auf „CallPlan erstellen".
+   - Trage folgende Details ein:
+     - **Titel** – z.B. „Wöchentliches Meeting"
+     - **Person** – Wähle eine Person aus deinen Kontakten.
+     - **Beschreibung** – Zweck des Anrufs, z.B. „Projektfortschritt besprechen".
+     - **Datum & Uhrzeit** – Wann soll der Anruf stattfinden?
+     - **Kategorie** – Business, Intern oder Privat.
 
-### Q2: **Can I sync my CallPlans with Google Calendar?**
-   - Yes! You can sync all your scheduled CallPlans with Google Calendar. Simply go to "Settings" and enable the Google Calendar sync option.
+2. **Erinnerung festlegen**
+   Wähle Vorlaufzeit (z.B. 15 Minuten, 1 Stunde). Standard: 1 Tag und 1 Stunde vor dem Termin.
 
-### Q3: **How do I manage permissions for Siri?**
-   - To use Siri for creating or managing CallPlans, go to "Settings" → "Siri & Shortcuts" and enable the permissions. You can then create custom voice commands for adding calls, marking them done, or sending notes.
-
-### Q4: **How do I delete a CallPlan?**
-   - To delete a scheduled CallPlan, navigate to the CallPlan you want to remove, and tap "Delete" at the bottom of the screen. Confirm the deletion when prompted.
-
-### Q5: **Does CallPlan store my data?**
-   - CallPlan respects your privacy. We do not store any of your personal data. All data is securely stored on your device, and we only use cloud synchronization if you enable it in settings.
-
-### Q6: **What happens if I don’t add a category to a CallPlan?**
-   - If no category is selected, your CallPlan will be automatically assigned the "Unknown" category, but you can always change it later.
+3. **Speichern**
+   Tippe auf „Speichern". Du erhältst eine Benachrichtigung, sobald der Anruf ansteht.
 
 ---
 
-Let me know if you need any further adjustments or additional details in the guide!
+## Notizen erstellen
+
+1. **Nach dem Anruf**
+   Öffne den abgeschlossenen CallPlan in der App.
+   - Füge Textnotizen manuell ein.
+   - Mit aktivierter Spracherkennung kannst du Gedanken direkt diktieren.
+
+2. **Audionotizen**
+   - Tippe auf „Audionotiz hinzufügen".
+   - Spreche ins Mikrofon – tippe auf „Stopp", wenn du fertig bist.
+   - CallPlan wandelt deine Sprache in Text um, den du anschließend bearbeiten kannst.
+
+3. **Notizen versenden**
+   Versende Notizen sofort oder zu einem geplanten Zeitpunkt an:
+   - Dich selbst
+   - Eine bestimmte Person (z.B. Assistenz oder Kollegen)
+   - Deinen virtuellen Assistenten
+
+---
+
+## Häufige Fragen
+
+### F1: Wie setze ich mein Passwort zurück?
+Tippe auf der Anmeldeseite auf „Passwort vergessen?", gib deine E-Mail ein und folge den Anweisungen in der Bestätigungs-E-Mail.
+
+### F2: Kann ich CallPlan mit Google Kalender synchronisieren?
+Ja. Aktiviere die Synchronisation unter Einstellungen → Google Kalender.
+
+### F3: Wie richte ich Siri-Kurzbefehle ein?
+Gehe zu Einstellungen → Siri & Kurzbefehle und aktiviere die Berechtigungen. Anschließend kannst du eigene Sprachbefehle zum Erstellen und Verwalten von Calls anlegen.
+
+### F4: Wie lösche ich einen CallPlan?
+Öffne den entsprechenden CallPlan, tippe auf „Löschen" und bestätige den Vorgang.
+
+### F5: Speichert CallPlan meine Daten?
+Nein. Alle Daten bleiben sicher auf deinem Gerät. Die Cloud-Synchronisation ist nur aktiv, wenn du sie selbst aktivierst.
+
+### F6: Was passiert, wenn ich keine Kategorie auswähle?
+Der CallPlan wird automatisch der Kategorie „Unbekannt" zugeordnet. Du kannst sie jederzeit ändern.

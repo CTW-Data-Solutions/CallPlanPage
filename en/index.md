@@ -1,0 +1,144 @@
+---
+layout: default
+title: Home
+permalink: /en/
+lang: en
+lang_ref: home
+---
+
+<div class="hero">
+  <div class="hero-badge">Available on iOS · CarPlay Ready</div>
+  <h1 class="hero-title">Never Miss an Important Call Again</h1>
+  <p class="hero-sub">CallPlan is your hands-free co-pilot for business calls – schedule, take notes, and follow up automatically, whether you're at your desk or behind the wheel.</p>
+  <div class="hero-actions">
+    <a href="https://apps.apple.com" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on the App Store
+    </a>
+    <a href="/en/howto/" class="btn btn-secondary">See how it works</a>
+  </div>
+</div>
+
+<div class="stats-row">
+  <div class="stat-card">
+    <span class="stat-icon">📞</span>
+    <span class="stat-value">Never forget</span>
+    <span class="stat-label">Automatic reminders</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🚗</span>
+    <span class="stat-value">CarPlay</span>
+    <span class="stat-label">Hands-free on the road</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🎙️</span>
+    <span class="stat-value">Siri</span>
+    <span class="stat-label">Voice control</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-icon">🔒</span>
+    <span class="stat-value">Privacy first</span>
+    <span class="stat-label">Offline-capable, no data sharing</span>
+  </div>
+</div>
+
+## What CallPlan does for you
+
+CallPlan is more than a calendar. It's your smart assistant for every call – from preparation to automatic follow-up.
+
+### Features:
+
+- **Schedule calls** – Create a plan in seconds with date, time, and contact.
+- **Automatic reminders** – Always be notified in time, never unprepared.
+- **Categorisation** – Business, internal, or private – stay organised.
+- **Cloud sync** – All your devices always up to date.
+- **Add notes** – Write down what matters before or during the call.
+- **Automatic note sending** – After the call, notes go straight to you, your assistant, or your team.
+- **Siri integration** – Hands-free: create calls, set reminders, dictate notes.
+- **Calendar & task integration** – Works seamlessly with your favourite productivity apps.
+
+---
+
+## 3 steps to the perfect call
+
+<div class="steps-row">
+  <div class="step-card">
+    <span class="step-number">1</span>
+    <h3>Create a plan</h3>
+    <p>Enter the title, description, date, and time – done. CallPlan reminds you automatically.</p>
+  </div>
+  <div class="step-card">
+    <span class="step-number">2</span>
+    <h3>Take notes</h3>
+    <p>Write or dictate during the call – even via Siri or CarPlay, completely hands-free.</p>
+  </div>
+  <div class="step-card">
+    <span class="step-number">3</span>
+    <h3>Auto follow-up</h3>
+    <p>CallPlan sends your notes immediately after the call to you, your assistant, or your team.</p>
+  </div>
+</div>
+
+---
+
+## CarPlay – Stay productive while you drive
+
+CallPlan is one of the few apps with full **CarPlay** support. Your car becomes a mobile office – without distraction.
+
+### CarPlay features:
+
+- **Manage calls** – See all scheduled calls directly on your car's display.
+- **Hands-free notes** – Dictate by voice command. CallPlan writes it all down.
+- **Automatic sending** – Once the call ends, notes are sent automatically.
+
+<div class="carplay-callout">
+  <div class="carplay-callout-icon">🚗</div>
+  <div>
+    <strong>Hands stay on the wheel.</strong><br>
+    CallPlan handles the notes and follow-up – you stay focused on the road.
+  </div>
+</div>
+
+---
+
+## Privacy & Security
+
+CallPlan requests only the permissions it actually needs. Your data is **never shared or stored** and the app works fully offline. [Learn more →](/en/privacy/)
+
+---
+
+## Screenshots
+
+<div class="screenshots-section">
+  <div class="screenshots-gallery">
+    <div class="screenshot-frame">
+      <div class="screenshot-placeholder"><span>📋</span><small>Call overview</small></div>
+    </div>
+    <div class="screenshot-frame">
+      <div class="screenshot-placeholder"><span>📅</span><small>Schedule a call</small></div>
+    </div>
+    <div class="screenshot-frame">
+      <div class="screenshot-placeholder"><span>🎙️</span><small>Dictate notes</small></div>
+    </div>
+    <div class="screenshot-frame">
+      <div class="screenshot-placeholder"><span>🚗</span><small>CarPlay</small></div>
+    </div>
+    <div class="screenshot-frame">
+      <div class="screenshot-placeholder"><span>📨</span><small>Send notes</small></div>
+    </div>
+  </div>
+</div>
+
+---
+
+<div class="cta-section">
+  <h2>Ready to master every call?</h2>
+  <p>Download CallPlan for free and experience how easy professional call preparation can be.</p>
+  <div class="hero-actions">
+    <a href="https://apps.apple.com" class="btn btn-primary">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on the App Store
+    </a>
+    <a href="/en/survey/" class="btn btn-secondary">Request features →</a>
+  </div>
+</div>

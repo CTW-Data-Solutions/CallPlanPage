@@ -1,0 +1,24 @@
+lang:      en
+lang_name: English
+flag:      "🇬🇧"
+
+nav:
+  - label: Home
+    href:  /en/
+  - label: How To
+    href:  /en/howto/
+  - label: Feature Survey
+    href:  /en/survey/
+  - label: Premium
+    href:  /en/premium/
+  - label: Support
+    href:  /en/support/
+  - label: Privacy
+    href:  /en/privacy/
+
+downloads:
+  appstore: App Store
+  howto:    How To
+  youtube:  YouTube
+
+footer: Maintained by

@@ -2,17 +2,19 @@
 layout: default
 title: Premium
 permalink: /premium/
+lang: de
+lang_ref: premium
 ---
 
-## Premium Subscription
+## Premium-Abo
 
-**Title:** Premium  
-**Length of Subscription:** Monthly or Annual  
-**Price:**  It depends on the country you are located and if you pick **Monthly** or **Annually**. You find detailed in information in the App and in the App Store.   
+**Bezeichnung:** Premium
+**Laufzeit:** Monatlich oder jährlich
+**Preis:** Der Preis richtet sich nach deinem Land und der gewählten Laufzeit (monatlich oder jährlich). Detaillierte Preisinformationen findest du direkt in der App und im App Store.
 
-The **Premium** subscription gives you full access to all features and content.
+Das **Premium**-Abo gibt dir uneingeschränkten Zugriff auf alle Funktionen und Inhalte von CallPlan.
 
-Your subscription will automatically renew unless canceled at least 24 hours before the end of the current period. Payment will be charged to your Apple ID account at confirmation of purchase. You can manage and cancel your subscription anytime in your App Store account settings.
+Dein Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ablauf des laufenden Zeitraums gekündigt wird. Die Zahlung wird nach Bestätigung des Kaufs über deine Apple-ID abgerechnet. Du kannst dein Abo jederzeit in den Einstellungen deines App-Store-Kontos verwalten und kündigen.
 
-- [Privacy Policy](/privacy/)  
-- [Terms of Use (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)
+- [Datenschutzerklärung](/privacy/)
+- [Nutzungsbedingungen (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/)

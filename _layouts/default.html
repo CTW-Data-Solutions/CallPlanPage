@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: 'de' }}">
 
 <head>
     <meta charset="UTF-8">
@@ -14,12 +14,15 @@
     {% include head-custom.html %}
 </head>
 
+{% assign t = site.data.i18n[page.lang | default: 'de'] %}
+{% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
+
 <body>
     <div class="wrapper">
 
         <!-- ── Mobile top bar ── -->
         <div class="mobile-topbar">
-            <a href="{{ '/' | absolute_url }}" class="mobile-title">
+            <a href="{{ t.nav[0].href }}" class="mobile-title">
                 {{ site.title | default: site.github.repository_name }}
             </a>
             <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation"
@@ -36,7 +39,7 @@
         <!-- ── Sidebar ── -->
         <header id="sidebar" role="banner">
 
-            <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h1><a href="{{ t.nav[0].href }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
             {% if site.logo %}
             <div class="apple-logo">
@@ -48,19 +51,30 @@
 
             {% if site.show_downloads %}
             <ul class="downloads">
-                <li><a href="{{ site.github.repository_url }}">View In <strong>App Store</strong></a></li>
-                <li><a href="/howto/">View <strong>How To</strong></a></li>
-                <li><a href="{{ site.github.repository_url }}">View On <strong>YouTube</strong></a></li>
+                <li><a href="{{ site.app_store_url | default: site.github.repository_url }}"><strong>{{ t.downloads.appstore }}</strong></a></li>
+                <li><a href="{{ t.nav[1].href }}"><strong>{{ t.downloads.howto }}</strong></a></li>
+                <li><a href="{{ site.github.repository_url }}"><strong>{{ t.downloads.youtube }}</strong></a></li>
             </ul>
             {% endif %}
 
+            <!-- ── Language switcher ── -->
+            <div class="lang-switcher" aria-label="Language selection">
+                {% if pages_map %}
+                <a href="{{ pages_map.de }}" class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de" hreflang="de">🇩🇪 DE</a>
+                <a href="{{ pages_map.en }}" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧 EN</a>
+                <a href="{{ pages_map.es }}" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸 ES</a>
+                {% else %}
+                <a href="/"    class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de" hreflang="de">🇩🇪 DE</a>
+                <a href="/en/" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧 EN</a>
+                <a href="/es/" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸 ES</a>
+                {% endif %}
+            </div>
+
+            <!-- ── Navigation ── -->
             <nav class="site-nav" aria-label="Main navigation">
-                <a href="/">Home</a>
-                <a href="/howto/">How To</a>
-                <a href="/survey/">Feature-Umfrage</a>
-                <a href="/premium/">Premium</a>
-                <a href="/support/">Support</a>
-                <a href="/privacy/">Datenschutz</a>
+                {% for item in t.nav %}
+                <a href="{{ item.href }}">{{ item.label }}</a>
+                {% endfor %}
             </nav>
 
         </header>
@@ -73,7 +87,7 @@
         <!-- ── Footer ── -->
         <footer role="contentinfo">
             {% if site.github.is_project_page %}
-            <p>Maintained by <a href="https://quick-id.com">Quick-ID</a></p>
+            <p>{{ t.footer }} <a href="https://quick-id.com">Quick-ID</a></p>
             {% endif %}
         </footer>
 
@@ -106,7 +120,6 @@
 
             overlay.addEventListener('click', closeMenu);
 
-            // Close when a nav link is tapped on mobile
             document.querySelectorAll('.site-nav a').forEach(function (link) {
                 link.addEventListener('click', closeMenu);
             });

@@ -1,40 +1,43 @@
 ---
 layout: default
-title: Privacy Policy
+title: Datenschutz
 permalink: /privacy/
+lang: de
+lang_ref: privacy
 ---
 
-# Privacy Policy
+# Datenschutzerklärung
 
-CallPlan requests all necessary permissions to provide a seamless experience. To function effectively, the app requires access to:
+CallPlan fragt nur die Berechtigungen an, die für eine reibungslose Nutzung notwendig sind:
 
-- Contacts and Calendars – for managing and scheduling calls
-- Voice Recognition and Audio Access – for handling audio notes
-- Siri Integration – for creating call plans using voice commands
+- Kontakte und Kalender – zur Verwaltung und Planung von Anrufen
+- Spracherkennung und Mikrofonzugang – für Audionotizen
+- Siri-Integration – zum Erstellen von Anrufplänen per Sprachbefehl
 
-**Privacy First!**  
-CallPlan does not access or store your data. All permissions are used solely for the intended functionality within the app.
+**Datenschutz steht an erster Stelle!**
+CallPlan greift nicht auf deine Daten zu und speichert sie nicht. Alle Berechtigungen werden ausschließlich für die vorgesehene Funktion innerhalb der App genutzt.
 
-**No Data Sales to Advertisers!**  
-CallPlan does not sell or provide data for any advertisers or other third parties. 
+**Keine Datenweitergabe an Werbetreibende!**
+CallPlan verkauft oder übermittelt keine Daten an Werbetreibende oder sonstige Dritte.
 
+---
 
-## Terms of Use
+## Nutzungsbedingungen
 
-CallPlan adheres to the standards set forth by Apple’s [Standard End User License Agreement (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/), ensuring a fair and transparent user experience. By using CallPlan, you agree to the following terms:
+CallPlan hält sich an die Standards des Apple [Standard End User License Agreement (EULA)](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) und gewährleistet damit eine faire und transparente Nutzererfahrung. Mit der Nutzung von CallPlan stimmst du den folgenden Bedingungen zu:
 
-1. **License to Use**: You are granted a limited, non-exclusive, non-transferable license to download and use CallPlan on your devices, in accordance with the terms outlined in Apple’s EULA.
-   
-2. **Intellectual Property**: All intellectual property rights in CallPlan, including any software, logos, trademarks, and other proprietary materials, are owned by CallPlan and protected by applicable laws.
+1. **Nutzungslizenz**: Dir wird eine eingeschränkte, nicht-exklusive, nicht übertragbare Lizenz zum Herunterladen und Nutzen von CallPlan auf deinen Geräten gewährt, gemäß den Bestimmungen des Apple EULA.
 
-3. **User Responsibilities**: As a user, you agree to use CallPlan only for lawful purposes and to refrain from using the app in any way that may violate laws or harm other users.
+2. **Geistiges Eigentum**: Alle Rechte am geistigen Eigentum von CallPlan – einschließlich Software, Logos, Markenzeichen und sonstiger proprietärer Materialien – sind Eigentum von CallPlan und durch geltendes Recht geschützt.
 
-4. **Data Collection and Privacy**: CallPlan respects your privacy. For a detailed explanation of how we handle your data, please refer to our [Privacy Policy](#). We are committed to safeguarding your personal information in compliance with applicable laws and regulations.
+3. **Nutzerpflichten**: Du verpflichtest dich, CallPlan ausschließlich für rechtmäßige Zwecke zu nutzen und die App nicht in einer Weise einzusetzen, die Gesetze verletzt oder anderen Nutzern schadet.
 
-5. **Third-Party Services**: CallPlan may contain links to third-party services. These services are not controlled by us, and we are not responsible for their content or privacy practices. Please review the privacy policies and terms of service of any third-party services you use.
+4. **Datenerhebung und Datenschutz**: CallPlan respektiert deine Privatsphäre. Für eine detaillierte Erläuterung des Umgangs mit deinen Daten lies bitte unsere [Datenschutzerklärung](#). Wir verpflichten uns zum Schutz deiner personenbezogenen Daten gemäß den geltenden Gesetzen und Vorschriften.
 
-6. **Termination of Use**: We reserve the right to suspend or terminate your access to CallPlan if you violate any of these terms or Apple’s EULA.
+5. **Dienste Dritter**: CallPlan kann Links zu Diensten Dritter enthalten. Diese Dienste werden nicht von uns kontrolliert, und wir sind nicht verantwortlich für deren Inhalte oder Datenschutzpraktiken. Bitte lies die Datenschutzhinweise und Nutzungsbedingungen der jeweiligen Drittanbieter.
 
-7. **Changes to Terms**: We may update these Terms of Use from time to time. Any updates will be posted on this page, and the "Last Updated" date at the bottom will reflect the date of the most recent revision.
+6. **Kündigung der Nutzung**: Wir behalten uns das Recht vor, deinen Zugang zu CallPlan zu sperren oder zu kündigen, wenn du gegen diese Bedingungen oder das Apple EULA verstößt.
 
-By using CallPlan, you confirm that you have read, understood, and agree to abide by these Terms of Use.
+7. **Änderungen der Bedingungen**: Diese Nutzungsbedingungen können von Zeit zu Zeit aktualisiert werden. Änderungen werden auf dieser Seite veröffentlicht; das Datum der letzten Aktualisierung wird entsprechend angepasst.
+
+Mit der Nutzung von CallPlan bestätigst du, diese Nutzungsbedingungen gelesen, verstanden und akzeptiert zu haben.

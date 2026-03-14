@@ -14,7 +14,14 @@
     {% include head-custom.html %}
 </head>
 
-{% assign t = site.data.i18n[page.lang | default: 'de'] %}
+{% assign _lang = page.lang | default: 'de' %}
+{% if _lang == 'en' %}
+  {% assign t = site.data.i18n.en %}
+{% elsif _lang == 'es' %}
+  {% assign t = site.data.i18n.es %}
+{% else %}
+  {% assign t = site.data.i18n.de %}
+{% endif %}
 {% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
 
 <body>

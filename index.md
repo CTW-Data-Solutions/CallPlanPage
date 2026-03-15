@@ -7,9 +7,9 @@ lang_ref: home
 ---
 
 <div class="hero">
-  <div class="hero-badge">Available on iOS · CarPlay Ready</div>
-  <h1 class="hero-title">Never Miss an Important Call Again</h1>
-  <p class="hero-sub">CallPlan is your hands-free co-pilot for business calls – schedule, take notes, and follow up automatically, whether you're at your desk or behind the wheel.</p>
+  <div class="hero-badge">Verfügbar auf iOS · CarPlay-fähig</div>
+  <h1 class="hero-title">Verpasse nie wieder einen wichtigen Anruf</h1>
+  <p class="hero-sub">CallPlan ist dein freihändiger Co-Pilot für Businessgespräche – plane, mach Notizen und bereite automatisch nach, egal ob am Schreibtisch oder am Steuer.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -159,6 +159,29 @@ CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. D
 ## Datenschutz & Sicherheit
 
 CallPlan fragt nur die Berechtigungen an, die wirklich nötig sind. Deine Daten werden **nicht geteilt, nicht gespeichert** und die App funktioniert vollständig offline. [Mehr erfahren →](/privacy/)
+
+---
+
+## Empfehle CallPlan weiter
+
+Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan in einer Sekunde:
+
+<div class="share-row">
+  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+f%C3%BCr+iOS+mit+CarPlay+%26+Siri.+Schau+mal%3A+https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=Ich+nutze+CallPlan+f%C3%BCr+freih%C3%A4ndige+Gespr%C3%A4chsnotizen+am+Steuer+%E2%80%93+sehr+empfehlenswert%21&url=https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0Aich%20nutze%20CallPlan%20f%C3%BCr%20Gespr%C3%A4chsvorbereitung%20und%20freih%C3%A4ndige%20Notizen%20mit%20CarPlay.%0A%0ASchau%20mal%3A%20https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share">📧 E-Mail</a>
+</div>
+
+---
+
+## Bleib auf dem Laufenden
+
+Neue Features, Tipps und Insider-Updates direkt in dein Postfach – kein Spam, jederzeit abbestellbar.
+
+<div class="newsletter-section">
+  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Newsletter abonnieren</a>
+  <p class="newsletter-hint">Powered by Substack · Jederzeit kündbar</p>
+</div>
 
 ---
 

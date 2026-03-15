@@ -131,6 +131,29 @@ CallPlan requests only the permissions it actually needs. Your data is **never s
 
 ---
 
+## Share CallPlan
+
+Know someone who never wants to miss an important call again? Share CallPlan in one tap:
+
+<div class="share-row">
+  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+for+iOS+with+CarPlay+%26+Siri.+Check+it+out%3A+https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=I+use+CallPlan+for+hands-free+call+notes+while+driving+%E2%80%93+highly+recommended%21&url=https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0AI%20use%20CallPlan%20for%20call%20preparation%20and%20hands-free%20notes%20via%20CarPlay.%0A%0ACheck%20it%20out%3A%20https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share">📧 Email</a>
+</div>
+
+---
+
+## Stay in the Loop
+
+New features, tips, and insider updates straight to your inbox – no spam, unsubscribe any time.
+
+<div class="newsletter-section">
+  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Subscribe to Newsletter</a>
+  <p class="newsletter-hint">Powered by Substack · Cancel any time</p>
+</div>
+
+---
+
 <div class="cta-section">
   <h2>Ready to master every call?</h2>
   <p>Download CallPlan for free and experience how easy professional call preparation can be.</p>

@@ -131,6 +131,29 @@ CallPlan solo solicita los permisos que realmente necesita. Tus datos **nunca se
 
 ---
 
+## Recomienda CallPlan
+
+¿Conoces a alguien que no quiera perderse más llamadas importantes? Comparte CallPlan en un segundo:
+
+<div class="share-row">
+  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Planificador+de+llamadas+para+iOS+con+CarPlay+%26+Siri.+%C3%89chale+un+vistazo%3A+https%3A%2F%2Fcallplan.quick-id.com%2Fes%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=Uso+CallPlan+para+tomar+notas+manos+libres+al+volante+%E2%80%93+muy+recomendable%21&url=https%3A%2F%2Fcallplan.quick-id.com%2Fes%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Planificador%20inteligente%20de%20llamadas&body=Hola%2C%0A%0Auso%20CallPlan%20para%20preparar%20llamadas%20y%20tomar%20notas%20manos%20libres%20con%20CarPlay.%0A%0A%C3%89chale%20un%20vistazo%3A%20https%3A%2F%2Fcallplan.quick-id.com%2Fes%2F" class="btn btn-share">📧 Email</a>
+</div>
+
+---
+
+## Mantente al día
+
+Nuevas funciones, consejos y novedades directamente en tu bandeja de entrada – sin spam, cancela cuando quieras.
+
+<div class="newsletter-section">
+  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Suscribirse al Newsletter</a>
+  <p class="newsletter-hint">Con Substack · Cancela cuando quieras</p>
+</div>
+
+---
+
 <div class="cta-section">
   <h2>¿Listo para dominar cada llamada?</h2>
   <p>Descarga CallPlan gratis y descubre lo fácil que puede ser la preparación profesional de llamadas.</p>

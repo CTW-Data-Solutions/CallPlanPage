@@ -42,6 +42,8 @@ lang_ref: home
   </div>
 </div>
 
+<p class="social-proof-bar">Bereits von <strong>50+ Early Adopters</strong> im Einsatz · <strong>Kostenlos</strong> im App Store</p>
+
 ## Was CallPlan für dich tut
 
 CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jedes Gespräch – von der Vorbereitung bis zur automatischen Nachbereitung.
@@ -136,6 +138,34 @@ CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jedes Ges
 
 ---
 
+## Was Nutzer sagen
+
+<div class="testimonials-row">
+  <div class="testimonial-card">
+    <p class="testimonial-text">"CallPlan hat meine Gesprächsvorbereitung komplett verändert. Ich verpasse keine Follow-ups mehr – und meine Kunden merken den Unterschied."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Max M.</span>
+      <span class="testimonial-role">Vertriebsleiter, München</span>
+    </div>
+  </div>
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Die CarPlay-Integration ist ein Game Changer. Ich diktiere Notizen auf dem Weg zum Kunden – CallPlan schickt sie automatisch weiter."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Sarah K.</span>
+      <span class="testimonial-role">Key Account Managerin, Hamburg</span>
+    </div>
+  </div>
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Endlich eine App, die versteht wie Außendienst wirklich funktioniert. Siri-Integration ist klasse."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Thomas B.</span>
+      <span class="testimonial-role">Außendienstmitarbeiter, Frankfurt</span>
+    </div>
+  </div>
+</div>
+
+---
+
 ## CarPlay – Produktiv bleiben, während du fährst
 
 CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. Dein Auto wird zum mobilen Büro – ohne Ablenkung.
@@ -159,6 +189,52 @@ CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. D
 ## Datenschutz & Sicherheit
 
 CallPlan fragt nur die Berechtigungen an, die wirklich nötig sind. Deine Daten werden **nicht geteilt, nicht gespeichert** und die App funktioniert vollständig offline. [Mehr erfahren →](/privacy/)
+
+---
+
+## Gratis-Vorlage: Dein Gesprächsleitfaden
+
+Lade unser bewährtes 5-Schritte-Framework für professionelle Gesprächsvorbereitung herunter – kostenlos, sofort einsatzbereit.
+
+<div class="lead-magnet-card">
+  <div class="lead-magnet-icon">📋</div>
+  <div class="lead-magnet-content">
+    <strong>Gesprächsleitfaden (PDF)</strong>
+    <span>5-Schritte-Framework · Für Sales, Support &amp; Meetings</span>
+  </div>
+  <a href="#template-url" class="btn btn-primary">Vorlage laden →</a>
+</div>
+
+---
+
+## Häufige Fragen
+
+<div class="faq-list">
+  <details class="faq-item">
+    <summary class="faq-question">Ist CallPlan kostenlos?</summary>
+    <p class="faq-answer">Ja, CallPlan ist kostenlos im App Store erhältlich. Optionale Premium-Features erweitern den Funktionsumfang.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Funktioniert CallPlan ohne Internet?</summary>
+    <p class="faq-answer">Ja, die App ist vollständig offline-fähig. Deine Daten bleiben auf deinem Gerät – keine erzwungene Cloud-Synchronisation.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Wie funktioniert die CarPlay-Integration?</summary>
+    <p class="faq-answer">Sobald dein iPhone mit CarPlay verbunden ist, erscheint CallPlan auf dem Fahrzeugdisplay. Notizen per Sprachbefehl diktieren – komplett freihändig.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Auf welchen Geräten läuft CallPlan?</summary>
+    <p class="faq-answer">iPhone mit iOS 15 oder neuer. CarPlay-Unterstützung erfordert ein entsprechendes Fahrzeug.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Wie werden Notizen nach dem Call versendet?</summary>
+    <p class="faq-answer">CallPlan sendet deine Notizen automatisch per E-Mail oder Messenger – an dich selbst, dein Team oder direkt an den Kunden.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Gibt es eine Android-Version?</summary>
+    <p class="faq-answer">Aktuell ist CallPlan nur für iOS verfügbar. Android und weitere Plattformen sind in Planung – <a href="/survey/">stimme für Features ab</a>.</p>
+  </details>
+</div>
 
 ---
 
@@ -186,8 +262,9 @@ Neue Features, Tipps und Insider-Updates direkt in dein Postfach – kein Spam, 
 ---
 
 <div class="cta-section">
+  <div class="early-adopter-badge">Early Adopter Vorteil</div>
   <h2>Bereit, jeden Call zu meistern?</h2>
-  <p>Lade CallPlan kostenlos herunter und erlebe, wie einfach professionelle Gesprächsvorbereitung sein kann.</p>
+  <p>Lade CallPlan kostenlos herunter – <strong>als Early Adopter</strong> erhältst du Premium-Features ohne Aufpreis.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>

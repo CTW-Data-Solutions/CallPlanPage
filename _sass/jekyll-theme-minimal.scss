@@ -1030,6 +1030,196 @@ footer {
 }
 
 // ============================================
+// Social proof bar
+// ============================================
+.social-proof-bar {
+  text-align: center;
+  font-size: 13px;
+  color: $text-secondary;
+  margin: -20px 0 28px;
+  letter-spacing: 0.2px;
+
+  strong { color: $accent; }
+}
+
+// ============================================
+// Testimonials
+// ============================================
+.testimonials-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 8px 0 8px;
+}
+
+.testimonial-card {
+  flex: 1;
+  min-width: 200px;
+  background: #f5f5f7;
+  border: 1px solid $border;
+  border-radius: 16px;
+  padding: 22px 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.testimonial-text {
+  font-size: 14px;
+  color: #3a3a3c;
+  line-height: 1.6;
+  font-style: italic;
+  margin: 0;
+
+  &::before { content: "\201C"; }
+  &::after  { content: "\201D"; }
+}
+
+.testimonial-author {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: auto;
+}
+
+.testimonial-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1c1c1e;
+}
+
+.testimonial-role {
+  font-size: 12px;
+  color: $text-secondary;
+}
+
+// ============================================
+// Lead magnet card
+// ============================================
+.lead-magnet-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, #f0f7ff 0%, #e8f2ff 100%);
+  border: 1px solid rgba(0, 113, 227, 0.2);
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin: 8px 0 4px;
+  flex-wrap: wrap;
+}
+
+.lead-magnet-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.lead-magnet-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+
+  strong {
+    font-size: 15px;
+    color: #1c1c1e;
+  }
+
+  span {
+    font-size: 13px;
+    color: $text-secondary;
+  }
+}
+
+// ============================================
+// FAQ accordion
+// ============================================
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 8px 0 4px;
+}
+
+.faq-item {
+  border: 1px solid $border;
+  border-radius: 12px;
+  overflow: hidden;
+
+  &[open] {
+    border-color: rgba(0, 113, 227, 0.3);
+
+    .faq-question {
+      background: #f0f7ff;
+      color: $accent;
+    }
+  }
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #1c1c1e;
+  cursor: pointer;
+  list-style: none;
+  background: #fafafa;
+  transition: background 0.2s ease, color 0.2s ease;
+
+  &::-webkit-details-marker { display: none; }
+
+  &::after {
+    content: "+";
+    font-size: 20px;
+    font-weight: 400;
+    color: $text-secondary;
+    flex-shrink: 0;
+    margin-left: 12px;
+    transition: transform 0.2s ease;
+  }
+
+  details[open] &::after {
+    transform: rotate(45deg);
+  }
+}
+
+.faq-answer {
+  padding: 0 18px 16px;
+  font-size: 14px;
+  color: #3a3a3c;
+  line-height: 1.65;
+  margin: 0;
+}
+
+// ============================================
+// Early adopter badge (CTA)
+// ============================================
+.early-adopter-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, #ff9500, #ff6b00);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+
+@media screen and (max-width: 720px) {
+  .testimonials-row { flex-direction: column; }
+  .testimonial-card { min-width: 0; }
+  .lead-magnet-card { flex-direction: column; align-items: flex-start; }
+}
+
+@media screen and (max-width: 480px) {
+  .lead-magnet-card .btn { width: 100%; justify-content: center; }
+}
+
+// ============================================
 // Newsletter section
 // ============================================
 .newsletter-section {

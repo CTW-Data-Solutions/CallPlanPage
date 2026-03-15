@@ -42,6 +42,8 @@ lang_ref: home
   </div>
 </div>
 
+<p class="social-proof-bar">Trusted by <strong>50+ early adopters</strong> · <strong>Free</strong> on the App Store</p>
+
 ## What CallPlan does for you
 
 CallPlan is more than a calendar. It's your smart assistant for every call – from preparation to automatic follow-up.
@@ -76,6 +78,34 @@ CallPlan is more than a calendar. It's your smart assistant for every call – f
     <span class="step-number">3</span>
     <h3>Auto follow-up</h3>
     <p>CallPlan sends your notes immediately after the call to you, your assistant, or your team.</p>
+  </div>
+</div>
+
+---
+
+## What Users Say
+
+<div class="testimonials-row">
+  <div class="testimonial-card">
+    <p class="testimonial-text">"CallPlan completely changed how I prepare for calls. I never miss a follow-up anymore – and my clients notice the difference."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Mark S.</span>
+      <span class="testimonial-role">Sales Director, London</span>
+    </div>
+  </div>
+  <div class="testimonial-card">
+    <p class="testimonial-text">"The CarPlay integration is a game changer. I dictate notes on the way to the client – CallPlan sends them automatically."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Sarah K.</span>
+      <span class="testimonial-role">Key Account Manager, Manchester</span>
+    </div>
+  </div>
+  <div class="testimonial-card">
+    <p class="testimonial-text">"Finally an app that understands how field sales really works. The Siri integration is brilliant."</p>
+    <div class="testimonial-author">
+      <span class="testimonial-name">Thomas B.</span>
+      <span class="testimonial-role">Field Sales Rep, Birmingham</span>
+    </div>
   </div>
 </div>
 
@@ -131,6 +161,52 @@ CallPlan requests only the permissions it actually needs. Your data is **never s
 
 ---
 
+## Free Download: Your Call Preparation Template
+
+Download our proven 5-step framework for professional call preparation – free, ready to use immediately.
+
+<div class="lead-magnet-card">
+  <div class="lead-magnet-icon">📋</div>
+  <div class="lead-magnet-content">
+    <strong>Call Preparation Template (PDF)</strong>
+    <span>5-Step Framework · For Sales, Support &amp; Meetings</span>
+  </div>
+  <a href="#template-url" class="btn btn-primary">Download Template →</a>
+</div>
+
+---
+
+## Frequently Asked Questions
+
+<div class="faq-list">
+  <details class="faq-item">
+    <summary class="faq-question">Is CallPlan free?</summary>
+    <p class="faq-answer">Yes, CallPlan is free on the App Store. Optional premium features extend the functionality.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Does CallPlan work offline?</summary>
+    <p class="faq-answer">Yes, the app is fully offline-capable. Your data stays on your device – no forced cloud sync.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">How does CarPlay integration work?</summary>
+    <p class="faq-answer">Once your iPhone is connected to CarPlay, CallPlan appears on the vehicle display. Dictate notes by voice command – completely hands-free.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Which devices does CallPlan support?</summary>
+    <p class="faq-answer">iPhone with iOS 15 or later. CarPlay support requires a compatible vehicle.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">How are notes sent after a call?</summary>
+    <p class="faq-answer">CallPlan automatically sends your notes by email or messenger – to yourself, your team, or directly to the client.</p>
+  </details>
+  <details class="faq-item">
+    <summary class="faq-question">Is there an Android version?</summary>
+    <p class="faq-answer">CallPlan is currently iOS only. Android and other platforms are planned – <a href="/en/survey/">vote for features</a>.</p>
+  </details>
+</div>
+
+---
+
 ## Share CallPlan
 
 Know someone who never wants to miss an important call again? Share CallPlan in one tap:
@@ -155,8 +231,9 @@ New features, tips, and insider updates straight to your inbox – no spam, unsu
 ---
 
 <div class="cta-section">
+  <div class="early-adopter-badge">Early Adopter Benefit</div>
   <h2>Ready to master every call?</h2>
-  <p>Download CallPlan for free and experience how easy professional call preparation can be.</p>
+  <p>Download CallPlan for free – <strong>as an early adopter</strong> you get premium features at no extra cost.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>

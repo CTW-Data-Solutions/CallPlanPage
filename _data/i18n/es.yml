@@ -14,7 +14,7 @@ nav:
   - label: Soporte
     href:  /es/support/
   - label: "🧪 Beta"
-    href:  https://testflight.apple.com/join/ETUymJvj
+    href:  /es/beta/
 
 downloads:
   appstore: App Store

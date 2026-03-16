@@ -13,6 +13,8 @@ nav:
     href:  /premium/
   - label: Support
     href:  /support/
+  - label: "🧪 Beta testen"
+    href:  https://testflight.apple.com/join/ETUymJvj
 
 downloads:
   appstore: Im App Store

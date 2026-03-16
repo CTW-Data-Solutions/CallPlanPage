@@ -13,6 +13,8 @@ nav:
     href:  /en/premium/
   - label: Support
     href:  /en/support/
+  - label: "🧪 Beta Test"
+    href:  /en/beta/
 
 downloads:
   appstore: App Store

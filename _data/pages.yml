@@ -30,3 +30,8 @@
   de: /privacy/
   en: /en/privacy/
   es: /es/privacy/
+
+- ref: beta
+  de: /beta/
+  en: /en/beta/
+  es: /es/beta/

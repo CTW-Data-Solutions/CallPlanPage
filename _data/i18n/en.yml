@@ -13,6 +13,8 @@ nav:
     href:  /en/premium/
   - label: Support
     href:  /en/support/
+  - label: "🆕 What's New"
+    href:  /en/changelog/
   - label: "🧪 Beta Test"
     href:  /en/beta/
 

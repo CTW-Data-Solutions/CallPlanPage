@@ -221,11 +221,27 @@ Descarga nuestro framework de 5 pasos para preparar llamadas profesionales – g
 
 ## Mantente al día
 
-Nuevas funciones, consejos y novedades directamente en tu bandeja de entrada – sin spam, cancela cuando quieras.
-
-<div class="newsletter-section">
-  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Suscribirse al Newsletter</a>
-  <p class="newsletter-hint">Con Substack · Cancela cuando quieras</p>
+<div class="newsletter-teaser">
+  <div class="nt-left">
+    <div class="nt-label">📬 Newsletter</div>
+    <h3 class="nt-headline">Novedades de CallPlan – directo en tu bandeja</h3>
+    <p class="nt-body">Notas de versión, consejos y novedades antes de que sean públicas. Sin spam, cancela cuando quieras.</p>
+    <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">Suscribirse al Newsletter</a>
+    <span class="beta-hint">Con Substack · Cancela cuando quieras</span>
+  </div>
+  <div class="nt-right">
+    <div class="nt-preview-label">Última versión</div>
+    <a href="/es/changelog/" class="nt-version-card">
+      <span class="nt-version-badge">Versión 3</span>
+      <span class="nt-version-title">Sync en nube, Premium &amp; Rediseño</span>
+      <ul class="nt-version-bullets">
+        <li>☁️ Sincronización entre dispositivos</li>
+        <li>📊 Call Insights y estadísticas</li>
+        <li>⚡ Inicio 40 % más rápido</li>
+      </ul>
+      <span class="nt-version-link">Leer todas las novedades →</span>
+    </a>
+  </div>
 </div>
 
 ---

@@ -35,3 +35,8 @@
   de: /beta/
   en: /en/beta/
   es: /es/beta/
+
+- ref: changelog
+  de: /changelog/
+  en: /en/changelog/
+  es: /es/changelog/

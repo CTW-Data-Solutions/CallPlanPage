@@ -221,11 +221,27 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
 
 ## Stay in the Loop
 
-New features, tips, and insider updates straight to your inbox – no spam, unsubscribe any time.
-
-<div class="newsletter-section">
-  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Subscribe to Newsletter</a>
-  <p class="newsletter-hint">Powered by Substack · Cancel any time</p>
+<div class="newsletter-teaser">
+  <div class="nt-left">
+    <div class="nt-label">📬 Newsletter</div>
+    <h3 class="nt-headline">What's new in CallPlan – straight to your inbox</h3>
+    <p class="nt-body">Release notes, tips, and insider updates – before they go public. No spam, unsubscribe any time.</p>
+    <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">Subscribe to Newsletter</a>
+    <span class="beta-hint">Powered by Substack · Cancel any time</span>
+  </div>
+  <div class="nt-right">
+    <div class="nt-preview-label">Latest release</div>
+    <a href="/en/changelog/" class="nt-version-card">
+      <span class="nt-version-badge">Version 3</span>
+      <span class="nt-version-title">Cloud Sync, Premium &amp; Redesign</span>
+      <ul class="nt-version-bullets">
+        <li>☁️ Cross-device synchronisation</li>
+        <li>📊 Call Insights &amp; statistics</li>
+        <li>⚡ 40 % faster app launch</li>
+      </ul>
+      <span class="nt-version-link">Read all release notes →</span>
+    </a>
+  </div>
 </div>
 
 ---

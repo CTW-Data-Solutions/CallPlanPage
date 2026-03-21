@@ -252,11 +252,27 @@ Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan i
 
 ## Bleib auf dem Laufenden
 
-Neue Features, Tipps und Insider-Updates direkt in dein Postfach – kein Spam, jederzeit abbestellbar.
-
-<div class="newsletter-section">
-  <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">📬 Newsletter abonnieren</a>
-  <p class="newsletter-hint">Powered by Substack · Jederzeit kündbar</p>
+<div class="newsletter-teaser">
+  <div class="nt-left">
+    <div class="nt-label">📬 Newsletter</div>
+    <h3 class="nt-headline">Neues in CallPlan – direkt in dein Postfach</h3>
+    <p class="nt-body">Release Notes, Tipps und Insider-Updates – bevor sie öffentlich werden. Kein Spam, jederzeit kündbar.</p>
+    <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">Newsletter abonnieren</a>
+    <span class="beta-hint">Powered by Substack · Jederzeit kündbar</span>
+  </div>
+  <div class="nt-right">
+    <div class="nt-preview-label">Zuletzt erschienen</div>
+    <a href="/changelog/" class="nt-version-card">
+      <span class="nt-version-badge">Version 3</span>
+      <span class="nt-version-title">Cloud-Sync, Premium &amp; Redesign</span>
+      <ul class="nt-version-bullets">
+        <li>☁️ Geräteübergreifende Synchronisation</li>
+        <li>📊 Call Insights &amp; Statistiken</li>
+        <li>⚡ 40 % schnellerer App-Start</li>
+      </ul>
+      <span class="nt-version-link">Alle Neuerungen lesen →</span>
+    </a>
+  </div>
 </div>
 
 ---

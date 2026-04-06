@@ -7,11 +7,10 @@ author: "Quick-ID"
 
 # App Store – paste your full App Store URL here once you have it, e.g.:
 # app_store_url: "https://apps.apple.com/app/callplan/id1234567890"
-app_store_url: ""
+app_store_url: "https://apps.apple.com/us/app/callplan/id6740268495"
 
 # App ID for the Smart App Banner (numeric ID from App Store Connect)
-# app_id: "1234567890"
-app_id: ""
+app_id: "6740268495"
 
 # Social / SEO
 twitter:

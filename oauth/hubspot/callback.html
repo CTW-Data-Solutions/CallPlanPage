@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Connecting to CallPlan…</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #1c1c1e;
+      color: #f5f5f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 2rem;
+    }
+    .icon { font-size: 3rem; margin-bottom: 1rem; }
+    h1 { font-size: 1.4rem; font-weight: 600; margin: 0 0 .5rem; }
+    p  { color: #aeaeb2; font-size: .95rem; margin: 0; }
+    .error { color: #ff453a; margin-top: 1rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <div class="icon">📞</div>
+  <h1>Connecting HubSpot to CallPlan…</h1>
+  <p>Returning you to the app. You can close this tab.</p>
+  <p class="error" id="err" hidden>
+    Could not open CallPlan. Make sure the app is installed, then
+    <a href="#" id="retry" style="color:#0071e3">try again</a>.
+  </p>
+
+  <script>
+    (function () {
+      var params = window.location.search;   // preserves ?code=…&state=…
+      var deep   = 'callplan://oauth/hubspot' + params;
+
+      // Attempt to open the app
+      window.location.href = deep;
+
+      // If still here after 2 s the app likely isn't installed
+      setTimeout(function () {
+        var err = document.getElementById('err');
+        var retry = document.getElementById('retry');
+        err.hidden = false;
+        retry.href = deep;
+      }, 2000);
+    })();
+  </script>
+</body>
+</html>

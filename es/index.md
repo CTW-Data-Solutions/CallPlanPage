@@ -8,8 +8,8 @@ lang_ref: home
 
 <div class="hero">
   <div class="hero-badge">Disponible en iOS · Compatible con CarPlay</div>
-  <h1 class="hero-title">Nunca más te pierdas una llamada importante</h1>
-  <p class="hero-sub">CallPlan es tu copiloto manos libres para llamadas de trabajo – planifica, toma notas y da seguimiento automáticamente, ya sea en tu escritorio o al volante.</p>
+  <h1 class="hero-title">¿Cuándo fue la última vez que llamaste a tu mamá?</h1>
+  <p class="hero-sub">Sabes a quién querías llamar – a mamá, a la abuela, a ese cliente importante. CallPlan te recuerda a tiempo y convierte tu tiempo al volante en tiempo productivo: dicta notas manos libres, sigue up automáticamente – con CarPlay &amp; Siri.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -44,20 +44,50 @@ lang_ref: home
 
 <p class="social-proof-bar">Ya confían en CallPlan <strong>más de 50 early adopters</strong> · <strong>Gratis</strong> en el App Store</p>
 
+## ¿Te suena familiar?
+
+<div class="problem-scenarios">
+  <div class="problem-card">
+    <span class="problem-icon">👵</span>
+    <strong>Personal</strong>
+    "Esta semana llamo a la abuela" – y pasa otro mes sin llamar.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">💼</span>
+    <strong>Trabajo</strong>
+    Tu cliente lleva tres días esperando tu devolución de llamada. No lo olvidaste – nunca encontraste el momento adecuado.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">🚗</span>
+    <strong>En el coche</strong>
+    40 minutos conduciendo – desperdiciados, porque tomar notas al volante simplemente no es posible. ¿O sí?
+  </div>
+</div>
+
+<div class="problem-solved">✓&nbsp; CallPlan resuelve los tres problemas a la vez – gratis, manos libres, con CarPlay &amp; Siri.</div>
+
+<div class="driving-window">
+  <div class="driving-window-badge">⏱ Conducir<br>= tiempo<br>de oro</div>
+  <div>
+    <strong>Tu coche es tu lugar más productivo – con la app correcta.</strong>
+    <p>CallPlan aparece en tu pantalla CarPlay. Ves a quién querías llamar hoy. Llamas. Dictas notas con Siri. CallPlan las envía automáticamente. Antes de aparcar, todo está hecho.</p>
+  </div>
+</div>
+
 ## Lo que CallPlan hace por ti
 
-CallPlan es mucho más que un calendario. Es tu asistente inteligente para cada llamada, desde la preparación hasta el seguimiento automático.
+CallPlan es mucho más que un calendario. Es tu asistente inteligente para cada llamada – personal o profesional, desde el recordatorio hasta el seguimiento automático.
 
 ### Funciones:
 
-- **Planifica llamadas** – Crea un plan en segundos con fecha, hora y contacto.
-- **Recordatorios automáticos** – Siempre avisado a tiempo, nunca desprevenido.
-- **Categorización** – Negocios, interno o privado – mantente organizado.
+- **Planifica llamadas** – Personal o profesional: mamá, abuela, cliente – listo en segundos con fecha y hora.
+- **Recordatorios automáticos** – Siempre avisado a tiempo. Nunca vuelvas a olvidar a quién querías llamar.
+- **Categorización** – Familia, trabajo o personal – organiza todos los ámbitos de tu vida.
+- **Integración con CarPlay** – Ve todas las llamadas pendientes en la pantalla del coche. Resuélvelas de camino.
+- **Notas manos libres con Siri** – Dicta durante la llamada sin apartar las manos del volante.
+- **Envío automático de notas** – Tras la llamada, van directamente a ti, tu familia, tu jefe o tu equipo.
 - **Sincronización en la nube** – Todos tus dispositivos siempre actualizados.
-- **Añade notas** – Escribe lo que importa antes o durante la llamada.
-- **Envío automático de notas** – Tras la llamada, las notas van directamente a ti, tu asistente o tu equipo.
-- **Integración con Siri** – Manos libres: crea llamadas, pon recordatorios, dicta notas.
-- **Integración con calendario y tareas** – Compatible con tus apps de productividad favoritas.
+- **Integración con calendario y tareas** – Compatible con tus apps favoritas.
 
 ---
 

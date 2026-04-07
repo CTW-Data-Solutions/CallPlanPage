@@ -6,6 +6,74 @@ Legend: ✅ Done · 🔧 Needs you · 🤖 Can be automated · ⚠️ App-side w
 
 ---
 
+## 0. Keyword Strategy
+
+### Seed Keywords (core intent – highest weight)
+
+| Language | Seed Keywords |
+|---|---|
+| **de-DE** | `anrufplaner`, `anruf erinnerung`, `carplay app`, `gesprächsnotizen`, `siri anruf` |
+| **en-US** | `call planner`, `call reminder app`, `carplay app`, `call notes`, `never miss a call` |
+| **es-ES** | `planificador llamadas`, `recordatorio llamadas`, `carplay app`, `notas llamadas` |
+
+### App Store Keyword Field (100 chars each, no spaces after commas)
+
+**de-DE – paste exactly:**
+```
+anrufplaner,gesprächsnotizen,carplay,siri,erinnerung,geschäftlich,sprachnotiz,nachbereitung
+```
+*(87 chars)*
+
+**en-US – paste exactly:**
+```
+call planner,meeting notes,carplay,siri,reminder,business calls,voice notes,follow-up,crm
+```
+*(91 chars)*
+
+**es-ES – paste exactly:**
+```
+planificador llamadas,notas reunión,carplay,siri,recordatorio,negocios,notas voz,seguimiento
+```
+*(93 chars)*
+
+### Long-Tail Intent Keywords (target in website blog posts)
+
+Personal angle (high emotion, low competition):
+- "remind me to call mom iphone app"
+- "app to remind you to call parents"
+- "never forget to call grandparents"
+- "anruf erinnerung mama oma"
+- "vergesse anrufe zurückzurufen"
+
+Driving / CarPlay angle (unique differentiator):
+- "carplay call planner"
+- "hands free call notes iphone"
+- "take notes while driving iphone"
+- "carplay productivity app"
+- "drive time phone call planner"
+- "fahrzeit produktiv nutzen app"
+- "notizen diktieren autofahrt"
+
+Business / Sales angle:
+- "sales call tracker iphone"
+- "call log app carplay"
+- "hubspot carplay integration"
+- "salesforce mobile call logging"
+- "crm call notes app ios"
+
+### AI-Era / Conversational Queries (optimise descriptions + FAQs for these)
+
+These are how people phrase questions to Siri, ChatGPT, and App Store search:
+- "what app reminds me to call people"
+- "best app for keeping track of phone calls"
+- "how do i take notes in my car while driving"
+- "can i use carplay to take call notes"
+- "app that sends call notes automatically"
+- "welche app hilft mir anrufe nicht zu vergessen"
+- "wie kann ich im auto notizen machen beim telefonieren"
+
+---
+
 ## ✅ Already Done (Website & Technical)
 
 - [x] App Store URL live in config (`id6740268495`)

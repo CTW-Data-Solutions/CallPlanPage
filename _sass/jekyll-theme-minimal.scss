@@ -1797,6 +1797,12 @@ $hubspot-light:   #FFF4F1;
 $salesforce-blue: #00A1E0;
 $salesforce-dark: #032D60;
 $salesforce-light:#EEF6FD;
+$odoo-purple:     #714B67;
+$odoo-dark:       #4A3150;
+$odoo-light:      #F7F2F5;
+$zoho-red:        #E42527;
+$zoho-dark:       #A81A1C;
+$zoho-light:      #FFF0F0;
 
 // ── CRM hero banner (colored top bar on integration pages) ──
 .crm-hero {
@@ -1813,6 +1819,14 @@ $salesforce-light:#EEF6FD;
   }
   &.crm-hero--salesforce {
     background: linear-gradient(135deg, $salesforce-dark 0%, $salesforce-blue 100%);
+    color: #fff;
+  }
+  &.crm-hero--odoo {
+    background: linear-gradient(135deg, $odoo-dark 0%, $odoo-purple 100%);
+    color: #fff;
+  }
+  &.crm-hero--zoho {
+    background: linear-gradient(135deg, $zoho-dark 0%, lighten($zoho-red, 8%) 100%);
     color: #fff;
   }
   &.crm-hero--overview {
@@ -1871,6 +1885,14 @@ $salesforce-light:#EEF6FD;
     background: $salesforce-blue;
     color: #fff;
   }
+  &.badge--odoo {
+    background: $odoo-purple;
+    color: #fff;
+  }
+  &.badge--zoho {
+    background: $zoho-red;
+    color: #fff;
+  }
   &.badge--callplan {
     background: $accent;
     color: #fff;
@@ -1910,6 +1932,14 @@ $salesforce-light:#EEF6FD;
     border-color: rgba($salesforce-blue, 0.35);
     &:hover { border-color: $salesforce-blue; box-shadow: 0 6px 24px rgba($salesforce-blue, 0.15); }
   }
+  &.crm-card--odoo {
+    border-color: rgba($odoo-purple, 0.35);
+    &:hover { border-color: $odoo-purple; box-shadow: 0 6px 24px rgba($odoo-purple, 0.15); }
+  }
+  &.crm-card--zoho {
+    border-color: rgba($zoho-red, 0.35);
+    &:hover { border-color: $zoho-red; box-shadow: 0 6px 24px rgba($zoho-red, 0.15); }
+  }
 }
 
 .crm-card-logo {
@@ -1920,9 +1950,12 @@ $salesforce-light:#EEF6FD;
 
   &.logo--hubspot   { color: $hubspot-orange; }
   &.logo--salesforce{ color: $salesforce-blue; }
+  &.logo--odoo      { color: $odoo-purple; }
+  &.logo--zoho      { color: $zoho-red; }
 }
 
 .crm-card-title {
+
   font-size: 17px;
   font-weight: 700;
   margin: 0;
@@ -1941,8 +1974,10 @@ $salesforce-light:#EEF6FD;
   margin-top: auto;
   padding-top: 8px;
 
-  .crm-card--hubspot   & { color: $hubspot-orange; }
+  .crm-card--hubspot    & { color: $hubspot-orange; }
   .crm-card--salesforce & { color: $salesforce-blue; }
+  .crm-card--odoo       & { color: $odoo-purple; }
+  .crm-card--zoho       & { color: $zoho-red; }
 }
 
 // ── Feature list with brand accent ─────────────────────────
@@ -1976,6 +2011,8 @@ $salesforce-light:#EEF6FD;
 
   .partner--hubspot    & { background: $hubspot-light; }
   .partner--salesforce & { background: $salesforce-light; }
+  .partner--odoo       & { background: $odoo-light; }
+  .partner--zoho       & { background: $zoho-light; }
 }
 
 // ── Workflow steps (how it works) ───────────────────────────
@@ -2018,8 +2055,10 @@ $salesforce-light:#EEF6FD;
   position: relative;
   z-index: 1;
 
-  .partner--hubspot    & { background: $hubspot-orange; color: #fff; }
+  .partner--hubspot    & { background: $hubspot-orange;  color: #fff; }
   .partner--salesforce & { background: $salesforce-blue; color: #fff; }
+  .partner--odoo       & { background: $odoo-purple;     color: #fff; }
+  .partner--zoho       & { background: $zoho-red;        color: #fff; }
 }
 
 .crm-step-body {
@@ -2049,8 +2088,10 @@ $salesforce-light:#EEF6FD;
   gap: 20px;
   flex-wrap: wrap;
 
-  &.together--hubspot    { background: $hubspot-light; border-left: 4px solid $hubspot-orange; }
+  &.together--hubspot    { background: $hubspot-light;    border-left: 4px solid $hubspot-orange; }
   &.together--salesforce { background: $salesforce-light; border-left: 4px solid $salesforce-blue; }
+  &.together--odoo       { background: $odoo-light;       border-left: 4px solid $odoo-purple; }
+  &.together--zoho       { background: $zoho-light;       border-left: 4px solid $zoho-red; }
 }
 
 .crm-together-icon { font-size: 36px; flex-shrink: 0; }

@@ -55,3 +55,13 @@
   de: /crm/salesforce/
   en: /en/crm/salesforce/
   es: /crm/salesforce/
+
+- ref: crm-odoo
+  de: /crm/odoo/
+  en: /en/crm/odoo/
+  es: /crm/odoo/
+
+- ref: crm-zoho
+  de: /crm/zoho/
+  en: /en/crm/zoho/
+  es: /crm/zoho/

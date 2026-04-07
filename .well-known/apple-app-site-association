@@ -14,6 +14,14 @@
             "comment": "Salesforce OAuth redirect → callplan://oauth/salesforce"
           },
           {
+            "/": "/oauth/odoo/callback*",
+            "comment": "Odoo OAuth redirect → callplan://oauth/odoo"
+          },
+          {
+            "/": "/oauth/zoho/callback*",
+            "comment": "Zoho OAuth redirect → callplan://oauth/zoho"
+          },
+          {
             "/": "/beta*",
             "comment": "Beta invitation deep link"
           },

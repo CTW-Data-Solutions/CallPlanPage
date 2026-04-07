@@ -8,8 +8,8 @@ lang_ref: home
 
 <div class="hero">
   <div class="hero-badge">Available on iOS · CarPlay Ready</div>
-  <h1 class="hero-title">Never Miss an Important Call Again</h1>
-  <p class="hero-sub">CallPlan is your hands-free co-pilot for business calls – schedule, take notes, and follow up automatically, whether you're at your desk or behind the wheel.</p>
+  <h1 class="hero-title">When did you last call your mom?</h1>
+  <p class="hero-sub">You know who you meant to call – mom, grandma, that important customer. CallPlan reminds you at the right moment and turns your drive time into productive call time: dictate notes hands-free, follow up automatically – via CarPlay &amp; Siri.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -44,20 +44,50 @@ lang_ref: home
 
 <p class="social-proof-bar">Trusted by <strong>50+ early adopters</strong> · <strong>Free</strong> on the App Store</p>
 
+## Sound familiar?
+
+<div class="problem-scenarios">
+  <div class="problem-card">
+    <span class="problem-icon">👵</span>
+    <strong>Personal</strong>
+    "I'll call Gran this week" – and then another month goes by without a call.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">💼</span>
+    <strong>Business</strong>
+    Your customer has been waiting three days for a callback. You didn't forget – you just never found the right moment.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">🚗</span>
+    <strong>In the car</strong>
+    40 minutes of drive time – wasted, because taking notes behind the wheel just doesn't work. Or does it?
+  </div>
+</div>
+
+<div class="problem-solved">✓&nbsp; CallPlan solves all three – free, hands-free, via CarPlay &amp; Siri.</div>
+
+<div class="driving-window">
+  <div class="driving-window-badge">⏱ Drive<br>time =<br>Gold time</div>
+  <div>
+    <strong>Your car is your most productive place – with the right app.</strong>
+    <p>CallPlan appears on your CarPlay display. You see who you wanted to call today. You call. You dictate notes with Siri. CallPlan sends them automatically. Before you park, everything is done.</p>
+  </div>
+</div>
+
 ## What CallPlan does for you
 
-CallPlan is more than a calendar. It's your smart assistant for every call – from preparation to automatic follow-up.
+CallPlan is more than a calendar. It's your smart assistant for every call – personal or professional, from the reminder to the automatic follow-up.
 
 ### Features:
 
-- **Schedule calls** – Create a plan in seconds with date, time, and contact.
-- **Automatic reminders** – Always be notified in time, never unprepared.
-- **Categorisation** – Business, internal, or private – stay organised.
+- **Schedule calls** – Personal or professional: mom, grandma, customer – set it up in seconds with date and time.
+- **Automatic reminders** – Always notified in time. Never again forget who you meant to call.
+- **Categorisation** – Family, business, or private – keep every area of your life organised.
+- **CarPlay integration** – See all upcoming calls on the car display. Get them done on the way.
+- **Hands-free notes via Siri** – Dictate during the call without taking your hands off the wheel.
+- **Automatic note sending** – After the call, notes go straight to you, your family, your boss, or your team.
 - **Cloud sync** – All your devices always up to date.
-- **Add notes** – Write down what matters before or during the call.
-- **Automatic note sending** – After the call, notes go straight to you, your assistant, or your team.
-- **Siri integration** – Hands-free: create calls, set reminders, dictate notes.
-- **Calendar & task integration** – Works seamlessly with your favourite productivity apps.
+- **Calendar & task integration** – Works seamlessly with your favourite apps.
 
 ---
 

@@ -21,8 +21,8 @@ faq_items:
 
 <div class="hero">
   <div class="hero-badge">Verfügbar auf iOS · CarPlay-fähig</div>
-  <h1 class="hero-title">Verpasse nie wieder einen wichtigen Anruf</h1>
-  <p class="hero-sub">CallPlan ist dein freihändiger Co-Pilot für Businessgespräche – plane, mach Notizen und bereite automatisch nach, egal ob am Schreibtisch oder am Steuer.</p>
+  <h1 class="hero-title">Wann hast du zuletzt Mama angerufen?</h1>
+  <p class="hero-sub">Du weißt, wen du anrufen wolltest – die Eltern, die Oma, den wichtigen Kunden. CallPlan erinnert dich rechtzeitig und verwandelt deine Fahrzeit in produktive Gesprächszeit: Notizen freihändig diktieren, automatisch nachbereiten – per CarPlay &amp; Siri.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
       <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
@@ -57,20 +57,50 @@ faq_items:
 
 <p class="social-proof-bar">Bereits von <strong>50+ Early Adopters</strong> im Einsatz · <strong>Kostenlos</strong> im App Store</p>
 
+## Das kennst du bestimmt.
+
+<div class="problem-scenarios">
+  <div class="problem-card">
+    <span class="problem-icon">👵</span>
+    <strong>Privat</strong>
+    "Ich rufe Mama diese Woche noch an" – und dann ist wieder ein Monat vergangen.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">💼</span>
+    <strong>Business</strong>
+    Der Kunde wartet seit drei Tagen auf deinen Rückruf. Du hattest es nicht vergessen – nur nie den richtigen Moment.
+  </div>
+  <div class="problem-card">
+    <span class="problem-icon">🚗</span>
+    <strong>Im Auto</strong>
+    40 Minuten Fahrzeit – und du hast nichts erledigt, weil Notizen im Auto einfach nicht gehen. Oder doch?
+  </div>
+</div>
+
+<div class="problem-solved">✓&nbsp; CallPlan löst alle drei Probleme auf einmal – kostenlos, freihändig, per CarPlay &amp; Siri.</div>
+
+<div class="driving-window">
+  <div class="driving-window-badge">⏱ Fahrzeit<br>= Goldzeit</div>
+  <div>
+    <strong>Dein Auto ist dein produktivster Ort – wenn du die richtige App hast.</strong>
+    <p>CallPlan erscheint auf deinem CarPlay-Display. Du siehst, wen du heute noch anrufen wolltest. Du rufst an. Du dictierst die Notizen mit Siri. CallPlan schickt sie automatisch weiter. Bevor du parkst, ist alles erledigt.</p>
+  </div>
+</div>
+
 ## Was CallPlan für dich tut
 
-CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jedes Gespräch – von der Vorbereitung bis zur automatischen Nachbereitung.
+CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jeden Anruf – privat oder beruflich, von der Erinnerung bis zur automatischen Nachbereitung.
 
 ### Features:
 
-- **Anruf planen** – Termin in Sekunden anlegen, Datum, Zeit und Gesprächspartner festlegen.
-- **Automatische Erinnerungen** – Rechtzeitig benachrichtigt sein, nie mehr unvorbereitet.
-- **Kategorisierung** – Business, intern oder privat – behalte die Übersicht.
+- **Anruf planen** – Privat oder beruflich: Mama, Oma, Kunde – in Sekunden anlegen, Datum und Zeit festlegen.
+- **Automatische Erinnerungen** – Rechtzeitig benachrichtigt, nie wieder vergessen wen du anrufen wolltest.
+- **Kategorisierung** – Familie, Business oder privat – behalte Übersicht über alle Lebensbereiche.
+- **CarPlay-Integration** – Sieh alle anstehenden Calls auf dem Fahrzeugdisplay. Erledige sie auf dem Weg.
+- **Freihändige Notizen per Siri** – Diktiere während des Gesprächs, was du dir merken willst – ohne die Hände vom Steuer zu nehmen.
+- **Notizen automatisch versenden** – Nach dem Call direkt an dich, deine Familie, deinen Chef oder dein Team.
 - **Cloud-Synchronisation** – Alle deine Geräte immer auf dem neuesten Stand.
-- **Notizen hinzufügen** – Vor oder während des Gesprächs mitschreiben, was wichtig ist.
-- **Notizen automatisch versenden** – Nach dem Call direkt an dich, deine Assistenz oder dein Team schicken.
-- **Siri-Integration** – Hände frei: Anrufe anlegen, Erinnerungen setzen, Notizen diktieren.
-- **Kalender & Aufgaben** – Nahtlose Integration mit deinen bevorzugten Produktivitäts-Apps.
+- **Kalender & Aufgaben** – Nahtlose Integration mit deinen bevorzugten Apps.
 
 ---
 

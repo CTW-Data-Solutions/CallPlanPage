@@ -65,3 +65,13 @@
   de: /crm/zoho/
   en: /en/crm/zoho/
   es: /es/crm/zoho/
+
+- ref: carplay-essentials
+  de: /carplay-essentials/
+  en: /en/carplay-essentials/
+  es: /es/carplay-essentials/
+
+- ref: beta-ended
+  de: /beta-ended/
+  en: /en/beta-ended/
+  es: /es/beta-ended/

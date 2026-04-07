@@ -1,0 +1,31 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["7K643N382N.jutta.CallPlan"],
+        "components": [
+          {
+            "/": "/oauth/hubspot/callback*",
+            "comment": "HubSpot OAuth redirect → callplan://oauth/hubspot"
+          },
+          {
+            "/": "/oauth/salesforce/callback*",
+            "comment": "Salesforce OAuth redirect → callplan://oauth/salesforce"
+          },
+          {
+            "/": "/beta*",
+            "comment": "Beta invitation deep link"
+          },
+          {
+            "/": "/changelog*",
+            "comment": "Changelog – open in app if installed"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["7K643N382N.jutta.CallPlan"]
+  }
+}

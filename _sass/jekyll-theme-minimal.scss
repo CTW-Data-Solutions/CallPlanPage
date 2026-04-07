@@ -1787,3 +1787,294 @@ a.nt-version-card {
 @media screen and (max-width: 480px) {
   .screenshot-frame { width: 140px; height: 254px; }
 }
+
+// ============================================
+// CRM Integration Pages
+// ============================================
+$hubspot-orange:  #FF7A59;
+$hubspot-navy:    #33475B;
+$hubspot-light:   #FFF4F1;
+$salesforce-blue: #00A1E0;
+$salesforce-dark: #032D60;
+$salesforce-light:#EEF6FD;
+
+// ── CRM hero banner (colored top bar on integration pages) ──
+.crm-hero {
+  border-radius: 18px;
+  padding: 40px 36px;
+  margin: 0 0 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
+  &.crm-hero--hubspot {
+    background: linear-gradient(135deg, $hubspot-navy 0%, lighten($hubspot-navy, 10%) 100%);
+    color: #fff;
+  }
+  &.crm-hero--salesforce {
+    background: linear-gradient(135deg, $salesforce-dark 0%, $salesforce-blue 100%);
+    color: #fff;
+  }
+  &.crm-hero--overview {
+    background: linear-gradient(135deg, #1c1c1e 0%, #3a3a3c 100%);
+    color: #fff;
+  }
+}
+
+.crm-hero-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.75;
+}
+
+.crm-hero-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0;
+  line-height: 1.15;
+}
+
+.crm-hero-sub {
+  font-size: 16px;
+  line-height: 1.6;
+  opacity: 0.88;
+  max-width: 560px;
+  margin: 0;
+}
+
+.crm-hero-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+// ── Partner logo badge ──────────────────────────────────────
+.crm-partner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 20px;
+  width: fit-content;
+
+  &.badge--hubspot {
+    background: $hubspot-orange;
+    color: #fff;
+  }
+  &.badge--salesforce {
+    background: $salesforce-blue;
+    color: #fff;
+  }
+  &.badge--callplan {
+    background: $accent;
+    color: #fff;
+  }
+}
+
+// ── CRM overview cards (index of integrations) ──────────────
+.crm-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 24px 0 36px;
+}
+
+.crm-card {
+  border-radius: 16px;
+  border: 2px solid $border;
+  padding: 28px 24px;
+  text-decoration: none;
+  color: $content-text;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+
+  &:hover, &:focus {
+    text-decoration: none;
+    transform: translateY(-3px);
+    font-weight: inherit;
+  }
+
+  &.crm-card--hubspot {
+    border-color: rgba($hubspot-orange, 0.35);
+    &:hover { border-color: $hubspot-orange; box-shadow: 0 6px 24px rgba($hubspot-orange, 0.15); }
+  }
+  &.crm-card--salesforce {
+    border-color: rgba($salesforce-blue, 0.35);
+    &:hover { border-color: $salesforce-blue; box-shadow: 0 6px 24px rgba($salesforce-blue, 0.15); }
+  }
+}
+
+.crm-card-logo {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  line-height: 1;
+
+  &.logo--hubspot   { color: $hubspot-orange; }
+  &.logo--salesforce{ color: $salesforce-blue; }
+}
+
+.crm-card-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+  color: $content-text;
+}
+
+.crm-card-desc {
+  font-size: 14px;
+  color: $text-secondary;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.crm-card-arrow {
+  font-size: 18px;
+  margin-top: auto;
+  padding-top: 8px;
+
+  .crm-card--hubspot   & { color: $hubspot-orange; }
+  .crm-card--salesforce & { color: $salesforce-blue; }
+}
+
+// ── Feature list with brand accent ─────────────────────────
+.crm-feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.crm-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.crm-feature-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-shrink: 0;
+  margin-top: 1px;
+
+  .partner--hubspot    & { background: $hubspot-light; }
+  .partner--salesforce & { background: $salesforce-light; }
+}
+
+// ── Workflow steps (how it works) ───────────────────────────
+.crm-workflow {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 20px 0 32px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 19px;
+    top: 28px;
+    bottom: 28px;
+    width: 2px;
+    background: $border;
+  }
+}
+
+.crm-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 0;
+  position: relative;
+}
+
+.crm-step-num {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 800;
+  flex-shrink: 0;
+  position: relative;
+  z-index: 1;
+
+  .partner--hubspot    & { background: $hubspot-orange; color: #fff; }
+  .partner--salesforce & { background: $salesforce-blue; color: #fff; }
+}
+
+.crm-step-body {
+  padding-top: 8px;
+}
+
+.crm-step-title {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0 0 4px;
+}
+
+.crm-step-desc {
+  font-size: 14px;
+  color: $text-secondary;
+  margin: 0;
+  line-height: 1.55;
+}
+
+// ── "Better together" callout ──────────────────────────────
+.crm-together {
+  border-radius: 16px;
+  padding: 28px 28px;
+  margin: 32px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  &.together--hubspot    { background: $hubspot-light; border-left: 4px solid $hubspot-orange; }
+  &.together--salesforce { background: $salesforce-light; border-left: 4px solid $salesforce-blue; }
+}
+
+.crm-together-icon { font-size: 36px; flex-shrink: 0; }
+
+.crm-together-text {
+  flex: 1;
+  min-width: 200px;
+
+  strong { display: block; font-size: 16px; margin-bottom: 6px; }
+  p { margin: 0; font-size: 14px; color: $text-secondary; line-height: 1.6; }
+}
+
+// ── Partner context strip ─────────────────────────────────
+.crm-breadcrumb {
+  font-size: 13px;
+  color: $text-secondary;
+  margin-bottom: 24px;
+
+  a { color: $text-secondary; text-decoration: underline; }
+}
+
+@media screen and (max-width: 720px) {
+  .crm-hero { padding: 28px 20px; }
+  .crm-hero-title { font-size: 22px; }
+  .crm-cards { grid-template-columns: 1fr; }
+  .crm-together { flex-direction: column; gap: 12px; }
+}

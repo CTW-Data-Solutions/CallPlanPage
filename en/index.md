@@ -212,9 +212,9 @@ Download our proven 5-step framework for professional call preparation – free,
 Know someone who never wants to miss an important call again? Share CallPlan in one tap:
 
 <div class="share-row">
-  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+for+iOS+with+CarPlay+%26+Siri.+Check+it+out%3A+https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
-  <a href="https://twitter.com/intent/tweet?text=I+use+CallPlan+for+hands-free+call+notes+while+driving+%E2%80%93+highly+recommended%21&url=https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
-  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0AI%20use%20CallPlan%20for%20call%20preparation%20and%20hands-free%20notes%20via%20CarPlay.%0A%0ACheck%20it%20out%3A%20https%3A%2F%2Fcallplan.quick-id.com%2Fen%2F" class="btn btn-share">📧 Email</a>
+  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+for+iOS+with+CarPlay+%26+Siri.+Check+it+out%3A+https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=I+use+CallPlan+for+hands-free+call+notes+while+driving+%E2%80%93+highly+recommended%21&url=https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0AI%20use%20CallPlan%20for%20call%20preparation%20and%20hands-free%20notes%20via%20CarPlay.%0A%0ACheck%20it%20out%3A%20https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share">📧 Email</a>
 </div>
 
 ---

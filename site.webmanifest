@@ -1,0 +1,35 @@
+{
+  "name": "CallPlan – Call Planner & Notes",
+  "short_name": "CallPlan",
+  "description": "Smart call scheduler with CarPlay & Siri support. Plan calls, take hands-free notes and send follow-ups automatically.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1c1c1e",
+  "theme_color": "#1c1c1e",
+  "lang": "de",
+  "orientation": "portrait",
+  "categories": ["productivity", "business"],
+  "icons": [
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/us/app/callplan/id6740268495",
+      "id": "6740268495"
+    }
+  ],
+  "prefer_related_applications": true
+}

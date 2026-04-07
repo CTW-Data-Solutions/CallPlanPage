@@ -40,3 +40,28 @@
   de: /changelog/
   en: /en/changelog/
   es: /es/changelog/
+
+- ref: crm
+  de: /crm/
+  en: /en/crm/
+  es: /es/crm/
+
+- ref: crm-hubspot
+  de: /crm/hubspot/
+  en: /en/crm/hubspot/
+  es: /es/crm/hubspot/
+
+- ref: crm-salesforce
+  de: /crm/salesforce/
+  en: /en/crm/salesforce/
+  es: /es/crm/salesforce/
+
+- ref: crm-odoo
+  de: /crm/odoo/
+  en: /en/crm/odoo/
+  es: /es/crm/odoo/
+
+- ref: crm-zoho
+  de: /crm/zoho/
+  en: /en/crm/zoho/
+  es: /es/crm/zoho/

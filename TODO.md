@@ -1,178 +1,309 @@
-# CallPlan – App Store Ranking TODO
+# CallPlan – ASO & Growth Timeline
 
-Aufgaben, die manuell in App Store Connect oder außerhalb des Codes erledigt werden müssen.
-Geordnet nach Priorität / Auswirkung auf das Ranking.
+**Goal:** Top 3 in App Store for "call planner carplay", "anrufplaner iphone", and "carplay business app" within 90 days.
 
----
-
-## 🔴 Kritisch – sofortiger Impact
-
-### 1. App Store Connect: App-ID eintragen
-- Öffne `_config.yml`
-- Ersetze `YOUR_APP_STORE_ID` mit der echten numerischen App-ID (z.B. `6477780545`)
-- Damit aktiviert sich der **Apple Smart App Banner** in Mobile Safari automatisch
-- Die App-ID findest du in App Store Connect unter *App Information*
-
-### 2. App-Titel optimieren
-**Aktuell:** `CallPlan`
-**Empfehlung:** `CallPlan – Call Planner & Notes` (max. 30 Zeichen)
-→ App Store Connect › App Information › Name
-
-Keywords direkt im Titel ranken 2–3× stärker als im Keyword-Feld.
-
-### 3. Untertitel (Subtitle) ausfüllen
-**Aktuell:** leer
-**Empfehlung:** `CarPlay & Siri Scheduling` (25 Zeichen, max. 30)
-→ App Store Connect › App Information › Subtitle
-
-Zweiter wichtigster Keyword-Slot – wird in Suchergebnissen direkt unter dem Titel angezeigt.
-
-### 4. Keyword-Feld befüllen (100 Zeichen)
-**Empfehlung:**
-```
-call planner,meeting notes,carplay,siri,reminder,business calls,voice notes,follow-up
-```
-Regeln:
-- Keine Wiederholungen aus Titel/Subtitle
-- Keine Leerzeichen nach Kommas (spart Zeichen)
-- Keine Konkurrenten-Namen
-→ App Store Connect › Pricing and Availability › Keywords
+Legend: ✅ Done · 🔧 Needs you · 🤖 Can be automated · ⚠️ App-side work
 
 ---
 
-## 🟠 Hohe Priorität
+## ✅ Already Done (Website & Technical)
 
-### 5. App Preview Video erstellen (30 Sek.)
-**Format:** MP4, 1080×1920 px (iPhone Portrait), max. 500 MB
-**Inhalt – empfohlene Reihenfolge:**
-1. 0–5 s: Hook – Problem zeigen ("Vergisst du wichtige Call-Details?")
-2. 5–15 s: CarPlay-Demo – Auto, Siri-Befehl, Notiz erscheint
-3. 15–25 s: iPhone-UI – Call planen, Notiz hinzufügen, automatisch versenden
-4. 25–30 s: CTA – "Lade CallPlan kostenlos"
-
-**Tools:** Screen Recording auf iPhone + Final Cut Pro / CapCut
-→ App Store Connect › App Store › App Previews and Screenshots
-
-### 6. Screenshots mit Captions erstellen (5–10 Stück)
-**Größen:** 1290×2796 px (iPhone 15 Pro Max) – Pflicht; weitere Größen optional
-**Empfohlene Screens:**
-1. Übersicht geplanter Calls (Headline: "Alle Calls im Blick")
-2. Call erstellen (Headline: "In Sekunden geplant")
-3. Notizen diktieren / Siri (Headline: "Einfach hinsagen")
-4. CarPlay-Interface (Headline: "Hände am Steuer, Kopf frei")
-5. Automatischer Versand (Headline: "Nachbereitung automatisch")
-
-**Nach Fertigstellung:**
-- Dateien als `screenshot-1.png` … `screenshot-5.png` unter `/assets/img/screenshots/` ablegen
-- In `index.md` die `<img>`-Tags in den Screenshot-Frames einkommentieren (die `<!-- … -->`-Kommentare entfernen)
-
-**Tools:** [Shots.so](https://shots.so), [AppLaunchpad](https://theapplaunchpad.com), Canva oder Sketch
-
-### 7. Beschreibung – erste 3 Zeilen überarbeiten
-Nur die ersten ~170 Zeichen sind vor dem "Mehr"-Button sichtbar.
-**Aktuell beginnt die Beschreibung mit einer generischen Einleitung.**
-**Empfehlung:**
-```
-Vergiss nie wieder einen wichtigen Call. CallPlan plant deine Anrufe,
-schreibt Notizen mit und sendet sie danach automatisch weiter –
-komplett freihändig via CarPlay & Siri.
-```
-→ App Store Connect › App Store › Description
+- [x] App Store URL live in config (`id6740268495`)
+- [x] Apple Smart App Banner (Mobile Safari) active
+- [x] Schema.org `MobileApplication` JSON-LD (Google Rich Results)
+- [x] FAQPage JSON-LD for homepage (Google FAQ accordion in search)
+- [x] Open Graph + Twitter Card per language
+- [x] hreflang DE/EN/ES alternate links
+- [x] `robots.txt` + `sitemap.xml` (auto-generated)
+- [x] `apple-app-site-association` for Universal Links
+- [x] `site.webmanifest` PWA manifest with `prefer_related_applications: true`
+- [x] Canonical URL tags
+- [x] Press Kit page at `/press/`
+- [x] HubSpot OAuth redirect (`/oauth/hubspot/callback`)
+- [x] Salesforce OAuth redirect (`/oauth/salesforce/callback`)
+- [x] Trilingual site (DE/EN/ES) with full localization
+- [x] Beta landing page + TestFlight link
+- [x] Changelog timeline page
+- [x] Newsletter teaser (Substack placeholder)
+- [x] Age rating page (`/age-rating/`)
 
 ---
 
-## 🟡 Mittelfristig
+## Week 1–2 · Foundation (App Store Connect) 🔧
 
-### 8. Lokalisierung – Deutsch & Englisch trennen
-Jede Sprache hat ein eigenes Keyword-Feld (100 Zeichen).
-→ App Store Connect › App Store › + Add Localization
+These have the **highest ranking impact** – do these first.
 
-| Sprache | Wichtige Märkte |
-|---|---|
-| Deutsch (de-DE) | Deutschland, Österreich, Schweiz |
-| Englisch (en-US) | USA, UK, Australien, Kanada |
-| Englisch (en-GB) | UK-spezifisches Ranking |
+### 1. App Title (max 30 chars)
+> App Store Connect › App Information › Name
 
-### 9. In-App Review Prompt einbauen
-Apple empfiehlt: `SKStoreReviewAPI.requestReview()` nach einem positiven Nutzungserlebnis aufrufen – z.B. nachdem der Nutzer zum dritten Mal erfolgreich eine Notiz versendet hat.
+**Current:** `CallPlan`
+**Set to:** `CallPlan – Call Planner & Notes`
+
+Keywords in the title rank 2–3× stronger than the keyword field.
+
+### 2. Subtitle (max 30 chars)
+> App Store Connect › App Information › Subtitle
+
+**Set to:** `CarPlay & Siri Scheduling`
+
+Subtitle is the #2 most weighted keyword slot.
+
+### 3. Keyword Field per Locale (100 chars each)
+
+> App Store Connect › App Store › Select Language › Keywords
+
+Rules: no spaces after commas, no repeats from title/subtitle, no competitor names.
+
+**de-DE (German):**
+```
+anrufplaner,gesprächsnotizen,carplay,siri,erinnerung,geschäftlich,sprachnotiz,nachbereitung
+```
+
+**en-US (English):**
+```
+call planner,meeting notes,carplay,siri,reminder,business calls,voice notes,follow-up,crm
+```
+
+**es-ES (Spanish):**
+```
+planificador llamadas,notas reunión,carplay,siri,recordatorio,negocios,notas voz,seguimiento
+```
+
+### 4. Description – First 3 Lines (the "above the fold" preview)
+> App Store Connect › App Store › Description
+
+Only ~170 characters are visible before "More". Make them count:
+
+```
+Never miss an important call. CallPlan schedules your calls,
+takes notes hands-free via CarPlay & Siri, and sends them
+automatically – while you keep your eyes on the road.
+```
+
+German version:
+```
+Vergiss nie wieder einen wichtigen Anruf. CallPlan plant deine
+Calls, schreibt Notizen freihändig mit CarPlay & Siri und sendet
+sie automatisch weiter – Hände bleiben am Steuer.
+```
+
+### 5. Categories
+> App Store Connect › App Information › Category
+
+- **Primary:** Productivity
+- **Secondary:** Business
+
+### 6. Add All 3 Localizations
+> App Store Connect › App Store › + Add Localization
+
+Add: `de-DE`, `en-US`, `es-ES` – each gets its own title/subtitle/keywords/description.
+
+---
+
+## Week 3–4 · Visual ASO 🔧
+
+Screenshots and preview video are the **#1 conversion factor** on the product page.
+
+### 7. Screenshots (5–10 required)
+
+**Required sizes:** 1290×2796 px (iPhone 15 Pro Max)
+
+Recommended order:
+1. `Übersicht geplanter Calls` – "Alle Calls im Blick"
+2. `Call erstellen` – "In Sekunden geplant"
+3. `CarPlay-Interface` – "Hände am Steuer, Kopf frei"
+4. `Siri-Befehl` – "Einfach hinsagen"
+5. `Automatischer Versand` – "Nachbereitung automatisch"
+
+**Tools:** [Shots.so](https://shots.so) · [AppLaunchpad](https://theapplaunchpad.com) · Canva
+
+After upload → drop files in `/assets/img/screenshots/` and uncomment the `<img>` tags in `index.md`, `en/index.md`, `es/index.md`.
+
+### 8. App Preview Video (30 sec, MP4)
+
+Format: 1080×1920 px portrait, max 500 MB
+
+Script:
+- 0–5s: Hook – show the problem ("Missed another important call?")
+- 5–15s: CarPlay demo – car dashboard, Siri command, note appears
+- 15–25s: iPhone UI – schedule call, add note, auto-send
+- 25–30s: CTA – "Download CallPlan free"
+
+**Tools:** iPhone Screen Recording + Final Cut Pro / CapCut / DaVinci Resolve
+
+### 9. App Icon A/B Test (Product Page Optimization)
+> App Store Connect › Product Page Optimization
+
+Test 2 icon variants once you have 100+ impressions/day. Apple runs the split test automatically.
+
+---
+
+## Week 5–6 · Ratings & Reviews ⚠️ App-side
+
+Ratings are the **#3 ranking factor** after metadata and conversion rate.
+
+### 10. In-App Review Prompt
+Add `SKStoreReviewAPI.requestReview()` at a positive moment:
 
 ```swift
 import StoreKit
 
-// Guter Zeitpunkt: nach erfolgreichem Versand der Notizen
+// Good trigger: after 3rd successful note sent
 if noteSentCount == 3 {
-    SKStoreReviewAPI.requestReview()
+    if let scene = UIApplication.shared.connectedScenes
+        .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+        SKStoreReviewController.requestReview(in: scene)
+    }
 }
 ```
 
-Mehr Bewertungen = besseres Ranking und höhere Conversion Rate.
+Don't ask immediately on launch – Apple may reject. Trigger after value delivery.
 
-### 10. Google Analytics / App Analytics aktivieren
-- In `_config.yml` den GA4 Measurement-ID eintragen (Feld `google_analytics: G-XXXXXXXXXX`)
-- In App Store Connect: Sales and Trends › Analytics aktivieren
-- Damit siehst du welche Keywords Nutzer auf die App bringen
+### 11. Developer Response to Reviews
+Respond to every review (especially negative) within 48h.
+Responding to a 1-star review and getting it updated to 4-star is worth 10 new 5-star reviews in ranking signals.
 
-### 11. Kategorie prüfen
-→ App Store Connect › App Information › Category
-**Empfehlung:**
-- Primär: **Productivity**
-- Sekundär: **Business**
-
-### 12. In-App Purchases im App Store sichtbar machen
-Premium-Abo im App Store sichtbar listen (nicht nur in der App) – erhöht die Sichtbarkeit im Bereich "Produktivität > Abonnements".
-→ App Store Connect › In-App Purchases › + Add
+### 12. "Sent via CallPlan" Email Signature ⚠️
+Add an optional opt-in footer to auto-sent notes:
+`Sent with CallPlan for iOS – callplan.app`
+This generates organic word-of-mouth and backlinks from forwarded emails.
 
 ---
 
-## 🟢 Langfristig / Nice to have
+## Week 7–8 · Off-Store Signals 🔧
 
-### 13. App Clips erstellen
-Nutzer können die App 30 Sekunden testen, ohne sie herunterzuladen.
-Ideal für: QR-Code auf der Website → direkter CarPlay-Test-Flow.
+External signals (backlinks, mentions, installs from external traffic) boost both Google and App Store ranking.
 
-### 14. Press Kit / Media Page
-Eine `/press/`-Seite mit App-Icon (1024×1024), Screenshots und kurzem Text für Journalisten und Blogger.
-Erwähnungen in Tech-Blogs (z.B. AppAdvice, iMore) sind starke externe Ranking-Signale.
+### 13. ProductHunt Launch
+- Prepare hunter profile
+- Schedule launch for Tuesday–Thursday, 12:01 AM PT
+- Pre-rally beta users to upvote
+- Link: [producthunt.com/posts/new](https://www.producthunt.com/posts/new)
 
-### 15. Backlink-Aufbau für die Website
-Mehr externe Links zur Website verbessern deren Google-Ranking und damit den organischen Traffic zum App Store.
-Ideen:
-- ProductHunt Launch
-- AppFollow / AppBot Profil anlegen
-- Deutsche Tech-Blogs ansprechen (Appgefahren, iphoneX)
+### 14. Press Outreach
+Target these publications for DE market:
+- appgefahren.de
+- iphonex.de
+- maclife.de
+- t3n.de
 
-### 16. Apple Search Ads (Bezahltes Ranking)
-Für schnelles, gezieltes Ranking in den ersten Wochen nach einem Update.
-Budget: ab ~5 €/Tag für Keywords wie "call planner", "carplay app".
-→ [searchads.apple.com](https://searchads.apple.com)
+For EN/US market:
+- AppAdvice
+- iMore / 9to5Mac
+- The Sweet Setup
 
-### 17. Website OG-Bild erstellen (1200×630 px)
-Ersetze das App-Icon als OG-Bild durch ein richtiges Social-Preview-Bild:
-- Dark background (passt zum Branding)
-- App-Icon links, rechts Screenshot
-- Headline: "Never Miss a Call – CallPlan für iOS"
-Ablageort: `/assets/img/og-image.png`
-Dann in `_includes/head-custom.html` die `og:image`-Zeile anpassen.
+Send: press kit at `callplan.app/press/` + 1 App Preview video
 
-### 18. Favicon.ico erstellen
-Erzeuge ein echtes `favicon.ico` (32×32, 16×16) aus dem App-Icon und lege es im Root-Verzeichnis ab.
-Tool: [favicon.io](https://favicon.io/favicon-converter/)
-Dann in `_includes/head-custom.html` die auskommentierte Zeile aktivieren.
+### 15. Apple Search Ads – Basic
+> [searchads.apple.com](https://searchads.apple.com)
+
+Start with **Search Match** (automatic) at €5/day.
+Manually bid on these after 2 weeks:
+
+| Keyword | Target CPA |
+|---|---|
+| call planner carplay | €1.50 |
+| anrufplaner iphone | €1.20 |
+| carplay business app | €2.00 |
+| call notes app | €1.00 |
+
+### 16. AppFollow Profile
+Sign up at [appfollow.io](https://appfollow.io) – free tier shows keyword rankings and review alerts.
 
 ---
 
-## ✅ Bereits erledigt (Website-Seite)
+## Week 9–10 · Content SEO 🤖
 
-- [x] Apple Smart App Banner Meta-Tag (aktiviert sobald `app_id` eingetragen)
-- [x] Open Graph Tags (Facebook, LinkedIn, Slack, iMessage)
-- [x] Twitter / X Card Tags
-- [x] Schema.org `SoftwareApplication` JSON-LD (Google Rich Results)
-- [x] Schema.org `Organization` JSON-LD
-- [x] `robots.txt` mit Sitemap-Verweis
-- [x] `jekyll-sitemap` Plugin aktiviert → `/sitemap.xml` wird automatisch generiert
-- [x] `theme-color` Meta-Tag für Android Chrome
-- [x] `apple-mobile-web-app-capable` für iOS PWA-Unterstützung
-- [x] Apple Touch Icon referenziert
-- [x] Starke Marketing-Texte und Hero-Section auf Startseite
-- [x] Feature-Umfrage-Seite für User-Engagement
-- [x] Screenshot-Gallery-Rahmen (wartet auf echte Screenshots)
+These drive Google traffic that converts to App Store installs.
+
+### 17. Blog / Landing Pages (add to this site)
+
+High-intent articles to create:
+- `/blog/carplay-call-planner/` – "Best Call Planning Apps for CarPlay 2025"
+- `/blog/hands-free-call-notes/` – "How to Take Hands-Free Call Notes with Siri"
+- `/blog/hubspot-carplay/` – "Connect HubSpot to Your iPhone CarPlay"
+
+Each page targets a long-tail query with a CTA to download CallPlan.
+
+### 18. YouTube Video
+Title: `"How I Never Miss a Business Call – CallPlan for CarPlay & Siri"`
+Upload captions in DE + EN + ES. Link to App Store in description.
+YouTube is the #2 search engine and embeds boost domain authority.
+
+### 19. LinkedIn Posts (B2B angle)
+Target: Sales reps, account managers, consultants
+Angle: "I track every sales call with this CarPlay app"
+Include App Store link + short screen recording.
+
+---
+
+## Week 11–12 · Analytics & Iteration 🔧
+
+### 20. App Store Connect Analytics
+> App Store Connect › Analytics
+
+Check weekly:
+- **Impressions → Product Page Views** (= discoverability)
+- **Product Page Views → Downloads** (= conversion rate, improved by screenshots/video)
+- **Keyword source** – which queries drive installs
+
+Raise bids on converting keywords. Drop non-converting ones and replace.
+
+### 21. Google Analytics 4
+In `_config.yml`, set:
+```yaml
+google_analytics: G-XXXXXXXXXX
+```
+
+Track: which website pages drive most App Store clicks.
+
+### 22. Replace Placeholders
+- `#newsletter-url` → real Substack URL once created
+- `#template-url` → PDF lead magnet URL
+- Placeholder testimonials → real user quotes (ask beta users)
+
+---
+
+## Long-Term / Ongoing 🤖
+
+### 23. App Clip
+Let users try the call-scheduling flow in 30 seconds without installing.
+Ideal for QR codes on business cards or email signatures.
+> Xcode › File › New › Target › App Clip
+
+### 24. Widgets
+iOS Home Screen widget showing next scheduled call.
+High visibility → more organic word-of-mouth.
+
+### 25. Backlink building
+- Submit to [alternativeto.net](https://alternativeto.net)
+- List on [getapp.com](https://getapp.com) and [capterra.com](https://capterra.com) (B2B directories)
+- Answer relevant questions on Reddit r/iphone, r/CarPlay, r/productivity
+
+### 26. OG Image (1200×630 px)
+Create a proper social preview image (dark bg, app icon left, screenshot right, headline).
+Save to `/assets/img/og-image.png` and update `head-custom.html` `og:image` line.
+
+### 27. Real Favicon
+Generate from app icon at [favicon.io](https://favicon.io/favicon-converter/)
+Save as `/favicon.ico` in root.
+
+### 28. In-App Purchases visible in App Store
+> App Store Connect › In-App Purchases › + Add
+
+Listing Premium subscription publicly increases visibility in "Productivity › Subscriptions" browse.
+
+---
+
+## Priority Summary
+
+| Priority | Action | Impact | Effort |
+|---|---|---|---|
+| 🔴 Now | Title + Subtitle + Keywords | ★★★★★ | 15 min |
+| 🔴 Now | 5 Screenshots with captions | ★★★★★ | 2–4 h |
+| 🟠 Week 3 | App Preview video | ★★★★☆ | 4–8 h |
+| 🟠 Week 5 | In-app review prompt | ★★★★☆ | 1 h dev |
+| 🟡 Week 7 | ProductHunt launch | ★★★☆☆ | 2 h |
+| 🟡 Week 7 | Apple Search Ads | ★★★☆☆ | ongoing |
+| 🟢 Week 9 | Blog content | ★★★☆☆ | 2 h/post |
+| 🟢 Ongoing | Respond to reviews | ★★★★☆ | 5 min/day |

@@ -4,6 +4,21 @@
 
 {% include head-custom-google-analytics.html %}
 
+{% assign _lang = page.lang | default: 'de' %}
+{% if _lang == 'en' %}
+  {% assign _og_locale = 'en_US' %}
+{% elsif _lang == 'es' %}
+  {% assign _og_locale = 'es_ES' %}
+{% else %}
+  {% assign _og_locale = 'de_DE' %}
+{% endif %}
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<!-- Web App Manifest -->
+<link rel="manifest" href="{{ '/site.webmanifest' | absolute_url }}">
+
 <!-- Favicon & App Touch Icon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/logo.png' | absolute_url }}">
 <link rel="icon" type="image/png" sizes="32x32"  href="{{ '/assets/img/logo.png' | absolute_url }}">
@@ -11,9 +26,8 @@
 
 <!-- ── Apple Smart App Banner ──────────────────────────────────
      Shows a native "Open in App Store" bar in Mobile Safari.
-     Replace YOUR_APP_STORE_ID with the numeric ID from App Store Connect.
      ──────────────────────────────────────────────────────────── -->
-{% if site.app_id and site.app_id != "YOUR_APP_STORE_ID" %}
+{% if site.app_id and site.app_id != "" %}
 <meta name="apple-itunes-app" content="app-id={{ site.app_id }}">
 {% endif %}
 
@@ -21,12 +35,12 @@
 <meta property="og:type"        content="website">
 <meta property="og:site_name"   content="{{ site.title }}">
 <meta property="og:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
-<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url"         content="{{ page.url | absolute_url }}">
-<meta property="og:image"       content="{{ site.logo | absolute_url }}">
+<meta property="og:image"       content="{{ '/assets/img/logo.png' | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:alt"   content="{{ site.title }} App Icon">
-<meta property="og:locale"      content="de_DE">
+<meta property="og:locale"      content="{{ _og_locale }}">
 
 <!-- ── Twitter / X Card ─────────────────────────────────────── -->
 <meta name="twitter:card"        content="summary_large_image">
@@ -34,18 +48,18 @@
 <meta name="twitter:site"        content="@{{ site.twitter.username }}">
 {% endif %}
 <meta name="twitter:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
-<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image"       content="{{ site.logo | absolute_url }}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image"       content="{{ '/assets/img/logo.png' | absolute_url }}">
 <meta name="twitter:image:alt"   content="{{ site.title }} App Icon">
 
-<!-- ── Schema.org – SoftwareApplication (Google Rich Results) ─
+<!-- ── Schema.org – MobileApplication (Google Rich Results) ────
      Enables App-Rating stars and "Available on iOS" badges
      directly in Google search results.
      ──────────────────────────────────────────────────────────── -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
+  "@type": "MobileApplication",
   "name": "{{ site.title }}",
   "description": "{{ site.description | strip_html }}",
   "url": "{{ site.url }}",
@@ -53,27 +67,29 @@
   "applicationSubCategory": "ProductivityApplication",
   "operatingSystem": "iOS 15.0+",
   "softwareRequirements": "Requires iPhone with iOS 15 or later. CarPlay compatible.",
-  "inLanguage": ["de", "en"],
+  "inLanguage": ["de", "en", "es"],
   "offers": {
     "@type": "Offer",
     "price": "0",
-    "priceCurrency": "EUR",
+    "priceCurrency": "USD",
     "availability": "https://schema.org/InStock",
     "category": "free"
   },
-  {% if site.app_id and site.app_id != "YOUR_APP_STORE_ID" %}
+  {% if site.app_id and site.app_id != "" %}
   "downloadUrl": "{{ site.app_store_url }}",
   "installUrl": "{{ site.app_store_url }}",
   {% endif %}
-  "screenshot": "{{ site.logo | absolute_url }}",
+  "screenshot": "{{ '/assets/img/logo.png' | absolute_url }}",
   "featureList": [
     "Call scheduling with date and time",
     "Automated call reminders",
-    "CarPlay integration",
+    "Apple CarPlay integration",
     "Siri voice commands",
-    "Automatic note sending",
-    "Cloud synchronization",
-    "Offline mode"
+    "Automatic note sending after calls",
+    "Cloud synchronization across devices",
+    "Offline mode – no forced cloud",
+    "HubSpot CRM integration",
+    "Salesforce CRM integration"
   ],
   "author": {
     "@type": "Organization",
@@ -95,6 +111,9 @@
   "@type": "Organization",
   "name": "Quick-ID",
   "url": "https://quick-id.com",
+  "sameAs": [
+    "https://apps.apple.com/us/app/callplan/id6740268495"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "email": "support@quick-id.com",
@@ -102,6 +121,28 @@
   }
 }
 </script>
+
+{% comment %} FAQPage structured data – only on pages that have faq_items defined {% endcomment %}
+{% if page.faq_items %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for faq in page.faq_items %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.q | escape }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.a | escape }}"
+      }
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}
 
 <!-- ── hreflang alternate links (multilingual SEO) ──────────── -->
 {% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}

@@ -4,6 +4,19 @@ title: Home
 permalink: /
 lang: de
 lang_ref: home
+faq_items:
+  - q: "Ist CallPlan kostenlos?"
+    a: "Ja, CallPlan ist kostenlos im App Store erhältlich. Optionale Premium-Features erweitern den Funktionsumfang."
+  - q: "Funktioniert CallPlan ohne Internet?"
+    a: "Ja, die App ist vollständig offline-fähig. Deine Daten bleiben auf deinem Gerät – keine erzwungene Cloud-Synchronisation."
+  - q: "Wie funktioniert die CarPlay-Integration?"
+    a: "Sobald dein iPhone mit CarPlay verbunden ist, erscheint CallPlan auf dem Fahrzeugdisplay. Notizen per Sprachbefehl diktieren – komplett freihändig."
+  - q: "Auf welchen Geräten läuft CallPlan?"
+    a: "iPhone mit iOS 15 oder neuer. CarPlay-Unterstützung erfordert ein entsprechendes Fahrzeug."
+  - q: "Wie werden Notizen nach dem Call versendet?"
+    a: "CallPlan sendet deine Notizen automatisch per E-Mail oder Messenger – an dich selbst, dein Team oder direkt an den Kunden."
+  - q: "Gibt es eine Android-Version?"
+    a: "Aktuell ist CallPlan nur für iOS verfügbar. Android und weitere Plattformen sind in Planung."
 ---
 
 <div class="hero">
@@ -243,9 +256,9 @@ Lade unser bewährtes 5-Schritte-Framework für professionelle Gesprächsvorbere
 Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan in einer Sekunde:
 
 <div class="share-row">
-  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+f%C3%BCr+iOS+mit+CarPlay+%26+Siri.+Schau+mal%3A+https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
-  <a href="https://twitter.com/intent/tweet?text=Ich+nutze+CallPlan+f%C3%BCr+freih%C3%A4ndige+Gespr%C3%A4chsnotizen+am+Steuer+%E2%80%93+sehr+empfehlenswert%21&url=https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
-  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0Aich%20nutze%20CallPlan%20f%C3%BCr%20Gespr%C3%A4chsvorbereitung%20und%20freih%C3%A4ndige%20Notizen%20mit%20CarPlay.%0A%0ASchau%20mal%3A%20https%3A%2F%2Fcallplan.quick-id.com" class="btn btn-share">📧 E-Mail</a>
+  <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+f%C3%BCr+iOS+mit+CarPlay+%26+Siri.+Schau+mal%3A+https%3A%2F%2Fcallplan.app" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
+  <a href="https://twitter.com/intent/tweet?text=Ich+nutze+CallPlan+f%C3%BCr+freih%C3%A4ndige+Gespr%C3%A4chsnotizen+am+Steuer+%E2%80%93+sehr+empfehlenswert%21&url=https%3A%2F%2Fcallplan.app" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
+  <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0Aich%20nutze%20CallPlan%20f%C3%BCr%20Gespr%C3%A4chsvorbereitung%20und%20freih%C3%A4ndige%20Notizen%20mit%20CarPlay.%0A%0ASchau%20mal%3A%20https%3A%2F%2Fcallplan.app" class="btn btn-share">📧 E-Mail</a>
 </div>
 
 ---

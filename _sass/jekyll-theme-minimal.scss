@@ -1812,26 +1812,84 @@ $zoho-light:      #FFF0F0;
   display: flex;
   flex-direction: column;
   gap: 14px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center 30%;
 
+  // Tinted photo hero: gradient overlays the car photo with brand colour.
+  // Drop the image file at the path below; until then the gradient alone shows.
   &.crm-hero--hubspot {
-    background: linear-gradient(135deg, $hubspot-navy 0%, lighten($hubspot-navy, 10%) 100%);
+    background:
+      linear-gradient(135deg, rgba($hubspot-navy, 0.84) 0%, rgba(lighten($hubspot-navy, 10%), 0.80) 100%),
+      url('/assets/img/hero-hubspot.jpg') center 30% / cover no-repeat;
+    background-color: $hubspot-navy;
     color: #fff;
   }
   &.crm-hero--salesforce {
-    background: linear-gradient(135deg, $salesforce-dark 0%, $salesforce-blue 100%);
+    background:
+      linear-gradient(135deg, rgba($salesforce-dark, 0.84) 0%, rgba($salesforce-blue, 0.80) 100%),
+      url('/assets/img/hero-salesforce.jpg') center 30% / cover no-repeat;
+    background-color: $salesforce-dark;
     color: #fff;
   }
   &.crm-hero--odoo {
-    background: linear-gradient(135deg, $odoo-dark 0%, $odoo-purple 100%);
+    background:
+      linear-gradient(135deg, rgba($odoo-dark, 0.84) 0%, rgba($odoo-purple, 0.80) 100%),
+      url('/assets/img/hero-odoo.jpg') center 30% / cover no-repeat;
+    background-color: $odoo-dark;
     color: #fff;
   }
   &.crm-hero--zoho {
-    background: linear-gradient(135deg, $zoho-dark 0%, lighten($zoho-red, 8%) 100%);
+    background:
+      linear-gradient(135deg, rgba($zoho-dark, 0.84) 0%, rgba(lighten($zoho-red, 8%), 0.80) 100%),
+      url('/assets/img/hero-zoho.jpg') center 30% / cover no-repeat;
+    background-color: $zoho-dark;
     color: #fff;
   }
   &.crm-hero--overview {
     background: linear-gradient(135deg, #1c1c1e 0%, #3a3a3c 100%);
     color: #fff;
+  }
+}
+
+// Homepage car photo strip — slot 1 (cockpit / driver POV)
+// Drop hero-car.jpg into /assets/img/ — falls back to dark gradient until then.
+.hero-photo {
+  width: 100%;
+  height: 420px;
+  border-radius: 18px;
+  margin: 0 0 44px;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.35) 100%),
+    url('/assets/img/hero-car.jpg') center 35% / cover no-repeat,
+    linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+  position: relative;
+
+  @media screen and (max-width: 700px) {
+    height: 240px;
+    border-radius: 12px;
+    margin-bottom: 28px;
+  }
+}
+
+// Homepage car photo strip — slot 2 (exterior / windshield perspective)
+// Drop hero-car-2.jpg into /assets/img/ — falls back to dark gradient until then.
+.hero-photo-2 {
+  width: 100%;
+  height: 340px;
+  border-radius: 18px;
+  margin: 32px 0 44px;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.45) 100%),
+    url('/assets/img/hero-car-2.jpg') center 50% / cover no-repeat,
+    linear-gradient(135deg, #0d1117 0%, #1c2333 100%);
+  position: relative;
+
+  @media screen and (max-width: 700px) {
+    height: 200px;
+    border-radius: 12px;
+    margin: 20px 0 28px;
   }
 }
 

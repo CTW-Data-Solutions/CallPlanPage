@@ -19,6 +19,8 @@ lang_ref: home
   </div>
 </div>
 
+<div class="hero-photo" role="img" aria-label="Conductor usando CallPlan en la pantalla CarPlay"></div>
+
 <div class="stats-row">
   <div class="stat-card">
     <span class="stat-icon">📞</span>
@@ -73,6 +75,8 @@ lang_ref: home
     <p>CallPlan aparece en tu pantalla CarPlay. Ves a quién querías llamar hoy. Llamas. Dictas notas con Siri. CallPlan las envía automáticamente. Antes de aparcar, todo está hecho.</p>
   </div>
 </div>
+
+<div class="hero-photo-2" role="img" aria-label="Coche de noche con pantalla CarPlay brillando a través del parabrisas"></div>
 
 ## Lo que CallPlan hace por ti
 

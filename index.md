@@ -32,6 +32,8 @@ faq_items:
   </div>
 </div>
 
+<div class="hero-photo" role="img" aria-label="Fahrer nutzt CallPlan über das CarPlay-Display im Auto"></div>
+
 <div class="stats-row">
   <div class="stat-card">
     <span class="stat-icon">📞</span>
@@ -86,6 +88,8 @@ faq_items:
     <p>CallPlan erscheint auf deinem CarPlay-Display. Du siehst, wen du heute noch anrufen wolltest. Du rufst an. Du dictierst die Notizen mit Siri. CallPlan schickt sie automatisch weiter. Bevor du parkst, ist alles erledigt.</p>
   </div>
 </div>
+
+<div class="hero-photo-2" role="img" aria-label="Fahrzeug bei Nacht mit leuchtendem CarPlay-Display"></div>
 
 ## Was CallPlan für dich tut
 

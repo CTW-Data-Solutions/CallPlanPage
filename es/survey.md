@@ -14,6 +14,24 @@ Tu opinión llega directamente a nuestro equipo de desarrollo. ¡Gracias por hac
 
 ---
 
+<div class="survey-stats">
+  <h2 class="survey-stats-title">Lo que quiere la comunidad</h2>
+  <p class="survey-stats-sub">Basado en {{ site.data['survey-stats'].responses }} respuestas – última actualización abril 2025</p>
+  <ul class="stat-bar-list">
+    {% for item in site.data['survey-stats'].features %}
+    <li class="stat-bar-item">
+      <span class="stat-bar-label">{{ item.label_es }}</span>
+      <span class="stat-bar-pct">{{ item.pct }}%</span>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:{{ item.pct }}%"></div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+---
+
 <form class="survey-form" action="mailto:support@quick-id.com" method="get" enctype="text/plain">
 
   <fieldset class="survey-fieldset">

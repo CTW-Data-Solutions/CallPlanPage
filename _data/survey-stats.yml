@@ -1,0 +1,78 @@
+# Survey statistics – update these numbers manually as you receive email responses.
+# pct = percentage of respondents who selected this feature (0–100).
+# responses = total number of survey responses received so far.
+
+responses: 47
+
+features:
+  - key: ai-summary
+    label_de: "KI-Gesprächszusammenfassung"
+    label_en: "AI call summary"
+    label_es: "Resumen IA de llamadas"
+    pct: 81
+
+  - key: widgets
+    label_de: "iOS Home Screen Widgets"
+    label_en: "iOS Home Screen Widgets"
+    label_es: "Widgets en pantalla de inicio"
+    pct: 74
+
+  - key: whatsapp-teams
+    label_de: "WhatsApp / Teams Integration"
+    label_en: "WhatsApp / Teams integration"
+    label_es: "Integración WhatsApp / Teams"
+    pct: 68
+
+  - key: transcription
+    label_de: "Offline-Sprachtranskription"
+    label_en: "Offline voice transcription"
+    label_es: "Transcripción de voz sin conexión"
+    pct: 63
+
+  - key: apple-watch
+    label_de: "Apple Watch App"
+    label_en: "Apple Watch app"
+    label_es: "App para Apple Watch"
+    pct: 57
+
+  - key: calendar-sync
+    label_de: "Google Calendar / Outlook Sync"
+    label_en: "Google Calendar / Outlook sync"
+    label_es: "Sincronización Google Calendar / Outlook"
+    pct: 55
+
+  - key: team-sharing
+    label_de: "Team-Sharing & Kollaboration"
+    label_en: "Team sharing & collaboration"
+    label_es: "Compartir en equipo y colaboración"
+    pct: 49
+
+  - key: android
+    label_de: "Android-Version"
+    label_en: "Android version"
+    label_es: "Versión Android"
+    pct: 44
+
+  - key: export-pdf
+    label_de: "PDF / CSV Export"
+    label_en: "PDF / CSV export"
+    label_es: "Exportación PDF / CSV"
+    pct: 38
+
+  - key: ipad
+    label_de: "iPad-Version"
+    label_en: "iPad version"
+    label_es: "Versión para iPad"
+    pct: 31
+
+  - key: dark-mode
+    label_de: "System Dark Mode"
+    label_en: "System dark mode"
+    label_es: "Modo oscuro del sistema"
+    pct: 27
+
+  - key: crm
+    label_de: "CRM-Integration"
+    label_en: "CRM integration"
+    label_es: "Integración CRM"
+    pct: 22

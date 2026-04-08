@@ -18,131 +18,131 @@ description: "Las mejores apps de CarPlay 2025 – navegación, música, podcast
 <p class="essentials-category">Productividad y llamadas</p>
 
 <div class="essentials-grid">
-  <div class="essentials-card essentials-card--featured">
+  <a href="{{ site.app_store_url }}" target="_blank" rel="noopener" class="essentials-card essentials-card--featured">
     <div class="essentials-app-icon">📞</div>
     <div class="essentials-app-info">
       <strong>CallPlan <span class="essentials-featured-badge">Esta app</span></strong>
       <span>Planificador de llamadas con notas manos libres, envío automático e integración CRM. Convierte tu tiempo de conducción en tiempo productivo.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/reminders/id1108187887" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">📝</div>
     <div class="essentials-app-info">
       <strong>Recordatorios (Apple, preinstalado)</strong>
       <span>Recordatorios rápidos con Siri. Bueno para tareas simples, pero sin funciones específicas para llamadas como notas o envío automático.</span>
     </div>
-  </div>
+  </a>
 </div>
 
 <p class="essentials-category">Navegación</p>
 
 <div class="essentials-grid">
-  <div class="essentials-card">
+  <a href="https://apps.apple.com/app/waze-navigation-live-traffic/id323229106" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🗺️</div>
     <div class="essentials-app-info">
       <strong>Waze</strong>
       <span>Tráfico en tiempo real y alertas de radares de la comunidad. La mejor opción para conductores habituales y comerciales. Gratis.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/google-maps-transit-food/id585027354" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">📍</div>
     <div class="essentials-app-info">
       <strong>Google Maps</strong>
       <span>Base de datos de mapas más completa, excelente búsqueda de POI y transporte público. Gratis.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/here-wego-city-navigation/id955837609" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🧭</div>
     <div class="essentials-app-info">
       <strong>HERE WeGo</strong>
       <span>Mapas sin conexión. Ideal para viajes al extranjero o zonas con mala cobertura. Gratis.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/tomtom-go-navigation/id915140275" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🔵</div>
     <div class="essentials-app-info">
       <strong>TomTom GO Navigation</strong>
       <span>Navegación premium con mapas offline y predicciones de tráfico. Guía de voz especialmente precisa. De pago.</span>
     </div>
-  </div>
+  </a>
 </div>
 
 <p class="essentials-category">Música y audio</p>
 
 <div class="essentials-grid">
-  <div class="essentials-card">
+  <a href="https://apps.apple.com/app/spotify-music-and-podcasts/id324684580" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🎵</div>
     <div class="essentials-app-info">
       <strong>Spotify</strong>
       <span>Música, podcasts y audiolibros en una sola app. La mejor interfaz CarPlay, excelente control de playlists. Gratis / Premium.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/apple-music/id1108187390" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🎶</div>
     <div class="essentials-app-info">
       <strong>Apple Music</strong>
       <span>Integrada perfectamente en iOS y Siri. "Oye Siri, pon mi playlist" funciona a la perfección. Requiere suscripción.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/pocket-casts/id414834813" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🎙️</div>
     <div class="essentials-app-info">
       <strong>Pocket Casts</strong>
       <span>El mejor reproductor de podcasts para CarPlay. Cola clara, control de velocidad, saltar silencios. Compra única.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/overcast/id888422857" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">📻</div>
     <div class="essentials-app-info">
       <strong>Overcast</strong>
       <span>Reproductor de podcasts ligero con Smart Speed y Voice Boost. Popular entre conductores frecuentes. Gratis / suscripción.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/audible-audio-entertainment/id379693831" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">📚</div>
     <div class="essentials-app-info">
       <strong>Audible</strong>
       <span>Audiolibros para el camino. Controles simples, marcadores con un toque. Perfecto para trayectos largos. Requiere suscripción.</span>
     </div>
-  </div>
+  </a>
 </div>
 
 <p class="essentials-category">Comunicación</p>
 
 <div class="essentials-grid">
-  <div class="essentials-card">
+  <a href="https://apps.apple.com/app/whatsapp-messenger/id310633997" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">💬</div>
     <div class="essentials-app-info">
       <strong>WhatsApp</strong>
       <span>Escucha mensajes y responde con Siri sin tocar la pantalla. Estándar para comunicación personal y profesional. Gratis.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/telegram-messenger/id686449807" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">✈️</div>
     <div class="essentials-app-info">
       <strong>Telegram</strong>
       <span>Canales de grupo, archivos grandes, lectura rápida de mensajes en CarPlay. Para equipos con Telegram como canal principal. Gratis.</span>
     </div>
-  </div>
+  </a>
 </div>
 
 <p class="essentials-category">Aparcamiento y combustible</p>
 
 <div class="essentials-grid">
-  <div class="essentials-card">
+  <a href="https://apps.apple.com/app/gasbuddy-find-pay-for-gas/id441782307" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">⛽</div>
     <div class="essentials-app-info">
       <strong>GasBuddy</strong>
       <span>Encuentra la gasolinera más barata cerca. Ahorra bastante en trayectos largos. Gratis.</span>
     </div>
-  </div>
-  <div class="essentials-card">
+  </a>
+  <a href="https://apps.apple.com/app/spothero-parking-app/id499097243" target="_blank" rel="noopener" class="essentials-card">
     <div class="essentials-app-icon">🅿️</div>
     <div class="essentials-app-info">
       <strong>SpotHero / ParkWhiz</strong>
       <span>Reserva aparcamiento con antelación – directamente en tu ruta. Sin más dar vueltas. Gratis (tarifa de aparcamiento aparte).</span>
     </div>
-  </div>
+  </a>
 </div>
 
 ---

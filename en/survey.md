@@ -14,6 +14,24 @@ Your feedback goes straight to our development team. Thank you for making CallPl
 
 ---
 
+<div class="survey-stats">
+  <h2 class="survey-stats-title">What the community wants</h2>
+  <p class="survey-stats-sub">Based on {{ site.data['survey-stats'].responses }} responses – last updated April 2025</p>
+  <ul class="stat-bar-list">
+    {% for item in site.data['survey-stats'].features %}
+    <li class="stat-bar-item">
+      <span class="stat-bar-label">{{ item.label_en }}</span>
+      <span class="stat-bar-pct">{{ item.pct }}%</span>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:{{ item.pct }}%"></div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+---
+
 <form class="survey-form" action="mailto:support@quick-id.com" method="get" enctype="text/plain">
 
   <fieldset class="survey-fieldset">

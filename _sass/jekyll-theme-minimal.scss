@@ -2211,8 +2211,11 @@ $zoho-light:      #FFF0F0;
   gap: 14px;
   align-items: flex-start;
   transition: box-shadow 0.2s, border-color 0.2s;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 
-  &:hover { border-color: darken($border, 8%); box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  &:hover { border-color: darken($border, 8%); box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-decoration: none; color: inherit; }
   &.essentials-card--featured {
     border-color: rgba($accent, 0.4);
     background: linear-gradient(135deg, rgba($accent, 0.04), #fff);
@@ -2267,3 +2270,171 @@ $zoho-light:      #FFF0F0;
 }
 
 .beta-ended-icon { font-size: 52px; }
+
+// ============================================
+// Pricing Cards (Premium page)
+// ============================================
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 24px 0 32px;
+}
+
+.pricing-card {
+  border: 2px solid $border;
+  border-radius: 18px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  transition: box-shadow 0.2s, border-color 0.2s;
+
+  &:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+
+  &.pricing-card--featured {
+    border-color: $accent;
+    box-shadow: 0 4px 24px rgba($accent, 0.14);
+  }
+}
+
+.pricing-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $accent;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pricing-period {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: $text-secondary;
+}
+
+.pricing-title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0;
+  color: #1c1c1e;
+}
+
+.pricing-price {
+  font-size: 14px;
+  color: $text-secondary;
+  line-height: 1.5;
+
+  strong { display: block; font-size: 26px; color: #1c1c1e; font-weight: 800; line-height: 1.1; }
+  em { font-style: normal; font-size: 12px; }
+}
+
+.pricing-saving {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 13px;
+  color: $text-secondary;
+  flex: 1;
+
+  li::before { content: "✓ "; color: $accent; font-weight: 700; }
+}
+
+.pricing-cta {
+  margin-top: 8px;
+
+  .btn { width: 100%; text-align: center; justify-content: center; }
+}
+
+@media screen and (max-width: 640px) {
+  .pricing-grid { grid-template-columns: 1fr; }
+  .pricing-card--featured { order: -1; }
+}
+
+// ============================================
+// Survey Statistics Bars
+// ============================================
+.survey-stats {
+  margin: 0 0 36px;
+}
+
+.survey-stats-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.survey-stats-sub {
+  font-size: 13px;
+  color: $text-secondary;
+  margin: 0 0 20px;
+}
+
+.stat-bar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat-bar-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.stat-bar-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: $content-text;
+  grid-column: 1;
+}
+
+.stat-bar-pct {
+  font-size: 12px;
+  font-weight: 700;
+  color: $accent;
+  grid-column: 2;
+  grid-row: 1 / 3;
+  align-self: center;
+  min-width: 36px;
+  text-align: right;
+}
+
+.stat-bar-track {
+  grid-column: 1;
+  height: 8px;
+  background: #f0f0f5;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, $accent, lighten($accent, 15%));
+  transition: width 0.6s ease;
+}

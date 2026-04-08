@@ -76,6 +76,8 @@ lang_ref: home
   </div>
 </div>
 
+<div class="hero-photo-2" role="img" aria-label="Coche de noche con pantalla CarPlay brillando a través del parabrisas"></div>
+
 ## Lo que CallPlan hace por ti
 
 CallPlan es mucho más que un calendario. Es tu asistente inteligente para cada llamada – personal o profesional, desde el recordatorio hasta el seguimiento automático.

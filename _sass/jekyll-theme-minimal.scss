@@ -1853,9 +1853,8 @@ $zoho-light:      #FFF0F0;
   }
 }
 
-// Homepage car photo strip
-// Drop hero-car.jpg (or hero-car-f.jpg for female driver) into /assets/img/
-// Falls back to a dark gradient until the file is added.
+// Homepage car photo strip — slot 1 (cockpit / driver POV)
+// Drop hero-car.jpg into /assets/img/ — falls back to dark gradient until then.
 .hero-photo {
   width: 100%;
   height: 420px;
@@ -1871,6 +1870,26 @@ $zoho-light:      #FFF0F0;
     height: 240px;
     border-radius: 12px;
     margin-bottom: 28px;
+  }
+}
+
+// Homepage car photo strip — slot 2 (exterior / windshield perspective)
+// Drop hero-car-2.jpg into /assets/img/ — falls back to dark gradient until then.
+.hero-photo-2 {
+  width: 100%;
+  height: 340px;
+  border-radius: 18px;
+  margin: 32px 0 44px;
+  background:
+    linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.45) 100%),
+    url('/assets/img/hero-car-2.jpg') center 50% / cover no-repeat,
+    linear-gradient(135deg, #0d1117 0%, #1c2333 100%);
+  position: relative;
+
+  @media screen and (max-width: 700px) {
+    height: 200px;
+    border-radius: 12px;
+    margin: 20px 0 28px;
   }
 }
 

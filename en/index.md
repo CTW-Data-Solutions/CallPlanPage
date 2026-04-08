@@ -76,6 +76,8 @@ lang_ref: home
   </div>
 </div>
 
+<div class="hero-photo-2" role="img" aria-label="Car at night with glowing CarPlay display visible through windshield"></div>
+
 ## What CallPlan does for you
 
 CallPlan is more than a calendar. It's your smart assistant for every call – personal or professional, from the reminder to the automatic follow-up.

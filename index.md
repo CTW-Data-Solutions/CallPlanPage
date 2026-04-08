@@ -89,6 +89,8 @@ faq_items:
   </div>
 </div>
 
+<div class="hero-photo-2" role="img" aria-label="Fahrzeug bei Nacht mit leuchtendem CarPlay-Display"></div>
+
 ## Was CallPlan für dich tut
 
 CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jeden Anruf – privat oder beruflich, von der Erinnerung bis zur automatischen Nachbereitung.

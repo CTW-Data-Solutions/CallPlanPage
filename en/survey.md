@@ -14,7 +14,35 @@ Your feedback goes straight to our development team. Thank you for making CallPl
 
 ---
 
-<form class="survey-form" action="mailto:support@quick-id.com" method="get" enctype="text/plain">
+<div class="survey-stats">
+  <h2 class="survey-stats-title">What the community wants</h2>
+  <p class="survey-stats-sub">Based on {{ site.data['survey-stats'].responses }} responses – last updated April 2025</p>
+  <ul class="stat-bar-list">
+    {% for item in site.data['survey-stats'].features %}
+    <li class="stat-bar-item">
+      <span class="stat-bar-label">{{ item.label_en }}</span>
+      <span class="stat-bar-pct">{{ item.pct }}%</span>
+      <div class="stat-bar-track">
+        <div class="stat-bar-fill" style="width:{{ item.pct }}%"></div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+---
+
+
+<form class="survey-form" action="https://api.web3forms.com/submit" method="post">
+
+  <!-- Web3Forms config – key set in _config.yml -->
+  <input type="hidden" name="access_key" value="{{ site.web3forms_key }}">
+  <input type="hidden" name="subject" value="CallPlan Feature Survey (EN)">
+  <input type="hidden" name="from_name" value="CallPlan Survey">
+  <input type="hidden" name="redirect" value="{{ site.url }}/thank-you/">
+  <!-- Honeypot spam protection -->
+  <input type="checkbox" name="botcheck" style="display:none">
+
 
   <fieldset class="survey-fieldset">
     <legend>Which features would you like to see?</legend>

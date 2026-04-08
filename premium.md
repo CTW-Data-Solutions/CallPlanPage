@@ -28,6 +28,62 @@ Dein Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor
 
 ---
 
+## Abopläne
+
+<div class="pricing-grid">
+
+  <div class="pricing-card">
+    <div class="pricing-period">Monatlich</div>
+    <div class="pricing-title">Flexibel</div>
+    <div class="pricing-price">Im App Store</div>
+    <ul class="pricing-features">
+      <li>Voller Premium-Zugriff</li>
+      <li>Monatlich kündbar</li>
+      <li>Keine Bindung</li>
+    </ul>
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn pricing-cta">Im App Store ansehen</a>
+    {% endif %}
+  </div>
+
+  <div class="pricing-card">
+    <div class="pricing-period">Quartalsweise</div>
+    <div class="pricing-title">Praktisch</div>
+    <div class="pricing-price">Im App Store</div>
+    <div class="pricing-saving">3 Monate zum Vorteilspreis</div>
+    <ul class="pricing-features">
+      <li>Voller Premium-Zugriff</li>
+      <li>Günstiger als monatlich</li>
+      <li>Alle 3 Monate kündbar</li>
+    </ul>
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn pricing-cta">Im App Store ansehen</a>
+    {% endif %}
+  </div>
+
+  <div class="pricing-card pricing-card--featured">
+    <div class="pricing-badge">Bestes Angebot</div>
+    <div class="pricing-period">Jährlich</div>
+    <div class="pricing-title">Bestseller</div>
+    <div class="pricing-price">Im App Store</div>
+    <div class="pricing-saving">Bis zu 40 % günstiger als monatlich</div>
+    <ul class="pricing-features">
+      <li>Voller Premium-Zugriff</li>
+      <li>Günstigster Monatspreis</li>
+      <li>Jährliche Abrechnung</li>
+      <li>Priority Support</li>
+    </ul>
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn btn-primary pricing-cta">Im App Store ansehen</a>
+    {% endif %}
+  </div>
+
+</div>
+
+<p style="font-size:13px;color:#666;margin-top:-8px">Preise variieren je nach Land. Aktuelle Preise findest du direkt im App Store. Abos verlängern sich automatisch und können jederzeit in den App-Store-Einstellungen gekündigt werden.</p>
+
+---
+
 ## CRM-Integrationen (Premium)
 
 Verbinde CallPlan mit deinem CRM und spare täglich wertvolle Zeit durch automatisches Call-Logging und Notiz-Synchronisation.

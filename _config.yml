@@ -23,7 +23,7 @@ google_analytics:           # paste your GA4 measurement ID here (G-XXXXXXXXXX)
 
 # Web3Forms – free form backend for the feature survey (web3forms.com)
 # Sign up → Dashboard → Create Access Key → paste it here
-web3forms_key: ""           # e.g. "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+web3forms_key: "84150486-f60b-46c9-8942-a1da43ed96dc"
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:

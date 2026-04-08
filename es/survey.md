@@ -32,7 +32,33 @@ Tu opinión llega directamente a nuestro equipo de desarrollo. ¡Gracias por hac
 
 ---
 
-<form class="survey-form" action="mailto:support@quick-id.com" method="get" enctype="text/plain">
+{% if page.url contains '?submitted=1' %}
+<div class="survey-thanks" style="background:rgba(0,176,79,0.08);border:1px solid rgba(0,176,79,0.3);border-radius:12px;padding:20px 24px;margin:24px 0;text-align:center">
+  <strong>¡Muchas gracias! 🎉</strong><br>Tu opinión ha llegado y va directamente al equipo de desarrollo.
+</div>
+{% endif %}
+
+<script>
+if (window.location.search.includes('submitted=1')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    var t = document.querySelector('.survey-thanks');
+    if (t) { t.style.display = 'block'; t.scrollIntoView({behavior:'smooth'}); }
+    var f = document.querySelector('.survey-form');
+    if (f) f.style.display = 'none';
+  });
+}
+</script>
+
+<form class="survey-form" action="https://api.web3forms.com/submit" method="post">
+
+  <!-- Web3Forms config – key set in _config.yml -->
+  <input type="hidden" name="access_key" value="{{ site.web3forms_key }}">
+  <input type="hidden" name="subject" value="CallPlan Feature Survey (ES)">
+  <input type="hidden" name="from_name" value="CallPlan Survey">
+  <input type="hidden" name="redirect" value="{{ site.url }}/es/survey/?submitted=1">
+  <!-- Honeypot spam protection -->
+  <input type="checkbox" name="botcheck" style="display:none">
+
 
   <fieldset class="survey-fieldset">
     <legend>¿Qué funciones te gustaría ver?</legend>

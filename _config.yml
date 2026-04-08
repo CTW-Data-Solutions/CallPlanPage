@@ -20,6 +20,10 @@ twitter:
 # GitHub Pages
 show_downloads: false
 google_analytics:           # paste your GA4 measurement ID here (G-XXXXXXXXXX)
+
+# Web3Forms – free form backend for the feature survey (web3forms.com)
+# Sign up → Dashboard → Create Access Key → paste it here
+web3forms_key: ""           # e.g. "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:

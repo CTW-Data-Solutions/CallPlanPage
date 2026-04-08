@@ -23,7 +23,7 @@ description: "Verbinde CallPlan mit HubSpot CRM. Gesprächsnotizen, Call-Logs un
   <div class="crm-together-icon">🤝</div>
   <div class="crm-together-text">
     <strong>HubSpot + CallPlan = vollständige Gesprächshistorie ohne Mehraufwand</strong>
-    <p>HubSpot ist das führende CRM für Wachstumsunternehmen. CallPlan ergänzt es um das, was im CRM fehlt: freihändige Notizen direkt während des Gesprächs – auch unterwegs.</p>
+    <p>HubSpot ist das führende CRM für Wachstumsunternehmen. CallPlan ergänzt es um das, was im CRM fehlt: freihändige Notizen direkt nach dem Gespräch – auch unterwegs.</p>
   </div>
 </div>
 
@@ -79,7 +79,7 @@ description: "Verbinde CallPlan mit HubSpot CRM. Gesprächsnotizen, Call-Logs un
     <div class="crm-step-num">3</div>
     <div class="crm-step-body">
       <p class="crm-step-title">Telefonieren – freihändig notieren</p>
-      <p class="crm-step-desc">Während des Gesprächs dictierst du per Siri oder CarPlay. CallPlan speichert alles strukturiert.</p>
+      <p class="crm-step-desc">Nach dem Gespräch diktierst du per Siri oder CarPlay. CallPlan speichert alles strukturiert.</p>
     </div>
   </div>
   <div class="crm-step">

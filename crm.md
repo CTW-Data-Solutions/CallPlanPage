@@ -15,7 +15,7 @@ description: "CallPlan integriert sich nahtlos in dein CRM – HubSpot und Sales
 
 ## Warum CallPlan + CRM?
 
-CRM-Systeme sind das Gedächtnis deines Unternehmens. Aber sie helfen dir nicht dabei, **während des Gesprächs** Notizen zu machen – erst recht nicht freihändig am Steuer.
+CRM-Systeme sind das Gedächtnis deines Unternehmens. Aber sie helfen dir nicht dabei, **nach dem Gespräch** Notizen zu machen – erst recht nicht freihändig am Steuer.
 
 CallPlan schließt genau diese Lücke: Du planst, notierst und bereitest nach – CallPlan sorgt dafür, dass alles im CRM landet.
 

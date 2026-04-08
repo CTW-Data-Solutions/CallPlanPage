@@ -79,7 +79,7 @@ description: "Verbinde CallPlan mit Odoo CRM. Gesprächsnotizen, Call-Logs und F
     <div class="crm-step-num">3</div>
     <div class="crm-step-body">
       <p class="crm-step-title">Telefonieren – freihändig notieren</p>
-      <p class="crm-step-desc">Während des Gesprächs dictierst du per Siri oder CarPlay. CallPlan speichert alles strukturiert – kein Tippen, kein Vergessen.</p>
+      <p class="crm-step-desc">Nach dem Gespräch diktierst du per Siri oder CarPlay. CallPlan speichert alles strukturiert – kein Tippen, kein Vergessen.</p>
     </div>
   </div>
   <div class="crm-step">

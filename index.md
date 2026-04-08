@@ -32,6 +32,8 @@ faq_items:
   </div>
 </div>
 
+<div class="hero-photo" role="img" aria-label="Fahrer nutzt CallPlan über das CarPlay-Display im Auto"></div>
+
 <div class="stats-row">
   <div class="stat-card">
     <span class="stat-icon">📞</span>

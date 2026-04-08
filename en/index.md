@@ -19,6 +19,8 @@ lang_ref: home
   </div>
 </div>
 
+<div class="hero-photo" role="img" aria-label="Driver using CallPlan on the CarPlay display"></div>
+
 <div class="stats-row">
   <div class="stat-card">
     <span class="stat-icon">📞</span>

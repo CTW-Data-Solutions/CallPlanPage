@@ -5,8 +5,6 @@ flag:      "🇪🇸"
 nav:
   - label: Inicio
     href:  /es/
-  - label: "👤 ¿Para quién?"
-    href:  /en/use-cases/
   - label: Guía
     href:  /es/howto/
   - label: Encuesta

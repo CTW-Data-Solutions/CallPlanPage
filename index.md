@@ -21,7 +21,7 @@ faq_items:
 
 <div class="hero">
   <div class="hero-badge">Smarter Anruf-Planer & Erinnerungen · Freihändige Notizen</div>
-  <h1 class="hero-title">Wann hast du zuletzt Mama angerufen?</h1>
+  <h1 class="hero-title">Wann hast du zuletzt deine Mutter angerufen?</h1>
   <p class="hero-sub">Du weißt, wen du anrufen wolltest – die Eltern, die Oma, den wichtigen Kunden. CallPlan erinnert dich rechtzeitig und verwandelt deine Fahrzeit in produktive Gesprächszeit: Notizen freihändig diktieren, automatisch nachbereiten – per CarPlay &amp; Siri.</p>
   <div class="hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">
@@ -29,6 +29,7 @@ faq_items:
       Im App Store laden
     </a>{% endif %}
     <a href="/howto/" class="btn btn-secondary">So funktioniert's</a>
+    <a href="/carplay-models/" class="btn btn-secondary">CarPlay-Modelle</a>
   </div>
 </div>
 
@@ -65,7 +66,7 @@ faq_items:
   <div class="problem-card">
     <span class="problem-icon">👵</span>
     <strong>Privat</strong>
-    "Ich rufe Mama diese Woche noch an" – und dann ist wieder ein Monat vergangen.
+    "Ich rufe meine Mutter diese Woche noch an" – und dann ist wieder ein Monat vergangen.
   </div>
   <div class="problem-card">
     <span class="problem-icon">💼</span>
@@ -85,7 +86,7 @@ faq_items:
   <div class="driving-window-badge">⏱ Fahrzeit<br>= Goldzeit</div>
   <div>
     <strong>Dein Auto ist dein produktivster Ort – wenn du die richtige App hast.</strong>
-    <p>CallPlan erscheint auf deinem CarPlay-Display. Du siehst, wen du heute noch anrufen wolltest. Du rufst an. Du dictierst die Notizen mit Siri. CallPlan schickt sie automatisch weiter. Bevor du parkst, ist alles erledigt.</p>
+    <p>CallPlan erscheint auf deinem CarPlay-Display. Du siehst, wen du heute noch anrufen wolltest. Du rufst an. Du diktierst die Notizen mit Siri. CallPlan schickt sie automatisch weiter. Bevor du parkst, ist alles erledigt.</p>
   </div>
 </div>
 
@@ -97,11 +98,11 @@ CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jeden Anr
 
 ### Features:
 
-- **Anruf planen** – Privat oder beruflich: Mama, Oma, Kunde – in Sekunden anlegen, Datum und Zeit festlegen.
+- **Anruf planen** – Privat oder beruflich: Kunde, Mutter, Oma, Freunde – in Sekunden anlegen, Datum und Zeit festlegen.
 - **Automatische Erinnerungen** – Rechtzeitig benachrichtigt, nie wieder vergessen wen du anrufen wolltest.
 - **Kategorisierung** – Familie, Business oder privat – behalte Übersicht über alle Lebensbereiche.
-- **CarPlay-Integration** – Sieh alle anstehenden Calls auf dem Fahrzeugdisplay. Erledige sie auf dem Weg.
-- **Freihändige Notizen per Siri** – Diktiere während des Gesprächs, was du dir merken willst – ohne die Hände vom Steuer zu nehmen.
+- **CarPlay-Integration** – Sieh alle anstehenden Calls auf dem Fahrzeugdisplay. Erledige sie auf dem Weg. <a href="/carplay-essentials/">Mehr über CarPlay-Apps</a>
+- **Freihändige Notizen per Siri** – Diktiere nach dem Gespräch, was du dir merken willst – ohne die Hände vom Steuer zu nehmen.
 - **Notizen automatisch versenden** – Nach dem Call direkt an dich, deine Familie, deinen Chef oder dein Team.
 - **Cloud-Synchronisation** – Alle deine Geräte immer auf dem neuesten Stand.
 - **Kalender & Aufgaben** – Nahtlose Integration mit deinen bevorzugten Apps.
@@ -174,7 +175,7 @@ CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jeden Anr
   <div class="step-card">
     <span class="step-number">2</span>
     <h3>Notizen machen</h3>
-    <p>Schreib oder diktiere während des Gesprächs – auch per Siri oder CarPlay, komplett freihändig.</p>
+    <p>Schreib oder diktiere nach dem Gespräch – auch per Siri oder CarPlay, komplett freihändig.</p>
   </div>
   <div class="step-card">
     <span class="step-number">3</span>
@@ -215,7 +216,7 @@ CallPlan ist mehr als ein Kalender. Es ist dein smarter Assistent für jeden Anr
 
 ## CarPlay – Produktiv bleiben, während du fährst
 
-CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. Dein Auto wird zum mobilen Büro – ohne Ablenkung.
+CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. Dein Auto wird zum mobilen Büro – ohne Ablenkung. <a href="/carplay-models/">Finde kompatible CarPlay-Modelle</a>.
 
 ### CarPlay-Features:
 

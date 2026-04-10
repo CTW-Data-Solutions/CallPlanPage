@@ -71,6 +71,11 @@
   en: /en/carplay-essentials/
   es: /es/carplay-essentials/
 
+- ref: carplay-models
+  de: /carplay-models/
+  en: /en/carplay-models/
+  es: /es/carplay-models/
+
 - ref: beta-ended
   de: /beta-ended/
   en: /en/beta-ended/

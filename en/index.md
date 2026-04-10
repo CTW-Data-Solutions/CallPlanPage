@@ -7,7 +7,7 @@ lang_ref: home
 ---
 
 <div class="hero">
-  <div class="hero-badge">Available on iOS · CarPlay Ready</div>
+  <div class="hero-badge">Smart Call Planner & Reminders · Hands-Free Notes</div>
   <h1 class="hero-title">When did you last call your mom?</h1>
   <p class="hero-sub">You know who you meant to call – mom, grandma, that important customer. CallPlan reminds you at the right moment and turns your drive time into productive call time: dictate notes hands-free, follow up automatically – via CarPlay &amp; Siri.</p>
   <div class="hero-actions">

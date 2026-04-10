@@ -5,195 +5,195 @@
 .persona-overview-grid,
 .persona-grid,
 .persona-workflow {
-  display: grid;
-  gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
 }
 
 .persona-overview-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin: 2rem 0 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    margin: 2rem 0 2.5rem;
 }
 
 .persona-overview-card,
 .persona-card,
 .persona-step {
-  border-radius: 1.25rem;
-  background: rgba(255, 255, 255, 0.92);
-  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
-  border: 1px solid rgba(15, 23, 42, 0.04);
-  padding: 1.4rem;
-  text-decoration: none;
-  color: inherit;
-  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    border-radius: 1.25rem;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+    border: 1px solid rgba(15, 23, 42, 0.04);
+    padding: 1.4rem;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
 .persona-overview-card:hover,
 .persona-overview-card:focus,
 .persona-card:hover,
 .persona-step:hover {
-  transform: translateY(-3px);
-  border-color: rgba(15, 23, 42, 0.12);
-  box-shadow: 0 24px 55px rgba(15, 23, 42, 0.12);
+    transform: translateY(-3px);
+    border-color: rgba(15, 23, 42, 0.12);
+    box-shadow: 0 24px 55px rgba(15, 23, 42, 0.12);
 }
 
 .persona-overview-card {
-  display: block;
-  min-height: 220px;
-  padding: 1.5rem;
+    display: block;
+    min-height: 220px;
+    padding: 1.5rem;
 }
 
 .persona-overview-card .poc-icon {
-  font-size: 1.8rem;
-  display: inline-block;
-  margin-bottom: 0.9rem;
+    font-size: 1.8rem;
+    display: inline-block;
+    margin-bottom: 0.9rem;
 }
 
 .persona-overview-card .poc-title,
 .persona-card-title {
-  font-size: 1.05rem;
-  font-weight: 700;
-  margin-bottom: 0.45rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
 }
 
 .persona-overview-card .poc-sub,
 .persona-card-desc,
 .persona-step p {
-  color: #475569;
-  line-height: 1.75;
+    color: #475569;
+    line-height: 1.75;
 }
 
 .persona-hero {
-  border-radius: 1.75rem;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.9));
-  color: #fff;
+    border-radius: 1.75rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.9));
+    color: #fff;
 }
 
 .persona-hero-title {
-  font-size: clamp(2rem, 3vw, 3.3rem);
-  line-height: 1.05;
-  margin: 1rem 0 0.75rem;
+    font-size: clamp(2rem, 3vw, 3.3rem);
+    line-height: 1.05;
+    margin: 1rem 0 0.75rem;
 }
 
 .persona-hero-sub {
-  max-width: 45rem;
-  font-size: 1.02rem;
-  color: rgba(255, 255, 255, 0.88);
+    max-width: 45rem;
+    font-size: 1.02rem;
+    color: rgba(255, 255, 255, 0.88);
 }
 
 .persona-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.55rem 0.9rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-  color: #f8fafc;
-  font-size: 0.92rem;
-  letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.12);
+    color: #f8fafc;
+    font-size: 0.92rem;
+    letter-spacing: 0.02em;
 }
 
 .persona-scenario,
 .cta-section,
 .crm-together {
-  border-radius: 1.5rem;
-  padding: 1.75rem;
-  margin: 2.5rem 0;
+    border-radius: 1.5rem;
+    padding: 1.75rem;
+    margin: 2.5rem 0;
 }
 
 .persona-scenario {
-  background: rgba(15, 23, 42, 0.04);
-  border-left: 4px solid #2563eb;
+    background: rgba(15, 23, 42, 0.04);
+    border-left: 4px solid #2563eb;
 }
 
 .persona-scenario p {
-  margin: 0 0 1rem;
+    margin: 0 0 1rem;
 }
 
 .persona-grid {
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .persona-card {
-  display: grid;
-  gap: 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .persona-card-icon {
-  width: 3rem;
-  height: 3rem;
-  display: grid;
-  place-items: center;
-  border-radius: 1rem;
-  background: rgba(37, 99, 235, 0.08);
-  font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    background: rgba(37, 99, 235, 0.08);
+    font-size: 1.5rem;
 }
 
 .persona-workflow {
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .persona-step {
-  border-left: 4px solid #2563eb;
+    border-left: 4px solid #2563eb;
 }
 
 .persona-step strong {
-  display: block;
-  margin-bottom: 0.75rem;
-  font-size: 1rem;
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
 }
 
 .cta-section {
-  background: rgba(37, 99, 235, 0.06);
-  border: 1px solid rgba(37, 99, 235, 0.16);
+    background: rgba(37, 99, 235, 0.06);
+    border: 1px solid rgba(37, 99, 235, 0.16);
 }
 
 .cta-section h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .cta-section p {
-  color: #334155;
+    color: #334155;
 }
 
 .hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 1.25rem;
 }
 
 .crm-together {
-  display: grid;
-  gap: 1.25rem;
-  border: 1px solid rgba(16, 185, 129, 0.18);
-  background: rgba(16, 185, 129, 0.06);
+    display: grid;
+    gap: 1.25rem;
+    border: 1px solid rgba(16, 185, 129, 0.18);
+    background: rgba(16, 185, 129, 0.06);
 }
 
 .crm-together-icon {
-  width: 3rem;
-  height: 3rem;
-  display: grid;
-  place-items: center;
-  border-radius: 1rem;
-  background: rgba(16, 185, 129, 0.12);
-  font-size: 1.4rem;
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    border-radius: 1rem;
+    background: rgba(16, 185, 129, 0.12);
+    font-size: 1.4rem;
 }
 
 .crm-together-text p {
-  margin: 0.65rem 0 0;
-  color: #334155;
+    margin: 0.65rem 0 0;
+    color: #334155;
 }
 
 @media (max-width: 768px) {
-  .persona-hero {
-    padding: 1.5rem;
-  }
+    .persona-hero {
+        padding: 1.5rem;
+    }
 
-  .persona-overview-grid,
-  .persona-grid,
-  .persona-workflow {
-    gap: 1rem;
-  }
+    .persona-overview-grid,
+    .persona-grid,
+    .persona-workflow {
+        gap: 1rem;
+    }
 }

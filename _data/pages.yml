@@ -76,6 +76,16 @@
   en: /en/carplay-models/
   es: /es/carplay-models/
 
+- ref: ai-call-summaries
+  de: /ai-call-summaries/
+  en: /en/ai-call-summaries/
+  es: /es/ai-call-summaries/
+
+- ref: ai-call-preparation
+  de: /ai-call-preparation/
+  en: /en/ai-call-preparation/
+  es: /es/ai-call-preparation/
+
 - ref: beta-ended
   de: /beta-ended/
   en: /en/beta-ended/

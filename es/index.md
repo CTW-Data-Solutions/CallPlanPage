@@ -7,7 +7,7 @@ lang_ref: home
 ---
 
 <div class="hero">
-  <div class="hero-badge">Planificador de llamadas & notas · Recordatorios · Manos libres</div>
+  <div class="hero-badge">Planificador inteligente & Recordatorios · Notas manos libres</div>
   <h1 class="hero-title">¿Cuándo fue la última vez que llamaste a tu mamá?</h1>
   <p class="hero-sub">Sabes a quién querías llamar – a mamá, a la abuela, a ese cliente importante. CallPlan te recuerda a tiempo y convierte tu tiempo al volante en tiempo productivo: dicta notas manos libres, sigue up automáticamente – con CarPlay &amp; Siri.</p>
   <div class="hero-actions">

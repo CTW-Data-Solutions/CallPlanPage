@@ -20,7 +20,7 @@ faq_items:
 ---
 
 <div class="hero">
-  <div class="hero-badge">Smarter Anruf-Planer · Erinnerungen · Freihändige Notizen</div>
+  <div class="hero-badge">Anruf-Planer & Notizen · Erinnerungen · Freihändig</div>
   <h1 class="hero-title">Wann hast du zuletzt Mama angerufen?</h1>
   <p class="hero-sub">Du weißt, wen du anrufen wolltest – die Eltern, die Oma, den wichtigen Kunden. CallPlan erinnert dich rechtzeitig und verwandelt deine Fahrzeit in produktive Gesprächszeit: Notizen freihändig diktieren, automatisch nachbereiten – per CarPlay &amp; Siri.</p>
   <div class="hero-actions">

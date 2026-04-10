@@ -16,6 +16,7 @@ lang_ref: home
       Download on the App Store
     </a>{% endif %}
     <a href="/en/howto/" class="btn btn-secondary">See how it works</a>
+    <a href="/en/carplay-models/" class="btn btn-secondary">CarPlay models</a>
   </div>
 </div>
 
@@ -87,7 +88,7 @@ CallPlan is more than a calendar. It's your smart assistant for every call – p
 - **Schedule calls** – Personal or professional: mom, grandma, customer – set it up in seconds with date and time.
 - **Automatic reminders** – Always notified in time. Never again forget who you meant to call.
 - **Categorisation** – Family, business, or private – keep every area of your life organised.
-- **CarPlay integration** – See all upcoming calls on the car display. Get them done on the way.
+- **CarPlay integration** – See all upcoming calls on the car display. Get them done on the way. <a href="/en/carplay-models/">Find compatible CarPlay models</a> · <a href="/en/carplay-essentials/">Discover CarPlay essentials</a>
 - **Hands-free notes via Siri** – Dictate during the call without taking your hands off the wheel.
 - **Automatic note sending** – After the call, notes go straight to you, your family, your boss, or your team.
 - **Cloud sync** – All your devices always up to date.

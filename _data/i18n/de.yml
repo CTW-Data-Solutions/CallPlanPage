@@ -5,6 +5,8 @@ flag:      "🇩🇪"
 nav:
   - label: Home
     href:  /
+  - label: "👤 Für wen?"
+    href:  /use-cases/
   - label: Anleitung
     href:  /howto/
   - label: Feature-Umfrage

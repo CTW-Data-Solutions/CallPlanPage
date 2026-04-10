@@ -5,6 +5,8 @@ flag:      "🇬🇧"
 nav:
   - label: Home
     href:  /en/
+  - label: "👤 Who is it for?"
+    href:  /en/use-cases/
   - label: How To
     href:  /en/howto/
   - label: Feature Survey

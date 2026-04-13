@@ -189,6 +189,51 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "CallPlan AI Assistant",
+  "description": "AI-powered call planning and management with intelligent preparation, summaries, and follow-up automation",
+  "provider": {
+    "@type": "Organization",
+    "name": "Quick-ID"
+  },
+  "serviceType": "AI Assistant",
+  "areaServed": "Worldwide",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "CallPlan AI Features",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Call Preparation",
+          "description": "Intelligent analysis of past conversations to create personalized call agendas"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Automatic Call Summaries",
+          "description": "AI-generated structured summaries with action items and key decisions"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Smart Follow-up Planning",
+          "description": "Automated identification and scheduling of follow-up actions"
+        }
+      }
+    ]
+  }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "WebPage",
   "url": "{{ page.url | absolute_url }}",
   "name": "{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}",

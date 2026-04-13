@@ -20,7 +20,7 @@ faq_items:
 ---
 
 <div class="hero">
-  <div class="hero-badge">Verfügbar auf iOS · CarPlay-fähig</div>
+  <div class="hero-badge">CallPlan AI · CarPlay-fähig · iOS 15+</div>
   <h1 class="hero-title">Wann hast du zuletzt deine Mutter angerufen?</h1>
   <p class="hero-sub">Du weißt, wen du anrufen wolltest – die Eltern, die Oma, den wichtigen Kunden. CallPlan erinnert dich rechtzeitig und verwandelt deine Fahrzeit in produktive Gesprächszeit: Notizen freihändig diktieren, automatisch nachbereiten – per CarPlay &amp; Siri.</p>
   <div class="hero-actions">
@@ -99,6 +99,38 @@ faq_items:
     40 Minuten Fahrzeit – und du hast nichts erledigt, weil Notizen im Auto einfach nicht gehen. Oder doch?
   </div>
 </div>
+
+## KI-gestützte Call-Planung
+
+CallPlan nutzt künstliche Intelligenz, um deine Gesprächsvorbereitung zu optimieren und Follow-ups automatisch zu identifizieren.
+
+<div class="ai-features-grid">
+  <div class="ai-feature-card">
+    <div class="ai-feature-icon">🧠</div>
+    <h3>Intelligente Vorbereitung</h3>
+    <p>KI analysiert vergangene Gespräche und erstellt personalisierte Gesprächsleitfäden mit relevanten Themen und Fragen.</p>
+  </div>
+
+  <div class="ai-feature-card">
+    <div class="ai-feature-icon">📝</div>
+    <h3>Automatische Zusammenfassungen</h3>
+    <p>Nach jedem Call erstellt die KI eine strukturierte Zusammenfassung mit Aktionspunkten und Entscheidungen.</p>
+  </div>
+
+  <div class="ai-feature-card">
+    <div class="ai-feature-icon">🔄</div>
+    <h3>Smart Follow-ups</h3>
+    <p>KI erkennt automatisch erforderliche Nachfassaktionen und plant optimale Zeitpunkte für Follow-up-Calls.</p>
+  </div>
+
+  <div class="ai-feature-card">
+    <div class="ai-feature-icon">🎯</div>
+    <h3>Kontextuelle Erinnerungen</h3>
+    <p>Intelligente Erinnerungen mit Gesprächskontext, die genau dann erscheinen, wenn du Zeit hast.</p>
+  </div>
+</div>
+
+<p><a href="/ai/" class="btn btn-secondary">KI-Funktionen entdecken →</a></p>
 
 <div class="problem-solved">✓&nbsp; CallPlan löst alle drei Probleme auf einmal – kostenlos, freihändig, per CarPlay &amp; Siri.</div>
 

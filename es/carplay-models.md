@@ -15,6 +15,8 @@ description: "Todos los modelos de coches compatibles con CarPlay 2025/2026 – 
 
 ---
 
+<p class="page-intro-link">Más información: <a href="/es/carplay/">Resumen de CarPlay</a></p>
+
 ## ¿Cómo funciona CarPlay en tu coche?
 
 CarPlay conecta tu iPhone de forma inalámbrica o por cable al sistema de infoentretenimiento de tu vehículo. Esto te permite acceder a navegación, música, llamadas y aplicaciones como **CallPlan** – directamente en la pantalla de tu vehículo.

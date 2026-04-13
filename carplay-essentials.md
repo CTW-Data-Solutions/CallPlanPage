@@ -15,6 +15,8 @@ description: "Die besten CarPlay-Apps 2025 – Navigation, Musik, Podcasts, Prod
 
 ---
 
+<p class="page-intro-link">Mehr dazu: <a href="/carplay/">CarPlay Übersicht</a></p>
+
 <p class="essentials-category">Produktivität & Calls</p>
 
 <div class="essentials-grid">

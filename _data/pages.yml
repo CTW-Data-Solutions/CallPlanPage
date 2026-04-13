@@ -111,6 +111,16 @@
   en: /en/ai-call-preparation/
   es: /es/ai-call-preparation/
 
+- ref: carplay
+  de: /carplay/
+  en: /en/carplay/
+  es: /es/carplay/
+
+- ref: ai
+  de: /ai/
+  en: /en/ai/
+  es: /es/ai/
+
 - ref: beta-ended
   de: /beta-ended/
   en: /en/beta-ended/

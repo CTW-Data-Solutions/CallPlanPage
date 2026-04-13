@@ -15,6 +15,8 @@ description: "CallPlan AI bereitet deine Geschäftsgespräche vor – mit Kunden
 
 ---
 
+<p class="page-intro-link">Mehr dazu: <a href="/ai/">AI Übersicht</a></p>
+
 ## Was ist AI Call Preparation?
 
 CallPlan AI-Vorbereitung analysiert deine bisherigen Gespräche mit einem Kontakt, zieht CRM-Daten heran und erstellt einen personalisierten Gesprächsleitfaden – damit du optimal vorbereitet in den Call gehst.

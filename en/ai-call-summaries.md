@@ -15,6 +15,8 @@ description: "CallPlan AI automatically generates summaries of your business cal
 
 ---
 
+<p class="page-intro-link">Learn more: <a href="/en/ai/">AI overview</a></p>
+
 ## What is AI Call Summarization?
 
 CallPlan AI automatically transcribes your business calls and creates structured summaries – with key points, to-dos, and next steps. Perfect for sales, support, and management.

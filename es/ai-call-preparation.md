@@ -15,6 +15,8 @@ description: "CallPlan AI te prepara para cada llamada comercial – con histori
 
 ---
 
+<p class="page-intro-link">Más información: <a href="/es/ai/">Resumen de AI</a></p>
+
 ## ¿Qué es la Preparación de Llamadas con IA?
 
 La preparación con IA de CallPlan analiza tus conversaciones anteriores con un contacto, extrae datos del CRM y crea una guía de conversación personalizada – para que entres en cada llamada completamente preparado.

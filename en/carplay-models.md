@@ -15,6 +15,8 @@ description: "All CarPlay-compatible car models 2025/2026 – vehicles supported
 
 ---
 
+<p class="page-intro-link">Learn more: <a href="/en/carplay/">CarPlay overview</a></p>
+
 ## How Does CarPlay Work in Your Car?
 
 CarPlay connects your iPhone wirelessly or via cable to your car's infotainment system. This gives you access to navigation, music, calls, and apps like **CallPlan** – directly on your vehicle's display.

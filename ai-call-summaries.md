@@ -15,6 +15,8 @@ description: "CallPlan AI generiert automatisch Zusammenfassungen deiner Geschä
 
 ---
 
+<p class="page-intro-link">Mehr dazu: <a href="/ai/">AI Übersicht</a></p>
+
 ## Was ist die AI Call-Zusammenfassung?
 
 CallPlan AI transkribiert deine Geschäftsgespräche automatisch und erstellt strukturierte Zusammenfassungen – mit den wichtigsten Punkten, To-Dos und nächsten Schritten. Perfekt für Sales, Support und Management.

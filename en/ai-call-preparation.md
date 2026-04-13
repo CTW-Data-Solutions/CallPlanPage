@@ -15,6 +15,8 @@ description: "CallPlan AI prepares you for every business call – with customer
 
 ---
 
+<p class="page-intro-link">Learn more: <a href="/en/ai/">AI overview</a></p>
+
 ## What is AI Call Preparation?
 
 CallPlan AI-powered preparation analyzes your past conversations with a contact, pulls CRM data, and creates a personalized conversation guide – so you go into every call fully prepared.

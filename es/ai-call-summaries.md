@@ -15,6 +15,8 @@ description: "CallPlan AI genera automáticamente resúmenes de tus llamadas com
 
 ---
 
+<p class="page-intro-link">Más información: <a href="/es/ai/">Resumen de AI</a></p>
+
 ## ¿Qué es la Summarización de Llamadas con IA?
 
 CallPlan AI transcribe automáticamente tus llamadas comerciales y crea resúmenes estructurados – con puntos clave, tareas pendientes y próximos pasos. Perfecto para ventas, soporte y gestión.

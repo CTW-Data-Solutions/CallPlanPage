@@ -17,6 +17,9 @@ twitter:
   username: callplan_app   # replace with your actual handle (without @)
   card: summary_large_image
 
+keywords: "CallPlan, CarPlay, Siri, call scheduling, CRM integration, AI call summaries, call preparation"
+social_image: /assets/img/social-preview.svg
+
 # GitHub Pages
 show_downloads: false
 google_analytics:           # paste your GA4 measurement ID here (G-XXXXXXXXXX)

@@ -6,11 +6,11 @@
 
 {% assign _lang = page.lang | default: 'de' %}
 {% if _lang == 'en' %}
-  {% assign _og_locale = 'en_US' %}
+{% assign _og_locale = 'en_US' %}
 {% elsif _lang == 'es' %}
-  {% assign _og_locale = 'es_ES' %}
+{% assign _og_locale = 'es_ES' %}
 {% else %}
-  {% assign _og_locale = 'de_DE' %}
+{% assign _og_locale = 'de_DE' %}
 {% endif %}
 
 <!-- Canonical URL -->
@@ -21,8 +21,8 @@
 
 <!-- Favicon & App Touch Icon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/logo.png' | absolute_url }}">
-<link rel="icon" type="image/png" sizes="32x32"  href="{{ '/assets/img/logo.png' | absolute_url }}">
-<link rel="icon" type="image/png" sizes="16x16"  href="{{ '/assets/img/logo.png' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/logo.png' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/logo.png' | absolute_url }}">
 
 <!-- ── Apple Smart App Banner ──────────────────────────────────
      Shows a native "Open in App Store" bar in Mobile Safari.
@@ -32,25 +32,34 @@
 {% endif %}
 
 <!-- ── Open Graph (Facebook, LinkedIn, iMessage, Slack …) ───── -->
-<meta property="og:type"        content="website">
-<meta property="og:site_name"   content="{{ site.title }}">
-<meta property="og:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta property="og:url"         content="{{ page.url | absolute_url }}">
-<meta property="og:image"       content="{{ '/assets/img/logo.png' | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title"
+  content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
+<meta property="og:description"
+  content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image"
+  content="{{ page.image | default: site.social_image | default: '/assets/img/logo.png' | absolute_url }}">
 <meta property="og:image:width" content="1200">
-<meta property="og:image:alt"   content="{{ site.title }} App Icon">
-<meta property="og:locale"      content="{{ _og_locale }}">
+<meta property="og:image:alt" content="{{ site.title }} App Icon">
+<meta property="og:locale" content="{{ _og_locale }}">
 
 <!-- ── Twitter / X Card ─────────────────────────────────────── -->
-<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:card" content="summary_large_image">
 {% if site.twitter.username %}
-<meta name="twitter:site"        content="@{{ site.twitter.username }}">
+<meta name="twitter:site" content="@{{ site.twitter.username }}">
 {% endif %}
-<meta name="twitter:title"       content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image"       content="{{ '/assets/img/logo.png' | absolute_url }}">
-<meta name="twitter:image:alt"   content="{{ site.title }} App Icon">
+<meta name="twitter:title"
+  content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
+<meta name="twitter:description"
+  content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{{ page.image | default: '/assets/img/logo.png' | absolute_url }}">
+<meta name="twitter:image:alt" content="{{ site.title }} App Icon">
+{% if page.keywords or site.keywords %}
+<meta name="keywords"
+  content="{% if page.keywords %}{{ page.keywords | join: ', ' }}{% else %}{{ site.keywords }}{% endif %}">
+{% endif %}
 
 <!-- ── Schema.org – MobileApplication (Google Rich Results) ────
      Enables App-Rating stars and "Available on iOS" badges
@@ -104,6 +113,65 @@
 }
 </script>
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "url": "{{ page.url | absolute_url }}",
+  "name": "{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}",
+  "headline": "{{ page.title | escape }}",
+  "description": "{% if page.description %}{{ page.description | strip_html | escape }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 | escape }}{% else %}{{ site.description | strip_html | escape }}{% endif %}",
+  "inLanguage": "{{ page.lang | default: 'de' }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}"
+  },
+  "primaryImageOfPage": {
+    "@type": "ImageObject",
+    "url": "{{ page.image | default: site.social_image | default: '/assets/img/logo.png' | absolute_url }}"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "Quick-ID"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Quick-ID",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/assets/img/logo.png' | absolute_url }}"
+    }
+  }
+}
+</script>
+
+{% assign _home_path = '/' %}
+{% if _lang == 'en' %}{% assign _home_path = '/en/' %}{% elsif _lang == 'es' %}{% assign _home_path = '/es/' %}{% endif
+%}
+{% if page.url != '/' and page.url != '/en/' and page.url != '/es/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}{{ _home_path }}"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | escape }}",
+      "item": "{{ page.url | absolute_url }}"
+    }
+  ]
+}
+</script>
+{% endif %}
+
 <!-- ── Schema.org – Organization ────────────────────────────── -->
 <script type="application/ld+json">
 {
@@ -147,15 +215,15 @@
 <!-- ── hreflang alternate links (multilingual SEO) ──────────── -->
 {% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
 {% if pages_map %}
-<link rel="alternate" hreflang="de"        href="{{ site.url }}{{ pages_map.de }}">
-<link rel="alternate" hreflang="en"        href="{{ site.url }}{{ pages_map.en }}">
-<link rel="alternate" hreflang="es"        href="{{ site.url }}{{ pages_map.es }}">
+<link rel="alternate" hreflang="de" href="{{ site.url }}{{ pages_map.de }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ pages_map.en }}">
+<link rel="alternate" hreflang="es" href="{{ site.url }}{{ pages_map.es }}">
 <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ pages_map.de }}">
 {% endif %}
 
 <!-- Additional SEO meta tags -->
-<meta name="application-name"   content="{{ site.title }}">
-<meta name="theme-color"        content="#1c1c1e">
-<meta name="mobile-web-app-capable"       content="yes">
+<meta name="application-name" content="{{ site.title }}">
+<meta name="theme-color" content="#1c1c1e">
+<meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title"   content="{{ site.title }}">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">

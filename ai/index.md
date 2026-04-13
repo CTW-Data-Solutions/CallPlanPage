@@ -5,6 +5,25 @@ permalink: /ai/
 lang: de
 lang_ref: ai
 description: "CallPlan AI Kategorie: Vorbereitung, Zusammenfassung und Follow-up für Anrufe mit intelligenter Automatisierung."
+keywords:
+  - CallPlan AI
+  - AI Gesprächsvorbereitung
+  - AI Zusammenfassungen
+  - Call-Notizen
+  - CRM Automation
+faq_items:
+  - q: "Was ist CallPlan AI?"
+    a: "CallPlan AI bereitet Anrufe vor, erstellt Zusammenfassungen und identifiziert automatische Follow-up-Aufgaben."
+  - q: "Wie hilft mir AI beim Call-Management?"
+    a: "Die AI zeigt Gesprächskontext, extrahiert Aktionspunkte und sorgt dafür, dass nichts verloren geht."
+  - q: "Welche Sprachen unterstützt die AI?"
+    a: "CallPlan AI unterstützt derzeit Deutsch, Englisch und Spanisch – weitere Sprachen folgen."
+  - q: "Wie bereite ich mich am besten auf einen wichtigen Call vor?"
+    a: "Nutze CallPlan AI, um automatisch Gesprächskontext zu sammeln, wichtige Themen zu identifizieren und eine strukturierte Agenda zu erstellen. Überprüfe vorherige Interaktionen und setze klare Ziele für das Gespräch."
+  - q: "Was sind die besten Praktiken für Call-Erinnerungen?"
+    a: "Setze Erinnerungen 15-30 Minuten vor dem Call, inklusive kurzer Notizen zum Gesprächskontext. Nutze CallPlan, um automatische Follow-ups zu planen und sicherzustellen, dass keine wichtigen Calls vergessen werden."
+  - q: "Wie kann ich meine Call-Vorbereitung mit AI optimieren?"
+    a: "Lade relevante Dokumente und Notizen in CallPlan AI, um personalisierte Gesprächsvorschläge zu erhalten. Die AI analysiert Muster aus vergangenen Calls, um bessere Vorbereitungstipps zu geben."
 ---
 
 <div class="hero">

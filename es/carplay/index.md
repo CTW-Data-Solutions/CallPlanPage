@@ -5,6 +5,25 @@ permalink: /es/carplay/
 lang: es
 lang_ref: carplay
 description: "CarPlay completo: modelos compatibles, mejores apps y cómo CallPlan hace que tu tiempo de conducción sea productivo."
+keywords:
+  - CarPlay
+  - integración CarPlay
+  - apps de CarPlay
+  - CallPlan
+  - productividad en el coche
+faq_items:
+  - q: "¿Cómo soporta CallPlan CarPlay?"
+    a: "CallPlan usa CarPlay para mostrar llamadas programadas y notas manos libres directamente en la pantalla de tu vehículo."
+  - q: "¿Qué apps de CarPlay debo usar para viajar productivamente?"
+    a: "CallPlan recomienda navegación, audio y mensajería para trayectos seguros y eficientes."
+  - q: "¿Funciona CallPlan con todos los iPhones y sistemas CarPlay?"
+    a: "CallPlan funciona en iPhones con iOS 15 o superior y la mayoría de los vehículos compatibles con CarPlay."
+  - q: "¿Cómo puedo usar recordatorios de llamadas de forma segura en el coche?"
+    a: "CallPlan muestra recordatorios directamente en la pantalla de CarPlay. Activa anuncios de voz para mantenerte informado de forma segura y sin usar las manos."
+  - q: "¿Cuáles son las mejores prácticas para la preparación de llamadas mientras conduces?"
+    a: "Prepara puntos clave de discusión antes de conducir. CallPlan te muestra toda la información relevante en la pantalla de CarPlay durante el viaje sin que necesites tocar el teléfono."
+  - q: "¿Cómo evito distracciones durante llamadas importantes en el coche?"
+    a: "Usa CallPlan con CarPlay para notas y recordatorios con manos libres. La app muestra toda la información directamente en la pantalla de tu vehículo para que puedas concentrarte en la carretera."
 ---
 
 <div class="hero" style="padding-bottom:0">

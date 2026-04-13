@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -16,11 +16,11 @@
 
 {% assign _lang = page.lang | default: 'de' %}
 {% if _lang == 'en' %}
-  {% assign t = site.data.i18n.en %}
+{% assign t = site.data.i18n.en %}
 {% elsif _lang == 'es' %}
-  {% assign t = site.data.i18n.es %}
+{% assign t = site.data.i18n.es %}
 {% else %}
-  {% assign t = site.data.i18n.de %}
+{% assign t = site.data.i18n.de %}
 {% endif %}
 {% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
 
@@ -32,8 +32,8 @@
             <a href="{{ t.nav[0].href }}" class="mobile-title">
                 {{ site.title | default: site.github.repository_name }}
             </a>
-            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation"
-                    aria-expanded="false" aria-controls="sidebar">
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="sidebar">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -58,7 +58,8 @@
 
             {% if site.show_downloads %}
             <ul class="downloads">
-                <li><a href="{{ site.app_store_url | default: site.github.repository_url }}"><strong>{{ t.downloads.appstore }}</strong></a></li>
+                <li><a href="{{ site.app_store_url | default: site.github.repository_url }}"><strong>{{
+                            t.downloads.appstore }}</strong></a></li>
                 <li><a href="{{ t.nav[1].href }}"><strong>{{ t.downloads.howto }}</strong></a></li>
                 <li><a href="{{ site.github.repository_url }}"><strong>{{ t.downloads.youtube }}</strong></a></li>
             </ul>
@@ -67,20 +68,28 @@
             <!-- ── Language switcher ── -->
             <div class="lang-switcher" aria-label="Language selection">
                 {% if pages_map %}
-                <a href="{{ pages_map.de }}" class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de" hreflang="de">🇩🇪 DE</a>
-                <a href="{{ pages_map.en }}" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧 EN</a>
-                <a href="{{ pages_map.es }}" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸 ES</a>
+                <a href="{{ pages_map.de }}"
+                    class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de"
+                    hreflang="de">🇩🇪 DE</a>
+                <a href="{{ pages_map.en }}" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en"
+                    hreflang="en">🇬🇧 EN</a>
+                <a href="{{ pages_map.es }}" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es"
+                    hreflang="es">🇪🇸 ES</a>
                 {% else %}
-                <a href="/"    class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de" hreflang="de">🇩🇪 DE</a>
-                <a href="/en/" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧 EN</a>
-                <a href="/es/" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸 ES</a>
+                <a href="/" class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de"
+                    hreflang="de">🇩🇪 DE</a>
+                <a href="/en/" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧
+                    EN</a>
+                <a href="/es/" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸
+                    ES</a>
                 {% endif %}
             </div>
 
             <!-- ── Navigation ── -->
             <nav class="site-nav" aria-label="Main navigation">
                 {% for item in t.nav %}
-                <a href="{{ item.href }}"{% if item.external %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a>
+                <a href="{{ item.href }}" {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif
+                    %}>{{ item.label }}</a>
                 {% endfor %}
             </nav>
 
@@ -97,17 +106,18 @@
             <p>{{ t.footer }} <a href="https://quick-id.com">Quick-ID</a></p>
             {% endif %}
             {% if site.app_store_url %}
-            <p><a href="{{ site.app_store_url }}" target="_blank" rel="noopener noreferrer">{{ t.downloads.appstore }}</a></p>
+            <p><a href="{{ site.app_store_url }}" target="_blank" rel="noopener noreferrer">{{ t.downloads.appstore
+                    }}</a></p>
             {% endif %}
             <p><a href="{{ t.privacy_href }}">{{ t.privacy_label }}</a></p>
         </footer>
 
     </div>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
         (function () {
-            var btn     = document.getElementById('hamburger-btn');
+            var btn = document.getElementById('hamburger-btn');
             var sidebar = document.getElementById('sidebar');
             var overlay = document.getElementById('nav-overlay');
 

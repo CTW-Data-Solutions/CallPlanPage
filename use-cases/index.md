@@ -72,6 +72,45 @@ Egal ob Sales-Rep, CEO, Networker oder Kandidat – das Problem ist dasselbe:
 
 CallPlan gibt jedem, der auf Menschen angewiesen ist, ein einfaches System: Plan. Ruf an. Notiere. Schick ab. Fahr weiter.
 
+---
+
+## Praktische Gesprächstipps für jeden Anwendungsfall
+
+### Für Vertriebsgespräche
+
+**Starke Eröffnung:**
+"Schön, dass wir uns sprechen, [Name]. Wie läuft es aktuell bei Ihnen?"
+
+**Preisgespräche führen:**
+- "Was wäre für Sie ein fairer Preis?"
+- "Bei welchem Rabatt würden Sie sofort unterschreiben?"
+- "Lassen Sie uns gemeinsam eine Lösung finden, die für beide Seiten passt."
+
+**Einwände überwinden:**
+- "Das verstehe ich vollkommen. Was genau ist Ihre größte Sorge?"
+- "Viele unserer Kunden hatten anfangs ähnliche Bedenken..."
+
+### Für Führungskräfte
+
+**Beziehungen pflegen:**
+- "Wie ist es Ihnen seit unserem letzten Gespräch ergangen?"
+- "Was beschäftigt Sie aktuell am meisten?"
+- "Wie kann ich Sie in Ihren aktuellen Herausforderungen unterstützen?"
+
+**Schwierige Themen ansprechen:**
+- "Ich weiß, dass dieses Thema sensibel ist. Lassen Sie uns darüber sprechen."
+- "Wie sehen Sie die Situation aus Ihrer Perspektive?"
+
+### Für Networking
+
+**Follow-up nach Events:**
+- "Es war schön, Sie auf der Konferenz kennenzulernen. Wie ist es Ihnen seitdem ergangen?"
+- "Haben Sie noch Fragen zu dem Thema, über das wir gesprochen haben?"
+
+**Wert schaffen:**
+- "Ich habe einen interessanten Artikel zu [Thema] gefunden, der Sie interessieren könnte."
+- "Ich würde Sie gerne mit [Person] bekannt machen – das könnte für beide Seiten wertvoll sein."
+
 {% if site.app_store_url != "" %}
 <div style="margin-top:2rem">
 <a href="{{ site.app_store_url }}" class="btn btn-primary">CallPlan kostenlos laden</a>

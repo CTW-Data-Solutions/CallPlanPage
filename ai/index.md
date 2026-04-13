@@ -53,6 +53,106 @@ Mit CallPlan AI endet die manuelle Nachbereitung. Statt Protokolle nachzutippen 
 
 ---
 
+## Best Practices für Gesprächsnotizen
+
+Professionelle Gesprächsnotizen sind das Fundament erfolgreicher Kommunikation. Hier sind die bewährten Methoden, die CallPlan AI unterstützt:
+
+### Strukturierte Notizen führen
+
+**Die 3-S-Methode:**
+- **Situation** – Was ist der Kontext des Gesprächs?
+- **Substanz** – Was sind die wichtigen Fakten und Details?
+- **Schlussfolgerung** – Welche Entscheidungen wurden getroffen?
+
+**Aktionspunkte immer mit Verantwortlichen:**
+- ❌ "Preis anpassen"
+- ✅ "Max: Preis bis 15% anpassen, Angebot bis Freitag"
+
+### Notizen während des Gesprächs
+
+**Sofort-Notizen für wichtige Punkte:**
+- Entscheidungen und Commitments
+- Offene Fragen und Bedenken
+- Konkrete nächste Schritte
+- Zeitliche Vereinbarungen
+
+**Vermeide während des Gesprächs:**
+- Zu detaillierte Mitschriften (führt zu Ablenkung)
+- Persönliche Bewertungen (bleib objektiv)
+- Unklare Abkürzungen (für andere nicht verständlich)
+
+---
+
+## Best Practices für Gesprächsbeginne
+
+Die ersten 30 Sekunden entscheiden über den Gesprächsverlauf. Mit diesen erprobten Techniken startest du stark:
+
+### Die perfekte Gesprächseröffnung
+
+**Für Bestandskunden:**
+"Schön, dass wir uns sprechen, [Name]. Wie ist es Ihnen seit unserem letzten Gespräch ergangen?"
+
+**Für Neukunden:**
+"Vielen Dank, dass Sie sich die Zeit nehmen, [Name]. Ich freue mich auf unser Gespräch."
+
+**Für schwierige Gespräche:**
+"Ich weiß, dass dieses Thema sensibel ist. Lassen Sie uns gemeinsam eine gute Lösung finden."
+
+### Vorbereitung vor dem Anruf
+
+**5 Minuten vor dem Call:**
+- Tiefe Atemzüge für Ruhe und Fokus
+- Notizen kurz überfliegen
+- Positive Einstellung einnehmen
+- Technik überprüfen (Mikrofon, Internet)
+
+**Die 3-P-Regel:**
+- **Pause** – Atme durch, bevor du antwortest
+- **Paraphrase** – Zeige, dass du verstanden hast
+- **Probe** – Stelle Fragen zur Bestätigung
+
+---
+
+## Verhandlungstechniken aus "Never Split the Difference"
+
+Inspiriert von Chris Voss' Bestseller zeigt CallPlan AI, wie du Verhandlungen erfolgreich führst:
+
+### Die Macht der richtigen Fragen
+
+**Statt Forderungen:**
+- ❌ "Wir brauchen 10% Rabatt"
+- ✅ "Was wäre nötig, damit dieses Projekt für Sie attraktiv wird?"
+
+**Labeling-Technik:**
+- "Es scheint, als wären Sie besorgt über die Kosten..."
+- "Ich habe den Eindruck, dass Budget eine wichtige Rolle spielt..."
+
+### Emotionen ansprechen
+
+**Empathie zeigen:**
+- "Das verstehe ich vollkommen – ich wäre an Ihrer Stelle genauso skeptisch"
+- "Das klingt wirklich herausfordernd für Sie"
+
+**"Nein" als Einladung:**
+- Akzeptiere frühe Absagen als Ausgangspunkt
+- "Das ist verständlich. Was genau ist Ihre größte Sorge?"
+
+### Praktische Verhandlungssätze
+
+**Preisverhandlungen:**
+- "Bei welchem Preis würden Sie sofort zusagen?"
+- "Was wäre ein fairer Kompromiss für beide Seiten?"
+
+**Terminvereinbarungen:**
+- "Welcher Zeitpunkt würde Ihnen am besten passen?"
+- "Was wäre der späteste mögliche Termin für Sie?"
+
+**Zusammenfassung sichern:**
+- "Lassen Sie mich zusammenfassen, was wir vereinbart haben..."
+- "Sind wir uns einig, dass dies der nächste Schritt ist?"
+
+Diese Techniken helfen dir, Vertrauen aufzubauen und bessere Ergebnisse zu erzielen – CallPlan AI erinnert dich an die richtigen Ansätze zur richtigen Zeit.
+
 ## Wie CallPlan AI dir den Alltag erleichtert
 
 - **Weniger Routine** – statt 30 Minuten Nachbereitung nur noch wenige Sekunden

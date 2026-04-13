@@ -53,6 +53,108 @@ With CallPlan AI, manual handoffs are over. Rather than typing notes and searchi
 
 ---
 
+## Best Practices for Call Notes
+
+Professional call notes are the foundation of successful communication. Here are proven methods that CallPlan AI supports:
+
+### Structured note-taking
+
+**The 3-S Method:**
+- **Situation** – What's the context of the conversation?
+- **Substance** – What are the important facts and details?
+- **Conclusion** – What decisions were made?
+
+**Action items always with owners:**
+- ❌ "Adjust price"
+- ✅ "Max: adjust price up to 15%, send proposal by Friday"
+
+### Note-taking during calls
+
+**Immediate notes for key points:**
+- Decisions and commitments
+- Open questions and concerns
+- Concrete next steps
+- Time agreements
+
+**Avoid during conversation:**
+- Overly detailed transcripts (leads to distraction)
+- Personal judgments (stay objective)
+- Unclear abbreviations (not understandable to others)
+
+---
+
+## Best Practices for Call Openings
+
+The first 30 seconds determine the conversation flow. Start strong with these proven techniques:
+
+### The perfect conversation opener
+
+**For existing customers:**
+"Nice to speak with you, [Name]. How have you been since our last conversation?"
+
+**For new customers:**
+"Thank you for taking the time, [Name]. I'm looking forward to our conversation."
+
+**For difficult conversations:**
+"I know this topic is sensitive. Let's find a good solution together."
+
+### Preparation before the call
+
+**5 minutes before:**
+- Deep breaths for calm and focus
+- Quickly review notes
+- Adopt positive mindset
+- Check technology (microphone, internet)
+
+**The 3-P Rule:**
+- **Pause** – Breathe before responding
+- **Paraphrase** – Show you understood
+- **Probe** – Ask questions to confirm
+
+---
+
+## Negotiation Techniques from "Never Split the Difference"
+
+Inspired by Chris Voss' bestseller, CallPlan AI shows you how to negotiate successfully:
+
+### The power of the right questions
+
+**Instead of demands:**
+- ❌ "We need 10% discount"
+- ✅ "What would be needed to make this project attractive for you?"
+
+**Labeling technique:**
+- "It seems like you're concerned about the costs..."
+- "I get the impression that budget plays an important role..."
+
+### Addressing emotions
+
+**Show empathy:**
+- "I completely understand – I'd be just as skeptical in your position"
+- "That sounds really challenging for you"
+
+**"No" as an invitation:**
+- Accept early rejections as starting points
+- "That's understandable. What's your biggest concern exactly?"
+
+### Practical negotiation phrases
+
+**Price negotiations:**
+- "At what price would you immediately agree?"
+- "What would be a fair compromise for both sides?"
+
+**Scheduling agreements:**
+- "What time would work best for you?"
+- "What would be the latest possible date for you?"
+
+**Securing summaries:**
+- "Let me summarize what we've agreed on..."
+- "Do we agree that this is the next step?"
+
+These techniques help you build trust and achieve better outcomes – CallPlan AI reminds you of the right approaches at the right time.
+
+---
+
 ## How CallPlan AI saves time
 
 - **Less busy work** – instead of 30 minutes of follow-up, get results in seconds

@@ -61,3 +61,52 @@ CallPlan es para cualquiera que realice conversaciones importantes – y que sab
   </a>
 
 </div>
+
+---
+
+## Lo que todos tienen en común
+
+Ya seas representante de ventas, CEO, profesional de networking o candidato – el problema es el mismo:
+
+> **Demasiadas personas para llamar, muy poco sistema para hacerlo. Buenas intenciones, llamadas no ejecutadas.**
+
+CallPlan le da a todos los que dependen de las personas un sistema simple: Planifica. Llama. Anota. Envía. Sigue conduciendo.
+
+---
+
+## Consejos prácticos de conversación para cada caso de uso
+
+### Para conversaciones de ventas
+
+**Apertura fuerte:**
+"Qué bueno hablar contigo, [Nombre]. ¿Cómo van las cosas actualmente?"
+
+**Conducir negociaciones de precio:**
+- "¿Cuál sería un precio justo para ti?"
+- "¿Con qué descuento firmarías inmediatamente?"
+- "Encontrémos juntos una solución que funcione para ambas partes."
+
+**Superar objeciones:**
+- "Entiendo completamente. ¿Cuál es exactamente tu mayor preocupación?"
+- "Muchos de nuestros clientes inicialmente tuvieron preocupaciones similares..."
+
+### Para ejecutivos
+
+**Mantener relaciones:**
+- "¿Cómo has estado desde nuestra última conversación?"
+- "¿Qué te ocupa más actualmente?"
+- "¿Cómo puedo apoyarte en tus desafíos actuales?"
+
+**Abordar temas difíciles:**
+- "Sé que este tema es sensible. Hablemos de ello."
+- "¿Cómo ves la situación desde tu perspectiva?"
+
+### Para networking
+
+**Seguimiento después de eventos:**
+- "Fue agradable conocerte en la conferencia. ¿Cómo has estado desde entonces?"
+- "¿Todavía tienes preguntas sobre el tema del que hablamos?"
+
+**Crear valor:**
+- "Encontré un artículo interesante sobre [tema] que podría interesarte."
+- "Me gustaría presentarte a [persona] – podría ser valioso para ambas partes."

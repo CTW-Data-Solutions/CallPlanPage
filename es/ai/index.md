@@ -53,6 +53,108 @@ Con CallPlan AI, la gestión manual se acaba. En lugar de escribir notas y busca
 
 ---
 
+## Mejores prácticas para notas de llamadas
+
+Las notas profesionales de llamadas son la base de una comunicación exitosa. Aquí están los métodos probados que CallPlan AI soporta:
+
+### Tomar notas estructuradas
+
+**El método 3-S:**
+- **Situación** – ¿Cuál es el contexto de la conversación?
+- **Sustancia** – ¿Cuáles son los hechos y detalles importantes?
+- **Conclusión** – ¿Qué decisiones se tomaron?
+
+**Elementos de acción siempre con responsables:**
+- ❌ "Ajustar precio"
+- ✅ "Max: ajustar precio hasta 15%, enviar propuesta para viernes"
+
+### Tomar notas durante las llamadas
+
+**Notas inmediatas para puntos clave:**
+- Decisiones y compromisos
+- Preguntas abiertas y preocupaciones
+- Próximos pasos concretos
+- Acuerdos de tiempo
+
+**Evitar durante la conversación:**
+- Transcripciones demasiado detalladas (lleva a distracción)
+- Juicios personales (mantente objetivo)
+- Abreviaturas poco claras (no comprensibles para otros)
+
+---
+
+## Mejores prácticas para inicios de llamadas
+
+Los primeros 30 segundos determinan el flujo de la conversación. Comienza fuerte con estas técnicas probadas:
+
+### La apertura perfecta de conversación
+
+**Para clientes existentes:**
+"Qué bueno hablar contigo, [Nombre]. ¿Cómo has estado desde nuestra última conversación?"
+
+**Para nuevos clientes:**
+"Gracias por tomarte el tiempo, [Nombre]. Me alegra nuestra conversación."
+
+**Para conversaciones difíciles:**
+"Sé que este tema es sensible. Encontremos juntos una buena solución."
+
+### Preparación antes de la llamada
+
+**5 minutos antes:**
+- Respiraciones profundas para calma y enfoque
+- Revisar rápidamente las notas
+- Adoptar actitud positiva
+- Verificar tecnología (micrófono, internet)
+
+**La regla 3-P:**
+- **Pausa** – Respira antes de responder
+- **Paráfrasis** – Muestra que entendiste
+- **Pregunta** – Haz preguntas para confirmar
+
+---
+
+## Técnicas de negociación de "Never Split the Difference"
+
+Inspirado en el bestseller de Chris Voss, CallPlan AI te muestra cómo negociar exitosamente:
+
+### El poder de las preguntas correctas
+
+**En lugar de demandas:**
+- ❌ "Necesitamos 10% de descuento"
+- ✅ "¿Qué sería necesario para hacer este proyecto atractivo para ti?"
+
+**Técnica de etiquetado:**
+- "Parece que estás preocupado por los costos..."
+- "Tengo la impresión de que el presupuesto juega un papel importante..."
+
+### Abordar emociones
+
+**Mostrar empatía:**
+- "Entiendo completamente – yo sería igual de escéptico en tu posición"
+- "Eso suena realmente desafiante para ti"
+
+**"No" como invitación:**
+- Acepta rechazos tempranos como punto de partida
+- "Es comprensible. ¿Cuál es exactamente tu mayor preocupación?"
+
+### Frases prácticas de negociación
+
+**Negociaciones de precio:**
+- "¿A qué precio aceptarías inmediatamente?"
+- "¿Cuál sería un compromiso justo para ambas partes?"
+
+**Acuerdos de horarios:**
+- "¿Qué momento te vendría mejor?"
+- "¿Cuál sería la fecha más tardía posible para ti?"
+
+**Asegurar resúmenes:**
+- "Permíteme resumir lo que hemos acordado..."
+- "¿Estamos de acuerdo en que este es el siguiente paso?"
+
+Estas técnicas te ayudan a construir confianza y lograr mejores resultados – CallPlan AI te recuerda los enfoques correctos en el momento adecuado.
+
+---
+
 ## Cómo CallPlan AI te ahorra tiempo
 
 - **Menos trabajo administrativo** – en lugar de 30 minutos de seguimiento, obtén resultados en segundos

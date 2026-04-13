@@ -72,6 +72,45 @@ Whether you're a sales rep, CEO, networker or candidate – the problem is the s
 
 CallPlan gives everyone who depends on people a simple system: Plan. Call. Note. Send. Drive on.
 
+---
+
+## Practical conversation tips for every use case
+
+### For sales conversations
+
+**Strong opening:**
+"Nice to speak with you, [Name]. How are things going for you currently?"
+
+**Conducting price negotiations:**
+- "What would be a fair price for you?"
+- "At what discount would you sign immediately?"
+- "Let's find a solution together that works for both sides."
+
+**Overcoming objections:**
+- "I completely understand. What's your biggest concern exactly?"
+- "Many of our customers initially had similar concerns..."
+
+### For executives
+
+**Maintaining relationships:**
+- "How have you been since our last conversation?"
+- "What's occupying you most right now?"
+- "How can I support you in your current challenges?"
+
+**Addressing difficult topics:**
+- "I know this topic is sensitive. Let's discuss it."
+- "How do you see the situation from your perspective?"
+
+### For networking
+
+**Follow-up after events:**
+- "It was nice meeting you at the conference. How have you been since?"
+- "Do you still have questions about the topic we discussed?"
+
+**Creating value:**
+- "I found an interesting article about [topic] that might interest you."
+- "I'd like to introduce you to [person] – it could be valuable for both sides."
+
 {% if site.app_store_url != "" %}
 <div style="margin-top:2rem">
 <a href="{{ site.app_store_url }}" class="btn btn-primary">Download CallPlan free</a>

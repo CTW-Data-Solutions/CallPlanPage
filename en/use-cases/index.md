@@ -11,34 +11,34 @@ description: "CallPlan for sales, executives, networkers and politicians. Turn d
 
 CallPlan is for anyone who runs important conversations – and knows that most of them don't happen at a desk, but on the move.
 
-<div class="persona-overview-grid">
+<div class="crm-cards">
 
-  <a href="/en/use-cases/sales/" class="persona-overview-card persona-overview-card--sales">
-    <span class="poc-icon">💼</span>
-    <div class="poc-title">Sales & Account Management</div>
-    <div class="poc-sub">More calls between appointments. Every note automatically in your CRM.</div>
-    <div class="poc-cta">Learn more →</div>
+  <a href="/en/use-cases/sales/" class="crm-card crm-card--sales">
+    <div class="crm-card-logo">💼</div>
+    <p class="crm-card-title">Sales & Account Management</p>
+    <p class="crm-card-desc">More calls between appointments. Every note automatically in your CRM.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/en/use-cases/executive/" class="persona-overview-card persona-overview-card--executive">
-    <span class="poc-icon">🏢</span>
-    <div class="poc-title">Executives & Managers</div>
-    <div class="poc-sub">Never let an important relationship go cold again.</div>
-    <div class="poc-cta">Learn more →</div>
+  <a href="/en/use-cases/executive/" class="crm-card crm-card--executive">
+    <div class="crm-card-logo">🏢</div>
+    <p class="crm-card-title">Executives & Managers</p>
+    <p class="crm-card-desc">Never let an important relationship go cold again.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/en/use-cases/networking/" class="persona-overview-card persona-overview-card--networking">
-    <span class="poc-icon">🤝</span>
-    <div class="poc-title">Networkers</div>
-    <div class="poc-sub">47 conference contacts. All followed up. None forgotten.</div>
-    <div class="poc-cta">Learn more →</div>
+  <a href="/en/use-cases/networking/" class="crm-card crm-card--networking">
+    <div class="crm-card-logo">🤝</div>
+    <p class="crm-card-title">Networkers</p>
+    <p class="crm-card-desc">47 conference contacts. All followed up. None forgotten.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/en/use-cases/politics/" class="persona-overview-card persona-overview-card--politics">
-    <span class="poc-icon">🗳️</span>
-    <div class="poc-title">Politics & Campaigns</div>
-    <div class="poc-sub">Voters, donors, allies – called systematically.</div>
-    <div class="poc-cta">Learn more →</div>
+  <a href="/en/use-cases/politics/" class="crm-card crm-card--politics">
+    <div class="crm-card-logo">🗳️</div>
+    <p class="crm-card-title">Politics & Campaigns</p>
+    <p class="crm-card-desc">Voters, donors, allies – called systematically.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
 </div>

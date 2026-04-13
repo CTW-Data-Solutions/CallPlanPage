@@ -7,7 +7,7 @@ lang_ref: ai-call-summaries
 description: "CallPlan AI generiert automatisch Zusammenfassungen deiner Geschäftsgespräche – schnelle Mitschriften, Aktionspunkte und Insights."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Automatisierung · Produktivität</div>
   <h1 class="hero-title">Call-Zusammenfassungen mit AI 🤖</h1>
   <p class="hero-sub">CallPlan AI hört mit und fasst deine Gespräche zusammen. Automatisch. Ohne Aufwand. Alle Details mitgeschrieben, Aktionspunkte extrahiert, bereit zum Versand.</p>

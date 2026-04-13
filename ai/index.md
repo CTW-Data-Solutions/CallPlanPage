@@ -7,7 +7,7 @@ lang_ref: ai
 description: "CallPlan AI Kategorie: Vorbereitung, Zusammenfassung und Follow-up für Anrufe mit intelligenter Automatisierung."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Vorbereitung · Zusammenfassung</div>
   <h1 class="hero-title">AI für deine Calls 🤖</h1>
   <p class="hero-sub">CallPlan AI bereitet deine Gespräche vor, fasst sie zusammen und sorgt dafür, dass keine Aufgabe verloren geht. Von der Vorbereitung bis zum Follow-up – alles intelligent organisiert.</p>

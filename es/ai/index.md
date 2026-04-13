@@ -7,7 +7,7 @@ lang_ref: ai
 description: "CallPlan AI para la preparación de llamadas, resúmenes y seguimiento automático."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Preparación · Resumen</div>
   <h1 class="hero-title">AI para tus llamadas 🤖</h1>
   <p class="hero-sub">CallPlan AI prepara tus conversaciones, las resume y asegura que ninguna tarea se pierda. Desde la preparación hasta el seguimiento, todo se organiza de forma inteligente.</p>

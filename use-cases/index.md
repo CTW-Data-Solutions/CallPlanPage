@@ -11,34 +11,34 @@ description: "CallPlan für Sales, Führungskräfte, Netzwerker und Politiker. V
 
 CallPlan ist für jeden, der wichtige Gespräche führt – und der weiß, dass die meisten davon nicht im Büro stattfinden, sondern unterwegs.
 
-<div class="persona-overview-grid">
+<div class="crm-cards">
 
-  <a href="/use-cases/sales/" class="persona-overview-card persona-overview-card--sales">
-    <span class="poc-icon">💼</span>
-    <div class="poc-title">Sales & Vertrieb</div>
-    <div class="poc-sub">Mehr Calls zwischen Terminen. Jede Notiz automatisch im CRM.</div>
-    <div class="poc-cta">Mehr erfahren →</div>
+  <a href="/use-cases/sales/" class="crm-card crm-card--sales">
+    <div class="crm-card-logo">💼</div>
+    <p class="crm-card-title">Sales & Vertrieb</p>
+    <p class="crm-card-desc">Mehr Calls zwischen Terminen. Jede Notiz automatisch im CRM.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/use-cases/executive/" class="persona-overview-card persona-overview-card--executive">
-    <span class="poc-icon">🏢</span>
-    <div class="poc-title">Führungskräfte</div>
-    <div class="poc-sub">Wichtige Beziehungen nie wieder kalt werden lassen.</div>
-    <div class="poc-cta">Mehr erfahren →</div>
+  <a href="/use-cases/executive/" class="crm-card crm-card--executive">
+    <div class="crm-card-logo">🏢</div>
+    <p class="crm-card-title">Führungskräfte</p>
+    <p class="crm-card-desc">Wichtige Beziehungen nie wieder kalt werden lassen.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/use-cases/networking/" class="persona-overview-card persona-overview-card--networking">
-    <span class="poc-icon">🤝</span>
-    <div class="poc-title">Netzwerker</div>
-    <div class="poc-sub">47 Konferenzkontakte. Alle angerufen. Keine vergessen.</div>
-    <div class="poc-cta">Mehr erfahren →</div>
+  <a href="/use-cases/networking/" class="crm-card crm-card--networking">
+    <div class="crm-card-logo">🤝</div>
+    <p class="crm-card-title">Netzwerker</p>
+    <p class="crm-card-desc">47 Konferenzkontakte. Alle angerufen. Keine vergessen.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
-  <a href="/use-cases/politics/" class="persona-overview-card persona-overview-card--politics">
-    <span class="poc-icon">🗳️</span>
-    <div class="poc-title">Politik & Kampagnen</div>
-    <div class="poc-sub">Wähler, Spender, Verbündete – systematisch angerufen.</div>
-    <div class="poc-cta">Mehr erfahren →</div>
+  <a href="/use-cases/politics/" class="crm-card crm-card--politics">
+    <div class="crm-card-logo">🗳️</div>
+    <p class="crm-card-title">Politik & Kampagnen</p>
+    <p class="crm-card-desc">Wähler, Spender, Verbündete – systematisch angerufen.</p>
+    <span class="crm-card-arrow">→</span>
   </a>
 
 </div>

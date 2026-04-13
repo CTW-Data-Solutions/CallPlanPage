@@ -7,7 +7,7 @@ lang_ref: ai
 description: "CallPlan AI overview for call preparation, summaries, and follow-up automation."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Preparation · Summary</div>
   <h1 class="hero-title">AI for your calls 🤖</h1>
   <p class="hero-sub">CallPlan AI prepares your conversations, summarizes them, and ensures no action item gets lost. From preparation to follow-up, everything is organized intelligently.</p>

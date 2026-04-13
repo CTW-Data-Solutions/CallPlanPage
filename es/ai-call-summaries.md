@@ -7,7 +7,7 @@ lang_ref: ai-call-summaries
 description: "CallPlan AI genera automáticamente resúmenes de tus llamadas comerciales – notas rápidas, acciones y perspectivas."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Automatización · Productividad</div>
   <h1 class="hero-title">Resúmenes de Llamadas con AI 🤖</h1>
   <p class="hero-sub">CallPlan AI escucha tus llamadas y crea resúmenes automáticamente. Sin esfuerzo. Todos los detalles capturados, acciones extraídas, listo para enviar.</p>

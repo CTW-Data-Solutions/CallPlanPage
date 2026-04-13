@@ -208,6 +208,75 @@
     margin-top: 1.25rem;
 }
 
+.hero {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.hero .hero-actions {
+    margin-top: 1.5rem;
+}
+
+.hero-badge {
+    margin-bottom: 1rem;
+}
+
+.crm-card--sales {
+    border-color: rgba(37, 99, 235, 0.35);
+}
+
+.crm-card--sales:hover {
+    border-color: rgba(37, 99, 235, 0.8);
+    box-shadow: 0 6px 24px rgba(37, 99, 235, 0.15);
+}
+
+.crm-card--sales .crm-card-logo,
+.crm-card--sales .crm-card-arrow {
+    color: #2563eb;
+}
+
+.crm-card--executive {
+    border-color: rgba(15, 23, 42, 0.2);
+}
+
+.crm-card--executive:hover {
+    border-color: rgba(15, 23, 42, 0.45);
+    box-shadow: 0 6px 24px rgba(15, 23, 42, 0.12);
+}
+
+.crm-card--executive .crm-card-logo,
+.crm-card--executive .crm-card-arrow {
+    color: #111827;
+}
+
+.crm-card--networking {
+    border-color: rgba(16, 185, 129, 0.35);
+}
+
+.crm-card--networking:hover {
+    border-color: rgba(16, 185, 129, 0.8);
+    box-shadow: 0 6px 24px rgba(16, 185, 129, 0.15);
+}
+
+.crm-card--networking .crm-card-logo,
+.crm-card--networking .crm-card-arrow {
+    color: #10b981;
+}
+
+.crm-card--politics {
+    border-color: rgba(239, 68, 68, 0.35);
+}
+
+.crm-card--politics:hover {
+    border-color: rgba(239, 68, 68, 0.8);
+    box-shadow: 0 6px 24px rgba(239, 68, 68, 0.15);
+}
+
+.crm-card--politics .crm-card-logo,
+.crm-card--politics .crm-card-arrow {
+    color: #ef4444;
+}
+
 .crm-together {
     display: grid;
     gap: 1.25rem;

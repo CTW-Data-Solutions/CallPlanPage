@@ -7,7 +7,7 @@ lang_ref: ai-call-preparation
 description: "CallPlan AI te prepara para cada llamada comercial – con historial del cliente, conversaciones anteriores y guías personalizadas."
 ---
 
-<div class="hero" style="padding-bottom:0">
+<div class="hero">
   <div class="hero-badge">CallPlan AI · Preparación · Éxito</div>
   <h1 class="hero-title">Preparación de Llamadas con AI 🎯</h1>
   <p class="hero-sub">CallPlan AI te prepara inteligentemente para cada llamada – con historial de cliente, conversaciones anteriores, recomendaciones y agendas. Mejor preparado, mejores resultados.</p>

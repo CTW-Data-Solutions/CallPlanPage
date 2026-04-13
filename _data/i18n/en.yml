@@ -3,17 +3,20 @@ lang_name: English
 flag:      "🇬🇧"
 
 nav:
-  - label: Home
+  - label: "📱 Download App"
+    href:  "{{ site.app_store_url }}"
+    external: true
+  - label: "🏠 Home"
     href:  /en/
   - label: "👤 Who is it for?"
     href:  /en/use-cases/
-  - label: How To
+  - label: "📖 How To"
     href:  /en/howto/
-  - label: Feature Survey
+  - label: "📊 Feature Survey"
     href:  /en/survey/
-  - label: Premium
+  - label: "⭐ Premium"
     href:  /en/premium/
-  - label: Support
+  - label: "🆘 Support"
     href:  /en/support/
   - label: "🆕 What's New"
     href:  /en/changelog/

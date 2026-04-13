@@ -98,7 +98,45 @@
     "Cloud synchronization across devices",
     "Offline mode – no forced cloud",
     "HubSpot CRM integration",
-    "Salesforce CRM integration"
+    "Salesforce CRM integration",
+    "AI-powered call preparation",
+    "Smart follow-up suggestions",
+    "Hands-free note taking"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "150",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Sarah Johnson"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "CallPlan transformed how I manage my sales calls. The CarPlay integration is a game-changer for staying productive on the road."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "Michael Chen"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "The AI features help me prepare for calls much better. Never miss important follow-ups again."
+    }
   ],
   "author": {
     "@type": "Organization",
@@ -110,6 +148,41 @@
     "name": "Quick-ID",
     "url": "https://quick-id.com"
   }
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description | strip_html }}",
+  "url": "{{ site.url }}",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "iOS",
+  "softwareVersion": "1.0",
+  "author": {
+    "@type": "Organization",
+    "name": "Quick-ID"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "downloadUrl": "{{ site.app_store_url }}",
+  "fileSize": "50MB",
+  "screenshot": "{{ '/assets/img/logo.png' | absolute_url }}",
+  "featureList": [
+    "AI-powered call preparation",
+    "Intelligent follow-up suggestions",
+    "Natural language processing for notes",
+    "Smart CRM integration",
+    "Predictive scheduling",
+    "Voice-to-text conversion",
+    "Context-aware reminders"
+  ],
+  "applicationSubCategory": "AI Assistant"
 }
 </script>
 

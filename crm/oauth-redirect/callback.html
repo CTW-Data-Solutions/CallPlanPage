@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting to CallPlan…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: #f5f5f7;
+        }
+
+        p {
+            color: #555;
+            font-size: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Returning to CallPlan…</p>
+    <script>
+        // Determine which CRM from the path: /oauth/hubspot/callback or /oauth/salesforce/callback
+        var parts = window.location.pathname.split('/');
+        var crm = parts[2] || 'hubspot'; // e.g. "hubspot" or "salesforce"
+
+        // Forward all query params (code, state, error, etc.) to the custom scheme
+        var target = 'callplan://oauth/' + crm + window.location.search;
+        window.location.replace(target);
+    </script>
+</body>
+
+</html>

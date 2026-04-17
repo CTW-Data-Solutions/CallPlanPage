@@ -36,7 +36,7 @@ faq_items:
 
 <div class="hero-photo" role="img" aria-label="Fahrer nutzt CallPlan über das CarPlay-Display im Auto"></div>
 
-<section class="download-section" aria-labelledby="download-heading">
+<div class="download-section" aria-labelledby="download-heading">
   <div class="download-container">
     <h2 id="download-heading">CallPlan jetzt kostenlos herunterladen</h2>
     <p class="download-subtitle">Verfügbar für iPhone mit iOS 15+ · CarPlay-kompatibel · KI-gestützte Funktionen</p>
@@ -53,7 +53,7 @@ faq_items:
       </div>
     </div>
   </div>
-</section>
+</div>
 
 <div class="stats-row">
   <div class="stat-card">

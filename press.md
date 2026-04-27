@@ -65,7 +65,7 @@ Alles, was Journalisten, Blogger und Content Creators für eine Berichterstattun
 <div class="press-downloads">
   <div class="press-asset">
     <div class="press-asset-preview">
-      <img src="/assets/img/logo.png" alt="CallPlan App Icon" style="width:80px;height:80px;border-radius:18px;">
+      <img src="/assets/img/callplan_logo_light.svg" alt="CallPlan Logo" style="width:80px;height:80px;border-radius:18px;background:#1c1c1e;padding:10px;">
     </div>
     <div class="press-asset-info">
       <strong>App Icon</strong>

@@ -260,6 +260,8 @@ CallPlan is your anchor for call planning and notes – but the car office gets 
   </div>
 </div>
 
+<p><a href="/en/best-practices/calls-in-the-car/" class="btn btn-secondary">Full guide: Phone calls in the car →</a></p>
+
 ---
 
 ## Privacy & Security

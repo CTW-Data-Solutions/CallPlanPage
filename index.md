@@ -380,6 +380,8 @@ CallPlan ist dein Anker für Gesprächsplanung und Notizen – aber das Auto-Bü
   </div>
 </div>
 
+<p><a href="/best-practices/calls-in-the-car/" class="btn btn-secondary">Vollständiger Leitfaden: Telefonieren im Auto →</a></p>
+
 ---
 
 ## Datenschutz & Sicherheit

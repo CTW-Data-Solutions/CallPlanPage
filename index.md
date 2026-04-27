@@ -82,84 +82,79 @@ faq_items:
 
 ## Das kennst du bestimmt.
 
-<div class="use-case-carousel" id="useCaseCarousel">
-  <div class="carousel-track" id="carouselTrack">
+<div class="uc-carousel" id="ucDe">
 
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🚗</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 1 · Car Office</div>
-          <h3 class="uc-slide-title">Das rollende Büro – Kundencalls ohne Ablenkung</h3>
-          <p class="uc-slide-problem">"Auf dem Weg zum nächsten Kunden – ich will den Anruf erledigen, aber nicht am Display tippen."</p>
-          <p class="uc-slide-solution">CallPlan zeigt dir alle Kundencalls auf dem CarPlay-Display. Voller Fokus auf das Gespräch, kein zweiter Bildschirm – nur du, das Lenkrad und der Verkehr. Siri schreibt die Notizen mit, CallPlan sendet sie automatisch weiter.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">🚦 Nur Fahrzeit</span>
-            <span class="uc-tag">📵 Kein zweiter Bildschirm</span>
-            <span class="uc-tag">👤 Voller Kundenfokus</span>
-          </div>
+  <div class="uc-slide active">
+    <div class="uc-slide-meta">Use Case 1 · Car Office</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🚗</div>
+      <div class="uc-content">
+        <h3>Das rollende Büro – Kundencalls ohne Ablenkung</h3>
+        <p class="uc-problem">"Auf dem Weg zum nächsten Kunden – ich will den Anruf erledigen, aber nicht am Display tippen."</p>
+        <p class="uc-solution">CallPlan zeigt dir alle Kundencalls auf dem CarPlay-Display. Voller Fokus auf das Gespräch, kein zweiter Bildschirm – nur du, das Lenkrad und der Verkehr. Siri schreibt die Notizen mit, CallPlan sendet sie automatisch weiter.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">🚦 Nur Fahrzeit</span>
+          <span class="uc-tag">📵 Kein zweiter Bildschirm</span>
+          <span class="uc-tag">👤 Voller Kundenfokus</span>
         </div>
       </div>
     </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">👵</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 2 · Der Mutteranruf</div>
-          <h3 class="uc-slide-title">Wann hast du zuletzt deine Mutter angerufen?</h3>
-          <p class="uc-slide-problem">"Ich rufe meine Mutter diese Woche noch an" – und dann ist wieder ein Monat vergangen.</p>
-          <p class="uc-slide-solution">Nicht nur Kunden vergessen wir. CallPlan erinnert dich an private Calls genau dann, wenn du Zeit hast – auf der Fahrt zur Arbeit, zwischen zwei Terminen. Die Erinnerung kommt zur richtigen Zeit, nicht irgendwann.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">👨‍👩‍👧 Familie &amp; Freunde</span>
-            <span class="uc-tag">⏰ Smarte Erinnerungen</span>
-            <span class="uc-tag">❤️ Verbindungen pflegen</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🔄</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 3 · Follow-up-Calls</div>
-          <h3 class="uc-slide-title">Der lästige Follow-up – zweiwöchentlich, monatlich, quartalsweise</h3>
-          <p class="uc-slide-problem">"Das Projekt-Update hätte ich zweiwöchentlich anrufen sollen – bis ich es drei Monate vergessen habe."</p>
-          <p class="uc-slide-solution">Wiederkehrende Check-ins für Projekte, Kunden und Partnerschaften. Zweiwöchentlich, monatlich oder quartalsweise – CallPlan plant sie automatisch und erinnert dich pünktlich, damit kein Kontakt einschläft.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">📅 Zweiwöchentlich</span>
-            <span class="uc-tag">📆 Monatlich</span>
-            <span class="uc-tag">🗓️ Quartalsweise</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
-  <div class="carousel-controls">
-    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrev()" aria-label="Vorheriger Use Case">&#8249;</button>
-    <div class="carousel-dots">
-      <button class="carousel-dot active" onclick="carouselGoto(0)" aria-label="Use Case 1: Car Office"></button>
-      <button class="carousel-dot" onclick="carouselGoto(1)" aria-label="Use Case 2: Mutteranruf"></button>
-      <button class="carousel-dot" onclick="carouselGoto(2)" aria-label="Use Case 3: Follow-up"></button>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Use Case 2 · Der Mutteranruf</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">👵</div>
+      <div class="uc-content">
+        <h3>Wann hast du zuletzt deine Mutter angerufen?</h3>
+        <p class="uc-problem">"Ich rufe meine Mutter diese Woche noch an" – und dann ist wieder ein Monat vergangen.</p>
+        <p class="uc-solution">Nicht nur Kunden vergessen wir. CallPlan erinnert dich an private Calls genau dann, wenn du Zeit hast – auf der Fahrt zur Arbeit, zwischen zwei Terminen. Die Erinnerung kommt zur richtigen Zeit, nicht irgendwann.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">👨‍👩‍👧 Familie &amp; Freunde</span>
+          <span class="uc-tag">⏰ Smarte Erinnerungen</span>
+          <span class="uc-tag">❤️ Verbindungen pflegen</span>
+        </div>
+      </div>
     </div>
-    <button class="carousel-btn carousel-btn--next" onclick="carouselNext()" aria-label="Nächster Use Case">&#8250;</button>
+  </div>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Use Case 3 · Follow-up-Calls</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🔄</div>
+      <div class="uc-content">
+        <h3>Der lästige Follow-up – zweiwöchentlich, monatlich, quartalsweise</h3>
+        <p class="uc-problem">"Das Projekt-Update hätte ich zweiwöchentlich anrufen sollen – bis ich es drei Monate vergessen habe."</p>
+        <p class="uc-solution">Wiederkehrende Check-ins für Projekte, Kunden und Partnerschaften. Zweiwöchentlich, monatlich oder quartalsweise – CallPlan plant sie automatisch und erinnert dich pünktlich, damit kein Kontakt einschläft.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">📅 Zweiwöchentlich</span>
+          <span class="uc-tag">📆 Monatlich</span>
+          <span class="uc-tag">🗓️ Quartalsweise</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="uc-controls">
+    <button class="uc-btn" onclick="ucPrevDe()" aria-label="Vorheriger Use Case">&#8249;</button>
+    <div class="uc-dots">
+      <button class="uc-dot active" onclick="ucGotoDe(0)" aria-label="Car Office"></button>
+      <button class="uc-dot" onclick="ucGotoDe(1)" aria-label="Mutteranruf"></button>
+      <button class="uc-dot" onclick="ucGotoDe(2)" aria-label="Follow-up"></button>
+    </div>
+    <button class="uc-btn" onclick="ucNextDe()" aria-label="Nächster Use Case">&#8250;</button>
   </div>
 </div>
 <script>
-(function() {
-  var cur = 0, total = 3;
-  function update() {
-    var t = document.getElementById('carouselTrack');
-    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
-    document.querySelectorAll('#useCaseCarousel .carousel-dot').forEach(function(d, i) {
-      d.classList.toggle('active', i === cur);
-    });
+(function(){
+  var cur=0,total=3,el=document.getElementById('ucDe');
+  function upd(){
+    el.querySelectorAll('.uc-slide').forEach(function(s,i){s.classList.toggle('active',i===cur);});
+    el.querySelectorAll('.uc-dot').forEach(function(d,i){d.classList.toggle('active',i===cur);});
   }
-  window.carouselPrev = function() { cur = (cur - 1 + total) % total; update(); };
-  window.carouselNext = function() { cur = (cur + 1) % total; update(); };
-  window.carouselGoto = function(n) { cur = n; update(); };
+  window.ucPrevDe=function(){cur=(cur-1+total)%total;upd();};
+  window.ucNextDe=function(){cur=(cur+1)%total;upd();};
+  window.ucGotoDe=function(n){cur=n;upd();};
 })();
 </script>
 

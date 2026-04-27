@@ -88,7 +88,9 @@
             <!-- ── Navigation ── -->
             <nav class="site-nav" aria-label="Main navigation">
                 {% for item in t.nav %}
-                <a href="{{ item.href }}" {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif
+                {% assign _href = item.href %}
+                {% if _href == '__app_store__' %}{% assign _href = site.app_store_url %}{% endif %}
+                <a href="{{ _href }}" {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif
                     %}>{{ item.label }}</a>
                 {% endfor %}
             </nav>

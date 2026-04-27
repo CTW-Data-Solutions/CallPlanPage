@@ -49,23 +49,86 @@ lang_ref: home
 
 ## Sound familiar?
 
-<div class="problem-scenarios">
-  <div class="problem-card">
-    <span class="problem-icon">👵</span>
-    <strong>Personal</strong>
-    "I'll call Gran this week" – and then another month goes by without a call.
+<div class="use-case-carousel" id="useCaseCarouselEn">
+  <div class="carousel-track" id="carouselTrackEn">
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🚗</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 1 · Car Office</div>
+          <h3 class="uc-slide-title">The rolling office – customer calls without distraction</h3>
+          <p class="uc-slide-problem">"On the way to my next customer – I want to make the call, but I can't be tapping at a screen."</p>
+          <p class="uc-slide-solution">CallPlan shows all your customer calls on the CarPlay display. Full focus on the conversation, no second screen – just you, the steering wheel, and the traffic. Siri takes notes while you drive; CallPlan sends them automatically.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">🚦 Drive time only</span>
+            <span class="uc-tag">📵 No second screen</span>
+            <span class="uc-tag">👤 Full customer focus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">👵</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 2 · The Mom Call</div>
+          <h3 class="uc-slide-title">When did you last call your mom?</h3>
+          <p class="uc-slide-problem">"I'll call Mum this week" – and then another month slips by without a word.</p>
+          <p class="uc-slide-solution">It's not only customers we forget. CallPlan reminds you about personal calls exactly when you have time – on the commute, between meetings. The reminder arrives at the right moment, not whenever.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">👨‍👩‍👧 Family &amp; friends</span>
+            <span class="uc-tag">⏰ Smart reminders</span>
+            <span class="uc-tag">❤️ Nurture relationships</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🔄</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 3 · Follow-up Calls</div>
+          <h3 class="uc-slide-title">The tedious follow-up – bi-weekly, monthly, quarterly</h3>
+          <p class="uc-slide-problem">"I was supposed to call for a project update every two weeks – until I'd forgotten for three months straight."</p>
+          <p class="uc-slide-solution">Recurring check-ins for projects, clients, and partnerships. Bi-weekly, monthly, or quarterly – CallPlan schedules them automatically and reminds you on time, so no relationship goes cold.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">📅 Bi-weekly</span>
+            <span class="uc-tag">📆 Monthly</span>
+            <span class="uc-tag">🗓️ Quarterly</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="problem-card">
-    <span class="problem-icon">💼</span>
-    <strong>Business</strong>
-    Your customer has been waiting three days for a callback. You didn't forget – you just never found the right moment.
-  </div>
-  <div class="problem-card">
-    <span class="problem-icon">🚗</span>
-    <strong>In the car</strong>
-    40 minutes of drive time – wasted, because taking notes behind the wheel just doesn't work. Or does it?
+  <div class="carousel-controls">
+    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrevEn()" aria-label="Previous use case">&#8249;</button>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" onclick="carouselGotoEn(0)" aria-label="Use Case 1: Car Office"></button>
+      <button class="carousel-dot" onclick="carouselGotoEn(1)" aria-label="Use Case 2: Mom Call"></button>
+      <button class="carousel-dot" onclick="carouselGotoEn(2)" aria-label="Use Case 3: Follow-up"></button>
+    </div>
+    <button class="carousel-btn carousel-btn--next" onclick="carouselNextEn()" aria-label="Next use case">&#8250;</button>
   </div>
 </div>
+<script>
+(function() {
+  var cur = 0, total = 3;
+  function update() {
+    var t = document.getElementById('carouselTrackEn');
+    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    document.querySelectorAll('#useCaseCarouselEn .carousel-dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === cur);
+    });
+  }
+  window.carouselPrevEn = function() { cur = (cur - 1 + total) % total; update(); };
+  window.carouselNextEn = function() { cur = (cur + 1) % total; update(); };
+  window.carouselGotoEn = function(n) { cur = n; update(); };
+})();
+</script>
 
 <div class="problem-solved">✓&nbsp; CallPlan solves all three – free, hands-free, via CarPlay &amp; Siri.</div>
 
@@ -166,6 +229,41 @@ CallPlan is one of the few apps with full **CarPlay** support. Your car becomes 
 
 ---
 
+## Car Office – Productivity hacks with other apps
+
+CallPlan is your anchor for call planning and notes – but the car office gets truly powerful when you combine your everyday tools smartly.
+
+<div class="productivity-apps-grid">
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🤖</div>
+    <h3>ChatGPT</h3>
+    <p>Prepare customer conversations with AI: generate talk tracks, simulate objections, pull up key arguments – before you even dial.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan note after the call → ChatGPT summary → send as follow-up email.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💡</div>
+    <h3>Microsoft Copilot</h3>
+    <p>Copilot helps with follow-up and drafting: emails, proposals, to-do lists. Pair it with CallPlan notes for maximum efficiency.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan note → Copilot → a polished follow-up email ready in seconds.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💬</div>
+    <h3>Microsoft Teams</h3>
+    <p>Right after the conversation: send CallPlan notes to your inside sales team via Teams – no media breaks, everything synced in real time.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan sends note → Teams channel notifies inside sales → order is processed immediately.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🎙️</div>
+    <h3>Siri Shortcuts</h3>
+    <p>Automate your call workflow entirely hands-free. Use Siri Shortcuts to launch CallPlan, create entries, and send notes – all by voice.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> "Hey Siri, plan a new customer call" → CallPlan opens and creates the entry automatically.</div>
+  </div>
+</div>
+
+<p><a href="/en/best-practices/calls-in-the-car/" class="btn btn-secondary">Full guide: Phone calls in the car →</a></p>
+
+---
+
 ## Privacy & Security
 
 CallPlan requests only the permissions it actually needs. Your data is **never shared or stored** and the app works fully offline. [Learn more →](/en/privacy/)
@@ -250,6 +348,84 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
   <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+for+iOS+with+CarPlay+%26+Siri.+Check+it+out%3A+https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?text=I+use+CallPlan+for+hands-free+call+notes+while+driving+%E2%80%93+highly+recommended%21&url=https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
   <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0AI%20use%20CallPlan%20for%20call%20preparation%20and%20hands-free%20notes%20via%20CarPlay.%0A%0ACheck%20it%20out%3A%20https%3A%2F%2Fcallplan.app%2Fen%2F" class="btn btn-share">📧 Email</a>
+</div>
+
+---
+
+## Events & Networks for Sales Professionals
+
+<div class="events-section">
+  <div class="events-grid">
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 1–3 June 2026</span>
+        <span class="event-type">9th Congress · Germany</span>
+      </div>
+      <h3 class="event-title">9th Sales Management Congress 2026</h3>
+      <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
+      <div class="event-meta">📍 Berlin, Germany · 1–3 June 2026</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 2027</span>
+        <span class="event-type">10th Congress · Germany</span>
+      </div>
+      <h3 class="event-title">10th Sales Management Congress 2027</h3>
+      <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
+      <div class="event-meta">📍 Berlin, Germany · 2027</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · Sept. 2026</span>
+        <span class="event-type">Flagship conference · Global</span>
+      </div>
+      <h3 class="event-title">Dreamforce 2026</h3>
+      <p class="event-desc">Salesforce's world-largest CRM and sales conference – thousands of sessions, product launches and the biggest sales networking event on the planet. Essential for every sales professional.</p>
+      <div class="event-meta">📍 San Francisco, CA · Sept. 2026 · Exact dates TBD</div>
+      <a href="https://www.salesforce.com/dreamforce/" class="btn btn-secondary" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · Sept. 2026</span>
+        <span class="event-type">SaaS community · Global</span>
+      </div>
+      <h3 class="event-title">SaaStr Annual 2026</h3>
+      <p class="event-desc">The world's largest SaaS conference for founders, revenue teams, and sales leaders – focused on scalable sales, ARR growth, and B2B revenue.</p>
+      <div class="event-meta">📍 San Francisco Bay Area · Sept. 2026 · Exact dates TBD</div>
+      <a href="https://www.saastr.com/events/" class="btn btn-secondary" target="_blank" rel="noopener">Learn more →</a>
+    </div>
+
+  </div>
+
+  <h3 class="events-assoc-heading">Associations &amp; Networks</h3>
+  <div class="associations-grid">
+    <a href="https://www.cdh.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🤝</span>
+      <strong>CDH</strong>
+      <span>Commercial Agents &amp; Distribution</span>
+    </a>
+    <a href="https://www.bdvt.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">📊</span>
+      <strong>BDVT</strong>
+      <span>Sales Trainers &amp; Coaches</span>
+    </a>
+    <a href="https://www.bvmw.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🏢</span>
+      <strong>BVMW</strong>
+      <span>SME &amp; Field Sales</span>
+    </a>
+    <a href="https://www.salesmanagementassociation.org" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🎯</span>
+      <strong>Sales Management</strong>
+      <span>International Sales Community</span>
+    </a>
+  </div>
 </div>
 
 ---

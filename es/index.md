@@ -49,23 +49,86 @@ lang_ref: home
 
 ## ¿Te suena familiar?
 
-<div class="problem-scenarios">
-  <div class="problem-card">
-    <span class="problem-icon">👵</span>
-    <strong>Personal</strong>
-    "Esta semana llamo a la abuela" – y pasa otro mes sin llamar.
+<div class="use-case-carousel" id="useCaseCarouselEs">
+  <div class="carousel-track" id="carouselTrackEs">
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🚗</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Caso de uso 1 · Oficina Móvil</div>
+          <h3 class="uc-slide-title">La oficina sobre ruedas – llamadas sin distracciones</h3>
+          <p class="uc-slide-problem">"De camino al cliente – quiero hacer la llamada, pero no puedo estar tecleando en la pantalla."</p>
+          <p class="uc-slide-solution">CallPlan muestra todas tus llamadas a clientes en la pantalla CarPlay. Plena concentración en la conversación, sin segunda pantalla – solo tú, el volante y el tráfico. Siri toma notas mientras conduces; CallPlan las envía automáticamente.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">🚦 Solo tiempo de conducción</span>
+            <span class="uc-tag">📵 Sin segunda pantalla</span>
+            <span class="uc-tag">👤 Foco total en el cliente</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">👵</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Caso de uso 2 · La llamada a mamá</div>
+          <h3 class="uc-slide-title">¿Cuándo fue la última vez que llamaste a tu mamá?</h3>
+          <p class="uc-slide-problem">"Esta semana llamo a la abuela" – y pasa otro mes sin llamar.</p>
+          <p class="uc-slide-solution">No solo olvidamos a los clientes. CallPlan te recuerda las llamadas personales exactamente cuando tienes tiempo – durante el trayecto al trabajo, entre reuniones. El aviso llega en el momento justo, no en cualquier momento.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">👨‍👩‍👧 Familia &amp; amigos</span>
+            <span class="uc-tag">⏰ Recordatorios inteligentes</span>
+            <span class="uc-tag">❤️ Cuida tus relaciones</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🔄</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Caso de uso 3 · Seguimientos</div>
+          <h3 class="uc-slide-title">El molesto seguimiento – quincenal, mensual, trimestral</h3>
+          <p class="uc-slide-problem">"Tenía que llamar cada dos semanas para actualizar el proyecto – hasta que lo olvidé durante tres meses."</p>
+          <p class="uc-slide-solution">Check-ins recurrentes para proyectos, clientes y colaboraciones. Quincenal, mensual o trimestral – CallPlan los planifica automáticamente y te avisa a tiempo para que ningún contacto se enfríe.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">📅 Quincenal</span>
+            <span class="uc-tag">📆 Mensual</span>
+            <span class="uc-tag">🗓️ Trimestral</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="problem-card">
-    <span class="problem-icon">💼</span>
-    <strong>Trabajo</strong>
-    Tu cliente lleva tres días esperando tu devolución de llamada. No lo olvidaste – nunca encontraste el momento adecuado.
-  </div>
-  <div class="problem-card">
-    <span class="problem-icon">🚗</span>
-    <strong>En el coche</strong>
-    40 minutos conduciendo – desperdiciados, porque tomar notas al volante simplemente no es posible. ¿O sí?
+  <div class="carousel-controls">
+    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrevEs()" aria-label="Caso anterior">&#8249;</button>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" onclick="carouselGotoEs(0)" aria-label="Caso 1: Oficina Móvil"></button>
+      <button class="carousel-dot" onclick="carouselGotoEs(1)" aria-label="Caso 2: Llamada a mamá"></button>
+      <button class="carousel-dot" onclick="carouselGotoEs(2)" aria-label="Caso 3: Seguimientos"></button>
+    </div>
+    <button class="carousel-btn carousel-btn--next" onclick="carouselNextEs()" aria-label="Caso siguiente">&#8250;</button>
   </div>
 </div>
+<script>
+(function() {
+  var cur = 0, total = 3;
+  function update() {
+    var t = document.getElementById('carouselTrackEs');
+    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    document.querySelectorAll('#useCaseCarouselEs .carousel-dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === cur);
+    });
+  }
+  window.carouselPrevEs = function() { cur = (cur - 1 + total) % total; update(); };
+  window.carouselNextEs = function() { cur = (cur + 1) % total; update(); };
+  window.carouselGotoEs = function(n) { cur = n; update(); };
+})();
+</script>
 
 <div class="problem-solved">✓&nbsp; CallPlan resuelve los tres problemas a la vez – gratis, manos libres, con CarPlay &amp; Siri.</div>
 
@@ -166,6 +229,41 @@ CallPlan es una de las pocas apps con soporte completo de **CarPlay**. Tu coche 
 
 ---
 
+## Oficina móvil – Productividad en el coche con otras apps
+
+CallPlan es tu base para planificar llamadas y tomar notas – pero la oficina móvil se vuelve realmente poderosa cuando combinas bien tus herramientas del día a día.
+
+<div class="productivity-apps-grid">
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🤖</div>
+    <h3>ChatGPT</h3>
+    <p>Prepara las conversaciones con clientes con IA: genera guiones, simula objeciones, obtén argumentos clave – antes de hacer la llamada.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> Nota de CallPlan tras la llamada → resumen de ChatGPT → email de seguimiento listo.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💡</div>
+    <h3>Microsoft Copilot</h3>
+    <p>Copilot ayuda con el seguimiento: redactar emails, estructurar propuestas, priorizar tareas. Combínalo con las notas de CallPlan para máxima eficiencia.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> Nota de CallPlan → Copilot → email de seguimiento redactado en segundos.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💬</div>
+    <h3>Microsoft Teams</h3>
+    <p>Justo tras la conversación: envía las notas de CallPlan a tu equipo interno por Teams – sin interrupciones, todo sincronizado en tiempo real.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan envía nota → canal de Teams notifica al equipo → el pedido se gestiona de inmediato.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🎙️</div>
+    <h3>Atajos de Siri</h3>
+    <p>Automatiza tu flujo de llamadas completamente manos libres. Con Atajos de Siri abres CallPlan, creas entradas y envías notas – todo por voz.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> "Oye Siri, planificar nueva llamada de cliente" → CallPlan abre y crea la entrada automáticamente.</div>
+  </div>
+</div>
+
+<p><a href="/es/best-practices/calls-in-the-car/" class="btn btn-secondary">Guía completa: Llamadas en el coche →</a></p>
+
+---
+
 ## Privacidad y seguridad
 
 CallPlan solo solicita los permisos que realmente necesita. Tus datos **nunca se comparten ni se almacenan** y la app funciona completamente sin conexión. [Más información →](/es/privacy/)
@@ -250,6 +348,84 @@ Descarga nuestro framework de 5 pasos para preparar llamadas profesionales – g
   <a href="https://wa.me/?text=CallPlan+%E2%80%93+Planificador+de+llamadas+para+iOS+con+CarPlay+%26+Siri.+%C3%89chale+un+vistazo%3A+https%3A%2F%2Fcallplan.app%2Fes%2F" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?text=Uso+CallPlan+para+tomar+notas+manos+libres+al+volante+%E2%80%93+muy+recomendable%21&url=https%3A%2F%2Fcallplan.app%2Fes%2F" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
   <a href="mailto:?subject=CallPlan%20%E2%80%93%20Planificador%20inteligente%20de%20llamadas&body=Hola%2C%0A%0Auso%20CallPlan%20para%20preparar%20llamadas%20y%20tomar%20notas%20manos%20libres%20con%20CarPlay.%0A%0A%C3%89chale%20un%20vistazo%3A%20https%3A%2F%2Fcallplan.app%2Fes%2F" class="btn btn-share">📧 Email</a>
+</div>
+
+---
+
+## Eventos y redes para ventas y comerciales externos
+
+<div class="events-section">
+  <div class="events-grid">
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · 1–3 junio 2026</span>
+        <span class="event-type">9.º Congreso · Alemania</span>
+      </div>
+      <h3 class="event-title">9.º Congreso de Gestión de Ventas 2026</h3>
+      <p class="event-desc">El principal congreso de gestión de ventas en Alemania – ponentes destacados, networking y mejores prácticas para directivos de ventas y comerciales externos.</p>
+      <div class="event-meta">📍 Berlín, Alemania · 1–3 junio 2026</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Web del congreso →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · 2027</span>
+        <span class="event-type">10.º Congreso · Alemania</span>
+      </div>
+      <h3 class="event-title">10.º Congreso de Gestión de Ventas 2027</h3>
+      <p class="event-desc">El principal congreso de gestión de ventas en Alemania – ponentes destacados, networking y mejores prácticas para directivos de ventas y comerciales externos.</p>
+      <div class="event-meta">📍 Berlín, Alemania · 2027</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Web del congreso →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · Sept. 2026</span>
+        <span class="event-type">Conferencia global · Ventas</span>
+      </div>
+      <h3 class="event-title">Dreamforce 2026</h3>
+      <p class="event-desc">La mayor conferencia de CRM y ventas del mundo – miles de sesiones, lanzamientos de producto y la red de networking de ventas más grande del planeta.</p>
+      <div class="event-meta">📍 San Francisco, CA · Sept. 2026 · Fechas exactas por confirmar</div>
+      <a href="https://www.salesforce.com/dreamforce/" class="btn btn-secondary" target="_blank" rel="noopener">Más información →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · Sept. 2026</span>
+        <span class="event-type">Comunidad SaaS · Global</span>
+      </div>
+      <h3 class="event-title">SaaStr Annual 2026</h3>
+      <p class="event-desc">La mayor conferencia del mundo para fundadores, equipos de revenue y directivos de ventas SaaS – centrada en ventas escalables, crecimiento ARR y B2B revenue.</p>
+      <div class="event-meta">📍 San Francisco Bay Area · Sept. 2026 · Fechas exactas por confirmar</div>
+      <a href="https://www.saastr.com/events/" class="btn btn-secondary" target="_blank" rel="noopener">Más información →</a>
+    </div>
+
+  </div>
+
+  <h3 class="events-assoc-heading">Asociaciones &amp; Redes</h3>
+  <div class="associations-grid">
+    <a href="https://www.cdh.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🤝</span>
+      <strong>CDH</strong>
+      <span>Agentes comerciales &amp; distribución</span>
+    </a>
+    <a href="https://www.bdvt.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">📊</span>
+      <strong>BDVT</strong>
+      <span>Formadores &amp; coaches de ventas</span>
+    </a>
+    <a href="https://www.bvmw.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🏢</span>
+      <strong>BVMW</strong>
+      <span>Pymes &amp; fuerza de ventas externa</span>
+    </a>
+    <a href="https://www.salesmanagementassociation.org" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🎯</span>
+      <strong>Sales Management</strong>
+      <span>Comunidad internacional de ventas</span>
+    </a>
+  </div>
 </div>
 
 ---

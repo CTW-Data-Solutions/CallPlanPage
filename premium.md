@@ -6,6 +6,8 @@ lang: de
 lang_ref: premium
 ---
 
+<div class="premium-banner" role="img" aria-label="CallPlan Premium"></div>
+
 ## Premium-Abo
 
 **Bezeichnung:** Premium
@@ -83,6 +85,8 @@ Dein Abo verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor
 <p style="font-size:13px;color:#666;margin-top:-8px">Preise variieren je nach Land. Aktuelle Preise findest du direkt im App Store. Abos verlängern sich automatisch und können jederzeit in den App-Store-Einstellungen gekündigt werden.</p>
 
 ---
+
+<div class="crm-integration-banner" role="img" aria-label="CRM-Integrationen"></div>
 
 ## CRM-Integrationen (Premium)
 

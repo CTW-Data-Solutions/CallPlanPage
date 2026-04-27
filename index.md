@@ -43,8 +43,8 @@ faq_items:
     <div class="download-actions">
       {% if site.app_store_url != "" %}
       <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" aria-label="CallPlan im App Store herunterladen">
-        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.46 2.94-1.5 .13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-        Im App Store
+        <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5 .13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Im App Store laden
       </a>
       {% endif %}
       <div class="download-meta">
@@ -82,23 +82,86 @@ faq_items:
 
 ## Das kennst du bestimmt.
 
-<div class="problem-scenarios">
-  <div class="problem-card">
-    <span class="problem-icon">👵</span>
-    <strong>Privat</strong>
-    "Ich rufe meine Mutter diese Woche noch an" – und dann ist wieder ein Monat vergangen.
+<div class="use-case-carousel" id="useCaseCarousel">
+  <div class="carousel-track" id="carouselTrack">
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🚗</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 1 · Car Office</div>
+          <h3 class="uc-slide-title">Das rollende Büro – Kundencalls ohne Ablenkung</h3>
+          <p class="uc-slide-problem">"Auf dem Weg zum nächsten Kunden – ich will den Anruf erledigen, aber nicht am Display tippen."</p>
+          <p class="uc-slide-solution">CallPlan zeigt dir alle Kundencalls auf dem CarPlay-Display. Voller Fokus auf das Gespräch, kein zweiter Bildschirm – nur du, das Lenkrad und der Verkehr. Siri schreibt die Notizen mit, CallPlan sendet sie automatisch weiter.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">🚦 Nur Fahrzeit</span>
+            <span class="uc-tag">📵 Kein zweiter Bildschirm</span>
+            <span class="uc-tag">👤 Voller Kundenfokus</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">👵</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 2 · Der Mutteranruf</div>
+          <h3 class="uc-slide-title">Wann hast du zuletzt deine Mutter angerufen?</h3>
+          <p class="uc-slide-problem">"Ich rufe meine Mutter diese Woche noch an" – und dann ist wieder ein Monat vergangen.</p>
+          <p class="uc-slide-solution">Nicht nur Kunden vergessen wir. CallPlan erinnert dich an private Calls genau dann, wenn du Zeit hast – auf der Fahrt zur Arbeit, zwischen zwei Terminen. Die Erinnerung kommt zur richtigen Zeit, nicht irgendwann.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">👨‍👩‍👧 Familie &amp; Freunde</span>
+            <span class="uc-tag">⏰ Smarte Erinnerungen</span>
+            <span class="uc-tag">❤️ Verbindungen pflegen</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-slide">
+      <div class="uc-slide-inner">
+        <div class="uc-slide-icon">🔄</div>
+        <div class="uc-slide-content">
+          <div class="uc-slide-label">Use Case 3 · Follow-up-Calls</div>
+          <h3 class="uc-slide-title">Der lästige Follow-up – zweiwöchentlich, monatlich, quartalsweise</h3>
+          <p class="uc-slide-problem">"Das Projekt-Update hätte ich zweiwöchentlich anrufen sollen – bis ich es drei Monate vergessen habe."</p>
+          <p class="uc-slide-solution">Wiederkehrende Check-ins für Projekte, Kunden und Partnerschaften. Zweiwöchentlich, monatlich oder quartalsweise – CallPlan plant sie automatisch und erinnert dich pünktlich, damit kein Kontakt einschläft.</p>
+          <div class="uc-tags">
+            <span class="uc-tag">📅 Zweiwöchentlich</span>
+            <span class="uc-tag">📆 Monatlich</span>
+            <span class="uc-tag">🗓️ Quartalsweise</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <div class="problem-card">
-    <span class="problem-icon">💼</span>
-    <strong>Business</strong>
-    Der Kunde wartet seit drei Tagen auf deinen Rückruf. Du hattest es nicht vergessen – nur nie den richtigen Moment.
-  </div>
-  <div class="problem-card">
-    <span class="problem-icon">🚗</span>
-    <strong>Im Auto</strong>
-    40 Minuten Fahrzeit – und du hast nichts erledigt, weil Notizen im Auto einfach nicht gehen. Oder doch?
+  <div class="carousel-controls">
+    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrev()" aria-label="Vorheriger Use Case">&#8249;</button>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" onclick="carouselGoto(0)" aria-label="Use Case 1: Car Office"></button>
+      <button class="carousel-dot" onclick="carouselGoto(1)" aria-label="Use Case 2: Mutteranruf"></button>
+      <button class="carousel-dot" onclick="carouselGoto(2)" aria-label="Use Case 3: Follow-up"></button>
+    </div>
+    <button class="carousel-btn carousel-btn--next" onclick="carouselNext()" aria-label="Nächster Use Case">&#8250;</button>
   </div>
 </div>
+<script>
+(function() {
+  var cur = 0, total = 3;
+  function update() {
+    var t = document.getElementById('carouselTrack');
+    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
+    document.querySelectorAll('#useCaseCarousel .carousel-dot').forEach(function(d, i) {
+      d.classList.toggle('active', i === cur);
+    });
+  }
+  window.carouselPrev = function() { cur = (cur - 1 + total) % total; update(); };
+  window.carouselNext = function() { cur = (cur + 1) % total; update(); };
+  window.carouselGoto = function(n) { cur = n; update(); };
+})();
+</script>
 
 ## KI-gestützte Call-Planung
 
@@ -286,6 +349,39 @@ CallPlan ist eine der wenigen Apps, die **CarPlay** vollständig unterstützt. D
 
 ---
 
+## Car Office – Produktiv unterwegs mit anderen Apps
+
+CallPlan ist dein Anker für Gesprächsplanung und Notizen – aber das Auto-Büro wird erst richtig stark, wenn du deine täglichen Tools klug kombinierst.
+
+<div class="productivity-apps-grid">
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🤖</div>
+    <h3>ChatGPT</h3>
+    <p>Bereite Kundengespräche per KI vor: Gesprächsleitfäden generieren, Einwände simulieren, Argumentationshilfen abrufen – bevor du ins Gespräch gehst.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan-Notiz nach dem Call → ChatGPT-Zusammenfassung → direkt als Follow-up-Mail.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💡</div>
+    <h3>Microsoft Copilot</h3>
+    <p>Copilot unterstützt bei Nachbereitung und Formulierung: E-Mails, Angebote, To-dos. Kombiniere es mit CallPlan-Notizen für maximale Effizienz.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan-Notiz → Copilot → fertig formulierte Follow-up-Mail in Sekunden.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">💬</div>
+    <h3>Microsoft Teams</h3>
+    <p>Direkt nach dem Gespräch: CallPlan-Notizen per Teams an dein Innendienst-Team schicken – kein Medienbruch, alles in Echtzeit synchronisiert.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> CallPlan sendet Notiz → Teams-Channel benachrichtigt Innendienst → Auftrag läuft sofort.</div>
+  </div>
+  <div class="app-hack-card">
+    <div class="app-hack-logo">🎙️</div>
+    <h3>Siri Shortcuts</h3>
+    <p>Automatisiere deinen Call-Workflow komplett freihändig. Mit Siri Shortcuts startest du CallPlan, erstellst Einträge und sendest Notizen – alles per Sprachbefehl.</p>
+    <div class="app-hack-tip"><strong>Combo:</strong> "Hey Siri, neuen Kundencall planen" → CallPlan öffnet sich, Eintrag wird angelegt.</div>
+  </div>
+</div>
+
+---
+
 ## Datenschutz & Sicherheit
 
 CallPlan fragt nur die Berechtigungen an, die wirklich nötig sind. Deine Daten werden **nicht geteilt, nicht gespeichert** und die App funktioniert vollständig offline. [Mehr erfahren →](/privacy/)
@@ -346,6 +442,49 @@ Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan i
   <a href="https://wa.me/?text=CallPlan+%E2%80%93+Smart+Call+Scheduler+f%C3%BCr+iOS+mit+CarPlay+%26+Siri.+Schau+mal%3A+https%3A%2F%2Fcallplan.app" class="btn btn-share" target="_blank" rel="noopener">📱 WhatsApp</a>
   <a href="https://twitter.com/intent/tweet?text=Ich+nutze+CallPlan+f%C3%BCr+freih%C3%A4ndige+Gespr%C3%A4chsnotizen+am+Steuer+%E2%80%93+sehr+empfehlenswert%21&url=https%3A%2F%2Fcallplan.app" class="btn btn-share" target="_blank" rel="noopener">𝕏 Twitter/X</a>
   <a href="mailto:?subject=CallPlan%20%E2%80%93%20Smart%20Call%20Scheduler&body=Hi%2C%0A%0Aich%20nutze%20CallPlan%20f%C3%BCr%20Gespr%C3%A4chsvorbereitung%20und%20freih%C3%A4ndige%20Notizen%20mit%20CarPlay.%0A%0ASchau%20mal%3A%20https%3A%2F%2Fcallplan.app" class="btn btn-share">📧 E-Mail</a>
+</div>
+
+---
+
+## Events & Netzwerke für Vertrieb & Außendienst
+
+<div class="events-section">
+  <div class="events-grid">
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 2026</span>
+        <span class="event-type">Kongress</span>
+      </div>
+      <h3 class="event-title">Vertriebsmanagementkongress 2026</h3>
+      <p class="event-desc">Der führende Kongress für Vertriebsmanagement in Deutschland – Networking, Best Practices und Zukunftsthemen für Vertriebsführungskräfte und Außendienstprofis.</p>
+      <div class="event-meta">📍 Deutschland · 2026</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Zum Kongress →</a>
+    </div>
+  </div>
+
+  <h3 class="events-assoc-heading">Verbände &amp; Netzwerke</h3>
+  <div class="associations-grid">
+    <a href="https://www.cdh.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🤝</span>
+      <strong>CDH</strong>
+      <span>Handelsvertreter &amp; Vertriebsvermittlung</span>
+    </a>
+    <a href="https://www.bdvt.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">📊</span>
+      <strong>BDVT</strong>
+      <span>Vertriebstrainer &amp; Coaches</span>
+    </a>
+    <a href="https://www.bvmw.de" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🏢</span>
+      <strong>BVMW</strong>
+      <span>Mittelstand &amp; Außendienst</span>
+    </a>
+    <a href="https://www.salesmanagementassociation.org" class="assoc-card" target="_blank" rel="noopener">
+      <span class="assoc-icon">🎯</span>
+      <strong>Sales Management</strong>
+      <span>International Sales Community</span>
+    </a>
+  </div>
 </div>
 
 ---

@@ -98,7 +98,7 @@ description: "CallPlan für CEOs, Manager und Führungskräfte: Wichtige Beziehu
 ---
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Dein Netzwerk ist dein wichtigstes Asset.</h2>
   <p>CallPlan sorgt dafür, dass es warm bleibt – systematisch, freihändig, diskret.</p>
   <div class="hero-actions">

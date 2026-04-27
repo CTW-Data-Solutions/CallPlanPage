@@ -98,7 +98,7 @@ description: "CallPlan für Netzwerker: Konferenzkontakte systematisch nachverfo
 ---
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Dein Netzwerk wächst nur, wenn du dran bleibst.</h2>
   <p>CallPlan ist das System, das du gesucht hast – kostenlos, freihändig, diskret.</p>
   <div class="hero-actions">

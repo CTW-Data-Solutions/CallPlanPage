@@ -108,7 +108,7 @@ description: "CallPlan for sales: more calls between appointments, automatic CRM
 </div>
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Ready to monetise your drive time?</h2>
   <p>CallPlan is free. Premium adds CRM integration and unlimited calls.</p>
   <div class="hero-actions">

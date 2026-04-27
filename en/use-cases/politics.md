@@ -106,7 +106,7 @@ description: "CallPlan for politicians and campaign teams: call voters, donors a
 </div>
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Political work is relationship work. CallPlan is your system.</h2>
   <p>Download free. Set up in 5 minutes. First calls planned today.</p>
   <div class="hero-actions">

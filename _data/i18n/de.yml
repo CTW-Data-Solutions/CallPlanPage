@@ -4,7 +4,7 @@ flag:      "🇩🇪"
 
 nav:
   - label: "📱 App herunterladen"
-    href:  "{{ site.app_store_url }}"
+    href:  "__app_store__"
     external: true
   - label: "🏠 Home"
     href:  /

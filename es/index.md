@@ -356,16 +356,40 @@ Descarga nuestro framework de 5 pasos para preparar llamadas profesionales – g
 
 <div class="events-section">
   <div class="events-grid">
+
+    <div class="event-card event-card--past">
+      <div class="event-header">
+        <span class="event-badge event-badge--past">Celebrado · 2026</span>
+        <span class="event-type">9.º Congreso · Alemania</span>
+      </div>
+      <h3 class="event-title">9.º Congreso de Gestión de Ventas 2026</h3>
+      <p class="event-desc">El principal congreso de gestión de ventas en Alemania – ponentes destacados, networking y mejores prácticas para directivos de ventas y comerciales externos.</p>
+      <div class="event-meta">📍 Berlín, Alemania</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Web del congreso →</a>
+    </div>
+
     <div class="event-card event-card--upcoming">
       <div class="event-header">
         <span class="event-badge event-badge--upcoming">Próximamente · 2026</span>
-        <span class="event-type">Congreso</span>
+        <span class="event-type">Conferencia global · Ventas</span>
       </div>
-      <h3 class="event-title">Vertriebsmanagementkongress 2026</h3>
-      <p class="event-desc">El principal congreso de gestión de ventas en Alemania – networking, mejores prácticas y tendencias de futuro para directivos de ventas y comerciales externos.</p>
-      <div class="event-meta">📍 Alemania · 2026</div>
-      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Más información →</a>
+      <h3 class="event-title">Dreamforce 2026</h3>
+      <p class="event-desc">La mayor conferencia de CRM y ventas del mundo – miles de sesiones, lanzamientos de producto y la red de networking de ventas más grande del planeta.</p>
+      <div class="event-meta">📍 San Francisco, CA · Sept. 2026</div>
+      <a href="https://www.salesforce.com/dreamforce/" class="btn btn-secondary" target="_blank" rel="noopener">Más información →</a>
     </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · 2026</span>
+        <span class="event-type">Comunidad SaaS · Global</span>
+      </div>
+      <h3 class="event-title">SaaStr Annual 2026</h3>
+      <p class="event-desc">La mayor conferencia del mundo para fundadores, equipos de revenue y directivos de ventas SaaS – centrada en ventas escalables, crecimiento ARR y B2B revenue.</p>
+      <div class="event-meta">📍 San Francisco Bay Area · Sept. 2026</div>
+      <a href="https://www.saastr.com/events/" class="btn btn-secondary" target="_blank" rel="noopener">Más información →</a>
+    </div>
+
   </div>
 
   <h3 class="events-assoc-heading">Asociaciones &amp; Redes</h3>

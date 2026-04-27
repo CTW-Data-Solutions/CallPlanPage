@@ -455,6 +455,17 @@ Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan i
 
     <div class="event-card event-card--upcoming">
       <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 1.–3. Juni 2026</span>
+        <span class="event-type">9. Kongress · Deutschland</span>
+      </div>
+      <h3 class="event-title">9. Vertriebsmanagementkongress 2026</h3>
+      <p class="event-desc">Der führende deutschsprachige Kongress für Vertriebsmanagement – Top-Speaker, Networking und Best Practices für Vertriebsführungskräfte und Außendienstprofis.</p>
+      <div class="event-meta">📍 Berlin, Deutschland · 1.–3. Juni 2026</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Zum Kongress →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
         <span class="event-badge event-badge--upcoming">Upcoming · 2027</span>
         <span class="event-type">10. Kongress · Deutschland</span>
       </div>
@@ -462,17 +473,6 @@ Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan i
       <p class="event-desc">Der führende deutschsprachige Kongress für Vertriebsmanagement – Top-Speaker, Networking und Best Practices für Vertriebsführungskräfte und Außendienstprofis.</p>
       <div class="event-meta">📍 Berlin, Deutschland · 2027</div>
       <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Kongress-Website →</a>
-    </div>
-
-    <div class="event-card event-card--past">
-      <div class="event-header">
-        <span class="event-badge event-badge--past">Abgehalten · 2026</span>
-        <span class="event-type">9. Kongress · Deutschland</span>
-      </div>
-      <h3 class="event-title">9. Vertriebsmanagementkongress 2026</h3>
-      <p class="event-desc">Der führende deutschsprachige Kongress für Vertriebsmanagement – Top-Speaker, Networking und Best Practices für Vertriebsführungskräfte und Außendienstprofis.</p>
-      <div class="event-meta">📍 Berlin, Deutschland</div>
-      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Zur Rückschau →</a>
     </div>
 
     <div class="event-card event-card--upcoming">

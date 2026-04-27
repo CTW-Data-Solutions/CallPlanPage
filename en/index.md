@@ -359,6 +359,17 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
 
     <div class="event-card event-card--upcoming">
       <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 1–3 June 2026</span>
+        <span class="event-type">9th Congress · Germany</span>
+      </div>
+      <h3 class="event-title">9th Sales Management Congress 2026</h3>
+      <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
+      <div class="event-meta">📍 Berlin, Germany · 1–3 June 2026</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
+    </div>
+
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
         <span class="event-badge event-badge--upcoming">Upcoming · 2027</span>
         <span class="event-type">10th Congress · Germany</span>
       </div>
@@ -366,17 +377,6 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
       <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
       <div class="event-meta">📍 Berlin, Germany · 2027</div>
       <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
-    </div>
-
-    <div class="event-card event-card--past">
-      <div class="event-header">
-        <span class="event-badge event-badge--past">Past event · 2026</span>
-        <span class="event-type">9th Congress · Germany</span>
-      </div>
-      <h3 class="event-title">9th Sales Management Congress 2026</h3>
-      <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
-      <div class="event-meta">📍 Berlin, Germany</div>
-      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">View recap →</a>
     </div>
 
     <div class="event-card event-card--upcoming">

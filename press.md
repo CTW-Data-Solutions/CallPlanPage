@@ -70,7 +70,7 @@ Alles, was Journalisten, Blogger und Content Creators für eine Berichterstattun
     <div class="press-asset-info">
       <strong>App Icon</strong>
       <span>PNG · 1024×1024 px</span>
-      <a href="/assets/img/logo.png" download class="btn btn-secondary" style="margin-top:.5rem">Icon herunterladen</a>
+      <a href="/assets/img/CallPlan_light.jpeg" download class="btn btn-secondary" style="margin-top:.5rem">Icon herunterladen</a>
     </div>
   </div>
 </div>

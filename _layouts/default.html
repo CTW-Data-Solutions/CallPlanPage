@@ -27,9 +27,11 @@
 <body>
     <div class="wrapper">
 
+        {% if _lang == 'en' %}{% assign _home_href = '/en/' %}{% elsif _lang == 'es' %}{% assign _home_href = '/es/' %}{% else %}{% assign _home_href = '/' %}{% endif %}
+
         <!-- ── Mobile top bar ── -->
         <div class="mobile-topbar">
-            <a href="{{ t.nav[0].href }}" class="mobile-title">
+            <a href="{{ _home_href }}" class="mobile-title">
                 {{ site.title | default: site.github.repository_name }}
             </a>
             <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false"
@@ -46,7 +48,7 @@
         <!-- ── Sidebar ── -->
         <header id="sidebar" role="banner">
 
-            <h1><a href="{{ t.nav[0].href }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            <h1><a href="{{ _home_href }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
             {% if site.logo %}
             <div class="apple-logo">

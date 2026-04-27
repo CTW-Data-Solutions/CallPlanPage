@@ -20,9 +20,10 @@
 <link rel="manifest" href="{{ '/site.webmanifest' | absolute_url }}">
 
 <!-- Favicon & App Touch Icon -->
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/logo.png' | absolute_url }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/logo.png' | absolute_url }}">
-<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/logo.png' | absolute_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}">
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/img/callplan_logo_tinted.svg' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}">
 
 <!-- ── Apple Smart App Banner ──────────────────────────────────
      Shows a native "Open in App Store" bar in Mobile Safari.
@@ -40,7 +41,7 @@
   content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:image"
-  content="{{ page.image | default: site.social_image | default: '/assets/img/logo.png' | absolute_url }}">
+  content="{{ page.image | default: site.social_image | default: '/assets/img/CallPlan_light.jpeg' | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:alt" content="{{ site.title }} App Icon">
 <meta property="og:locale" content="{{ _og_locale }}">
@@ -54,7 +55,7 @@
   content="{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }} – {{ site.tagline }}{% endif %}">
 <meta name="twitter:description"
   content="{% if page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:image" content="{{ page.image | default: '/assets/img/logo.png' | absolute_url }}">
+<meta name="twitter:image" content="{{ page.image | default: '/assets/img/CallPlan_light.jpeg' | absolute_url }}">
 <meta name="twitter:image:alt" content="{{ site.title }} App Icon">
 {% if page.keywords or site.keywords %}
 <meta name="keywords"
@@ -88,7 +89,7 @@
   "downloadUrl": "{{ site.app_store_url }}",
   "installUrl": "{{ site.app_store_url }}",
   {% endif %}
-  "screenshot": "{{ '/assets/img/logo.png' | absolute_url }}",
+  "screenshot": "{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}",
   "featureList": [
     "Call scheduling with date and time",
     "Automated call reminders",
@@ -172,7 +173,7 @@
   },
   "downloadUrl": "{{ site.app_store_url }}",
   "fileSize": "50MB",
-  "screenshot": "{{ '/assets/img/logo.png' | absolute_url }}",
+  "screenshot": "{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}",
   "featureList": [
     "AI-powered call preparation",
     "Intelligent follow-up suggestions",
@@ -247,7 +248,7 @@
   },
   "primaryImageOfPage": {
     "@type": "ImageObject",
-    "url": "{{ page.image | default: site.social_image | default: '/assets/img/logo.png' | absolute_url }}"
+    "url": "{{ page.image | default: site.social_image | default: '/assets/img/CallPlan_light.jpeg' | absolute_url }}"
   },
   "author": {
     "@type": "Organization",
@@ -258,7 +259,7 @@
     "name": "Quick-ID",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ '/assets/img/logo.png' | absolute_url }}"
+      "url": "{{ '/assets/img/CallPlan_light.jpeg' | absolute_url }}"
     }
   }
 }

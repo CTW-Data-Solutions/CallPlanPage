@@ -357,6 +357,17 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
 <div class="events-section">
   <div class="events-grid">
 
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Upcoming · 2027</span>
+        <span class="event-type">10th Congress · Germany</span>
+      </div>
+      <h3 class="event-title">10th Sales Management Congress 2027</h3>
+      <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
+      <div class="event-meta">📍 Berlin, Germany · 2027</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
+    </div>
+
     <div class="event-card event-card--past">
       <div class="event-header">
         <span class="event-badge event-badge--past">Past event · 2026</span>
@@ -365,7 +376,7 @@ Know someone who never wants to miss an important call again? Share CallPlan in 
       <h3 class="event-title">9th Sales Management Congress 2026</h3>
       <p class="event-desc">Germany's leading sales management congress – top speakers, networking and best practices for sales leaders and field sales professionals.</p>
       <div class="event-meta">📍 Berlin, Germany</div>
-      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Congress website →</a>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">View recap →</a>
     </div>
 
     <div class="event-card event-card--upcoming">

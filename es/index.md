@@ -357,6 +357,17 @@ Descarga nuestro framework de 5 pasos para preparar llamadas profesionales – g
 <div class="events-section">
   <div class="events-grid">
 
+    <div class="event-card event-card--upcoming">
+      <div class="event-header">
+        <span class="event-badge event-badge--upcoming">Próximamente · 2027</span>
+        <span class="event-type">10.º Congreso · Alemania</span>
+      </div>
+      <h3 class="event-title">10.º Congreso de Gestión de Ventas 2027</h3>
+      <p class="event-desc">El principal congreso de gestión de ventas en Alemania – ponentes destacados, networking y mejores prácticas para directivos de ventas y comerciales externos.</p>
+      <div class="event-meta">📍 Berlín, Alemania · 2027</div>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Web del congreso →</a>
+    </div>
+
     <div class="event-card event-card--past">
       <div class="event-header">
         <span class="event-badge event-badge--past">Celebrado · 2026</span>
@@ -365,7 +376,7 @@ Descarga nuestro framework de 5 pasos para preparar llamadas profesionales – g
       <h3 class="event-title">9.º Congreso de Gestión de Ventas 2026</h3>
       <p class="event-desc">El principal congreso de gestión de ventas en Alemania – ponentes destacados, networking y mejores prácticas para directivos de ventas y comerciales externos.</p>
       <div class="event-meta">📍 Berlín, Alemania</div>
-      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Web del congreso →</a>
+      <a href="https://www.vertriebsmanagementkongress.de" class="btn btn-secondary" target="_blank" rel="noopener">Ver resumen →</a>
     </div>
 
     <div class="event-card event-card--upcoming">

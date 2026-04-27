@@ -1,25 +1,30 @@
+@charset "UTF-8";
 @import "fonts";
 @import "rouge-github";
 
 // ============================================
 // Variables – CarPlay / iOS inspired theme
 // ============================================
-$sidebar-width:     270px;
-$sidebar-bg:        #1c1c1e;
-$sidebar-text:      #f2f2f7;
-$sidebar-muted:     #aeaeb2;
-$accent:            #0071e3;
-$accent-hover:      #005bbf;
-$content-bg:        #ffffff;
-$content-text:      #1c1c1e;
-$text-secondary:    #6e6e73;
-$border:            #e5e5e7;
-$mobile-bar-h:      56px;
+$sidebar-width: 270px;
+$sidebar-bg: #1c1c1e;
+$sidebar-text: #f2f2f7;
+$sidebar-muted: #aeaeb2;
+$accent: #0071e3;
+$accent-hover: #005bbf;
+$content-bg: #ffffff;
+$content-text: #1c1c1e;
+$text-secondary: #6e6e73;
+$border: #e5e5e7;
+$mobile-bar-h: 56px;
 
 // ============================================
 // Reset / Base
 // ============================================
-*, *::before, *::after { box-sizing: border-box; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body {
   background-color: $sidebar-bg;
@@ -35,26 +40,54 @@ body {
 // ============================================
 // Typography
 // ============================================
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #111;
   margin: 0 0 16px;
   font-weight: 700;
   line-height: 1.2;
 }
 
-h1 { font-size: 28px; }
-h2 { font-size: 22px; color: #1c1c1e; }
-h3 { font-size: 18px; color: #3a3a3c; }
-h4, h5, h6 { color: #3a3a3c; }
+h1 {
+  font-size: 28px;
+}
 
-p, ul, ol, table, pre, dl { margin: 0 0 20px; }
+h2 {
+  font-size: 22px;
+  color: #1c1c1e;
+}
+
+h3 {
+  font-size: 18px;
+  color: #3a3a3c;
+}
+
+h4,
+h5,
+h6 {
+  color: #3a3a3c;
+}
+
+p,
+ul,
+ol,
+table,
+pre,
+dl {
+  margin: 0 0 20px;
+}
 
 a {
   color: $accent;
   text-decoration: none;
   transition: color 0.2s ease;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $accent-hover;
     font-weight: 600;
   }
@@ -66,11 +99,19 @@ a {
     display: block;
   }
 
-  &:hover small { color: #777; }
+  &:hover small {
+    color: #777;
+  }
 }
 
-strong { color: #111; font-weight: 700; }
-small  { font-size: 11px; }
+strong {
+  color: #111;
+  font-weight: 700;
+}
+
+small {
+  font-size: 11px;
+}
 
 blockquote {
   border-left: 3px solid $accent;
@@ -82,7 +123,8 @@ blockquote {
   border-radius: 0 8px 8px 0;
 }
 
-code, pre {
+code,
+pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal,
     Consolas, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
   color: #333;
@@ -100,7 +142,8 @@ table {
   width: 100%;
   border-collapse: collapse;
 
-  th, td {
+  th,
+  td {
     text-align: left;
     padding: 10px 14px;
     border-bottom: 1px solid $border;
@@ -113,7 +156,10 @@ table {
   }
 }
 
-img  { max-width: 100%; height: auto; }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 hr {
   border: 0;
@@ -155,7 +201,7 @@ header {
   height: 100vh;
   background: $sidebar-bg;
   color: $sidebar-text;
-  padding: 28px 20px 80px;  // bottom padding reserves space above footer
+  padding: 28px 20px 80px; // bottom padding reserves space above footer
   overflow-y: auto;
   overflow-x: hidden;
   z-index: 100;
@@ -173,7 +219,10 @@ header {
       font-weight: 700;
       letter-spacing: -0.3px;
 
-      &:hover { color: $accent; font-weight: 700; }
+      &:hover {
+        color: $accent;
+        font-weight: 700;
+      }
     }
   }
 
@@ -244,24 +293,32 @@ ul.downloads {
         font-weight: 600;
       }
 
-      &:hover, &:focus {
+      &:hover,
+      &:focus {
         background: $accent;
         color: #fff;
         font-weight: 400;
 
-        strong { color: #fff; }
+        strong {
+          color: #fff;
+        }
       }
     }
 
     // Reset border-radius overrides from theme
-    &:first-child a { border-radius: 8px; }
-    &:last-child  a { border-radius: 8px; }
+    &:first-child a {
+      border-radius: 8px;
+    }
+
+    &:last-child a {
+      border-radius: 8px;
+    }
   }
 }
 
 // Override legacy li width rules
 .downloads li,
-.downloads li + li + li {
+.downloads li+li+li {
   width: auto;
 }
 
@@ -320,7 +377,8 @@ ul.downloads {
     border-radius: 10px;
     transition: background 0.2s ease, color 0.2s ease;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       background: rgba(255, 255, 255, 0.08);
       color: $sidebar-text;
       font-weight: 500;
@@ -357,7 +415,10 @@ ul.downloads {
     color: $sidebar-text;
     letter-spacing: -0.3px;
 
-    &:hover { color: $accent; font-weight: 700; }
+    &:hover {
+      color: $accent;
+      font-weight: 700;
+    }
   }
 }
 
@@ -383,9 +444,18 @@ ul.downloads {
   }
 
   &.active {
-    span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-    span:nth-child(2) { opacity: 0; transform: scaleX(0); }
-    span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    span:nth-child(2) {
+      opacity: 0;
+      transform: scaleX(0);
+    }
+
+    span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
   }
 }
 
@@ -414,7 +484,14 @@ section {
   background: $content-bg;
   padding: 44px 52px 60px;
 
-  h1, h2, h3, h4, h5, h6 { color: #1c1c1e; }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #1c1c1e;
+  }
 
   // Checkmark lists (feature lists)
   ul {
@@ -440,7 +517,9 @@ section {
   ol {
     padding-left: 22px;
 
-    li { margin-bottom: 8px; }
+    li {
+      margin-bottom: 8px;
+    }
   }
 }
 
@@ -466,7 +545,10 @@ footer {
   a {
     color: $sidebar-muted;
 
-    &:hover { color: $accent; font-weight: 400; }
+    &:hover {
+      color: $accent;
+      font-weight: 400;
+    }
   }
 }
 
@@ -495,9 +577,13 @@ footer {
 // Mobile – 720 px
 // ============================================
 @media screen and (max-width: 720px) {
-  body { background: $content-bg; }
+  body {
+    background: $content-bg;
+  }
 
-  .mobile-topbar { display: flex; }
+  .mobile-topbar {
+    display: flex;
+  }
 
   header {
     position: fixed;
@@ -510,7 +596,9 @@ footer {
     transition: transform 0.32s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     z-index: 150;
 
-    &.open { transform: translateX(0); }
+    &.open {
+      transform: translateX(0);
+    }
   }
 
   section {
@@ -525,8 +613,14 @@ footer {
     background: #f5f5f7;
     border-top: 1px solid $border;
 
-    p, a { color: $text-secondary; }
-    a:hover { color: $accent; }
+    p,
+    a {
+      color: $text-secondary;
+    }
+
+    a:hover {
+      color: $accent;
+    }
   }
 }
 
@@ -538,16 +632,29 @@ footer {
     padding: ($mobile-bar-h + 16px) 16px 40px;
   }
 
-  .mobile-topbar { padding: 0 12px; }
+  .mobile-topbar {
+    padding: 0 12px;
+  }
 
-  h1 { font-size: 22px; }
-  h2 { font-size: 18px; }
-  h3 { font-size: 16px; }
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
 
   table {
     font-size: 13px;
 
-    th, td { padding: 7px 8px; }
+    th,
+    td {
+      padding: 7px 8px;
+    }
   }
 }
 
@@ -555,9 +662,18 @@ footer {
 // Print
 // ============================================
 @media print {
-  body { padding: 0.4in; font-size: 12pt; color: #444; background: #fff; }
+  body {
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
+    background: #fff;
+  }
 
-  .mobile-topbar, .hamburger, .nav-overlay { display: none !important; }
+  .mobile-topbar,
+  .hamburger,
+  .nav-overlay {
+    display: none !important;
+  }
 
   header {
     position: static;
@@ -567,7 +683,9 @@ footer {
     color: #000;
     transform: none;
 
-    h1 a { color: #000; }
+    h1 a {
+      color: #000;
+    }
   }
 
   footer {
@@ -605,7 +723,9 @@ footer {
     font-weight: 600;
   }
 
-  &:active { transform: translateY(0); }
+  &:active {
+    transform: translateY(0);
+  }
 }
 
 .btn-primary {
@@ -704,9 +824,21 @@ footer {
   gap: 4px;
 }
 
-.stat-icon  { font-size: 24px; margin-bottom: 2px; }
-.stat-value { font-size: 14px; font-weight: 700; color: #1c1c1e; }
-.stat-label { font-size: 12px; color: $text-secondary; }
+.stat-icon {
+  font-size: 24px;
+  margin-bottom: 2px;
+}
+
+.stat-value {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1c1c1e;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: $text-secondary;
+}
 
 // ============================================
 // Steps row
@@ -770,12 +902,19 @@ footer {
   font-size: 15px;
   line-height: 1.6;
 
-  strong { color: #fff; }
+  strong {
+    color: #fff;
+  }
 
-  a { color: #60b0ff; }
+  a {
+    color: #60b0ff;
+  }
 }
 
-.carplay-callout-icon { font-size: 32px; flex-shrink: 0; }
+.carplay-callout-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
 
 // ============================================
 // CTA section (bottom of home page)
@@ -788,7 +927,9 @@ footer {
   text-align: center;
   margin-top: 40px;
 
-  h2 { margin-bottom: 10px; }
+  h2 {
+    margin-bottom: 10px;
+  }
 
   p {
     color: $text-secondary;
@@ -796,7 +937,9 @@ footer {
     font-size: 16px;
   }
 
-  .hero-actions { justify-content: center; }
+  .hero-actions {
+    justify-content: center;
+  }
 }
 
 // ============================================
@@ -845,9 +988,12 @@ footer {
     height: 0;
   }
 
-  &:hover { background: #f5f5f7; border-color: #d0d0d5; }
+  &:hover {
+    background: #f5f5f7;
+    border-color: #d0d0d5;
+  }
 
-  input[type="checkbox"]:checked ~ .feature-check {
+  input[type="checkbox"]:checked~.feature-check {
     background: $accent;
     border-color: $accent;
 
@@ -857,7 +1003,9 @@ footer {
     }
   }
 
-  input[type="checkbox"]:checked ~ .feature-content strong { color: $accent; }
+  input[type="checkbox"]:checked~.feature-content strong {
+    color: $accent;
+  }
 }
 
 .feature-check {
@@ -953,7 +1101,10 @@ footer {
   padding-right: 36px;
 }
 
-.survey-textarea { resize: vertical; min-height: 100px; }
+.survey-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
 
 .radio-group {
   display: flex;
@@ -992,40 +1143,90 @@ footer {
   text-align: center;
   margin-top: 14px;
 
-  a { color: $text-secondary; text-decoration: underline; font-weight: 400; }
+  a {
+    color: $text-secondary;
+    text-decoration: underline;
+    font-weight: 400;
+  }
 }
 
 // ============================================
 // Responsive adjustments for new components
 // ============================================
 @media screen and (max-width: 720px) {
-  .hero { padding: 28px 24px 26px; }
-  .hero-title { font-size: 24px !important; }
-  .hero-sub { font-size: 15px; }
+  .hero {
+    padding: 28px 24px 26px;
+  }
 
-  .stats-row { gap: 10px; }
-  .stat-card { min-width: calc(50% - 5px); padding: 14px 12px; }
+  .hero-title {
+    font-size: 24px !important;
+  }
 
-  .steps-row { flex-direction: column; }
-  .step-card { min-width: 0; }
+  .hero-sub {
+    font-size: 15px;
+  }
 
-  .carplay-callout { flex-direction: column; gap: 10px; padding: 20px; }
+  .stats-row {
+    gap: 10px;
+  }
 
-  .cta-section { padding: 28px 20px 24px; }
+  .stat-card {
+    min-width: calc(50% - 5px);
+    padding: 14px 12px;
+  }
+
+  .steps-row {
+    flex-direction: column;
+  }
+
+  .step-card {
+    min-width: 0;
+  }
+
+  .carplay-callout {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .cta-section {
+    padding: 28px 20px 24px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .hero { padding: 22px 18px 20px; border-radius: 14px; }
-  .hero-title { font-size: 20px !important; }
-  .hero-badge { font-size: 11px; }
-  .hero-actions { flex-direction: column; }
-  .btn { width: 100%; justify-content: center; }
+  .hero {
+    padding: 22px 18px 20px;
+    border-radius: 14px;
+  }
 
-  .stat-card { min-width: calc(50% - 5px); }
+  .hero-title {
+    font-size: 20px !important;
+  }
+
+  .hero-badge {
+    font-size: 11px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .stat-card {
+    min-width: calc(50% - 5px);
+  }
 
   .cta-section {
     padding: 24px 16px 20px;
-    .hero-actions { flex-direction: column; }
+
+    .hero-actions {
+      flex-direction: column;
+    }
   }
 }
 
@@ -1039,7 +1240,9 @@ footer {
   margin: -20px 0 28px;
   letter-spacing: 0.2px;
 
-  strong { color: $accent; }
+  strong {
+    color: $accent;
+  }
 }
 
 // ============================================
@@ -1071,8 +1274,13 @@ footer {
   font-style: italic;
   margin: 0;
 
-  &::before { content: "\201C"; }
-  &::after  { content: "\201D"; }
+  &::before {
+    content: "\201C";
+  }
+
+  &::after {
+    content: "\201D";
+  }
 }
 
 .testimonial-author {
@@ -1168,7 +1376,9 @@ footer {
   background: #fafafa;
   transition: background 0.2s ease, color 0.2s ease;
 
-  &::-webkit-details-marker { display: none; }
+  &::-webkit-details-marker {
+    display: none;
+  }
 
   &::after {
     content: "+";
@@ -1210,13 +1420,25 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-  .testimonials-row { flex-direction: column; }
-  .testimonial-card { min-width: 0; }
-  .lead-magnet-card { flex-direction: column; align-items: flex-start; }
+  .testimonials-row {
+    flex-direction: column;
+  }
+
+  .testimonial-card {
+    min-width: 0;
+  }
+
+  .lead-magnet-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .lead-magnet-card .btn { width: 100%; justify-content: center; }
+  .lead-magnet-card .btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 // ============================================
@@ -1322,8 +1544,13 @@ footer {
 }
 
 @media screen and (max-width: 720px) {
-  .beta-perks-row { flex-direction: column; }
-  .beta-perk { min-width: 0; }
+  .beta-perks-row {
+    flex-direction: column;
+  }
+
+  .beta-perk {
+    min-width: 0;
+  }
 }
 
 // ============================================
@@ -1412,7 +1639,7 @@ a.nt-version-card {
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 
   &:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,.08);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .08);
     border-color: $accent;
   }
 }
@@ -1454,8 +1681,13 @@ a.nt-version-card {
 }
 
 @media screen and (max-width: 720px) {
-  .newsletter-teaser { flex-direction: column; }
-  .nt-right { width: 100%; }
+  .newsletter-teaser {
+    flex-direction: column;
+  }
+
+  .nt-right {
+    width: 100%;
+  }
 }
 
 // ============================================
@@ -1590,9 +1822,20 @@ a.nt-version-card {
   border-radius: 20px;
   flex-shrink: 0;
 
-  &.tag-major  { background: rgba($accent, 0.12); color: $accent; }
-  &.tag-launch { background: #fff3cd; color: #856404; }
-  &.tag-minor  { background: #e2f0ff; color: #0065d1; }
+  &.tag-major {
+    background: rgba($accent, 0.12);
+    color: $accent;
+  }
+
+  &.tag-launch {
+    background: #fff3cd;
+    color: #856404;
+  }
+
+  &.tag-minor {
+    background: #e2f0ff;
+    color: #0065d1;
+  }
 }
 
 .cl-version-summary {
@@ -1634,9 +1877,26 @@ a.nt-version-card {
     margin: 0;
   }
 
-  &.new strong::after    { content: " ✦"; color: $accent; font-size: 10px; vertical-align: super; }
-  &.improved strong::after { content: " ↑"; color: #0065d1; font-size: 11px; vertical-align: super; }
-  &.fixed strong::after  { content: " ✓"; color: #6d8b74; font-size: 11px; vertical-align: super; }
+  &.new strong::after {
+    content: " ✦";
+    color: $accent;
+    font-size: 10px;
+    vertical-align: super;
+  }
+
+  &.improved strong::after {
+    content: " ↑";
+    color: #0065d1;
+    font-size: 11px;
+    vertical-align: super;
+  }
+
+  &.fixed strong::after {
+    content: " ✓";
+    color: #6d8b74;
+    font-size: 11px;
+    vertical-align: super;
+  }
 }
 
 .changelog-cta-row {
@@ -1655,8 +1915,19 @@ a.nt-version-card {
   flex-direction: column;
   gap: 10px;
 
-  h3 { font-size: 16px; font-weight: 800; margin: 0; color: #1c1c1e; }
-  p  { font-size: 14px; color: $text-secondary; margin: 0; line-height: 1.5; }
+  h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0;
+    color: #1c1c1e;
+  }
+
+  p {
+    font-size: 14px;
+    color: $text-secondary;
+    margin: 0;
+    line-height: 1.5;
+  }
 
   &.newsletter {
     background: linear-gradient(135deg, #eef6ff 0%, #dbeafe 100%);
@@ -1670,11 +1941,30 @@ a.nt-version-card {
 }
 
 @media screen and (max-width: 600px) {
-  .changelog-timeline { padding-left: 26px; &::before { left: 7px; } }
-  .cl-version-marker  { left: -26px; }
-  .cl-dot             { width: 12px; height: 12px; }
-  .cl-version-badge   { display: none; }
-  .changelog-cta-row  { flex-direction: column; }
+  .changelog-timeline {
+    padding-left: 26px;
+
+    &::before {
+      left: 7px;
+    }
+  }
+
+  .cl-version-marker {
+    left: -26px;
+  }
+
+  .cl-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .cl-version-badge {
+    display: none;
+  }
+
+  .changelog-cta-row {
+    flex-direction: column;
+  }
 }
 
 // ============================================
@@ -1706,9 +1996,19 @@ a.nt-version-card {
 }
 
 @media screen and (max-width: 480px) {
-  .share-row { flex-direction: column; }
-  .btn-share  { width: 100%; justify-content: center; }
-  .newsletter-section { flex-direction: column; align-items: flex-start; }
+  .share-row {
+    flex-direction: column;
+  }
+
+  .btn-share {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .newsletter-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 // ============================================
@@ -1730,9 +2030,18 @@ a.nt-version-card {
   scrollbar-width: thin;
   scrollbar-color: $border transparent;
 
-  &::-webkit-scrollbar       { height: 4px; }
-  &::-webkit-scrollbar-track { background: transparent; }
-  &::-webkit-scrollbar-thumb { background: $border; border-radius: 4px; }
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $border;
+    border-radius: 4px;
+  }
 }
 
 .screenshot-frame {
@@ -1741,7 +2050,7 @@ a.nt-version-card {
   height: 290px;
   border-radius: 24px;
   border: 6px solid #1c1c1e;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18), inset 0 0 0 1px rgba(255,255,255,0.06);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18), inset 0 0 0 1px rgba(255, 255, 255, 0.06);
   overflow: hidden;
   scroll-snap-align: start;
   background: #1c1c1e;
@@ -1780,29 +2089,39 @@ a.nt-version-card {
   gap: 8px;
   color: $sidebar-muted;
 
-  span  { font-size: 32px; }
-  small { font-size: 12px; font-weight: 500; letter-spacing: 0.3px; }
+  span {
+    font-size: 32px;
+  }
+
+  small {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-  .screenshot-frame { width: 140px; height: 254px; }
+  .screenshot-frame {
+    width: 140px;
+    height: 254px;
+  }
 }
 
 // ============================================
 // CRM Integration Pages
 // ============================================
-$hubspot-orange:  #FF7A59;
-$hubspot-navy:    #33475B;
-$hubspot-light:   #FFF4F1;
+$hubspot-orange: #FF7A59;
+$hubspot-navy: #33475B;
+$hubspot-light: #FFF4F1;
 $salesforce-blue: #00A1E0;
 $salesforce-dark: #032D60;
-$salesforce-light:#EEF6FD;
-$odoo-purple:     #714B67;
-$odoo-dark:       #4A3150;
-$odoo-light:      #F7F2F5;
-$zoho-red:        #E42527;
-$zoho-dark:       #A81A1C;
-$zoho-light:      #FFF0F0;
+$salesforce-light: #EEF6FD;
+$odoo-purple: #714B67;
+$odoo-dark: #4A3150;
+$odoo-light: #F7F2F5;
+$zoho-red: #E42527;
+$zoho-dark: #A81A1C;
+$zoho-light: #FFF0F0;
 
 // ── CRM hero banner (colored top bar on integration pages) ──
 .crm-hero {
@@ -1826,6 +2145,7 @@ $zoho-light:      #FFF0F0;
     background-color: $hubspot-navy;
     color: #fff;
   }
+
   &.crm-hero--salesforce {
     background:
       linear-gradient(135deg, rgba($salesforce-dark, 0.84) 0%, rgba($salesforce-blue, 0.80) 100%),
@@ -1833,6 +2153,7 @@ $zoho-light:      #FFF0F0;
     background-color: $salesforce-dark;
     color: #fff;
   }
+
   &.crm-hero--odoo {
     background:
       linear-gradient(135deg, rgba($odoo-dark, 0.84) 0%, rgba($odoo-purple, 0.80) 100%),
@@ -1840,6 +2161,7 @@ $zoho-light:      #FFF0F0;
     background-color: $odoo-dark;
     color: #fff;
   }
+
   &.crm-hero--zoho {
     background:
       linear-gradient(135deg, rgba($zoho-dark, 0.84) 0%, rgba(lighten($zoho-red, 8%), 0.80) 100%),
@@ -1847,6 +2169,7 @@ $zoho-light:      #FFF0F0;
     background-color: $zoho-dark;
     color: #fff;
   }
+
   &.crm-hero--overview {
     background: linear-gradient(135deg, #1c1c1e 0%, #3a3a3c 100%);
     color: #fff;
@@ -1861,7 +2184,7 @@ $zoho-light:      #FFF0F0;
   border-radius: 18px;
   margin: 0 0 44px;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,0) 50%, rgba(0,0,0,0.35) 100%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.35) 100%),
     url('/assets/img/hero-car.jpg') center 35% / cover no-repeat,
     linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
   position: relative;
@@ -1881,7 +2204,7 @@ $zoho-light:      #FFF0F0;
   border-radius: 18px;
   margin: 32px 0 44px;
   background:
-    linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.45) 100%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.45) 100%),
     url('/assets/img/hero-car-2.jpg') center 50% / cover no-repeat,
     linear-gradient(135deg, #0d1117 0%, #1c2333 100%);
   position: relative;
@@ -1935,12 +2258,13 @@ $zoho-light:      #FFF0F0;
   letter-spacing: 1px;
   text-transform: uppercase;
   opacity: 0.75;
+  color: #fff !important;
 }
 
 .crm-hero-title {
   font-size: 30px;
   font-weight: 800;
-  color: #fff;
+  color: #fff !important;
   margin: 0;
   line-height: 1.15;
 }
@@ -1951,6 +2275,7 @@ $zoho-light:      #FFF0F0;
   opacity: 0.88;
   max-width: 560px;
   margin: 0;
+  color: #fff !important;
 }
 
 .crm-hero-actions {
@@ -1975,18 +2300,22 @@ $zoho-light:      #FFF0F0;
     background: $hubspot-orange;
     color: #fff;
   }
+
   &.badge--salesforce {
     background: $salesforce-blue;
     color: #fff;
   }
+
   &.badge--odoo {
     background: $odoo-purple;
     color: #fff;
   }
+
   &.badge--zoho {
     background: $zoho-red;
     color: #fff;
   }
+
   &.badge--callplan {
     background: $accent;
     color: #fff;
@@ -2012,7 +2341,8 @@ $zoho-light:      #FFF0F0;
   gap: 10px;
   transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     text-decoration: none;
     transform: translateY(-3px);
     font-weight: inherit;
@@ -2020,19 +2350,38 @@ $zoho-light:      #FFF0F0;
 
   &.crm-card--hubspot {
     border-color: rgba($hubspot-orange, 0.35);
-    &:hover { border-color: $hubspot-orange; box-shadow: 0 6px 24px rgba($hubspot-orange, 0.15); }
+
+    &:hover {
+      border-color: $hubspot-orange;
+      box-shadow: 0 6px 24px rgba($hubspot-orange, 0.15);
+    }
   }
+
   &.crm-card--salesforce {
     border-color: rgba($salesforce-blue, 0.35);
-    &:hover { border-color: $salesforce-blue; box-shadow: 0 6px 24px rgba($salesforce-blue, 0.15); }
+
+    &:hover {
+      border-color: $salesforce-blue;
+      box-shadow: 0 6px 24px rgba($salesforce-blue, 0.15);
+    }
   }
+
   &.crm-card--odoo {
     border-color: rgba($odoo-purple, 0.35);
-    &:hover { border-color: $odoo-purple; box-shadow: 0 6px 24px rgba($odoo-purple, 0.15); }
+
+    &:hover {
+      border-color: $odoo-purple;
+      box-shadow: 0 6px 24px rgba($odoo-purple, 0.15);
+    }
   }
+
   &.crm-card--zoho {
     border-color: rgba($zoho-red, 0.35);
-    &:hover { border-color: $zoho-red; box-shadow: 0 6px 24px rgba($zoho-red, 0.15); }
+
+    &:hover {
+      border-color: $zoho-red;
+      box-shadow: 0 6px 24px rgba($zoho-red, 0.15);
+    }
   }
 }
 
@@ -2042,10 +2391,21 @@ $zoho-light:      #FFF0F0;
   letter-spacing: -0.5px;
   line-height: 1;
 
-  &.logo--hubspot   { color: $hubspot-orange; }
-  &.logo--salesforce{ color: $salesforce-blue; }
-  &.logo--odoo      { color: $odoo-purple; }
-  &.logo--zoho      { color: $zoho-red; }
+  &.logo--hubspot {
+    color: $hubspot-orange;
+  }
+
+  &.logo--salesforce {
+    color: $salesforce-blue;
+  }
+
+  &.logo--odoo {
+    color: $odoo-purple;
+  }
+
+  &.logo--zoho {
+    color: $zoho-red;
+  }
 }
 
 .crm-card-title {
@@ -2068,10 +2428,21 @@ $zoho-light:      #FFF0F0;
   margin-top: auto;
   padding-top: 8px;
 
-  .crm-card--hubspot    & { color: $hubspot-orange; }
-  .crm-card--salesforce & { color: $salesforce-blue; }
-  .crm-card--odoo       & { color: $odoo-purple; }
-  .crm-card--zoho       & { color: $zoho-red; }
+  .crm-card--hubspot & {
+    color: $hubspot-orange;
+  }
+
+  .crm-card--salesforce & {
+    color: $salesforce-blue;
+  }
+
+  .crm-card--odoo & {
+    color: $odoo-purple;
+  }
+
+  .crm-card--zoho & {
+    color: $zoho-red;
+  }
 }
 
 // ── Feature list with brand accent ─────────────────────────
@@ -2103,10 +2474,21 @@ $zoho-light:      #FFF0F0;
   flex-shrink: 0;
   margin-top: 1px;
 
-  .partner--hubspot    & { background: $hubspot-light; }
-  .partner--salesforce & { background: $salesforce-light; }
-  .partner--odoo       & { background: $odoo-light; }
-  .partner--zoho       & { background: $zoho-light; }
+  .partner--hubspot & {
+    background: $hubspot-light;
+  }
+
+  .partner--salesforce & {
+    background: $salesforce-light;
+  }
+
+  .partner--odoo & {
+    background: $odoo-light;
+  }
+
+  .partner--zoho & {
+    background: $zoho-light;
+  }
 }
 
 // ── Workflow steps (how it works) ───────────────────────────
@@ -2149,10 +2531,25 @@ $zoho-light:      #FFF0F0;
   position: relative;
   z-index: 1;
 
-  .partner--hubspot    & { background: $hubspot-orange;  color: #fff; }
-  .partner--salesforce & { background: $salesforce-blue; color: #fff; }
-  .partner--odoo       & { background: $odoo-purple;     color: #fff; }
-  .partner--zoho       & { background: $zoho-red;        color: #fff; }
+  .partner--hubspot & {
+    background: $hubspot-orange;
+    color: #fff;
+  }
+
+  .partner--salesforce & {
+    background: $salesforce-blue;
+    color: #fff;
+  }
+
+  .partner--odoo & {
+    background: $odoo-purple;
+    color: #fff;
+  }
+
+  .partner--zoho & {
+    background: $zoho-red;
+    color: #fff;
+  }
 }
 
 .crm-step-body {
@@ -2182,20 +2579,48 @@ $zoho-light:      #FFF0F0;
   gap: 20px;
   flex-wrap: wrap;
 
-  &.together--hubspot    { background: $hubspot-light;    border-left: 4px solid $hubspot-orange; }
-  &.together--salesforce { background: $salesforce-light; border-left: 4px solid $salesforce-blue; }
-  &.together--odoo       { background: $odoo-light;       border-left: 4px solid $odoo-purple; }
-  &.together--zoho       { background: $zoho-light;       border-left: 4px solid $zoho-red; }
+  &.together--hubspot {
+    background: $hubspot-light;
+    border-left: 4px solid $hubspot-orange;
+  }
+
+  &.together--salesforce {
+    background: $salesforce-light;
+    border-left: 4px solid $salesforce-blue;
+  }
+
+  &.together--odoo {
+    background: $odoo-light;
+    border-left: 4px solid $odoo-purple;
+  }
+
+  &.together--zoho {
+    background: $zoho-light;
+    border-left: 4px solid $zoho-red;
+  }
 }
 
-.crm-together-icon { font-size: 36px; flex-shrink: 0; }
+.crm-together-icon {
+  font-size: 36px;
+  flex-shrink: 0;
+}
 
 .crm-together-text {
   flex: 1;
   min-width: 200px;
 
-  strong { display: block; font-size: 16px; margin-bottom: 6px; }
-  p { margin: 0; font-size: 14px; color: $text-secondary; line-height: 1.6; }
+  strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: $text-secondary;
+    line-height: 1.6;
+  }
 }
 
 // ── Partner context strip ─────────────────────────────────
@@ -2204,14 +2629,29 @@ $zoho-light:      #FFF0F0;
   color: $text-secondary;
   margin-bottom: 24px;
 
-  a { color: $text-secondary; text-decoration: underline; }
+  a {
+    color: $text-secondary;
+    text-decoration: underline;
+  }
 }
 
 @media screen and (max-width: 720px) {
-  .crm-hero { padding: 28px 20px; }
-  .crm-hero-title { font-size: 22px; }
-  .crm-cards { grid-template-columns: 1fr; }
-  .crm-together { flex-direction: column; gap: 12px; }
+  .crm-hero {
+    padding: 28px 20px;
+  }
+
+  .crm-hero-title {
+    font-size: 22px;
+  }
+
+  .crm-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .crm-together {
+    flex-direction: column;
+    gap: 12px;
+  }
 }
 
 // ============================================
@@ -2233,8 +2673,18 @@ $zoho-light:      #FFF0F0;
   line-height: 1.6;
   color: $content-text;
 
-  .problem-icon { font-size: 26px; display: block; margin-bottom: 8px; }
-  strong { display: block; margin-bottom: 3px; color: #1c1c1e; font-size: 14px; }
+  .problem-icon {
+    font-size: 26px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 3px;
+    color: #1c1c1e;
+    font-size: 14px;
+  }
 }
 
 .problem-solved {
@@ -2261,8 +2711,19 @@ $zoho-light:      #FFF0F0;
   margin: 24px 0 32px;
   color: #f5f5f7;
 
-  p { margin: 0; font-size: 14px; color: #aeaeb2; line-height: 1.6; }
-  strong { display: block; margin-bottom: 6px; font-size: 16px; color: #fff; }
+  p {
+    margin: 0;
+    font-size: 14px;
+    color: #aeaeb2;
+    line-height: 1.6;
+  }
+
+  strong {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 16px;
+    color: #fff;
+  }
 }
 
 .driving-window-badge {
@@ -2309,11 +2770,21 @@ $zoho-light:      #FFF0F0;
   color: inherit;
   cursor: pointer;
 
-  &:hover { border-color: darken($border, 8%); box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-decoration: none; color: inherit; }
+  &:hover {
+    border-color: darken($border, 8%);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: inherit;
+  }
+
   &.essentials-card--featured {
     border-color: rgba($accent, 0.4);
     background: linear-gradient(135deg, rgba($accent, 0.04), #fff);
-    &:hover { border-color: $accent; box-shadow: 0 4px 16px rgba($accent, 0.12); }
+
+    &:hover {
+      border-color: $accent;
+      box-shadow: 0 4px 16px rgba($accent, 0.12);
+    }
   }
 }
 
@@ -2327,8 +2798,17 @@ $zoho-light:      #FFF0F0;
 .essentials-app-info {
   flex: 1;
 
-  strong { display: block; font-size: 14px; margin-bottom: 2px; }
-  span { font-size: 13px; color: $text-secondary; line-height: 1.5; }
+  strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  span {
+    font-size: 13px;
+    color: $text-secondary;
+    line-height: 1.5;
+  }
 }
 
 .essentials-featured-badge {
@@ -2343,9 +2823,18 @@ $zoho-light:      #FFF0F0;
 }
 
 @media screen and (max-width: 600px) {
-  .problem-scenarios { grid-template-columns: 1fr; }
-  .driving-window { flex-direction: column; gap: 14px; }
-  .essentials-grid { grid-template-columns: 1fr; }
+  .problem-scenarios {
+    grid-template-columns: 1fr;
+  }
+
+  .driving-window {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .essentials-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 // ============================================
@@ -2359,11 +2848,23 @@ $zoho-light:      #FFF0F0;
   color: #f5f5f7;
   margin: 0 0 36px;
 
-  h1 { color: #fff; font-size: 26px; margin: 16px 0 12px; }
-  p  { color: #aeaeb2; font-size: 16px; max-width: 480px; margin: 0 auto 24px; }
+  h1 {
+    color: #fff;
+    font-size: 26px;
+    margin: 16px 0 12px;
+  }
+
+  p {
+    color: #aeaeb2;
+    font-size: 16px;
+    max-width: 480px;
+    margin: 0 auto 24px;
+  }
 }
 
-.beta-ended-icon { font-size: 52px; }
+.beta-ended-icon {
+  font-size: 52px;
+}
 
 // ============================================
 // Pricing Cards (Premium page)
@@ -2385,7 +2886,9 @@ $zoho-light:      #FFF0F0;
   position: relative;
   transition: box-shadow 0.2s, border-color 0.2s;
 
-  &:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+  &:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  }
 
   &.pricing-card--featured {
     border-color: $accent;
@@ -2429,8 +2932,18 @@ $zoho-light:      #FFF0F0;
   color: $text-secondary;
   line-height: 1.5;
 
-  strong { display: block; font-size: 26px; color: #1c1c1e; font-weight: 800; line-height: 1.1; }
-  em { font-style: normal; font-size: 12px; }
+  strong {
+    display: block;
+    font-size: 26px;
+    color: #1c1c1e;
+    font-weight: 800;
+    line-height: 1.1;
+  }
+
+  em {
+    font-style: normal;
+    font-size: 12px;
+  }
 }
 
 .pricing-saving {
@@ -2454,18 +2967,31 @@ $zoho-light:      #FFF0F0;
   color: $text-secondary;
   flex: 1;
 
-  li::before { content: "✓ "; color: $accent; font-weight: 700; }
+  li::before {
+    content: "✓ ";
+    color: $accent;
+    font-weight: 700;
+  }
 }
 
 .pricing-cta {
   margin-top: 8px;
 
-  .btn { width: 100%; text-align: center; justify-content: center; }
+  .btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 640px) {
-  .pricing-grid { grid-template-columns: 1fr; }
-  .pricing-card--featured { order: -1; }
+  .pricing-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-card--featured {
+    order: -1;
+  }
 }
 
 // ============================================

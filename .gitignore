@@ -11,3 +11,5 @@ _site/
 !.gitmodules
 !.github/
 !.well-known/
+
+private/**

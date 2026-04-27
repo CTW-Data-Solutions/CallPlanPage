@@ -1,3 +1,5 @@
+---
+---
 @import "jekyll-theme-minimal";
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
@@ -651,12 +653,13 @@ a.btn-share:hover {
 
 /* ── CTA Section ── */
 .cta-section {
-    background: linear-gradient(135deg, #1e3a8a 0%, #1d4ed8 100%);
+    background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
     border-radius: 1.75rem;
-    padding: 2.5rem 2rem;
+    padding: 2.75rem 2rem;
     text-align: center;
     color: #ffffff;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
 }
 
 .cta-section h2 {
@@ -667,7 +670,7 @@ a.btn-share:hover {
 }
 
 .cta-section p {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.75);
     max-width: 36rem;
     margin: 0 auto 1.5rem;
 }
@@ -683,14 +686,14 @@ a.btn-share:hover {
 .early-adopter-badge {
     display: inline-flex;
     padding: 0.3rem 0.85rem;
-    background: rgba(255, 255, 255, 0.15);
-    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 999px;
     font-size: 0.78rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #bfdbfe;
+    color: #93c5fd;
     margin-bottom: 0.85rem;
 }
 
@@ -699,25 +702,25 @@ a.btn-share:hover {
 }
 
 .cta-section .btn-primary {
-    background: #ffffff;
-    color: #1d4ed8 !important;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    color: #ffffff !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cta-section .btn-primary:hover {
-    background: #f0f9ff;
-    color: #1e40af !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
 }
 
 .cta-section .btn-secondary {
-    background: rgba(255, 255, 255, 0.12);
-    border-color: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.25);
     color: #ffffff !important;
 }
 
 .cta-section .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.45);
     color: #ffffff !important;
 }
 

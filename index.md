@@ -477,23 +477,23 @@ Kennst du jemanden, der wichtige Calls nie mehr verpassen will? Teile CallPlan i
 
     <div class="event-card event-card--upcoming">
       <div class="event-header">
-        <span class="event-badge event-badge--upcoming">Upcoming · 2026</span>
+        <span class="event-badge event-badge--upcoming">Upcoming · Sept. 2026</span>
         <span class="event-type">Flagship-Konferenz · Global</span>
       </div>
       <h3 class="event-title">Dreamforce 2026</h3>
       <p class="event-desc">Salesforces weltgrößte CRM- und Sales-Konferenz – Tausende Sessions, Product Launches und das größte Vertriebsnetzwerk der Welt. Pflichttermin für Sales-Profis.</p>
-      <div class="event-meta">📍 San Francisco, CA · Sept. 2026</div>
+      <div class="event-meta">📍 San Francisco, CA · Sept. 2026 · Genaue Termine folgen</div>
       <a href="https://www.salesforce.com/dreamforce/" class="btn btn-secondary" target="_blank" rel="noopener">Mehr erfahren →</a>
     </div>
 
     <div class="event-card event-card--upcoming">
       <div class="event-header">
-        <span class="event-badge event-badge--upcoming">Upcoming · 2026</span>
+        <span class="event-badge event-badge--upcoming">Upcoming · Sept. 2026</span>
         <span class="event-type">SaaS-Community · Global</span>
       </div>
       <h3 class="event-title">SaaStr Annual 2026</h3>
       <p class="event-desc">Die weltweit größte Konferenz für SaaS-Gründer, Revenue-Teams und Vertriebsführungskräfte – mit Fokus auf skalierbaren Vertrieb, ARR-Wachstum und B2B-Sales.</p>
-      <div class="event-meta">📍 San Francisco Bay Area · Sept. 2026</div>
+      <div class="event-meta">📍 San Francisco Bay Area · Sept. 2026 · Genaue Termine folgen</div>
       <a href="https://www.saastr.com/events/" class="btn btn-secondary" target="_blank" rel="noopener">Mehr erfahren →</a>
     </div>
 

@@ -106,7 +106,7 @@ description: "CallPlan für Politiker und Kampagnenteams: Wähler, Spender und V
 </div>
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Politische Arbeit ist Beziehungsarbeit. CallPlan ist dein System.</h2>
   <p>Kostenlos laden. In 5 Minuten eingerichtet. Noch heute die ersten Calls geplant.</p>
   <div class="hero-actions">

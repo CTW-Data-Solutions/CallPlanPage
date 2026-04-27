@@ -108,7 +108,7 @@ description: "CallPlan für Sales: Mehr Calls zwischen Kundenterminen, automatis
 </div>
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Bereit, deine Fahrzeit zu monetarisieren?</h2>
   <p>CallPlan ist kostenlos. Premium erweitert CRM-Integration und unbegrenzte Calls.</p>
   <div class="hero-actions">

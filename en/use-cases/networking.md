@@ -98,7 +98,7 @@ description: "CallPlan for networkers: follow up every conference contact, plan 
 ---
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Your network only grows if you stay in touch.</h2>
   <p>CallPlan is the system you've been looking for – free, hands-free, discreet.</p>
   <div class="hero-actions">

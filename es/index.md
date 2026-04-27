@@ -49,84 +49,79 @@ lang_ref: home
 
 ## ¿Te suena familiar?
 
-<div class="use-case-carousel" id="useCaseCarouselEs">
-  <div class="carousel-track" id="carouselTrackEs">
+<div class="uc-carousel" id="ucEs">
 
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🚗</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Caso de uso 1 · Oficina Móvil</div>
-          <h3 class="uc-slide-title">La oficina sobre ruedas – llamadas sin distracciones</h3>
-          <p class="uc-slide-problem">"De camino al cliente – quiero hacer la llamada, pero no puedo estar tecleando en la pantalla."</p>
-          <p class="uc-slide-solution">CallPlan muestra todas tus llamadas a clientes en la pantalla CarPlay. Plena concentración en la conversación, sin segunda pantalla – solo tú, el volante y el tráfico. Siri toma notas mientras conduces; CallPlan las envía automáticamente.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">🚦 Solo tiempo de conducción</span>
-            <span class="uc-tag">📵 Sin segunda pantalla</span>
-            <span class="uc-tag">👤 Foco total en el cliente</span>
-          </div>
+  <div class="uc-slide active">
+    <div class="uc-slide-meta">Caso de uso 1 · Oficina Móvil</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🚗</div>
+      <div class="uc-content">
+        <h3>La oficina sobre ruedas – llamadas sin distracciones</h3>
+        <p class="uc-problem">"De camino al cliente – quiero hacer la llamada, pero no puedo estar tecleando en la pantalla."</p>
+        <p class="uc-solution">CallPlan muestra todas tus llamadas a clientes en la pantalla CarPlay. Plena concentración en la conversación, sin segunda pantalla – solo tú, el volante y el tráfico. Siri toma notas mientras conduces; CallPlan las envía automáticamente.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">🚦 Solo tiempo de conducción</span>
+          <span class="uc-tag">📵 Sin segunda pantalla</span>
+          <span class="uc-tag">👤 Foco total en el cliente</span>
         </div>
       </div>
     </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">👵</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Caso de uso 2 · La llamada a mamá</div>
-          <h3 class="uc-slide-title">¿Cuándo fue la última vez que llamaste a tu mamá?</h3>
-          <p class="uc-slide-problem">"Esta semana llamo a la abuela" – y pasa otro mes sin llamar.</p>
-          <p class="uc-slide-solution">No solo olvidamos a los clientes. CallPlan te recuerda las llamadas personales exactamente cuando tienes tiempo – durante el trayecto al trabajo, entre reuniones. El aviso llega en el momento justo, no en cualquier momento.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">👨‍👩‍👧 Familia &amp; amigos</span>
-            <span class="uc-tag">⏰ Recordatorios inteligentes</span>
-            <span class="uc-tag">❤️ Cuida tus relaciones</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🔄</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Caso de uso 3 · Seguimientos</div>
-          <h3 class="uc-slide-title">El molesto seguimiento – quincenal, mensual, trimestral</h3>
-          <p class="uc-slide-problem">"Tenía que llamar cada dos semanas para actualizar el proyecto – hasta que lo olvidé durante tres meses."</p>
-          <p class="uc-slide-solution">Check-ins recurrentes para proyectos, clientes y colaboraciones. Quincenal, mensual o trimestral – CallPlan los planifica automáticamente y te avisa a tiempo para que ningún contacto se enfríe.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">📅 Quincenal</span>
-            <span class="uc-tag">📆 Mensual</span>
-            <span class="uc-tag">🗓️ Trimestral</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
-  <div class="carousel-controls">
-    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrevEs()" aria-label="Caso anterior">&#8249;</button>
-    <div class="carousel-dots">
-      <button class="carousel-dot active" onclick="carouselGotoEs(0)" aria-label="Caso 1: Oficina Móvil"></button>
-      <button class="carousel-dot" onclick="carouselGotoEs(1)" aria-label="Caso 2: Llamada a mamá"></button>
-      <button class="carousel-dot" onclick="carouselGotoEs(2)" aria-label="Caso 3: Seguimientos"></button>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Caso de uso 2 · La llamada a mamá</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">👵</div>
+      <div class="uc-content">
+        <h3>¿Cuándo fue la última vez que llamaste a tu mamá?</h3>
+        <p class="uc-problem">"Esta semana llamo a la abuela" – y pasa otro mes sin llamar.</p>
+        <p class="uc-solution">No solo olvidamos a los clientes. CallPlan te recuerda las llamadas personales exactamente cuando tienes tiempo – durante el trayecto al trabajo, entre reuniones. El aviso llega en el momento justo, no en cualquier momento.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">👨‍👩‍👧 Familia &amp; amigos</span>
+          <span class="uc-tag">⏰ Recordatorios inteligentes</span>
+          <span class="uc-tag">❤️ Cuida tus relaciones</span>
+        </div>
+      </div>
     </div>
-    <button class="carousel-btn carousel-btn--next" onclick="carouselNextEs()" aria-label="Caso siguiente">&#8250;</button>
+  </div>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Caso de uso 3 · Seguimientos</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🔄</div>
+      <div class="uc-content">
+        <h3>El molesto seguimiento – quincenal, mensual, trimestral</h3>
+        <p class="uc-problem">"Tenía que llamar cada dos semanas para actualizar el proyecto – hasta que lo olvidé durante tres meses."</p>
+        <p class="uc-solution">Check-ins recurrentes para proyectos, clientes y colaboraciones. Quincenal, mensual o trimestral – CallPlan los planifica automáticamente y te avisa a tiempo para que ningún contacto se enfríe.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">📅 Quincenal</span>
+          <span class="uc-tag">📆 Mensual</span>
+          <span class="uc-tag">🗓️ Trimestral</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="uc-controls">
+    <button class="uc-btn" onclick="ucPrevEs()" aria-label="Caso anterior">&#8249;</button>
+    <div class="uc-dots">
+      <button class="uc-dot active" onclick="ucGotoEs(0)" aria-label="Oficina Móvil"></button>
+      <button class="uc-dot" onclick="ucGotoEs(1)" aria-label="Llamada a mamá"></button>
+      <button class="uc-dot" onclick="ucGotoEs(2)" aria-label="Seguimientos"></button>
+    </div>
+    <button class="uc-btn" onclick="ucNextEs()" aria-label="Caso siguiente">&#8250;</button>
   </div>
 </div>
 <script>
-(function() {
-  var cur = 0, total = 3;
-  function update() {
-    var t = document.getElementById('carouselTrackEs');
-    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
-    document.querySelectorAll('#useCaseCarouselEs .carousel-dot').forEach(function(d, i) {
-      d.classList.toggle('active', i === cur);
-    });
+(function(){
+  var cur=0,total=3,el=document.getElementById('ucEs');
+  function upd(){
+    el.querySelectorAll('.uc-slide').forEach(function(s,i){s.classList.toggle('active',i===cur);});
+    el.querySelectorAll('.uc-dot').forEach(function(d,i){d.classList.toggle('active',i===cur);});
   }
-  window.carouselPrevEs = function() { cur = (cur - 1 + total) % total; update(); };
-  window.carouselNextEs = function() { cur = (cur + 1) % total; update(); };
-  window.carouselGotoEs = function(n) { cur = n; update(); };
+  window.ucPrevEs=function(){cur=(cur-1+total)%total;upd();};
+  window.ucNextEs=function(){cur=(cur+1)%total;upd();};
+  window.ucGotoEs=function(n){cur=n;upd();};
 })();
 </script>
 

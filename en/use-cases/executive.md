@@ -98,7 +98,7 @@ description: "CallPlan for CEOs and managers: maintain important relationships s
 ---
 
 {% if site.app_store_url != "" %}
-<div class="cta-section">
+<div class="cta-section cta-section--subtle">
   <h2>Your network is your most valuable asset.</h2>
   <p>CallPlan keeps it warm – systematically, hands-free, discreetly.</p>
   <div class="hero-actions">

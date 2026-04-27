@@ -49,84 +49,79 @@ lang_ref: home
 
 ## Sound familiar?
 
-<div class="use-case-carousel" id="useCaseCarouselEn">
-  <div class="carousel-track" id="carouselTrackEn">
+<div class="uc-carousel" id="ucEn">
 
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🚗</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 1 · Car Office</div>
-          <h3 class="uc-slide-title">The rolling office – customer calls without distraction</h3>
-          <p class="uc-slide-problem">"On the way to my next customer – I want to make the call, but I can't be tapping at a screen."</p>
-          <p class="uc-slide-solution">CallPlan shows all your customer calls on the CarPlay display. Full focus on the conversation, no second screen – just you, the steering wheel, and the traffic. Siri takes notes while you drive; CallPlan sends them automatically.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">🚦 Drive time only</span>
-            <span class="uc-tag">📵 No second screen</span>
-            <span class="uc-tag">👤 Full customer focus</span>
-          </div>
+  <div class="uc-slide active">
+    <div class="uc-slide-meta">Use Case 1 · Car Office</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🚗</div>
+      <div class="uc-content">
+        <h3>The rolling office – customer calls without distraction</h3>
+        <p class="uc-problem">"On the way to my next customer – I want to make the call, but I can't be tapping at a screen."</p>
+        <p class="uc-solution">CallPlan shows all your customer calls on the CarPlay display. Full focus on the conversation, no second screen – just you, the steering wheel, and the traffic. Siri takes notes while you drive; CallPlan sends them automatically.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">🚦 Drive time only</span>
+          <span class="uc-tag">📵 No second screen</span>
+          <span class="uc-tag">👤 Full customer focus</span>
         </div>
       </div>
     </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">👵</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 2 · The Mom Call</div>
-          <h3 class="uc-slide-title">When did you last call your mom?</h3>
-          <p class="uc-slide-problem">"I'll call Mum this week" – and then another month slips by without a word.</p>
-          <p class="uc-slide-solution">It's not only customers we forget. CallPlan reminds you about personal calls exactly when you have time – on the commute, between meetings. The reminder arrives at the right moment, not whenever.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">👨‍👩‍👧 Family &amp; friends</span>
-            <span class="uc-tag">⏰ Smart reminders</span>
-            <span class="uc-tag">❤️ Nurture relationships</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="carousel-slide">
-      <div class="uc-slide-inner">
-        <div class="uc-slide-icon">🔄</div>
-        <div class="uc-slide-content">
-          <div class="uc-slide-label">Use Case 3 · Follow-up Calls</div>
-          <h3 class="uc-slide-title">The tedious follow-up – bi-weekly, monthly, quarterly</h3>
-          <p class="uc-slide-problem">"I was supposed to call for a project update every two weeks – until I'd forgotten for three months straight."</p>
-          <p class="uc-slide-solution">Recurring check-ins for projects, clients, and partnerships. Bi-weekly, monthly, or quarterly – CallPlan schedules them automatically and reminds you on time, so no relationship goes cold.</p>
-          <div class="uc-tags">
-            <span class="uc-tag">📅 Bi-weekly</span>
-            <span class="uc-tag">📆 Monthly</span>
-            <span class="uc-tag">🗓️ Quarterly</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
   </div>
-  <div class="carousel-controls">
-    <button class="carousel-btn carousel-btn--prev" onclick="carouselPrevEn()" aria-label="Previous use case">&#8249;</button>
-    <div class="carousel-dots">
-      <button class="carousel-dot active" onclick="carouselGotoEn(0)" aria-label="Use Case 1: Car Office"></button>
-      <button class="carousel-dot" onclick="carouselGotoEn(1)" aria-label="Use Case 2: Mom Call"></button>
-      <button class="carousel-dot" onclick="carouselGotoEn(2)" aria-label="Use Case 3: Follow-up"></button>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Use Case 2 · The Mom Call</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">👵</div>
+      <div class="uc-content">
+        <h3>When did you last call your mom?</h3>
+        <p class="uc-problem">"I'll call Mum this week" – and then another month slips by without a word.</p>
+        <p class="uc-solution">It's not only customers we forget. CallPlan reminds you about personal calls exactly when you have time – on the commute, between meetings. The reminder arrives at the right moment, not whenever.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">👨‍👩‍👧 Family &amp; friends</span>
+          <span class="uc-tag">⏰ Smart reminders</span>
+          <span class="uc-tag">❤️ Nurture relationships</span>
+        </div>
+      </div>
     </div>
-    <button class="carousel-btn carousel-btn--next" onclick="carouselNextEn()" aria-label="Next use case">&#8250;</button>
+  </div>
+
+  <div class="uc-slide">
+    <div class="uc-slide-meta">Use Case 3 · Follow-up Calls</div>
+    <div class="uc-slide-body">
+      <div class="uc-icon">🔄</div>
+      <div class="uc-content">
+        <h3>The tedious follow-up – bi-weekly, monthly, quarterly</h3>
+        <p class="uc-problem">"I was supposed to call for a project update every two weeks – until I'd forgotten for three months straight."</p>
+        <p class="uc-solution">Recurring check-ins for projects, clients, and partnerships. Bi-weekly, monthly, or quarterly – CallPlan schedules them automatically and reminds you on time, so no relationship goes cold.</p>
+        <div class="uc-tags">
+          <span class="uc-tag">📅 Bi-weekly</span>
+          <span class="uc-tag">📆 Monthly</span>
+          <span class="uc-tag">🗓️ Quarterly</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="uc-controls">
+    <button class="uc-btn" onclick="ucPrevEn()" aria-label="Previous use case">&#8249;</button>
+    <div class="uc-dots">
+      <button class="uc-dot active" onclick="ucGotoEn(0)" aria-label="Car Office"></button>
+      <button class="uc-dot" onclick="ucGotoEn(1)" aria-label="Mom Call"></button>
+      <button class="uc-dot" onclick="ucGotoEn(2)" aria-label="Follow-up"></button>
+    </div>
+    <button class="uc-btn" onclick="ucNextEn()" aria-label="Next use case">&#8250;</button>
   </div>
 </div>
 <script>
-(function() {
-  var cur = 0, total = 3;
-  function update() {
-    var t = document.getElementById('carouselTrackEn');
-    if (t) t.style.transform = 'translateX(-' + (cur * 100) + '%)';
-    document.querySelectorAll('#useCaseCarouselEn .carousel-dot').forEach(function(d, i) {
-      d.classList.toggle('active', i === cur);
-    });
+(function(){
+  var cur=0,total=3,el=document.getElementById('ucEn');
+  function upd(){
+    el.querySelectorAll('.uc-slide').forEach(function(s,i){s.classList.toggle('active',i===cur);});
+    el.querySelectorAll('.uc-dot').forEach(function(d,i){d.classList.toggle('active',i===cur);});
   }
-  window.carouselPrevEn = function() { cur = (cur - 1 + total) % total; update(); };
-  window.carouselNextEn = function() { cur = (cur + 1) % total; update(); };
-  window.carouselGotoEn = function(n) { cur = n; update(); };
+  window.ucPrevEn=function(){cur=(cur-1+total)%total;upd();};
+  window.ucNextEn=function(){cur=(cur+1)%total;upd();};
+  window.ucGotoEn=function(n){cur=n;upd();};
 })();
 </script>
 

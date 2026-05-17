@@ -2,157 +2,173 @@
 <html lang="{{ page.lang | default: 'de' }}">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
 </head>
 
 {% assign _lang = page.lang | default: 'de' %}
-{% if _lang == 'en' %}
-{% assign t = site.data.i18n.en %}
-{% elsif _lang == 'es' %}
-{% assign t = site.data.i18n.es %}
-{% else %}
-{% assign t = site.data.i18n.de %}
-{% endif %}
+{% if _lang == 'en' %}{% assign t = site.data.i18n.en %}
+{% elsif _lang == 'es' %}{% assign t = site.data.i18n.es %}
+{% else %}{% assign t = site.data.i18n.de %}{% endif %}
 {% assign pages_map = site.data.pages | where: "ref", page.lang_ref | first %}
 
 <body>
-    <div class="wrapper">
 
-        <!-- ── Mobile top bar ── -->
-        <div class="mobile-topbar">
-            <a href="{{ t.nav[0].href }}" class="mobile-title">
-                {{ site.title | default: site.github.repository_name }}
-            </a>
-            <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false"
-                aria-controls="sidebar">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-        </div>
+  <!-- ── Top Navigation ─────────────────────────── -->
+  <nav class="topnav" role="navigation" aria-label="Main navigation">
+    <a href="{{ t.home_href | default: '/' }}" class="nav-brand">
+      {% if site.logo %}
+      <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} App Icon">
+      {% endif %}
+      <span class="nav-title">{{ site.title }}</span>
+    </a>
 
-        <!-- ── Overlay (mobile) ── -->
-        <div class="nav-overlay" id="nav-overlay" role="presentation"></div>
-
-        <!-- ── Sidebar ── -->
-        <header id="sidebar" role="banner">
-
-            <h1><a href="{{ t.nav[0].href }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-            {% if site.logo %}
-            <div class="apple-logo">
-                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }} App Icon" />
-            </div>
-            {% endif %}
-
-            <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
-
-            {% if site.show_downloads %}
-            <ul class="downloads">
-                <li><a href="{{ site.app_store_url | default: site.github.repository_url }}"><strong>{{
-                            t.downloads.appstore }}</strong></a></li>
-                <li><a href="{{ t.nav[1].href }}"><strong>{{ t.downloads.howto }}</strong></a></li>
-                <li><a href="{{ site.github.repository_url }}"><strong>{{ t.downloads.youtube }}</strong></a></li>
-            </ul>
-            {% endif %}
-
-            <!-- ── Language switcher ── -->
-            <div class="lang-switcher" aria-label="Language selection">
-                {% if pages_map %}
-                <a href="{{ pages_map.de }}"
-                    class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de"
-                    hreflang="de">🇩🇪 DE</a>
-                <a href="{{ pages_map.en }}" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en"
-                    hreflang="en">🇬🇧 EN</a>
-                <a href="{{ pages_map.es }}" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es"
-                    hreflang="es">🇪🇸 ES</a>
-                {% else %}
-                <a href="/" class="lang-btn{% if page.lang == 'de' or page.lang == nil %} active{% endif %}" lang="de"
-                    hreflang="de">🇩🇪 DE</a>
-                <a href="/en/" class="lang-btn{% if page.lang == 'en' %} active{% endif %}" lang="en" hreflang="en">🇬🇧
-                    EN</a>
-                <a href="/es/" class="lang-btn{% if page.lang == 'es' %} active{% endif %}" lang="es" hreflang="es">🇪🇸
-                    ES</a>
-                {% endif %}
-            </div>
-
-            <!-- ── Navigation ── -->
-            <nav class="site-nav" aria-label="Main navigation">
-                {% for item in t.nav %}
-                <a href="{{ item.href }}" {% if item.external %} target="_blank" rel="noopener noreferrer" {% endif
-                    %}>{{ item.label }}</a>
-                {% endfor %}
-            </nav>
-
-        </header>
-
-        <!-- ── Main content ── -->
-        <section role="main">
-            {{ content }}
-        </section>
-
-        <!-- ── Footer ── -->
-        <footer role="contentinfo">
-            {% if site.github.is_project_page %}
-            <p>{{ t.footer }} <a href="https://quick-id.com">Quick-ID</a></p>
-            {% endif %}
-            {% if site.app_store_url %}
-            <p><a href="{{ site.app_store_url }}" target="_blank" rel="noopener noreferrer">{{ t.downloads.appstore
-                    }}</a></p>
-            {% endif %}
-            <p><a href="{{ t.privacy_href }}">{{ t.privacy_label }}</a></p>
-        </footer>
-
+    <div class="nav-links" role="menubar">
+      {% for item in t.top_nav %}
+      <a href="{{ item.href }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}
+         role="menuitem">{{ item.label }}</a>
+      {% endfor %}
     </div>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script>
-        (function () {
-            var btn = document.getElementById('hamburger-btn');
-            var sidebar = document.getElementById('sidebar');
-            var overlay = document.getElementById('nav-overlay');
+    <div class="nav-right">
+      <div class="lang-switcher" aria-label="Language selection">
+        {% if pages_map %}
+        <a href="{{ pages_map.de }}" class="{% if _lang == 'de' %}active{% endif %}" lang="de" hreflang="de">DE</a>
+        <a href="{{ pages_map.en }}" class="{% if _lang == 'en' %}active{% endif %}" lang="en" hreflang="en">EN</a>
+        <a href="{{ pages_map.es }}" class="{% if _lang == 'es' %}active{% endif %}" lang="es" hreflang="es">ES</a>
+        {% else %}
+        <a href="/"    class="{% if _lang == 'de' %}active{% endif %}" lang="de" hreflang="de">DE</a>
+        <a href="/en/" class="{% if _lang == 'en' %}active{% endif %}" lang="en" hreflang="en">EN</a>
+        <a href="/es/" class="{% if _lang == 'es' %}active{% endif %}" lang="es" hreflang="es">ES</a>
+        {% endif %}
+      </div>
 
-            function openMenu() {
-                sidebar.classList.add('open');
-                overlay.classList.add('active');
-                btn.classList.add('active');
-                btn.setAttribute('aria-expanded', 'true');
-            }
+      {% if site.app_store_url != "" %}
+      <a href="{{ site.app_store_url }}" class="nav-cta" target="_blank" rel="noopener noreferrer"
+         aria-label="{{ t.downloads.appstore }}">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        {{ t.downloads.appstore }}
+      </a>
+      {% endif %}
 
-            function closeMenu() {
-                sidebar.classList.remove('open');
-                overlay.classList.remove('active');
-                btn.classList.remove('active');
-                btn.setAttribute('aria-expanded', 'false');
-            }
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-            btn.addEventListener('click', function () {
-                sidebar.classList.contains('open') ? closeMenu() : openMenu();
-            });
+  <!-- ── Mobile Nav Drawer ──────────────────────── -->
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    {% for item in t.top_nav %}
+    <a href="{{ item.href }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
 
-            overlay.addEventListener('click', closeMenu);
+    <div class="mobile-nav-divider"></div>
 
-            document.querySelectorAll('.site-nav a').forEach(function (link) {
-                link.addEventListener('click', closeMenu);
-            });
+    <div class="mobile-nav-lang">
+      {% if pages_map %}
+      <a href="{{ pages_map.de }}" class="{% if _lang == 'de' %}active{% endif %}">🇩🇪 DE</a>
+      <a href="{{ pages_map.en }}" class="{% if _lang == 'en' %}active{% endif %}">🇬🇧 EN</a>
+      <a href="{{ pages_map.es }}" class="{% if _lang == 'es' %}active{% endif %}">🇪🇸 ES</a>
+      {% else %}
+      <a href="/"    class="{% if _lang == 'de' %}active{% endif %}">🇩🇪 DE</a>
+      <a href="/en/" class="{% if _lang == 'en' %}active{% endif %}">🇬🇧 EN</a>
+      <a href="/es/" class="{% if _lang == 'es' %}active{% endif %}">🇪🇸 ES</a>
+      {% endif %}
+    </div>
 
-            // Highlight active nav link
-            var path = window.location.pathname.replace(/\/$/, '') || '/';
-            document.querySelectorAll('.site-nav a').forEach(function (link) {
-                var href = link.getAttribute('href').replace(/\/$/, '') || '/';
-                if (href === path) link.classList.add('active');
-            });
-        }());
-    </script>
+    {% if site.app_store_url != "" %}
+    <div class="mobile-nav-cta">
+      <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+          <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+        </svg>
+        {{ t.downloads.appstore }}
+      </a>
+    </div>
+    {% endif %}
+  </div>
+
+  <!-- ── Main Content ───────────────────────────── -->
+  <main role="main">
+    {% if page.page_layout == 'landing' %}
+      {{ content }}
+    {% else %}
+      <div class="page-content">
+        {{ content }}
+      </div>
+    {% endif %}
+  </main>
+
+  <!-- ── Footer ────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+        {% endif %}
+        <span>{{ site.title }}</span>
+      </div>
+
+      <div class="footer-links">
+        {% for item in t.top_nav %}
+        <a href="{{ item.href }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a>
+        {% endfor %}
+        <a href="{{ t.privacy_href }}">{{ t.privacy_label }}</a>
+        {% if site.app_store_url %}
+        <a href="{{ site.app_store_url }}" target="_blank" rel="noopener noreferrer">{{ t.downloads.appstore }}</a>
+        {% endif %}
+      </div>
+
+      <div class="footer-copy">
+        © {{ 'now' | date: '%Y' }} Quick-ID
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.getElementById('hamburger-btn');
+      var nav = document.getElementById('mobile-nav');
+
+      function open() {
+        nav.classList.add('open');
+        nav.setAttribute('aria-hidden', 'false');
+        btn.classList.add('open');
+        btn.setAttribute('aria-expanded', 'true');
+        document.body.style.overflow = 'hidden';
+      }
+
+      function close() {
+        nav.classList.remove('open');
+        nav.setAttribute('aria-hidden', 'true');
+        btn.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+
+      btn.addEventListener('click', function () {
+        nav.classList.contains('open') ? close() : open();
+      });
+
+      nav.querySelectorAll('a').forEach(function (link) {
+        link.addEventListener('click', close);
+      });
+
+      // Highlight active nav link
+      var path = window.location.pathname.replace(/\/$/, '') || '/';
+      document.querySelectorAll('.nav-links a, .mobile-nav a').forEach(function (link) {
+        var href = link.getAttribute('href').replace(/\/$/, '') || '/';
+        if (href === path) link.classList.add('active');
+      });
+    }());
+  </script>
+
 </body>
-
 </html>

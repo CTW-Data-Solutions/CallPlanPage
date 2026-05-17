@@ -2,6 +2,20 @@ lang:      en
 lang_name: English
 flag:      "🇬🇧"
 
+home_href: /en/
+
+top_nav:
+  - label: "Features"
+    href:  /en/howto/
+  - label: "CarPlay"
+    href:  /en/carplay/
+  - label: "AI Features"
+    href:  /en/ai/
+  - label: "Premium"
+    href:  /en/premium/
+  - label: "Changelog"
+    href:  /en/changelog/
+
 nav:
   - label: "📱 Download App"
     href:  "{{ site.app_store_url }}"
@@ -22,8 +36,6 @@ nav:
     href:  /en/changelog/
   - label: "🔗 Integrations"
     href:  /en/crm/
-  - label: "🧪 Beta Test"
-    href:  /en/beta/
 
 downloads:
   appstore: App Store

@@ -100,3 +100,38 @@ Nein. Alle Daten bleiben sicher auf deinem Gerät. Die Cloud-Synchronisation ist
 
 ### F6: Was passiert, wenn ich keine Kategorie auswähle?
 Der CallPlan wird automatisch der Kategorie „Unbekannt" zugeordnet. Du kannst sie jederzeit ändern.
+
+---
+
+<section class="faq-section" aria-labelledby="faq-howto-heading">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 id="faq-howto-heading">Häufige Fragen</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">Ist CallPlan kostenlos?</summary>
+      <p class="faq-answer">Ja, CallPlan ist kostenlos im App Store erhältlich. Optionale Premium-Features erweitern den Funktionsumfang.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Funktioniert CallPlan ohne Internet?</summary>
+      <p class="faq-answer">Ja, die App ist vollständig offline-fähig. Deine Daten bleiben auf deinem Gerät – keine erzwungene Cloud-Synchronisation.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Wie funktioniert die CarPlay-Integration?</summary>
+      <p class="faq-answer">Sobald dein iPhone mit CarPlay verbunden ist, erscheint CallPlan auf dem Fahrzeugdisplay. Notizen per Sprachbefehl diktieren – komplett freihändig.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Auf welchen Geräten läuft CallPlan?</summary>
+      <p class="faq-answer">iPhone mit iOS 15 oder neuer. CarPlay-Unterstützung erfordert ein entsprechendes Fahrzeug.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Wie werden Notizen nach dem Call versendet?</summary>
+      <p class="faq-answer">CallPlan sendet deine Notizen automatisch per E-Mail oder Messenger – an dich selbst, dein Team oder direkt an den Kunden.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Gibt es eine Android-Version?</summary>
+      <p class="faq-answer">Aktuell ist CallPlan nur für iOS verfügbar. Android und weitere Plattformen sind in Planung – <a href="/survey/">stimme für Features ab</a>.</p>
+    </details>
+  </div>
+</section>

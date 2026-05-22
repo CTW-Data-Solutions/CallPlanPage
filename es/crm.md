@@ -1,104 +1,137 @@
 ---
 layout: default
-title: Integraciones CRM
+page_layout: landing
+title: Integraciones
 permalink: /es/crm/
 lang: es
 lang_ref: crm
-description: "CallPlan se integra perfectamente con tu CRM – HubSpot, Salesforce, Odoo y Zoho CRM. Notas automáticas, registros de llamadas y tareas de seguimiento directamente en tu CRM."
+description: "CallPlan se conecta con tus herramientas existentes – calendario, CRM y Apple Watch. Planifica llamadas donde trabajas, gestiónalas en CallPlan."
+keywords:
+  - CallPlan integraciones
+  - sincronización calendario
+  - integración HubSpot
+  - integración Salesforce
+  - Apple Watch llamadas
+faq_items:
+  - q: "¿Qué calendarios son compatibles?"
+    a: "CallPlan sincroniza con Apple Calendar, Google Calendar y Outlook. Las llamadas telefónicas se detectan e importan automáticamente."
+  - q: "¿Cómo funciona la integración CRM?"
+    a: "Conecta HubSpot o Salesforce con un clic. Cuando marcas una llamada como completada, se registra automáticamente en el CRM – incluyendo tus notas."
+  - q: "¿Funciona CallPlan con Apple Watch?"
+    a: "Sí. Las llamadas próximas son visibles directamente en la muñeca. Puedes tachar llamadas y dictar notas – sin sacar el iPhone."
+  - q: "¿Está la integración incluida en Premium?"
+    a: "La integración CRM (HubSpot, Salesforce) está incluida en la suscripción Premium. El calendario y Apple Watch también son funciones Premium."
 ---
 
-<div class="crm-hero crm-hero--overview">
-  <span class="crm-hero-eyebrow">Integraciones</span>
-  <h1 class="crm-hero-title">CallPlan + tu CRM.<br>El dúo perfecto.</h1>
-  <p class="crm-hero-sub">CallPlan es el complemento ideal para cualquier CRM. Planifica llamadas, dicta notas manos libres con CarPlay &amp; Siri y sincroniza todo automáticamente con HubSpot, Salesforce, Odoo o Zoho CRM.</p>
-</div>
-
-## ¿Por qué CallPlan + CRM?
-
-Los CRM son la memoria de tu empresa. Pero no te ayudan a **tomar notas durante la llamada** – y mucho menos manos libres al volante.
-
-CallPlan cierra exactamente esa brecha: planificas, tomas notas y haces el seguimiento – CallPlan se asegura de que todo llegue al CRM.
-
-<div class="crm-cards">
-  <a href="/es/crm/hubspot/" class="crm-card crm-card--hubspot">
-    <div class="crm-card-logo logo--hubspot">HubSpot</div>
-    <p class="crm-card-title">CallPlan para HubSpot</p>
-    <p class="crm-card-desc">Conecta CallPlan con HubSpot CRM. Actividades, notas y seguimientos se registran automáticamente en el contacto correcto.</p>
-    <span class="crm-card-arrow">→</span>
-  </a>
-  <a href="/es/crm/salesforce/" class="crm-card crm-card--salesforce">
-    <div class="crm-card-logo logo--salesforce">Salesforce</div>
-    <p class="crm-card-title">CallPlan para Salesforce</p>
-    <p class="crm-card-desc">Sincroniza registros de llamadas y notas directamente en Salesforce. Sin entrada manual – todo automáticamente en el lead u oportunidad correctos.</p>
-    <span class="crm-card-arrow">→</span>
-  </a>
-  <a href="/es/crm/odoo/" class="crm-card crm-card--odoo">
-    <div class="crm-card-logo logo--odoo">Odoo</div>
-    <p class="crm-card-title">CallPlan para Odoo</p>
-    <p class="crm-card-desc">Conecta CallPlan con Odoo CRM. Actividades y notas llegan automáticamente al contacto, lead u oportunidad correctos.</p>
-    <span class="crm-card-arrow">→</span>
-  </a>
-  <a href="/es/crm/zoho/" class="crm-card crm-card--zoho">
-    <div class="crm-card-logo logo--zoho">Zoho CRM</div>
-    <p class="crm-card-title">CallPlan para Zoho CRM</p>
-    <p class="crm-card-desc">Registro automático de llamadas y sincronización de notas en Zoho CRM. Las tareas de seguimiento se crean directamente desde la conversación.</p>
-    <span class="crm-card-arrow">→</span>
-  </a>
-</div>
-
----
-
-## Lo que CallPlan añade a tu CRM
-
-Tu CRM gestiona contactos. CallPlan les da vida.
-
-<ul class="crm-feature-list partner--overview">
-  <li class="crm-feature-item">
-    <span class="crm-feature-icon">📞</span>
-    <span><strong>Planificación de llamadas con contexto CRM</strong> – abre tu próxima cita con todos los datos relevantes del contacto directamente desde tu CRM.</span>
-  </li>
-  <li class="crm-feature-item">
-    <span class="crm-feature-icon">🎙️</span>
-    <span><strong>Notas manos libres con Siri &amp; CarPlay</strong> – dicta los resultados de la llamada mientras conduces. Sin escribir, sin olvidar.</span>
-  </li>
-  <li class="crm-feature-item">
-    <span class="crm-feature-icon">📤</span>
-    <span><strong>Entrada automática en el CRM</strong> – tras la llamada, la nota aparece automáticamente como actividad en el contacto correcto de tu CRM.</span>
-  </li>
-  <li class="crm-feature-item">
-    <span class="crm-feature-icon">🔄</span>
-    <span><strong>Crear seguimientos automáticamente</strong> – define los próximos pasos durante la llamada y aparecen como tareas en tu CRM.</span>
-  </li>
-  <li class="crm-feature-item">
-    <span class="crm-feature-icon">📊</span>
-    <span><strong>Analíticas de llamadas en el CRM</strong> – frecuencia, duración y resultados de llamadas directamente en tus informes.</span>
-  </li>
-</ul>
-
----
-
-## ¿A quién le interesa más?
-
-| Perfil | Beneficio |
-|---|---|
-| **Comercial / AE** | Sin registro manual de llamadas – cada llamada está al instante en el CRM |
-| **Account Manager** | Historial completo de conversaciones sin trabajo adicional |
-| **Director de Ventas** | Datos CRM más limpios, mejores informes, más base para el coaching |
-| **Ventas de campo** | Toma notas en el coche de camino a la siguiente visita |
-| **SDR / BDR** | Crea tareas de seguimiento directamente desde la llamada |
-
----
-
-<div class="cta-section">
-  <h2>Configura tu integración</h2>
-  <p>Elige tu CRM y descubre cómo conectar CallPlan en minutos.</p>
+<!-- ── Hero ───────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-eyebrow">Calendario · CRM · Apple Watch</div>
+  <h1>Tus herramientas.<br>CallPlan las conecta.</h1>
+  <p class="hero-sub">Planificas llamadas donde ya trabajas – en el calendario, en el CRM o directamente en la muñeca. CallPlan las recoge allí, te deja gestionarlas y escribe los resultados de vuelta automáticamente.</p>
   <div class="hero-actions">
-    <a href="/es/crm/hubspot/"    class="btn btn-primary" style="background:#FF7A59;border-color:#FF7A59">HubSpot →</a>
-    <a href="/es/crm/salesforce/" class="btn btn-primary" style="background:#00A1E0;border-color:#00A1E0">Salesforce →</a>
-    <a href="/es/crm/odoo/"       class="btn btn-primary" style="background:#714B67;border-color:#714B67">Odoo →</a>
-    <a href="/es/crm/zoho/"       class="btn btn-primary" style="background:#E42527;border-color:#E42527">Zoho CRM →</a>
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Descargar gratis
+    </a>
+    {% endif %}
+    <a href="/es/premium/" class="btn btn-secondary btn-large">Ver Premium</a>
   </div>
-  {% if site.app_store_url != "" %}
-  <p style="margin-top:1.5rem;font-size:14px;color:#6e6e73">CallPlan es gratuito en el App Store. La integración CRM está incluida en el <a href="/es/premium/">plan Premium</a>.</p>
-  {% endif %}
-</div>
+</section>
+
+<!-- ── Calendario ─────────────────────────────────────────────── -->
+<section class="feature-showcase-section">
+  <div class="showcase-features">
+
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-calendar-sync.png" alt="Sincronización de calendario en CallPlan" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Calendario</span>
+        <h3>¿Tu llamada está en el calendario? CallPlan ya lo sabe.</h3>
+        <p>CallPlan lee automáticamente tus eventos del calendario y detecta las llamadas telefónicas – ya sea Apple Calendar, Google o Outlook. No necesitas crear nada manualmente.</p>
+        <ul class="feature-bullets" style="margin-top:16px;list-style:none;display:flex;flex-direction:column;gap:10px;">
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Apple Calendar, Google Calendar, Outlook</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Llamadas detectadas automáticamente – videollamadas ignoradas</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Resultado escrito de vuelta al calendario después de la llamada</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="showcase-feature reverse">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-crm-integration.png" alt="Integración CRM en CallPlan" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">CRM</span>
+        <h3>Hecho. Y ya en el CRM.</h3>
+        <p>Conecta HubSpot o Salesforce con un clic. En cuanto marcas una llamada como completada, se registra automáticamente – incluyendo tus notas. Sin introducción manual.</p>
+        <ul class="feature-bullets" style="margin-top:16px;list-style:none;display:flex;flex-direction:column;gap:10px;">
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> HubSpot &amp; Salesforce</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Registro de llamada + notas automáticamente en el contacto correcto</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Conexión en un clic – sin configuración técnica</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-watch-app.png" alt="CallPlan en Apple Watch" loading="lazy" style="max-height:280px;width:auto;max-width:100%;">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Apple Watch</span>
+        <h3>Próxima llamada. En la muñeca.</h3>
+        <p>Llamadas próximas directamente en el Watch – sin buscar el iPhone, sin desbloquearlo. ¿Llamada hecha? Táchala con un toque. Dicta notas directamente desde la muñeca.</p>
+        <ul class="feature-bullets" style="margin-top:16px;list-style:none;display:flex;flex-direction:column;gap:10px;">
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Todas las llamadas próximas de un vistazo</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Tachar sin iPhone</li>
+          <li style="display:flex;gap:10px;align-items:flex-start;font-size:15px;color:#666"><span style="color:#00C853;font-weight:700;flex-shrink:0">✓</span> Dictar notas directamente desde el Watch</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── FAQ ───────────────────────────────────────────────────── -->
+<section class="faq-section" aria-labelledby="faq-integrations-heading">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 id="faq-integrations-heading">Preguntas frecuentes</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">¿Qué calendarios son compatibles?</summary>
+      <p class="faq-answer">CallPlan sincroniza con Apple Calendar, Google Calendar y Outlook. Las llamadas telefónicas se detectan e importan automáticamente.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Cómo funciona la integración CRM?</summary>
+      <p class="faq-answer">Conecta HubSpot o Salesforce con un clic. Cuando marcas una llamada como completada, se registra automáticamente en el CRM – incluyendo tus notas.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Funciona CallPlan con Apple Watch?</summary>
+      <p class="faq-answer">Sí. Las llamadas próximas son visibles directamente en la muñeca. Puedes tachar llamadas y dictar notas – sin sacar el iPhone.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Qué incluye Premium?</summary>
+      <p class="faq-answer">Premium desbloquea llamadas ilimitadas, sincronización de calendario, Apple Watch, integración CRM y plantillas de llamada – por $24.99/año.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ── Final CTA ──────────────────────────────────────────────── -->
+<section class="cta-final">
+  <div class="cta-badge">Empieza gratis</div>
+  <h2>Conecta CallPlan con tus herramientas.</h2>
+  <p>Todas las integraciones en el plan Premium. $24.99/año.</p>
+  <div class="cta-actions">
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Gratis en el App Store
+    </a>
+    {% endif %}
+    <a href="/es/premium/" class="btn btn-secondary btn-large">Ver Premium</a>
+  </div>
+</section>

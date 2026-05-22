@@ -2,6 +2,30 @@ lang:      de
 lang_name: Deutsch
 flag:      "🇩🇪"
 
+home_href: /
+
+top_nav:
+  - label: "CarPlay"
+    href:  /carplay/
+  - label: "Integrationen"
+    href:  /crm/
+  - label: "Premium"
+    href:  /premium/
+
+footer_nav:
+  - label: "CarPlay"
+    href:  /carplay/
+  - label: "Integrationen"
+    href:  /crm/
+  - label: "Premium"
+    href:  /premium/
+  - label: "Changelog"
+    href:  /changelog/
+  - label: "Hilfe"
+    href:  /howto/
+  - label: "Support"
+    href:  /support/
+
 nav:
   - label: "📱 App herunterladen"
     href:  "__app_store__"
@@ -22,8 +46,6 @@ nav:
     href:  /changelog/
   - label: "🔗 Integrationen"
     href:  /crm/
-  - label: "🧪 Beta testen"
-    href:  /beta/
 
 downloads:
   appstore: Im App Store

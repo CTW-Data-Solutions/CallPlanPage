@@ -1,97 +1,170 @@
 ---
 layout: default
+page_layout: landing
 title: CarPlay
 permalink: /en/carplay/
 lang: en
 lang_ref: carplay
-description: "CarPlay overview: compatible models, top apps, and how CallPlan makes your driving time productive."
+description: "Use every drive productively with CallPlan and CarPlay: handle calls, dictate notes, follow up automatically."
 keywords:
   - CarPlay
-  - CarPlay integration
-  - CarPlay apps
-  - CallPlan
-  - driving productivity
+  - CarPlay calls
+  - CallPlan CarPlay
+  - productive driving
+  - field sales app
 faq_items:
   - q: "How does CallPlan support CarPlay?"
-    a: "CallPlan uses CarPlay to show scheduled calls and hands-free notes directly on your vehicle display."
-  - q: "Which CarPlay apps should I use for productive driving?"
-    a: "CallPlan recommends a combination of navigation, audio, and messaging apps for safe, productive trips."
-  - q: "Does CallPlan work with all iPhone and CarPlay setups?"
-    a: "CallPlan works with iPhones on iOS 15+ and most CarPlay-ready vehicles."
-  - q: "How can I use call reminders safely in the car?"
-    a: "CallPlan displays reminders directly on your CarPlay screen. Enable voice announcements to stay informed hands-free and safely."
-  - q: "What are the best practices for call preparation while driving?"
-    a: "Prepare key discussion points before your drive. CallPlan displays all relevant information on your CarPlay screen during the trip without requiring you to touch your phone."
-  - q: "How do I avoid distractions during important calls in the car?"
-    a: "Use CallPlan with CarPlay for hands-free notes and reminders. The app displays all information directly on your vehicle screen so you can focus on the road."
+    a: "CallPlan shows your planned calls directly on the vehicle display. Start calls, dictate notes, and send follow-ups – all hands-free."
+  - q: "Can I dictate notes while driving?"
+    a: "Yes. After each call, just speak your thoughts – CallPlan transcribes in real time and saves everything structured."
+  - q: "Does CallPlan work with all CarPlay vehicles?"
+    a: "CallPlan works with iPhones running iOS 15 or later and most CarPlay-compatible vehicles."
+  - q: "Are notes sent automatically?"
+    a: "Yes. CallPlan can automatically send notes via email or messenger to yourself, your team, or directly to your CRM."
 ---
 
-<div class="hero" style="padding-bottom:0">
-  <div class="hero-badge">CarPlay · iPhone · Productivity</div>
-  <h1 class="hero-title">Make CarPlay productive 🚗</h1>
-  <p class="hero-sub">CallPlan turns your CarPlay display into a safe way to manage calls, take hands-free notes, and follow up automatically. Find compatible models, top apps, and smart driving workflows.</p>
+<!-- ── Hero ───────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-eyebrow">CarPlay · Siri · iOS 15+</div>
+  <h1>30 minutes driving.<br>4 calls done.</h1>
+  <p class="hero-sub">Most people waste their drive time. With CallPlan you know exactly who to call before you leave, handle the calls on the road, and dictate your thoughts right after – without touching your phone.</p>
+  <div class="hero-actions">
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download free
+    </a>
+    {% endif %}
+    <a href="/en/howto/" class="btn btn-secondary btn-large">See how it works</a>
+  </div>
+  <p class="hero-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Free</p>
+</section>
+
+<!-- ── 3-Step Workflow ────────────────────────────────────────── -->
+<div class="drive-workflow">
+  <div class="drive-workflow-inner">
+    <div class="drive-workflow-header">
+      <span class="section-tag">How it works</span>
+      <h2>Three steps. Zero wasted drive time.</h2>
+      <p>No new habit needed. Just two minutes before you drive – CallPlan handles the rest.</p>
+    </div>
+    <div class="drive-steps">
+      <div class="drive-step">
+        <div class="step-number">📋</div>
+        <div class="step-content">
+          <span class="step-phase">Before the drive</span>
+          <h3>Who are you calling today?</h3>
+          <p>2 minutes: pick your contacts, note the topics. CallPlan shows everything organized on your display.</p>
+        </div>
+      </div>
+      <div class="drive-step">
+        <div class="step-number">📞</div>
+        <div class="step-content">
+          <span class="step-phase">On the road</span>
+          <h3>Start the call. Get it done.</h3>
+          <p>Dial directly from the CarPlay display, hands on the wheel. You run the conversation – not your phone.</p>
+        </div>
+      </div>
+      <div class="drive-step">
+        <div class="step-number">🎙️</div>
+        <div class="step-content">
+          <span class="step-phase">After the call</span>
+          <h3>Speak. Done.</h3>
+          <p>Dictate your thoughts while you're still driving. CallPlan transcribes, saves, and sends automatically.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
----
-
-## Why CarPlay matters for calls
-
-CarPlay turns your car into a mobile productivity hub. Instead of wasting drive time, you can prepare, place calls, and capture notes without taking your eyes off the road.
-
-### What CarPlay with CallPlan gives you
-
-- **Safer driving** – hands stay on the wheel, eyes on the road.
-- **Call execution** – scheduled calls appear directly on the CarPlay interface.
-- **Hands-free notes** – Siri captures what you say, and CallPlan stores it.
-- **Automatic follow-up** – notes are ready before your next appointment.
-
----
-
-## Compatible CarPlay models
-
-Not every vehicle offers the same CarPlay experience. Find the models that support the productivity setup you need.
-
-- <a href="/en/carplay-models/">See compatible CarPlay models</a>
-- Ideal for commuters, field sales, and busy professionals
-- Compare infotainment systems, phone compatibility, and real-world performance
-
----
-
-## Best CarPlay apps for productive driving
-
-A strong CarPlay setup is more than navigation.
-
-- **CallPlan** – the core call planner for CarPlay, with voice notes and automatic follow-up
-- **Navigation** – Waze, Google Maps, or HERE WeGo for safe route guidance
-- **Audio & podcasts** – Spotify, Apple Music, Pocket Casts
-- **Communication** – WhatsApp and Telegram via Siri
-
-<a href="/en/carplay-essentials/">Explore CarPlay essentials</a>
-
----
-
-## How CallPlan works with CarPlay
-
-1. **Create a call** in the app or with Siri.
-2. **Connect CarPlay** and open CallPlan on your dashboard.
-3. **Start the call** from the CarPlay list.
-4. **Dictate notes** while driving.
-5. **Send follow-up** automatically after the call.
-
----
-
-## Who benefits most?
-
-- **Field sales reps**: use drive time for customer calls
-- **Sales teams**: keep follow-ups on track while on the move
-- **Commuters**: turn every trip into productive time
-- **Busy drivers**: manage calls without distraction
-
----
-
-<div class="cta-section">
-  <h2>Start with CallPlan on CarPlay</h2>
-  <p>Find your compatible car and the best CarPlay setup. CallPlan makes every drive more productive.</p>
-  <a href="/en/carplay-models/" class="btn btn-primary">Find CarPlay models</a>
-  <a href="/en/carplay-essentials/" class="btn btn-secondary">See CarPlay essentials</a>
+<!-- ── CarPlay Screenshot ─────────────────────────────────────── -->
+<div class="carplay-screen-section">
+  <div class="carplay-screen-inner">
+    <div class="carplay-screen-text">
+      <span class="feature-tag" style="color:#00C853;font-size:11px;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;display:block;margin-bottom:12px;">CarPlay</span>
+      <h2>Your call list on the dashboard.</h2>
+      <p>All planned calls at a glance – without touching your iPhone. CallPlan is optimized specifically for in-car use.</p>
+      <ul class="carplay-screen-bullets">
+        <li>Next calls sorted by priority</li>
+        <li>Contact info and topics visible at a glance</li>
+        <li>One tap – call starts</li>
+        <li>Notes by voice command after the call</li>
+      </ul>
+      {% if site.app_store_url != "" %}
+      <a href="{{ site.app_store_url }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Download free</a>
+      {% endif %}
+    </div>
+    <div class="carplay-screen-img">
+      <img src="/assets/img/screenshots/raw-en-carplay.png" alt="CallPlan on the CarPlay display" loading="lazy">
+    </div>
+  </div>
 </div>
+
+<!-- ── Who it's for ───────────────────────────────────────────── -->
+<div class="use-cases-row">
+  <div class="use-cases-inner">
+    <div class="use-cases-header">
+      <span class="section-tag">Who it's for</span>
+      <h2>For anyone who spends time on the road.</h2>
+      <p>Wherever drive time would otherwise go to waste.</p>
+    </div>
+    <div class="use-cases-grid">
+      <div class="use-case-card">
+        <span class="use-case-icon">🧳</span>
+        <h3>Field sales</h3>
+        <p>Wrap up prep between client visits and follow up on completed calls before the next appointment.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="use-case-icon">📈</span>
+        <h3>Sales teams</h3>
+        <p>Handle customer calls on the way to your next meeting – follow-ups go out automatically.</p>
+      </div>
+      <div class="use-case-card">
+        <span class="use-case-icon">🚗</span>
+        <h3>Commuters</h3>
+        <p>30–60 minutes in the car every day – use that time for calls instead of wasting it.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ── FAQ ───────────────────────────────────────────────────── -->
+<section class="faq-section" aria-labelledby="faq-carplay-heading">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 id="faq-carplay-heading">Frequently Asked Questions</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">How does CallPlan support CarPlay?</summary>
+      <p class="faq-answer">CallPlan shows your planned calls directly on the vehicle display. Start calls, dictate notes, and send follow-ups – all hands-free.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Can I dictate notes while driving?</summary>
+      <p class="faq-answer">Yes. After each call, just speak your thoughts – CallPlan transcribes in real time and saves everything structured.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Does CallPlan work with all CarPlay vehicles?</summary>
+      <p class="faq-answer">CallPlan works with iPhones running iOS 15 or later and most CarPlay-compatible vehicles.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Are notes sent automatically?</summary>
+      <p class="faq-answer">Yes. CallPlan can automatically send notes via email or messenger to yourself, your team, or directly to your CRM.</p>
+    </details>
+  </div>
+</section>
+
+<!-- ── Final CTA ──────────────────────────────────────────────── -->
+<section class="cta-final">
+  <div class="cta-badge">Start for free</div>
+  <h2>Make your next drive productive.</h2>
+  <p>CallPlan is free – download now and handle calls on the road.</p>
+  <div class="cta-actions">
+    {% if site.app_store_url != "" %}
+    <a href="{{ site.app_store_url }}" class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Free on the App Store
+    </a>
+    {% endif %}
+  </div>
+</section>

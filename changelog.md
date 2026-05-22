@@ -9,13 +9,12 @@ lang_ref: changelog
 <div class="changelog-hero">
   <div class="changelog-eyebrow">Release Notes</div>
   <h1>Was ist neu in CallPlan</h1>
-  <p class="changelog-sub">Alle Neuerungen, Verbesserungen und Fixes – von Version 1 bis heute.</p>
-  <a href="/beta/" class="btn btn-secondary">🧪 Nächste Version vorab testen →</a>
+  <p class="changelog-sub">Alle Neuerungen, Verbesserungen und Fixes – direkt aus dem Repo.</p>
 </div>
 
 <div class="changelog-timeline">
 
-  <!-- ── VERSION 3 ─────────────────────────────────────── -->
+  <!-- ── MAI 2026 ──────────────────────────────────────── -->
   <div class="cl-version current">
     <div class="cl-version-marker">
       <span class="cl-dot"></span>
@@ -24,61 +23,75 @@ lang_ref: changelog
     <div class="cl-version-card">
       <div class="cl-version-header">
         <div>
-          <h2 class="cl-version-number">Version 3</h2>
-          <span class="cl-version-date">Frühjahr 2025</span>
+          <h2 class="cl-version-number">Mai 2026</h2>
+          <span class="cl-version-date">PR #12 – #14</span>
         </div>
-        <span class="cl-version-tag tag-major">Major Update</span>
+        <span class="cl-version-tag tag-major">Aktuelle Updates</span>
       </div>
-      <p class="cl-version-summary">Cloud, Premium und eine komplett neue Oberfläche – CallPlan 3 ist der bisher größte Sprung.</p>
+      <p class="cl-version-summary">Alarm-Funktion, Widgets, Swipe-to-Done, überarbeiteter CarPlay-Flow und Free-Tier-Limit.</p>
 
       <div class="cl-features-grid">
         <div class="cl-feature new">
-          <span class="cl-feature-icon">☁️</span>
+          <span class="cl-feature-icon">🔔</span>
           <div>
-            <strong>Cloud-Synchronisation</strong>
-            <p>Alle Daten nahtlos über mehrere iOS-Geräte hinweg synchron halten – in Echtzeit, Ende-zu-Ende-verschlüsselt.</p>
+            <strong>Alarm-Funktion</strong>
+            <p>Anrufe können jetzt einen Alarm auslösen – drei Intensitätsstufen (Soft / Medium / Harsh). Direkter Deep-Link aus der Benachrichtigung in die Call-Detailansicht. <span style="font-size:12px;color:#999">19.05. · PR #14</span></p>
           </div>
         </div>
         <div class="cl-feature new">
-          <span class="cl-feature-icon">⭐</span>
+          <span class="cl-feature-icon">📱</span>
           <div>
-            <strong>Premium-Abo</strong>
-            <p>Erweiterte Vorlagen, Gesprächsanalysen und unbegrenzte Cloud-Kapazität für Power-User.</p>
+            <strong>Homescreen-Widgets</strong>
+            <p>Widget in vier Größen: Small, Medium, Large und Lock Screen. Deep-Link direkt in den jeweiligen Call. Außerdem: Wave-Animationen und FAB-Positionierung gefixt. <span style="font-size:12px;color:#999">17.05. · PR #13</span></p>
           </div>
         </div>
         <div class="cl-feature new">
-          <span class="cl-feature-icon">📊</span>
+          <span class="cl-feature-icon">👆</span>
           <div>
-            <strong>Call Insights</strong>
-            <p>Statistiken über deine Kommunikationsmuster – welche Kontakte, welche Uhrzeiten, welche Kategorien.</p>
+            <strong>Swipe-to-Done</strong>
+            <p>Call in der Liste nach rechts swipen → direkt als erledigt markieren. Kein Tippen in die Detail-Ansicht nötig. <span style="font-size:12px;color:#999">17.05.</span></p>
           </div>
         </div>
         <div class="cl-feature new">
-          <span class="cl-feature-icon">🎨</span>
+          <span class="cl-feature-icon">🗣️</span>
           <div>
-            <strong>Redesign der Oberfläche</strong>
-            <p>Schnelleres Navigieren, klare visuelle Hierarchie, verbesserte Zugänglichkeit.</p>
+            <strong>Siri Shortcuts + Watch + Widget</strong>
+            <p>Neue Shortcuts mit vollständiger Lokalisierung: CreateCallPlanIntent, ListUpcomingCallsIntent, QuickAddCallIntent. Watch App und Widget aktualisiert. <span style="font-size:12px;color:#999">11.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature improved">
+          <span class="cl-feature-icon">🚗</span>
+          <div>
+            <strong>CarPlay Redesign</strong>
+            <p>Kompletter CarPlay Flow überarbeitet: Update-Buttons, Done-Liste sortiert nach Erledigungsdatum, iPad UI verbessert. <span style="font-size:12px;color:#999">07.05. · PR #12</span></p>
           </div>
         </div>
         <div class="cl-feature improved">
           <span class="cl-feature-icon">⚡</span>
           <div>
-            <strong>Performance</strong>
-            <p>App startet bis zu 40 % schneller, Datenbankoperationen optimiert.</p>
+            <strong>Free-Tier-Limit</strong>
+            <p>Gratis-Nutzer sind auf 10 aktive Calls limitiert. Premium hebt das Limit auf. <span style="font-size:12px;color:#999">14.05.</span></p>
           </div>
         </div>
         <div class="cl-feature improved">
-          <span class="cl-feature-icon">🔔</span>
+          <span class="cl-feature-icon">🎨</span>
           <div>
-            <strong>Smarte Erinnerungen</strong>
-            <p>KI-basierte Vorschläge für den besten Zeitpunkt, um jemanden zurückzurufen.</p>
+            <strong>App Icons + Übersetzungen</strong>
+            <p>Neue App Icons und fehlende Übersetzungen ergänzt. <span style="font-size:12px;color:#999">02.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature fixed">
+          <span class="cl-feature-icon">🗑️</span>
+          <div>
+            <strong>WhatsApp Self-Send entfernt</strong>
+            <p>Das WhatsApp Self-Send Feature wurde aus der App entfernt. <span style="font-size:12px;color:#999">12.05.</span></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ── VERSION 2 ─────────────────────────────────────── -->
+  <!-- ── APRIL 2026 ─────────────────────────────────────── -->
   <div class="cl-version">
     <div class="cl-version-marker">
       <span class="cl-dot"></span>
@@ -86,61 +99,26 @@ lang_ref: changelog
     <div class="cl-version-card">
       <div class="cl-version-header">
         <div>
-          <h2 class="cl-version-number">Version 2</h2>
-          <span class="cl-version-date">Herbst 2024</span>
+          <h2 class="cl-version-number">April 2026</h2>
+          <span class="cl-version-date">PR #11</span>
         </div>
-        <span class="cl-version-tag tag-major">Major Update</span>
+        <span class="cl-version-tag tag-major">Update</span>
       </div>
-      <p class="cl-version-summary">Freihändiger Betrieb mit CarPlay und Siri – CallPlan verlässt den Schreibtisch.</p>
+      <p class="cl-version-summary">Settings komplett überarbeitet, Unterseiten durchgegangen, Bugfixes.</p>
 
       <div class="cl-features-grid">
-        <div class="cl-feature new">
-          <span class="cl-feature-icon">🚗</span>
-          <div>
-            <strong>CarPlay-Integration</strong>
-            <p>Direkt im Armaturenbrett: anstehende Calls sehen, Erinnerungen abhören und reagieren – ohne das Handy zu berühren.</p>
-          </div>
-        </div>
-        <div class="cl-feature new">
-          <span class="cl-feature-icon">🎙️</span>
-          <div>
-            <strong>Siri-Unterstützung</strong>
-            <p>„Hey Siri, plane einen Call mit Müller um 15 Uhr" – CallPlan versteht es.</p>
-          </div>
-        </div>
-        <div class="cl-feature new">
-          <span class="cl-feature-icon">📤</span>
-          <div>
-            <strong>Notizen automatisch versenden</strong>
-            <p>Nach dem Gespräch sendet CallPlan deine Notizen automatisch per Mail – an dich, deine Assistenz oder dein Team.</p>
-          </div>
-        </div>
-        <div class="cl-feature new">
-          <span class="cl-feature-icon">📅</span>
-          <div>
-            <strong>Kalender & Aufgaben</strong>
-            <p>Nahtlose Integration mit iOS-Kalender, Erinnerungen und Drittanbieter-Apps.</p>
-          </div>
-        </div>
         <div class="cl-feature improved">
-          <span class="cl-feature-icon">🖊️</span>
+          <span class="cl-feature-icon">⚙️</span>
           <div>
-            <strong>Notizen-Editor</strong>
-            <p>Formatierungshilfen, Vorlagen und Sprach-zu-Text – mitschreiben war noch nie so einfach.</p>
-          </div>
-        </div>
-        <div class="cl-feature fixed">
-          <span class="cl-feature-icon">🔧</span>
-          <div>
-            <strong>Fixes & Stabilität</strong>
-            <p>Über 30 Bugfixes, stabiles Laden bei großen Kontaktlisten, verbesserte Benachrichtigungen.</p>
+            <strong>Settings Überarbeitung</strong>
+            <p>Einstellungen komplett neu strukturiert, alle Unterseiten überarbeitet, diverse Bugfixes. <span style="font-size:12px;color:#999">25.–26.04. · PR #11</span></p>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ── VERSION 1 ─────────────────────────────────────── -->
+  <!-- ── LAUNCH ─────────────────────────────────────────── -->
   <div class="cl-version">
     <div class="cl-version-marker">
       <span class="cl-dot origin"></span>
@@ -148,12 +126,12 @@ lang_ref: changelog
     <div class="cl-version-card">
       <div class="cl-version-header">
         <div>
-          <h2 class="cl-version-number">Version 1</h2>
-          <span class="cl-version-date">Sommer 2024 – Erstveröffentlichung</span>
+          <h2 class="cl-version-number">Version 1.0</h2>
+          <span class="cl-version-date">April 2026 – Erstveröffentlichung</span>
         </div>
         <span class="cl-version-tag tag-launch">Launch</span>
       </div>
-      <p class="cl-version-summary">Der Anfang: CallPlan erscheint im App Store – mit allem, was du brauchst, um nie mehr einen Call zu verpassen.</p>
+      <p class="cl-version-summary">CallPlan erscheint im App Store – mit allem, was du brauchst, um nie mehr einen Call zu verpassen.</p>
 
       <div class="cl-features-grid">
         <div class="cl-feature new">
@@ -171,24 +149,31 @@ lang_ref: changelog
           </div>
         </div>
         <div class="cl-feature new">
-          <span class="cl-feature-icon">🗂️</span>
+          <span class="cl-feature-icon">🚗</span>
           <div>
-            <strong>Kategorisierung</strong>
-            <p>Business, intern oder privat – sortiere deine Calls so, wie es zu deinem Workflow passt.</p>
+            <strong>CarPlay</strong>
+            <p>Anstehende Calls direkt im Armaturenbrett – Anrufe starten und Notizen diktieren ohne das Handy zu berühren.</p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">⌚</span>
+          <div>
+            <strong>Apple Watch</strong>
+            <p>Nächster Call am Handgelenk. Abhaken und Notizen diktieren – direkt von der Watch.</p>
           </div>
         </div>
         <div class="cl-feature new">
           <span class="cl-feature-icon">📝</span>
           <div>
-            <strong>Notizen</strong>
-            <p>Vor, während und nach dem Gespräch alles festhalten, was wichtig ist – mit dem Handy oder per Diktat.</p>
+            <strong>Sprachnotizen</strong>
+            <p>Vor, während und nach dem Gespräch alles festhalten – per Diktat oder Tastatur.</p>
           </div>
         </div>
         <div class="cl-feature new">
           <span class="cl-feature-icon">🔒</span>
           <div>
-            <strong>Offline-first & Datenschutz</strong>
-            <p>Alle Daten bleiben auf deinem Gerät. CallPlan funktioniert ohne Internetverbindung – keine Cloud-Pflicht.</p>
+            <strong>Offline-first</strong>
+            <p>Alle Daten bleiben auf deinem Gerät. CallPlan funktioniert ohne Internetverbindung.</p>
           </div>
         </div>
       </div>
@@ -197,19 +182,3 @@ lang_ref: changelog
 
 </div>
 
----
-
-<div class="changelog-cta-row">
-  <div class="changelog-cta-box newsletter">
-    <h3>📬 Immer up to date bleiben</h3>
-    <p>Erhalte Release Notes, Tipps und Insider-Updates direkt in dein Postfach.</p>
-    <a href="#newsletter-url" class="btn btn-primary" target="_blank" rel="noopener">Newsletter abonnieren</a>
-    <span class="beta-hint">Kein Spam · Jederzeit kündbar</span>
-  </div>
-  <div class="changelog-cta-box beta">
-    <h3>🧪 Version 4 ausprobieren</h3>
-    <p>Als Beta-Tester testest du die nächste Version, bevor sie erscheint.</p>
-    <a href="/beta/" class="btn btn-secondary">Beta beitreten →</a>
-    <span class="beta-hint">Via TestFlight · Kostenlos</span>
-  </div>
-</div>

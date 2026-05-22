@@ -30,7 +30,6 @@ faq_items:
       Gratis en la App Store
     </a>
     {% endif %}
-    <a href="/es/howto/" class="btn btn-secondary btn-large">Cómo funciona</a>
   </div>
   <p class="hero-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Funciona sin internet &nbsp;·&nbsp; Gratis</p>
 </section>
@@ -105,7 +104,6 @@ faq_items:
         <li>Vista ordenada por fecha, estado y categoría</li>
         <li>Historial de llamadas por contacto</li>
       </ul>
-      <a href="/es/howto/" class="btn btn-ghost">Más información →</a>
     </div>
     <div class="feature-visual">
       <img src="/assets/img/screenshots/raw-en-01.png" alt="CallPlan – Vista de llamadas planificadas" loading="lazy">
@@ -245,7 +243,6 @@ faq_items:
       App Store
     </a>
     {% endif %}
-    <a href="/es/howto/" class="btn btn-secondary btn-large">Cómo funciona</a>
   </div>
   <p class="download-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Gratis</p>
 </section>
@@ -292,6 +289,5 @@ faq_items:
       Gratis en la App Store
     </a>
     {% endif %}
-    <a href="/es/howto/" class="btn btn-secondary btn-large">Cómo funciona</a>
   </div>
 </section>

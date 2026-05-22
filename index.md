@@ -32,7 +32,6 @@ faq_items:
       Kostenlos im App Store
     </a>
     {% endif %}
-    <a href="/howto/" class="btn btn-secondary btn-large">So funktioniert's</a>
   </div>
   <p class="hero-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Offline-fähig &nbsp;·&nbsp; Kostenlos</p>
 </section>
@@ -167,7 +166,6 @@ faq_items:
       Im App Store
     </a>
     {% endif %}
-    <a href="/howto/" class="btn btn-secondary btn-large">So funktioniert's</a>
   </div>
   <p class="download-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Kostenlos</p>
 </section>
@@ -218,6 +216,5 @@ faq_items:
       Kostenlos im App Store
     </a>
     {% endif %}
-    <a href="/howto/" class="btn btn-secondary btn-large">So funktioniert's</a>
   </div>
 </section>

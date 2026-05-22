@@ -8,7 +8,7 @@ top_nav:
   - label: "CarPlay"
     href:  /en/carplay/
   - label: "Integrations"
-    href:  /en/crm/
+    href:  /en/integrations/
   - label: "Premium"
     href:  /en/premium/
 
@@ -16,7 +16,7 @@ footer_nav:
   - label: "CarPlay"
     href:  /en/carplay/
   - label: "Integrations"
-    href:  /en/crm/
+    href:  /en/integrations/
   - label: "Premium"
     href:  /en/premium/
   - label: "Changelog"
@@ -45,7 +45,7 @@ nav:
   - label: "🆕 What's New"
     href:  /en/changelog/
   - label: "🔗 Integrations"
-    href:  /en/crm/
+    href:  /en/integrations/
 
 downloads:
   appstore: App Store

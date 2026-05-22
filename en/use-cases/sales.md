@@ -15,7 +15,7 @@ description: "CallPlan for sales: more calls between appointments, automatic CRM
   <p class="persona-hero-sub">Between client visits, you lose hours every day in the car. Those hours decide whether you hit quota – or not. CallPlan turns every drive into productive pipeline work.</p>
   <div style="margin-top:8px;display:flex;gap:12px;flex-wrap:wrap">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">Download now</a>{% endif %}
-    <a href="/en/crm/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">CRM integrations →</a>
+    <a href="/en/integrations/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">CRM integrations →</a>
   </div>
 </div>
 
@@ -103,7 +103,7 @@ description: "CallPlan for sales: more calls between appointments, automatic CRM
   <div class="crm-together-text">
     <strong>CallPlan + HubSpot / Salesforce = complete pipeline with zero extra effort</strong>
     <p>Connect CallPlan to your CRM and save 30–45 minutes of manual entry every day. Your pipeline is always current – without office work after hours.</p>
-    <a href="/en/crm/">View all CRM integrations →</a>
+    <a href="/en/integrations/">View all CRM integrations →</a>
   </div>
 </div>
 

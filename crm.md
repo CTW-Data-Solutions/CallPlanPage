@@ -2,7 +2,7 @@
 layout: default
 page_layout: landing
 title: Integrationen
-permalink: /crm/
+permalink: /integrations/
 lang: de
 lang_ref: crm
 description: "CallPlan verbindet sich mit deinen bestehenden Tools – Kalender, CRM und Apple Watch. Plane Calls wo du willst, erledige sie in CallPlan."

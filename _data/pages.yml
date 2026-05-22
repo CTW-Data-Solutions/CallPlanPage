@@ -42,9 +42,9 @@
   es: /es/changelog/
 
 - ref: crm
-  de: /crm/
-  en: /en/crm/
-  es: /es/crm/
+  de: /integrations/
+  en: /en/integrations/
+  es: /es/integrations/
 
 - ref: crm-hubspot
   de: /crm/hubspot/

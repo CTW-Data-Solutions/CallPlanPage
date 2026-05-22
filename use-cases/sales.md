@@ -15,7 +15,7 @@ description: "CallPlan für Sales: Mehr Calls zwischen Kundenterminen, automatis
   <p class="persona-hero-sub">Zwischen Kundenterminen verlierst du täglich Stunden im Auto. Diese Stunden entscheiden, ob du deine Quote erreichst – oder nicht. CallPlan verwandelt jede Fahrt in produktive Pipeline-Arbeit.</p>
   <div style="margin-top:8px;display:flex;gap:12px;flex-wrap:wrap">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">Jetzt laden</a>{% endif %}
-    <a href="/crm/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">CRM-Integrationen →</a>
+    <a href="/integrations/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">CRM-Integrationen →</a>
   </div>
 </div>
 
@@ -103,7 +103,7 @@ description: "CallPlan für Sales: Mehr Calls zwischen Kundenterminen, automatis
   <div class="crm-together-text">
     <strong>CallPlan + HubSpot / Salesforce = vollständige Pipeline ohne Mehraufwand</strong>
     <p>Verbinde CallPlan mit deinem CRM und spare täglich 30–45 Minuten manuelles Nachtragen. Deine Pipeline ist immer aktuell – ohne Büroarbeit nach Feierabend.</p>
-    <a href="/crm/">Alle CRM-Integrationen ansehen →</a>
+    <a href="/integrations/">Alle CRM-Integrationen ansehen →</a>
   </div>
 </div>
 

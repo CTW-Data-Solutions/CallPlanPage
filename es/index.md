@@ -184,7 +184,7 @@ faq_items:
         <li>Team Spaces – listas de llamadas compartidas</li>
         <li>Siri Shortcuts &amp; Apple Watch (planificado)</li>
       </ul>
-      <a href="/es/crm/" class="btn btn-ghost">Descubrir integraciones →</a>
+      <a href="/es/integrations/" class="btn btn-ghost">Descubrir integraciones →</a>
     </div>
     <div class="feature-visual">
       <img src="/assets/img/screenshots/raw-en-04.png" alt="CallPlan integraciones – CRM, calendario, CarPlay" loading="lazy">

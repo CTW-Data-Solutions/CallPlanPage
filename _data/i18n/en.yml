@@ -22,8 +22,6 @@ footer_nav:
   - label: "Changelog"
     href:  /en/changelog/
   - label: "Help"
-    href:  /en/howto/
-  - label: "Support"
     href:  /en/support/
 
 nav:

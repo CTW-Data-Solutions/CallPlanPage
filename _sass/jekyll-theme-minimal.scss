@@ -932,7 +932,7 @@ small  { font-size: 13px; color: $text-tertiary; }
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 18px 0;
+      padding: 18px 20px;
       font-weight: 600;
       font-size: 16px;
       color: $text-primary;
@@ -957,7 +957,7 @@ small  { font-size: 13px; color: $text-tertiary; }
     }
 
     .faq-answer {
-      padding: 0 0 18px;
+      padding: 0 20px 18px;
       font-size: 15px;
       color: $text-secondary;
       line-height: 1.7;

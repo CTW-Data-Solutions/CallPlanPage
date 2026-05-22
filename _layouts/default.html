@@ -117,7 +117,7 @@
       </div>
 
       <div class="footer-links">
-        {% for item in t.top_nav %}
+        {% for item in t.footer_nav %}
         <a href="{{ item.href }}" {% if item.external %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ item.label }}</a>
         {% endfor %}
         <a href="{{ t.privacy_href }}">{{ t.privacy_label }}</a>

@@ -348,6 +348,385 @@ small  { font-size: 13px; color: $text-tertiary; }
   }
 }
 
+// ── Feature Showcase (tabbed) ────────────────────────────────────
+.feature-showcase-section {
+  background: $bg;
+  padding: 72px 24px;
+
+  .showcase-header {
+    text-align: center;
+    margin-bottom: 56px;
+    h2 { margin-bottom: 12px; }
+    p { font-size: 17px; max-width: 480px; margin: 0 auto; }
+  }
+}
+
+.showcase-features {
+  max-width: $max-w;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.showcase-feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+
+  &.reverse {
+    .showcase-feature-screen { order: 2; }
+    .showcase-feature-text   { order: 1; }
+  }
+}
+
+.showcase-feature-screen {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-height: 500px;
+    width: auto;
+    max-width: 100%;
+    border-radius: 32px;
+    box-shadow:
+      0 0 0 1px rgba(0,0,0,0.06),
+      0 8px 24px rgba(0,0,0,0.08),
+      0 24px 64px rgba(0,0,0,0.12);
+    display: block;
+  }
+}
+
+.showcase-feature-text {
+  .feature-tag {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: $green;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: $text-primary;
+  }
+
+  p {
+    font-size: 17px;
+    color: $text-secondary;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 720px) {
+  .showcase-features {
+    gap: 56px;
+  }
+
+  .showcase-feature {
+    grid-template-columns: 1fr;
+    gap: 28px;
+
+    &.reverse {
+      .showcase-feature-screen { order: 1; }
+      .showcase-feature-text   { order: 2; }
+    }
+  }
+
+  .showcase-feature-screen img {
+    max-height: 380px;
+    border-radius: 24px;
+  }
+
+  .showcase-feature-text h3 {
+    font-size: 22px;
+  }
+}
+
+// ── CarPlay Spotlight ────────────────────────────────────────────
+.carplay-spotlight {
+  background: $cta-bg;
+  padding: 72px 24px;
+
+  .carplay-inner {
+    max-width: $max-w;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+  }
+
+  .carplay-text {
+    .feature-tag { color: $green; }
+    h2 { color: $cta-text; margin-bottom: 16px; }
+    p { color: rgba(255,255,255,0.6); font-size: 17px; margin-bottom: 20px; }
+
+    .carplay-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+
+      li {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: rgba(255,255,255,0.7);
+        font-size: 15px;
+
+        &::before {
+          content: '';
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: $green;
+          flex-shrink: 0;
+        }
+      }
+    }
+  }
+
+  .carplay-screens {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    img {
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+
+      &:last-child { opacity: 0.85; }
+    }
+
+    @media (max-width: 768px) {
+      img { max-width: 420px; margin: 0 auto; }
+    }
+  }
+}
+
+// ── Drive Workflow (CarPlay page) ────────────────────────────────
+.drive-workflow {
+  background: $bg;
+  padding: 80px 24px;
+
+  .drive-workflow-inner {
+    max-width: $max-w;
+    margin: 0 auto;
+  }
+
+  .drive-workflow-header {
+    text-align: center;
+    margin-bottom: 64px;
+
+    h2 { margin-bottom: 12px; }
+    p { font-size: 17px; color: $text-secondary; max-width: 520px; margin: 0 auto; }
+  }
+
+  .drive-steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: calc(16.66% + 16px);
+      right: calc(16.66% + 16px);
+      height: 2px;
+      background: linear-gradient(90deg, $green, rgba($green, 0.3));
+    }
+
+    @media (max-width: 720px) {
+      grid-template-columns: 1fr;
+      gap: 40px;
+
+      &::before { display: none; }
+    }
+  }
+
+  .drive-step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px;
+
+    .step-number {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: $elevated;
+      border: 2px solid $card-border;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    }
+
+    &:first-child .step-number {
+      border-color: $green;
+      box-shadow: 0 0 0 4px rgba($green, 0.12);
+    }
+
+    .step-phase {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: $green;
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom: 10px;
+      color: $text-primary;
+    }
+
+    p {
+      font-size: 15px;
+      color: $text-secondary;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 720px) {
+      flex-direction: row;
+      text-align: left;
+      gap: 20px;
+
+      .step-number {
+        flex-shrink: 0;
+        width: 56px;
+        height: 56px;
+        font-size: 22px;
+        margin-bottom: 0;
+      }
+
+      .step-content { flex: 1; }
+    }
+  }
+}
+
+// ── CarPlay Screen Hero ──────────────────────────────────────────
+.carplay-screen-section {
+  background: $cta-bg;
+  padding: 72px 24px;
+
+  .carplay-screen-inner {
+    max-width: $max-w;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+  }
+
+  .carplay-screen-text {
+    h2 { color: $cta-text; font-size: 32px; margin-bottom: 16px; }
+    p { color: rgba(255,255,255,0.65); font-size: 17px; line-height: 1.6; margin-bottom: 28px; }
+
+    .carplay-screen-bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 32px;
+
+      li {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        color: rgba(255,255,255,0.75);
+        font-size: 15px;
+        line-height: 1.5;
+
+        &::before {
+          content: '';
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: $green;
+          flex-shrink: 0;
+          margin-top: 7px;
+        }
+      }
+    }
+  }
+
+  .carplay-screen-img {
+    img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    }
+  }
+}
+
+// ── Who it's for (use cases row) ────────────────────────────────
+.use-cases-row {
+  background: $surface;
+  padding: 72px 24px;
+
+  .use-cases-inner {
+    max-width: $max-w;
+    margin: 0 auto;
+  }
+
+  .use-cases-header {
+    text-align: center;
+    margin-bottom: 48px;
+    h2 { margin-bottom: 12px; }
+    p { color: $text-secondary; font-size: 17px; }
+  }
+
+  .use-cases-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+
+    @media (max-width: 720px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .use-case-card {
+    background: $elevated;
+    border: 1px solid $card-border;
+    border-radius: $radius-card;
+    padding: 28px;
+
+    .use-case-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+    h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    p { font-size: 14px; color: $text-secondary; line-height: 1.5; }
+  }
+}
+
 // ── Feature Sections ─────────────────────────────────────────────
 .features-wrapper {
   background: $surface;
@@ -364,6 +743,20 @@ small  { font-size: 13px; color: $text-tertiary; }
   align-items: center;
 
   &.reverse { direction: rtl; > * { direction: ltr; } }
+
+  // CarPlay: landscape screenshot gets more room
+  &.carplay-section {
+    grid-template-columns: 1fr 1.3fr;
+    align-items: start;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+    .feature-visual img {
+      max-width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.18);
+    }
+  }
 
   .feature-text {
     .feature-tag {
@@ -410,12 +803,17 @@ small  { font-size: 13px; color: $text-tertiary; }
   .feature-visual {
     display: flex;
     justify-content: center;
+    align-items: center;
 
     img {
-      max-width: 280px;
+      // Portrait phone screenshots
+      max-width: 260px;
       width: 100%;
-      border-radius: 28px;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.12);
+      border-radius: 36px;
+      box-shadow:
+        0 0 0 1px rgba(0,0,0,0.06),
+        0 8px 24px rgba(0,0,0,0.08),
+        0 24px 64px rgba(0,0,0,0.10);
     }
   }
 }
@@ -756,9 +1154,22 @@ small  { font-size: 13px; color: $text-tertiary; }
     grid-template-columns: 1fr;
     gap: 36px;
     padding: 56px 20px;
+
     &.reverse { direction: ltr; }
-    .feature-visual { order: -1; }
-    .feature-visual img { max-width: 240px; }
+    &.carplay-section { grid-template-columns: 1fr; }
+
+    .feature-visual {
+      order: -1;
+      img { max-width: 280px; }
+    }
+
+    &.carplay-section .feature-visual {
+      order: -1;
+      img {
+        max-width: 100%;
+        border-radius: 12px;
+      }
+    }
   }
 
   .features-grid-section .features-grid {
@@ -784,4 +1195,161 @@ small  { font-size: 13px; color: $text-tertiary; }
 @media (max-width: 480px) {
   h1 { font-size: 1.9rem; }
   h2 { font-size: 1.5rem; }
+}
+
+// ── Premium Page ─────────────────────────────────────────────────
+.pricing-comparison {
+  max-width: 760px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pricing-card-free {
+  background: $surface;
+  border: 1px solid $card-border;
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.pricing-card-premium {
+  background: $cta-bg;
+  border-radius: 20px;
+  padding: 32px;
+  position: relative;
+}
+
+.pricing-badge-top {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $green;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.pricing-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $text-tertiary;
+  margin-bottom: 8px;
+}
+
+.pricing-label--premium { color: #555; }
+
+.pricing-amount {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 4px;
+
+  &--light { color: $cta-text; }
+}
+
+.pricing-period {
+  font-size: 14px;
+  color: $text-tertiary;
+  margin-bottom: 28px;
+}
+
+.pricing-features-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 28px;
+
+  li {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 15px;
+
+    &.included { color: $text-primary; }
+    &.included--light { color: $cta-text; }
+    &.excluded { color: #bbb; }
+
+    .check { color: $green; font-weight: 700; }
+    .dash { color: #ccc; }
+  }
+}
+
+.pricing-plans-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 760px;
+  margin: 0 auto;
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pricing-plan-card {
+  background: $elevated;
+  border: 1px solid $card-border;
+  border-radius: $radius-card;
+  padding: 28px;
+  text-align: center;
+
+  &--featured {
+    border-color: $green;
+    background: $green-tinted;
+  }
+
+  .plan-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $text-tertiary;
+    margin-bottom: 8px;
+
+    &--green { color: $green; }
+  }
+
+  .plan-price {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 2px;
+  }
+
+  .plan-period {
+    font-size: 13px;
+    color: $text-tertiary;
+    margin-bottom: 16px;
+  }
+
+  .plan-saving {
+    font-size: 13px;
+    color: $text-secondary;
+
+    &--green { color: $green-hover; font-weight: 600; }
+  }
+}
+
+.pricing-cta-center {
+  text-align: center;
+  margin-top: 40px;
+
+  .pricing-legal {
+    font-size: 12px;
+    color: $text-tertiary;
+    margin-top: 16px;
+    line-height: 1.6;
+  }
 }

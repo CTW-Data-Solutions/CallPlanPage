@@ -100,3 +100,38 @@ No. All data remains securely on your device. Cloud sync is only active if you e
 
 ### Q6: What happens if I don't select a category?
 Your CallPlan will automatically be assigned the "Unknown" category. You can change it at any time.
+
+---
+
+<section class="faq-section" aria-labelledby="faq-howto-heading">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 id="faq-howto-heading">Frequently Asked Questions</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">Is CallPlan free?</summary>
+      <p class="faq-answer">Yes, CallPlan is free on the App Store. Optional premium features extend the functionality.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Does CallPlan work offline?</summary>
+      <p class="faq-answer">Yes, the app works fully offline. Your data stays on your device – no forced cloud sync.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">How does CarPlay integration work?</summary>
+      <p class="faq-answer">Once your iPhone is connected to CarPlay, CallPlan appears on the vehicle display. Dictate notes hands-free with voice commands.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Which devices support CallPlan?</summary>
+      <p class="faq-answer">iPhone with iOS 15 or later. CarPlay support requires a compatible vehicle.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">How are notes sent after a call?</summary>
+      <p class="faq-answer">CallPlan automatically sends your notes via email or messenger – to yourself, your team, or directly to the customer.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">Is there an Android version?</summary>
+      <p class="faq-answer">CallPlan is currently iOS only. Android and other platforms are planned – <a href="/en/survey/">vote for features</a>.</p>
+    </details>
+  </div>
+</section>

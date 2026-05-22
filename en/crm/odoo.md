@@ -15,7 +15,6 @@ description: "Connect CallPlan with Odoo CRM. Call notes, activity logs and foll
   <p class="crm-hero-sub">Odoo is the flexible open-source platform for growing businesses. CallPlan adds what's missing: hands-free call notes from the car – automatically on the right Odoo record.</p>
   <div class="crm-hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">Download CallPlan</a>{% endif %}
-    <a href="/en/beta/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">Join Beta</a>
   </div>
 </div>
 
@@ -115,5 +114,5 @@ description: "Connect CallPlan with Odoo CRM. Call notes, activity logs and foll
     </a>{% endif %}
     <a href="/en/premium/" class="btn btn-secondary">See Premium plan</a>
   </div>
-  <p style="margin-top:1rem;font-size:13px;color:#6e6e73">CRM integration included in the <a href="/en/premium/">Premium plan</a> · <a href="/en/beta/">Join the Beta</a></p>
+  <p style="margin-top:1rem;font-size:13px;color:#6e6e73">CRM integration included in the <a href="/en/premium/">Premium plan</a></p>
 </div>

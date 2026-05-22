@@ -35,6 +35,62 @@ faq_items:
   <p class="hero-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Funciona sin internet &nbsp;·&nbsp; Gratis</p>
 </section>
 
+<!-- ── Feature Showcase ───────────────────────────────── -->
+<section class="feature-showcase-section">
+  <div class="showcase-header">
+    <span class="section-tag">La App</span>
+    <h2>Todo lo que necesitas.</h2>
+    <p>Desde el primer plan hasta el seguimiento automático.</p>
+  </div>
+  <div class="showcase-features">
+
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-en-01.png" alt="Llamadas planificadas" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Planificación</span>
+        <h3>Nunca más olvides una llamada</h3>
+        <p>Planifica llamadas con fecha y categoría – CallPlan te recuerda automáticamente un día y una hora antes.</p>
+      </div>
+    </div>
+
+    <div class="showcase-feature reverse">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-en-02.png" alt="Preparación de llamada" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Preparación</span>
+        <h3>Entra preparado a cada llamada</h3>
+        <p>Agenda, notas e historial de llamadas de un vistazo – para que siempre sepas dónde estás.</p>
+      </div>
+    </div>
+
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-en-03.png" alt="Notas de voz" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Notas de voz</span>
+        <h3>Habla. Nosotros escribimos.</h3>
+        <p>Dicta tus notas por voz – CallPlan transcribe en vivo y guarda todo de forma estructurada.</p>
+      </div>
+    </div>
+
+    <div class="showcase-feature reverse">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-en-04.png" alt="Integraciones" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Integraciones</span>
+        <h3>Todas tus herramientas. Una app.</h3>
+        <p>CRM, calendario, CarPlay, Apple Watch – CallPlan se integra perfectamente en tu flujo de trabajo.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 <!-- ── Feature Sections ──────────────────────────────── -->
 <div class="features-wrapper">
 
@@ -52,7 +108,7 @@ faq_items:
       <a href="/es/howto/" class="btn btn-ghost">Más información →</a>
     </div>
     <div class="feature-visual">
-      <img src="/assets/img/screenshots/en-01.png" alt="CallPlan – Vista de llamadas planificadas" loading="lazy">
+      <img src="/assets/img/screenshots/raw-en-01.png" alt="CallPlan – Vista de llamadas planificadas" loading="lazy">
     </div>
   </div>
 
@@ -72,7 +128,7 @@ faq_items:
       <a href="/es/carplay/" class="btn btn-ghost">Descubrir CarPlay →</a>
     </div>
     <div class="feature-visual">
-      <img src="/assets/img/screenshots/en-02.png" alt="CallPlan integración CarPlay" loading="lazy">
+      <img src="/assets/img/screenshots/raw-en-02.png" alt="CallPlan integración CarPlay" loading="lazy">
     </div>
   </div>
 
@@ -91,7 +147,7 @@ faq_items:
       </ul>
     </div>
     <div class="feature-visual">
-      <img src="/assets/img/screenshots/en-03.png" alt="CallPlan notas de voz – transcripción en vivo" loading="lazy">
+      <img src="/assets/img/screenshots/raw-en-03.png" alt="CallPlan notas de voz – transcripción en vivo" loading="lazy">
     </div>
   </div>
 
@@ -111,7 +167,7 @@ faq_items:
       <a href="/es/ai/" class="btn btn-ghost">Ver funciones IA →</a>
     </div>
     <div class="feature-visual">
-      <img src="/assets/img/screenshots/en-04.png" alt="CallPlan preparación IA – briefing antes de la llamada" loading="lazy">
+      <img src="/assets/img/screenshots/raw-en-02.png" alt="CallPlan preparación IA – briefing antes de la llamada" loading="lazy">
     </div>
   </div>
 
@@ -131,7 +187,7 @@ faq_items:
       <a href="/es/crm/" class="btn btn-ghost">Descubrir integraciones →</a>
     </div>
     <div class="feature-visual">
-      <img src="/assets/img/screenshots/en-05.png" alt="CallPlan integraciones – CRM, calendario, CarPlay" loading="lazy">
+      <img src="/assets/img/screenshots/raw-en-04.png" alt="CallPlan integraciones – CRM, calendario, CarPlay" loading="lazy">
     </div>
   </div>
 

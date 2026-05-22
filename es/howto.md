@@ -100,3 +100,34 @@ No. Todos los datos permanecen de forma segura en tu dispositivo. La sincronizac
 
 ### P6: ¿Qué pasa si no selecciono una categoría?
 Tu CallPlan se asignará automáticamente a la categoría "Desconocido". Puedes cambiarla en cualquier momento.
+
+---
+
+<section class="faq-section" aria-labelledby="faq-howto-heading">
+  <div class="section-header">
+    <span class="section-tag">FAQ</span>
+    <h2 id="faq-howto-heading">Preguntas frecuentes</h2>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item">
+      <summary class="faq-question">¿Es CallPlan gratuito?</summary>
+      <p class="faq-answer">Sí, CallPlan está disponible gratis en la App Store. Las funciones premium opcionales amplían la funcionalidad.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Funciona CallPlan sin internet?</summary>
+      <p class="faq-answer">Sí, la app funciona completamente sin conexión. Tus datos permanecen en tu dispositivo.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Cómo funciona la integración con CarPlay?</summary>
+      <p class="faq-answer">Cuando tu iPhone está conectado a CarPlay, CallPlan aparece en la pantalla del vehículo. Dicta notas con comandos de voz – completamente manos libres.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿En qué dispositivos funciona CallPlan?</summary>
+      <p class="faq-answer">iPhone con iOS 15 o posterior. El soporte de CarPlay requiere un vehículo compatible.</p>
+    </details>
+    <details class="faq-item">
+      <summary class="faq-question">¿Hay una versión para Android?</summary>
+      <p class="faq-answer">Actualmente CallPlan es solo para iOS. Android y otras plataformas están planificadas – <a href="/es/survey/">vota por funciones</a>.</p>
+    </details>
+  </div>
+</section>

@@ -15,7 +15,6 @@ description: "Verbinde CallPlan mit HubSpot CRM. Gesprächsnotizen, Call-Logs un
   <p class="crm-hero-sub">HubSpot verwaltet deine Kontakte – CallPlan sorgt dafür, dass jedes Gespräch automatisch darin landet. Freihändig, per Siri, aus dem Auto heraus.</p>
   <div class="crm-hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">CallPlan laden</a>{% endif %}
-    <a href="/beta/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">Beta testen</a>
   </div>
 </div>
 
@@ -125,5 +124,4 @@ description: "Verbinde CallPlan mit HubSpot CRM. Gesprächsnotizen, Call-Logs un
     </a>{% endif %}
     <a href="/premium/" class="btn btn-secondary">Premium-Abo ansehen</a>
   </div>
-  <p style="margin-top:1rem;font-size:13px;color:#6e6e73">CRM-Integration im <a href="/premium/">Premium-Abo</a> enthalten · <a href="/beta/">Jetzt Beta testen</a></p>
 </div>

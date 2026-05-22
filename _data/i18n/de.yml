@@ -5,16 +5,26 @@ flag:      "🇩🇪"
 home_href: /
 
 top_nav:
-  - label: "Funktionen"
-    href:  /howto/
   - label: "CarPlay"
     href:  /carplay/
-  - label: "KI-Features"
-    href:  /ai/
+  - label: "Integrationen"
+    href:  /crm/
+  - label: "Premium"
+    href:  /premium/
+
+footer_nav:
+  - label: "CarPlay"
+    href:  /carplay/
+  - label: "Integrationen"
+    href:  /crm/
   - label: "Premium"
     href:  /premium/
   - label: "Changelog"
     href:  /changelog/
+  - label: "Hilfe"
+    href:  /howto/
+  - label: "Support"
+    href:  /support/
 
 nav:
   - label: "📱 App herunterladen"

@@ -15,7 +15,6 @@ description: "Connect CallPlan with Zoho CRM. Call logs, notes and follow-up tas
   <p class="crm-hero-sub">Zoho CRM is the smart choice for growing sales teams. CallPlan makes it smarter: hands-free call notes via CarPlay & Siri – automatically on the right Zoho record.</p>
   <div class="crm-hero-actions">
     {% if site.app_store_url != "" %}<a href="{{ site.app_store_url }}" class="btn btn-primary">Download CallPlan</a>{% endif %}
-    <a href="/en/beta/" class="btn btn-secondary" style="color:#fff;border-color:rgba(255,255,255,0.4)">Join Beta</a>
   </div>
 </div>
 
@@ -115,5 +114,5 @@ description: "Connect CallPlan with Zoho CRM. Call logs, notes and follow-up tas
     </a>{% endif %}
     <a href="/en/premium/" class="btn btn-secondary">See Premium plan</a>
   </div>
-  <p style="margin-top:1rem;font-size:13px;color:#6e6e73">CRM integration included in the <a href="/en/premium/">Premium plan</a> · <a href="/en/beta/">Join the Beta</a></p>
+  <p style="margin-top:1rem;font-size:13px;color:#6e6e73">CRM integration included in the <a href="/en/premium/">Premium plan</a></p>
 </div>

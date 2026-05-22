@@ -37,112 +37,83 @@ faq_items:
   <p class="hero-meta">iOS 15.0+ &nbsp;·&nbsp; CarPlay &nbsp;·&nbsp; Offline-fähig &nbsp;·&nbsp; Kostenlos</p>
 </section>
 
-<!-- ── Feature Sections ──────────────────────────────── -->
-<div class="features-wrapper">
-
-  <!-- 1: Geplante Anrufe -->
-  <div class="feature-section">
-    <div class="feature-text">
-      <span class="feature-tag">Anrufplanung</span>
-      <h2>Nie wieder einen Call vergessen.</h2>
-      <p>Plane jeden Anruf mit Datum, Uhrzeit und Kategorie. CallPlan erinnert dich automatisch – ein Tag vorher und eine Stunde vorher.</p>
-      <ul class="feature-bullets">
-        <li>Business, Privat, Intern – farbkodierte Kategorien</li>
-        <li>Zwei automatische Erinnerungen pro Call</li>
-        <li>Übersicht nach Datum, Status und Kategorie</li>
-        <li>Kontaktverknüpfung und Gesprächshistorie</li>
-      </ul>
-      <a href="/howto/" class="btn btn-ghost">Mehr erfahren →</a>
-    </div>
-    <div class="feature-visual">
-      <img src="/assets/img/screenshots/de-01.png" alt="CallPlan – Geplante Anrufe Übersicht" loading="lazy">
-    </div>
+<!-- ── Feature Showcase ───────────────────────────────── -->
+<section class="feature-showcase-section">
+  <div class="showcase-header">
+    <span class="section-tag">Die App</span>
+    <h2>Alles was du brauchst.</h2>
+    <p>Vom ersten Plan bis zur automatischen Nachbereitung.</p>
   </div>
+  <div class="showcase-features">
 
-  <div class="feature-divider"></div>
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-01.png" alt="Geplante Anrufe" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Anrufplanung</span>
+        <h3>Nie wieder vergessen</h3>
+        <p>Plane Calls mit Datum und Kategorie – CallPlan erinnert dich automatisch einen Tag und eine Stunde vorher.</p>
+      </div>
+    </div>
 
-  <!-- 2: CarPlay -->
-  <div class="feature-section reverse">
-    <div class="feature-text">
+    <div class="showcase-feature reverse">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-02.png" alt="Call-Vorbereitung" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Vorbereitung</span>
+        <h3>Vorbereitet in jeden Call</h3>
+        <p>Agenda, Notizen und Gesprächshistorie auf einen Blick – damit du immer weißt, wo du stehst.</p>
+      </div>
+    </div>
+
+    <div class="showcase-feature">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-03.png" alt="Sprachnotizen" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Sprachnotizen</span>
+        <h3>Sprich. Wir schreiben.</h3>
+        <p>Diktiere deine Gesprächsnotizen per Stimme – CallPlan transkribiert live und speichert alles strukturiert.</p>
+      </div>
+    </div>
+
+    <div class="showcase-feature reverse">
+      <div class="showcase-feature-screen">
+        <img src="/assets/img/screenshots/raw-de-04.png" alt="Integrationen" loading="lazy">
+      </div>
+      <div class="showcase-feature-text">
+        <span class="feature-tag">Integrationen</span>
+        <h3>Alle Tools. Eine App.</h3>
+        <p>CRM, Kalender, CarPlay, Apple Watch – CallPlan fügt sich nahtlos in deinen Workflow ein.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── CarPlay Spotlight ─────────────────────────────── -->
+<section class="carplay-spotlight">
+  <div class="carplay-inner">
+    <div class="carplay-text">
       <span class="feature-tag">CarPlay</span>
       <h2>Freihändig am Steuer.</h2>
-      <p>CallPlan erscheint direkt auf deinem CarPlay-Display. Sieh auf einen Blick, wen du heute anrufen wolltest – und starte den Call ohne dein iPhone anzufassen.</p>
-      <ul class="feature-bullets">
-        <li>Alle geplanten Calls am Infotainment-Display</li>
+      <p>CallPlan erscheint direkt auf deinem Fahrzeugdisplay. Alle Calls im Blick – starten, Notizen diktieren, weiterfahren.</p>
+      <ul class="carplay-bullets">
+        <li>Alle geplanten Calls auf dem Display</li>
         <li>Call direkt aus CarPlay starten</li>
-        <li>Notizen nach dem Gespräch per Siri diktieren</li>
-        <li>Automatischer Versand nach dem Call</li>
+        <li>Schnellnotizen per Sprachbefehl</li>
+        <li>Kontakte und Planung freihändig</li>
       </ul>
-      <a href="/carplay/" class="btn btn-ghost">CarPlay entdecken →</a>
+      <a href="/carplay/" class="btn btn-primary">CarPlay entdecken →</a>
     </div>
-    <div class="feature-visual">
-      <img src="/assets/img/screenshots/de-02.png" alt="CallPlan CarPlay Integration" loading="lazy">
+    <div class="carplay-screens">
+      <img src="/assets/img/screenshots/raw-de-carplay.png" alt="CallPlan CarPlay – Anrufliste" loading="lazy">
+      <img src="/assets/img/screenshots/raw-de-carplay2.png" alt="CallPlan CarPlay – Call-Detail" loading="lazy">
     </div>
   </div>
-
-  <div class="feature-divider"></div>
-
-  <!-- 3: Voice Notes -->
-  <div class="feature-section">
-    <div class="feature-text">
-      <span class="feature-tag">Sprachnotizen</span>
-      <h2>Sprechen. Wir tippen.</h2>
-      <p>Diktiere deine Gesprächsnotizen einfach nach dem Call – per Siri oder direkt in der App. CallPlan transkribiert live und speichert alles strukturiert.</p>
-      <ul class="feature-bullets">
-        <li>Live-Transkription während der Aufnahme</li>
-        <li>Text- und Audionotizen pro Call</li>
-        <li>Zeitgestempelte Timeline aller Notizen</li>
-        <li>Export per E-Mail oder Messenger</li>
-      </ul>
-    </div>
-    <div class="feature-visual">
-      <img src="/assets/img/screenshots/de-03.png" alt="CallPlan Sprachnotizen – Live-Transkription" loading="lazy">
-    </div>
-  </div>
-
-  <div class="feature-divider"></div>
-
-  <!-- 4: Vorbereitung / AI -->
-  <div class="feature-section reverse">
-    <div class="feature-text">
-      <span class="feature-tag">KI-Vorbereitung</span>
-      <h2>Top vorbereitet in jedes Gespräch.</h2>
-      <p>Briefing-Notizen, Gesprächsleitfaden und relevante Infos – direkt vor dem Call parat. CallPlan nutzt KI, um dich auf jedes Gespräch optimal vorzubereiten.</p>
-      <ul class="feature-bullets">
-        <li>KI-generierter Gesprächsleitfaden</li>
-        <li>Vergangene Notizen und Gesprächshistorie im Blick</li>
-        <li>Kalender-Sync – relevante Events werden erkannt</li>
-        <li>Follow-up E-Mails automatisch generieren</li>
-      </ul>
-      <a href="/ai/" class="btn btn-ghost">KI-Features ansehen →</a>
-    </div>
-    <div class="feature-visual">
-      <img src="/assets/img/screenshots/de-04.png" alt="CallPlan KI-Vorbereitung – Briefing vor dem Call" loading="lazy">
-    </div>
-  </div>
-
-  <div class="feature-divider"></div>
-
-  <!-- 5: Integrationen -->
-  <div class="feature-section">
-    <div class="feature-text">
-      <span class="feature-tag">Integrationen</span>
-      <h2>Alle Tools. Eine App.</h2>
-      <p>CRM, Kalender, CarPlay, Apple Watch – CallPlan verbindet sich mit deinen bestehenden Werkzeugen und passt sich deinem Workflow an.</p>
-      <ul class="feature-bullets">
-        <li>HubSpot & Salesforce CRM-Sync</li>
-        <li>iOS Kalender, Google Calendar, Outlook</li>
-        <li>Team Spaces – geteilte Call-Listen</li>
-        <li>Siri Shortcuts & Apple Watch (geplant)</li>
-      </ul>
-      <a href="/crm/" class="btn btn-ghost">Integrationen entdecken →</a>
-    </div>
-    <div class="feature-visual">
-      <img src="/assets/img/screenshots/de-05.png" alt="CallPlan Integrationen – CRM, Kalender, CarPlay" loading="lazy">
-    </div>
-  </div>
-
-</div>
+</section>
 
 <!-- ── Feature Grid ───────────────────────────────── -->
 <section class="features-grid-section">

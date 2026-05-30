@@ -38,7 +38,18 @@ plugins:
 include:
   - .well-known
 
-# Automatically assign lang based on directory
+# Exclude non-content paths from sitemap / build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - TODO.md
+  - DESIGN_GUIDELINES_APP.md
+  - scripts/
+  - script/
+  - node_modules/
+
+# Exclude OAuth callback pages and thank-you from sitemap
 defaults:
   - scope:
       path: ""
@@ -52,3 +63,15 @@ defaults:
       path: "es"
     values:
       lang: es
+  - scope:
+      path: "oauth"
+    values:
+      sitemap: false
+  - scope:
+      path: "crm/oauth-redirect"
+    values:
+      sitemap: false
+  - scope:
+      path: "thank-you.md"
+    values:
+      sitemap: false

@@ -1,0 +1,46 @@
+# CallPlan – Changelog
+
+> CallPlan is an iPhone app (with CarPlay, Apple Watch, widgets and Siri) for planning business phone calls, getting reminded, and keeping call notes – with optional sync to CRMs such as Salesforce and HubSpot.
+> This file lists every user-facing change, newest first. Each entry is tagged NEW, IMPROVED, FIXED or REMOVED.
+> Human-readable version: https://callplan.app/en/changelog/ (also in German: https://callplan.app/changelog/ and Spanish: https://callplan.app/es/changelog/)
+
+## Version 1.5 – October 2026 (current)
+
+Summary: Call straight from CarPlay, a Live Activity for the next call, Siri, automatic calendar import, and CarPlay voice notes that sync to the CRM.
+
+- NEW – Call from the car display (CarPlay): Tap a planned call → "Call", "Details" or "Cancel". After the call, CallPlan offers the next open call.
+- NEW – One-tap reschedule when not reached (CarPlay): If nobody answers, choose: try again in 1 hour, tomorrow at the morning reminder time, or with the next call. Reminders move automatically.
+- NEW – CarPlay voice notes in the CRM: Notes dictated in the car are saved to the Salesforce or HubSpot call log automatically, with the real call title and talk time. Notes recorded offline are kept and synced later.
+- NEW – Live Activity: When a call is due within 2 hours, it appears on the lock screen and in the Dynamic Island with "Call" and "Done" buttons.
+- NEW – Siri: Create planned calls by voice without opening the app.
+- NEW – Automatic calendar import: Calendar events become planned calls automatically when the app opens or is refreshed. A short notice shows how many were added.
+- NEW – Call attempts and duration: CallPlan counts call attempts and saves how long each call lasted. After a missed call, CallPlan asks whether to plan a callback.
+- NEW – Share individual notes: Every note has its own share button (mail, messages, any app).
+- FIXED – Premium is detected reliably right at app start. The free-plan usage counter only appears when you get close to the limit.
+- REMOVED – WhatsApp "send all notes" button. Use the share button on each note instead.
+
+## May 2026
+
+Summary: Alarms, home screen widgets, swipe-to-done, redesigned CarPlay flow, free-plan limit.
+
+- NEW – Alarms: A planned call can trigger an alarm in three intensities (soft, medium, harsh). Tapping the notification opens the call directly. (May 19)
+- NEW – Home screen widgets in four sizes (small, medium, large, lock screen); tapping opens the call. (May 17)
+- NEW – Swipe-to-done: Swipe a call to the right in the list to mark it done. (May 17)
+- NEW – Siri Shortcuts: Create a call, list upcoming calls, quick-add a call – in German, English and Spanish. Apple Watch app and widget updated. (May 11)
+- IMPROVED – CarPlay redesign: Clearer buttons, done list sorted by completion date, better iPad layout. (May 7)
+- IMPROVED – Free plan is limited to 10 active calls; Premium removes the limit. (May 14)
+- IMPROVED – New app icons and missing translations added. (May 2)
+- REMOVED – WhatsApp self-send. (May 12)
+
+## April 2026
+
+- IMPROVED – Settings completely restructured; all sub-pages reworked; various bug fixes. (April 25–26)
+
+## Version 1.0 – April 2026 (first release)
+
+- NEW – Plan calls in seconds: date, time, contact, category and notes.
+- NEW – Automatic reminders before every planned call.
+- NEW – CarPlay: see upcoming calls on the car display, start calls and dictate notes hands-free.
+- NEW – Apple Watch: next call on your wrist; mark done and dictate notes.
+- NEW – Voice and text notes before, during and after a call.
+- NEW – Offline-first: data stays on your device and the app works without internet.

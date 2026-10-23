@@ -9,12 +9,12 @@ lang_ref: changelog
 <div class="changelog-hero">
   <div class="changelog-eyebrow">Release Notes</div>
   <h1>Was ist neu in CallPlan</h1>
-  <p class="changelog-sub">Alle Neuerungen, Verbesserungen und Fixes – direkt aus dem Repo.</p>
+  <p class="changelog-sub">Alle Neuerungen, Verbesserungen und Fixes – neueste Version oben. <a href="/changelog.txt">Als Klartext</a></p>
 </div>
 
 <div class="changelog-timeline">
 
-  <!-- ── MAI 2026 ──────────────────────────────────────── -->
+  <!-- ── VERSION 1.5 ─────────────────────────────────── -->
   <div class="cl-version current">
     <div class="cl-version-marker">
       <span class="cl-dot"></span>
@@ -23,10 +23,100 @@ lang_ref: changelog
     <div class="cl-version-card">
       <div class="cl-version-header">
         <div>
+          <h2 class="cl-version-number">Version 1.5</h2>
+          <span class="cl-version-date">Oktober 2026</span>
+        </div>
+        <span class="cl-version-tag tag-major">Aktuelle Version</span>
+      </div>
+      <p class="cl-version-summary">Anrufen direkt aus CarPlay, Live Activity auf dem Sperrbildschirm, Siri, automatischer Kalender-Import und Notizen, die von selbst im CRM landen.</p>
+
+      <div class="cl-features-grid">
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🚗</span>
+          <div>
+            <strong>Anrufen direkt vom Autodisplay</strong>
+            <p>Geplanten Call in CarPlay antippen → „Anrufen“, „Details“ oder „Abbrechen“. Nach dem Gespräch schlägt CallPlan direkt den nächsten offenen Call vor. <span style="font-size:12px;color:#999">22.10.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🔁</span>
+          <div>
+            <strong>Nicht erreicht? Mit einem Tipp neu planen</strong>
+            <p>Geht niemand ran, bietet CarPlay an: in 1 Stunde erneut, morgen zur Morgen-Erinnerung oder beim nächsten Call. Erinnerungen ziehen automatisch mit. <span style="font-size:12px;color:#999">22.10.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">☁️</span>
+          <div>
+            <strong>CarPlay-Sprachnotizen im CRM</strong>
+            <p>Diktierte Notizen aus dem Auto werden automatisch im Anrufprotokoll von Salesforce bzw. HubSpot gespeichert – mit echtem Titel und Gesprächsdauer. Auch offline geht nichts verloren. <span style="font-size:12px;color:#999">22.10.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🏝️</span>
+          <div>
+            <strong>Live Activity für den nächsten Call</strong>
+            <p>Ist ein Call in den nächsten 2 Stunden fällig, erscheint er auf dem Sperrbildschirm und in der Dynamic Island – mit Buttons „Anrufen“ und „Erledigt“. <span style="font-size:12px;color:#999">22.10.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🗣️</span>
+          <div>
+            <strong>Anrufe per Siri planen</strong>
+            <p>„Hey Siri, plane einen Anruf …“ – Calls per Sprachbefehl anlegen, ohne die App zu öffnen. <span style="font-size:12px;color:#999">30.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📅</span>
+          <div>
+            <strong>Kalender-Import automatisch</strong>
+            <p>Termine aus deinem Kalender werden beim Öffnen der App und beim Aktualisieren automatisch als Calls übernommen. Ein kurzer Hinweis zeigt, wie viele neu dazugekommen sind. <span style="font-size:12px;color:#999">30.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📊</span>
+          <div>
+            <strong>Anrufversuche und Gesprächsdauer</strong>
+            <p>CallPlan zählt, wie oft du es versucht hast, und speichert die Dauer jedes Gesprächs. Nach einem verpassten Anruf fragt CallPlan, ob du einen Rückruf planen willst. <span style="font-size:12px;color:#999">28.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📤</span>
+          <div>
+            <strong>Einzelne Notizen teilen</strong>
+            <p>Jede Notiz hat jetzt einen eigenen Teilen-Button – per Mail, Nachricht oder jede andere App. <span style="font-size:12px;color:#999">30.05.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature fixed">
+          <span class="cl-feature-icon">⭐</span>
+          <div>
+            <strong>Premium sofort erkannt</strong>
+            <p>Premium wird direkt beim App-Start zuverlässig erkannt. Die Anzeige deines Gratis-Limits erscheint erst, wenn du dich dem Limit näherst. <span style="font-size:12px;color:#999">22.10.</span></p>
+          </div>
+        </div>
+        <div class="cl-feature fixed">
+          <span class="cl-feature-icon">🗑️</span>
+          <div>
+            <strong>WhatsApp „Alle Notizen senden“ entfernt</strong>
+            <p>Ersetzt durch den Teilen-Button an jeder einzelnen Notiz. <span style="font-size:12px;color:#999">30.05.</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAI 2026 ──────────────────────────────────────── -->
+  <div class="cl-version">
+    <div class="cl-version-marker">
+      <span class="cl-dot"></span>
+    </div>
+    <div class="cl-version-card">
+      <div class="cl-version-header">
+        <div>
           <h2 class="cl-version-number">Mai 2026</h2>
           <span class="cl-version-date">PR #12 – #14</span>
         </div>
-        <span class="cl-version-tag tag-major">Aktuelle Updates</span>
+        <span class="cl-version-tag tag-major">Update</span>
       </div>
       <p class="cl-version-summary">Alarm-Funktion, Widgets, Swipe-to-Done, überarbeiteter CarPlay-Flow und Free-Tier-Limit.</p>
 

@@ -9,12 +9,12 @@ lang_ref: changelog
 <div class="changelog-hero">
   <div class="changelog-eyebrow">Release Notes</div>
   <h1>What's New in CallPlan</h1>
-  <p class="changelog-sub">Every new feature, improvement, and fix – straight from the repo.</p>
+  <p class="changelog-sub">Every new feature, improvement, and fix – newest version first. <a href="/changelog.txt">Plain-text version</a></p>
 </div>
 
 <div class="changelog-timeline">
 
-  <!-- ── MAY 2026 ───────────────────────────────────────── -->
+  <!-- ── VERSION 1.5 ─────────────────────────────────── -->
   <div class="cl-version current">
     <div class="cl-version-marker">
       <span class="cl-dot"></span>
@@ -23,10 +23,100 @@ lang_ref: changelog
     <div class="cl-version-card">
       <div class="cl-version-header">
         <div>
+          <h2 class="cl-version-number">Version 1.5</h2>
+          <span class="cl-version-date">October 2026</span>
+        </div>
+        <span class="cl-version-tag tag-major">Latest version</span>
+      </div>
+      <p class="cl-version-summary">Call straight from CarPlay, a Live Activity on your lock screen, Siri, automatic calendar import, and notes that land in your CRM by themselves.</p>
+
+      <div class="cl-features-grid">
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🚗</span>
+          <div>
+            <strong>Call from the car display</strong>
+            <p>Tap a planned call in CarPlay → “Call”, “Details” or “Cancel”. After the call, CallPlan offers your next open call right away. <span style="font-size:12px;color:#999">Oct 22</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🔁</span>
+          <div>
+            <strong>Not reached? Reschedule in one tap</strong>
+            <p>If nobody picks up, CarPlay offers: try again in 1 hour, tomorrow at your morning reminder, or with your next call. Reminders move along automatically. <span style="font-size:12px;color:#999">Oct 22</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">☁️</span>
+          <div>
+            <strong>CarPlay voice notes in your CRM</strong>
+            <p>Notes you dictate in the car are saved to the Salesforce or HubSpot call log automatically – with the real call title and talk time. Nothing gets lost offline. <span style="font-size:12px;color:#999">Oct 22</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🏝️</span>
+          <div>
+            <strong>Live Activity for your next call</strong>
+            <p>When a call is due within 2 hours, it shows on the lock screen and in the Dynamic Island – with “Call” and “Done” buttons. <span style="font-size:12px;color:#999">Oct 22</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">🗣️</span>
+          <div>
+            <strong>Plan calls with Siri</strong>
+            <p>“Hey Siri, plan a call …” – create calls by voice without opening the app. <span style="font-size:12px;color:#999">May 30</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📅</span>
+          <div>
+            <strong>Automatic calendar import</strong>
+            <p>Events from your calendar become calls automatically when you open or refresh the app. A short notice shows how many were added. <span style="font-size:12px;color:#999">May 30</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📊</span>
+          <div>
+            <strong>Call attempts and call duration</strong>
+            <p>CallPlan counts how often you tried and saves how long each call lasted. After a missed call, CallPlan asks whether you want to plan a callback. <span style="font-size:12px;color:#999">May 28</span></p>
+          </div>
+        </div>
+        <div class="cl-feature new">
+          <span class="cl-feature-icon">📤</span>
+          <div>
+            <strong>Share individual notes</strong>
+            <p>Every note now has its own share button – send it by mail, message, or any other app. <span style="font-size:12px;color:#999">May 30</span></p>
+          </div>
+        </div>
+        <div class="cl-feature fixed">
+          <span class="cl-feature-icon">⭐</span>
+          <div>
+            <strong>Premium recognised right away</strong>
+            <p>Premium is now reliably detected as soon as the app starts. Your free-plan usage counter only appears once you get close to the limit. <span style="font-size:12px;color:#999">Oct 22</span></p>
+          </div>
+        </div>
+        <div class="cl-feature fixed">
+          <span class="cl-feature-icon">🗑️</span>
+          <div>
+            <strong>WhatsApp “send all notes” removed</strong>
+            <p>Replaced by the share button on each individual note. <span style="font-size:12px;color:#999">May 30</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAY 2026 ───────────────────────────────────────── -->
+  <div class="cl-version">
+    <div class="cl-version-marker">
+      <span class="cl-dot"></span>
+    </div>
+    <div class="cl-version-card">
+      <div class="cl-version-header">
+        <div>
           <h2 class="cl-version-number">May 2026</h2>
           <span class="cl-version-date">PR #12 – #14</span>
         </div>
-        <span class="cl-version-tag tag-major">Recent Updates</span>
+        <span class="cl-version-tag tag-major">Update</span>
       </div>
       <p class="cl-version-summary">Alarm function, widgets, swipe-to-done, redesigned CarPlay flow, and free tier limit.</p>
 
